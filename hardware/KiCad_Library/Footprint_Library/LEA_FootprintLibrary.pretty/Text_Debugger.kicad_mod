@@ -1,0 +1,14 @@
+(footprint "Text_Debugger" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 622A8F5D)
+  (descr "Text Debugger")
+  (attr smd)
+  (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp db8cf2e0-1911-4760-bb0c-30868a4cca32)
+  )
+  (fp_text value "Text_Debugger" (at 0 1 unlocked) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp bac39b4e-3d41-4c5a-a231-cfc8ade869d2)
+  )
+)
