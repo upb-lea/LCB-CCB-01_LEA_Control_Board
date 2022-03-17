@@ -438,7 +438,7 @@
       "workbook_filename": ""
     },
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": "../../../documentation/01_Control_boards/LCB-CCB-01/",
     "spice_adjust_passive_values": false,
     "spice_external_command": "spice \"%I\"",
     "subpart_first_id": 65,
@@ -451,43 +451,43 @@
     ],
     [
       "00000000-0000-0000-0000-000061af4b2b",
-      "XDS100"
+      "XDS100 - Page 2"
     ],
     [
       "00000000-0000-0000-0000-000061c8b835",
-      "Isolation"
+      "Isolation - Page 3"
     ],
     [
       "00000000-0000-0000-0000-000061e9b523",
-      "Connector Top"
+      "Connector Top - Page 4"
     ],
     [
       "c434d867-e31f-4345-bdde-33c75f8c31bd",
-      "Connector Bottom"
+      "Connector Bottom - Page 5"
     ],
     [
       "00000000-0000-0000-0000-000061e84f12",
-      "Power"
+      "Power - Page 6"
     ],
     [
       "00000000-0000-0000-0000-000061d28cbe",
-      "MCU"
+      "MCU - Page 7"
     ],
     [
       "95bbcc65-aaf6-4934-b29a-07e56c337823",
-      "Error Detection"
+      "Error Detection - Page 8"
     ],
     [
       "00000000-0000-0000-0000-000061d28dc9",
-      "Analog Filter"
+      "Analog Filter - Page 9"
     ],
     [
       "00000000-0000-0000-0000-000061de0978",
-      "Status LEDs"
+      "Status LEDs - Page 10"
     ],
     [
       "00000000-0000-0000-0000-000061d28d3d",
-      "MCU GPIOs"
+      "MCU GPIOs - Page 11"
     ]
   ],
   "text_variables": {}

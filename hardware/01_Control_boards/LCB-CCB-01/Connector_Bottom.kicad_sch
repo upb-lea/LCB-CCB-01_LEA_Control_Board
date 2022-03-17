@@ -4,6 +4,13 @@
 
   (paper "A4")
 
+  (title_block
+    (title "LCB-CCB-01: Control Board - Bottom Connector")
+    (date "2022-03-17")
+    (rev "0.1")
+    (company "PADERBORN UNIVERSITY DEPARTMENT OF POWER ELECTRONICS AND ELECTRICAL DRIVES")
+  )
+
   (lib_symbols
     (symbol "LEA_SymbolLibrary:ERM5-075-05.0-L-DV-K-TR" (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (id 0) (at -1.27 52.07 0)

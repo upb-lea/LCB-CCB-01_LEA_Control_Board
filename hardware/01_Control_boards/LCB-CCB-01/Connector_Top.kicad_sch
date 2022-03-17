@@ -4,6 +4,13 @@
 
   (paper "A4")
 
+  (title_block
+    (title "LCB-CCB-01: Control Board - Top Connector")
+    (date "2022-03-17")
+    (rev "0.1")
+    (company "PADERBORN UNIVERSITY DEPARTMENT OF POWER ELECTRONICS AND ELECTRICAL DRIVES")
+  )
+
   (lib_symbols
     (symbol "LEA_SymbolLibrary:+3.3V_HV" (power) (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (id 0) (at 1.27 0 90)
