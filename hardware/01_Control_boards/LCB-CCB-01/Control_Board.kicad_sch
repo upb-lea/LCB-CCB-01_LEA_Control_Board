@@ -19494,80 +19494,80 @@
     (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061cf544f"
       (reference "C903") (unit 1) (value "100nF/50V") (footprint "LEA_FootprintLibrary:C_0402")
     )
-    (path "/00000000-0000-0000-0000-000061d28dc9/e3f94e54-1fee-42bc-94b4-346ba16ab702"
-      (reference "C904") (unit 1) (value "22uF/16V") (footprint "LEA_FootprintLibrary:C_0603")
-    )
-    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000062eeabcb"
+    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061da86ab"
       (reference "C905") (unit 1) (value "330pF/50V") (footprint "LEA_FootprintLibrary:C_0402")
     )
-    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061da7d9c"
+    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061da910b"
       (reference "C906") (unit 1) (value "330pF/50V") (footprint "LEA_FootprintLibrary:C_0402")
     )
-    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061da86ab"
+    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061da9444"
       (reference "C907") (unit 1) (value "330pF/50V") (footprint "LEA_FootprintLibrary:C_0402")
     )
-    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061da9444"
+    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061da9808"
       (reference "C908") (unit 1) (value "330pF/50V") (footprint "LEA_FootprintLibrary:C_0402")
     )
-    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061da9bfd"
+    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061dab3d2"
       (reference "C909") (unit 1) (value "330pF/50V") (footprint "LEA_FootprintLibrary:C_0402")
     )
-    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061daa3b9"
+    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061dab752"
       (reference "C910") (unit 1) (value "330pF/50V") (footprint "LEA_FootprintLibrary:C_0402")
     )
     (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061daacd9"
       (reference "C911") (unit 1) (value "330pF/50V") (footprint "LEA_FootprintLibrary:C_0402")
     )
-    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061dab3d2"
+    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061daafe4"
       (reference "C912") (unit 1) (value "330pF/50V") (footprint "LEA_FootprintLibrary:C_0402")
     )
-    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061dabb1e"
+    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061daa3b9"
       (reference "C913") (unit 1) (value "330pF/50V") (footprint "LEA_FootprintLibrary:C_0402")
     )
-    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061dac16c"
+    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061daa8cb"
       (reference "C914") (unit 1) (value "330pF/50V") (footprint "LEA_FootprintLibrary:C_0402")
     )
-    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061dacb04"
+    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061da7d9c"
       (reference "C915") (unit 1) (value "330pF/50V") (footprint "LEA_FootprintLibrary:C_0402")
     )
-    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061dad295"
+    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061da822a"
       (reference "C916") (unit 1) (value "330pF/50V") (footprint "LEA_FootprintLibrary:C_0402")
     )
-    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061da7a37"
+    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061dabe66"
       (reference "C917") (unit 1) (value "330pF/50V") (footprint "LEA_FootprintLibrary:C_0402")
     )
-    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061da822a"
+    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061dabb1e"
       (reference "C918") (unit 1) (value "330pF/50V") (footprint "LEA_FootprintLibrary:C_0402")
     )
-    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061da910b"
+    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000062eeabcb"
       (reference "C919") (unit 1) (value "330pF/50V") (footprint "LEA_FootprintLibrary:C_0402")
     )
-    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061da9808"
+    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061da7a37"
       (reference "C920") (unit 1) (value "330pF/50V") (footprint "LEA_FootprintLibrary:C_0402")
     )
-    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061da9f7d"
+    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061da9bfd"
       (reference "C921") (unit 1) (value "330pF/50V") (footprint "LEA_FootprintLibrary:C_0402")
     )
-    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061daa8cb"
+    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061da9f7d"
       (reference "C922") (unit 1) (value "330pF/50V") (footprint "LEA_FootprintLibrary:C_0402")
     )
-    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061daafe4"
+    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061dacb04"
       (reference "C923") (unit 1) (value "330pF/50V") (footprint "LEA_FootprintLibrary:C_0402")
     )
-    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061dab752"
+    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061dacf4a"
       (reference "C924") (unit 1) (value "330pF/50V") (footprint "LEA_FootprintLibrary:C_0402")
     )
-    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061dabe66"
+    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061dac566"
       (reference "C925") (unit 1) (value "330pF/50V") (footprint "LEA_FootprintLibrary:C_0402")
     )
-    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061dac566"
+    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061dac16c"
       (reference "C926") (unit 1) (value "330pF/50V") (footprint "LEA_FootprintLibrary:C_0402")
     )
-    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061dacf4a"
+    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061dad5bf"
       (reference "C927") (unit 1) (value "330pF/50V") (footprint "LEA_FootprintLibrary:C_0402")
     )
-    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061dad5bf"
+    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061dad295"
       (reference "C928") (unit 1) (value "330pF/50V") (footprint "LEA_FootprintLibrary:C_0402")
+    )
+    (path "/00000000-0000-0000-0000-000061d28dc9/e3f94e54-1fee-42bc-94b4-346ba16ab702"
+      (reference "C929") (unit 1) (value "22uF/16V") (footprint "LEA_FootprintLibrary:C_0603")
     )
     (path "/00000000-0000-0000-0000-000061af4b2b/00000000-0000-0000-0000-000061c5ca4a"
       (reference "D201") (unit 1) (value "LED_SML-P11MTT86R") (footprint "LEA_FootprintLibrary:LED_0402")
@@ -19815,83 +19815,83 @@
     (path "/95bbcc65-aaf6-4934-b29a-07e56c337823/1af6a24c-dcde-41e9-ba9d-ac74e08a9504"
       (reference "R816") (unit 1) (value "10K") (footprint "LEA_FootprintLibrary:R_0402")
     )
-    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061c494c9"
+    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061c4ad7f"
       (reference "R901") (unit 1) (value "0R") (footprint "LEA_FootprintLibrary:R_0402")
     )
-    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061c4a5a6"
+    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061c4b002"
       (reference "R902") (unit 1) (value "0R") (footprint "LEA_FootprintLibrary:R_0402")
     )
-    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061c4a76a"
+    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061c4b1e5"
       (reference "R903") (unit 1) (value "0R") (footprint "LEA_FootprintLibrary:R_0402")
     )
-    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061f0e895"
+    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061c4b2fc"
       (reference "R904") (unit 1) (value "0R") (footprint "LEA_FootprintLibrary:R_0402")
     )
-    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061c4aab3"
+    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061c4c4a7"
       (reference "R905") (unit 1) (value "0R") (footprint "LEA_FootprintLibrary:R_0402")
     )
-    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061c4ad7f"
+    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061c4c77d"
       (reference "R906") (unit 1) (value "0R") (footprint "LEA_FootprintLibrary:R_0402")
     )
-    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061c4b002"
+    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061c4bf8c"
       (reference "R907") (unit 1) (value "0R") (footprint "LEA_FootprintLibrary:R_0402")
     )
-    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061c4b1e5"
+    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061c4c33c"
       (reference "R908") (unit 1) (value "0R") (footprint "LEA_FootprintLibrary:R_0402")
     )
-    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061c4b2fc"
+    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061c4ba29"
       (reference "R909") (unit 1) (value "0R") (footprint "LEA_FootprintLibrary:R_0402")
     )
-    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061e8e44d"
-      (reference "R910") (unit 1) (value "0.1R") (footprint "LEA_FootprintLibrary:R_0402")
+    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061c4bcf4"
+      (reference "R910") (unit 1) (value "0R") (footprint "LEA_FootprintLibrary:R_0402")
     )
-    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061c4b5fe"
+    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061c4a76a"
       (reference "R911") (unit 1) (value "0R") (footprint "LEA_FootprintLibrary:R_0402")
     )
-    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061c4b814"
+    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061c4aab3"
       (reference "R912") (unit 1) (value "0R") (footprint "LEA_FootprintLibrary:R_0402")
     )
-    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061c4ba29"
+    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061c4ccf1"
       (reference "R913") (unit 1) (value "0R") (footprint "LEA_FootprintLibrary:R_0402")
     )
-    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061c4bcf4"
+    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061c4cb19"
       (reference "R914") (unit 1) (value "0R") (footprint "LEA_FootprintLibrary:R_0402")
     )
-    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061c4bf8c"
+    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061c494c9"
       (reference "R915") (unit 1) (value "0R") (footprint "LEA_FootprintLibrary:R_0402")
     )
-    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061c4c33c"
+    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061c4a5a6"
       (reference "R916") (unit 1) (value "0R") (footprint "LEA_FootprintLibrary:R_0402")
     )
-    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061c4c4a7"
+    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061c4b5fe"
       (reference "R917") (unit 1) (value "0R") (footprint "LEA_FootprintLibrary:R_0402")
     )
-    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061c4c77d"
+    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061c4b814"
       (reference "R918") (unit 1) (value "0R") (footprint "LEA_FootprintLibrary:R_0402")
     )
-    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061c4cb19"
+    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061c4d4f6"
       (reference "R919") (unit 1) (value "0R") (footprint "LEA_FootprintLibrary:R_0402")
     )
-    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061c4ccf1"
+    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061c4d69a"
       (reference "R920") (unit 1) (value "0R") (footprint "LEA_FootprintLibrary:R_0402")
     )
-    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061c4d043"
+    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061c4d282"
       (reference "R921") (unit 1) (value "0R") (footprint "LEA_FootprintLibrary:R_0402")
     )
-    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061c4d282"
+    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061c4d043"
       (reference "R922") (unit 1) (value "0R") (footprint "LEA_FootprintLibrary:R_0402")
     )
-    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061c4d4f6"
+    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061c4dd9c"
       (reference "R923") (unit 1) (value "0R") (footprint "LEA_FootprintLibrary:R_0402")
     )
-    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061c4d69a"
+    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061c4d96a"
       (reference "R924") (unit 1) (value "0R") (footprint "LEA_FootprintLibrary:R_0402")
     )
-    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061c4d96a"
+    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061f0e895"
       (reference "R925") (unit 1) (value "0R") (footprint "LEA_FootprintLibrary:R_0402")
     )
-    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061c4dd9c"
-      (reference "R926") (unit 1) (value "0R") (footprint "LEA_FootprintLibrary:R_0402")
+    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061e8e44d"
+      (reference "R926") (unit 1) (value "0.1R") (footprint "LEA_FootprintLibrary:R_0402")
     )
     (path "/00000000-0000-0000-0000-000061de0978/00000000-0000-0000-0000-000061de7290"
       (reference "R1001") (unit 1) (value "600R") (footprint "LEA_FootprintLibrary:R_0402")
