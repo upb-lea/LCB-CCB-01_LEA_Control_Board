@@ -9,3 +9,8 @@ Replace the environment variable `MODEL_3D` with the current location of the 3D-
 
 Note: if you are using KiCAD6, and there is a variable `KICAD6_3DMODEL_DIR`, ignore this variable and add `MODEL_3D` as mentioned above.
 ![](documentation/00_KiCAD_settings/3d_model_path_preferences.png)
+
+
+## Flash XDS100 Firmware to FTDi Chip:
+
+https://www.youtube.com/watch?v=vZaF5ckf3OQ
