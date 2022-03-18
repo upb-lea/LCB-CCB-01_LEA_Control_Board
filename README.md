@@ -11,6 +11,6 @@ Note: if you are using KiCAD6, and there is a variable `KICAD6_3DMODEL_DIR`, ign
 ![](documentation/00_KiCAD_settings/3d_model_path_preferences.png)
 
 
-## Flash XDS100 Firmware to FTDi Chip:
+## Flash XDS100 Firmware to FTDI Chip:
 
 https://www.youtube.com/watch?v=vZaF5ckf3OQ
