@@ -1,4 +1,4 @@
-20124002725018627
+20127302125792795
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -56422,6 +56422,20 @@ LQFP-64_12x12_Pitch0.5mm_FTDI
 LEA_FootprintLibrary
 L_0402
 L 0402
+
+0
+2
+2
+LEA_FootprintLibrary
+L_0603
+L 0603
+
+0
+2
+2
+LEA_FootprintLibrary
+L_0805
+C_0805
 
 0
 2
