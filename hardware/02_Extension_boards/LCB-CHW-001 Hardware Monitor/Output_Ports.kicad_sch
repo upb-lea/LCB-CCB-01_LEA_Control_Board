@@ -634,7 +634,7 @@
   )
 
   (symbol (lib_id "LEA_SymbolLibrary:M3_MountingHole") (at 39.37 163.83 0) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a4b9aa)
     (property "Reference" "H201" (id 0) (at 41.91 162.6616 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -651,7 +651,7 @@
   )
 
   (symbol (lib_id "LEA_SymbolLibrary:M3_MountingHole") (at 52.07 163.83 0) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a4bee5)
     (property "Reference" "H202" (id 0) (at 54.61 162.6616 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -668,7 +668,7 @@
   )
 
   (symbol (lib_id "LEA_SymbolLibrary:M3_MountingHole") (at 64.77 163.83 0) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a4c285)
     (property "Reference" "H203" (id 0) (at 67.31 162.6616 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -685,7 +685,7 @@
   )
 
   (symbol (lib_id "LEA_SymbolLibrary:M3_MountingHole") (at 77.47 163.83 0) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061a4c583)
     (property "Reference" "H204" (id 0) (at 80.01 162.6616 0)
       (effects (font (size 1.27 1.27)) (justify left))

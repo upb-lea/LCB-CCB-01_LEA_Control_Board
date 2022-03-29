@@ -449,7 +449,7 @@
   (symbol (lib_id "LEA_SymbolLibrary:AD5664BRMZ") (at 148.59 80.01 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 32bbf2cf-31d3-4e59-a803-91f7c82d6032)
-    (property "Reference" "IC401" (id 0) (at 148.59 66.04 0))
+    (property "Reference" "U401" (id 0) (at 148.59 66.04 0))
     (property "Value" "AD5664BRMZ" (id 1) (at 148.59 90.17 0))
     (property "Footprint" "LEA_FootprintLibrary:MSOP-10_AnalogDevices_RM10" (id 2) (at 164.592 60.452 0)
       (effects (font (size 5.0038 5.0038)) hide)
