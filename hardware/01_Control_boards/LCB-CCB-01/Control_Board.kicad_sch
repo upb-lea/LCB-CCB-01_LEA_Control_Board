@@ -20824,19 +20824,19 @@
       (reference "U802") (unit 3) (value "74HC74BQ,115") (footprint "LEA_FootprintLibrary:DHVQFN14_SOT762-1_Nexpria")
     )
     (path "/95bbcc65-aaf6-4934-b29a-07e56c337823/acde4934-14b4-4be8-8850-a8fb7259293d"
-      (reference "U803") (unit 1) (value "MAX978EEE+") (footprint "LEA_FootprintLibrary:QSOP_16_Maxim_E16+1")
+      (reference "U803") (unit 1) (value "MAX978EEE+") (footprint "LEA_FootprintLibrary:SOIC-16")
     )
     (path "/95bbcc65-aaf6-4934-b29a-07e56c337823/a0219020-ea82-48a1-9744-b17aa7e52aef"
-      (reference "U803") (unit 2) (value "MAX978EEE+") (footprint "LEA_FootprintLibrary:QSOP_16_Maxim_E16+1")
+      (reference "U803") (unit 2) (value "MAX978EEE+") (footprint "LEA_FootprintLibrary:SOIC-16")
     )
     (path "/95bbcc65-aaf6-4934-b29a-07e56c337823/1a6e589f-50b3-4b28-b66a-fd22c9d30e4d"
-      (reference "U803") (unit 3) (value "MAX978EEE+") (footprint "LEA_FootprintLibrary:QSOP_16_Maxim_E16+1")
+      (reference "U803") (unit 3) (value "MAX978EEE+") (footprint "LEA_FootprintLibrary:SOIC-16")
     )
     (path "/95bbcc65-aaf6-4934-b29a-07e56c337823/c9358642-401a-4ee3-899b-4f81ae1485ee"
-      (reference "U803") (unit 4) (value "MAX978EEE+") (footprint "LEA_FootprintLibrary:QSOP_16_Maxim_E16+1")
+      (reference "U803") (unit 4) (value "MAX978EEE+") (footprint "LEA_FootprintLibrary:SOIC-16")
     )
     (path "/95bbcc65-aaf6-4934-b29a-07e56c337823/ad0cf30e-2fd5-49f8-8dde-a57ea2bb4953"
-      (reference "U803") (unit 5) (value "MAX978EEE+") (footprint "LEA_FootprintLibrary:QSOP_16_Maxim_E16+1")
+      (reference "U803") (unit 5) (value "MAX978EEE+") (footprint "LEA_FootprintLibrary:SOIC-16")
     )
     (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061dc9684"
       (reference "U901") (unit 1) (value "MAX6037AAUK30+T") (footprint "LEA_FootprintLibrary:SOT-23-5_Microchip")
