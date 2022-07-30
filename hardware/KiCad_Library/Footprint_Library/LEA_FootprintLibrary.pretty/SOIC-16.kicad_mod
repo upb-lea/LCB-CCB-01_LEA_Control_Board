@@ -43,9 +43,9 @@
   (pad "14" smd rect (at -1.905 -2.794) (size 0.6 1.65) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 41c89c8e-0f97-4797-9a39-8582a63268a5))
   (pad "15" smd rect (at -3.175 -2.794) (size 0.6 1.65) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 79df5ddf-0c98-40c8-8d1f-cdc63a7174ea))
   (pad "16" smd rect (at -4.445 -2.794) (size 0.6 1.65) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp c399aef9-3678-4747-9295-3eabdcc57d0c))
-  (model "${MODEL_3D}/SOIC-16.step"
+  (model "${MODEL_3D}/SOIC-16_3.9x9.9mm_P1.27mm.step"
     (offset (xyz 0 0 -0.1))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
+    (rotate (xyz 0 0 -90))
   )
 )
