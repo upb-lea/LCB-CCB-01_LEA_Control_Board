@@ -58,4 +58,4 @@ Position;Bauteil;Bezeichnung;Artikelnummer;Anzahl;Preis/Stück;Gesamtpreis;;
 50;0,1R;2176049-8;279-2176049-8;20;0,26 €;5,12 €;Link;
 51;604R;RC0402FR-07604RL;603-RC0402FR-07604RL;50;0,01 €;0,60 €;Link;
 52;Fehlerkomparator;MAX978ESE+ ;700-MAX978ESE ;2;9,13 €;18,26 €;Link;
-53;0805 Ferritperlen;1-1624117-5 ;571-1-1624117-5;20;0,15 €;2,90 €;Link;Workaround 0805 Housing due to wrong pcb footprints
+53;0805 Ferritperlen;742792040;710-742792040 ;20;0,15 €;2,90 €;Link;Workaround 0805 Housing due to wrong pcb footprints
