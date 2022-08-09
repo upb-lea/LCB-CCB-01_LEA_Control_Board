@@ -3,7 +3,7 @@
   (tedit 61E34B9D)
   (descr "LED 0402")
   (attr through_hole)
-  (fp_text reference "REF**" (at 0 -3.8) (layer "F.SilkS")
+  (fp_text reference "REF**" (at 0.2 -1.8) (layer "F.SilkS")
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp b015c65f-406b-4a57-aee0-50a8dc22f188)
   )
