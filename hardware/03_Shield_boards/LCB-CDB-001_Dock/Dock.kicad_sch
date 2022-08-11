@@ -87,9 +87,6 @@
     (path "/ec85171e-6684-4454-ac40-0feda73efa3c/b5e2d8ff-ef3f-458e-bc62-5424f0d83645"
       (reference "#FLG03") (unit 1) (value "PWR_FLAG") (footprint "")
     )
-    (path "/ec85171e-6684-4454-ac40-0feda73efa3c/f9afcb80-3f52-47e0-b76c-4af5bcc8684f"
-      (reference "#PWR03") (unit 1) (value "AGND_HV") (footprint "")
-    )
     (path "/096374be-7039-4083-8932-ff2fbc8f6c1c/506db480-4e50-4323-9f92-b1a2aabde989"
       (reference "#PWR04") (unit 1) (value "+3.3V_LV") (footprint "")
     )
@@ -293,6 +290,9 @@
     )
     (path "/96d94755-8adc-4dca-b9fb-eb0d14586e19/be138381-82c3-4d9b-a3c3-bc8cc8e321a8"
       (reference "#PWR0103") (unit 1) (value "+3.3V_LV") (footprint "")
+    )
+    (path "/ec85171e-6684-4454-ac40-0feda73efa3c/4cced849-f581-466a-b86c-d2d07f8d407f"
+      (reference "#PWR0104") (unit 1) (value "GND_LV") (footprint "")
     )
     (path "/096374be-7039-4083-8932-ff2fbc8f6c1c/0e657716-7130-482a-b2ca-ef3fdc9c4a4b"
       (reference "C1") (unit 1) (value "100n") (footprint "LEA_FootprintLibrary:C_0603")
