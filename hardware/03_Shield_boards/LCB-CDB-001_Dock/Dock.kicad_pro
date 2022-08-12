@@ -332,7 +332,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "unannotated": "error",
@@ -417,7 +417,7 @@
       "workbook_filename": ""
     },
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": "../../../documentation/03_Shield_boards/",
     "spice_adjust_passive_values": false,
     "spice_external_command": "spice \"%I\"",
     "subpart_first_id": 65,
