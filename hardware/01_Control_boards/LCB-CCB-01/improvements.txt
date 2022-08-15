@@ -1,4 +1,4 @@
 # Improvements to next version
  * Remove +3.3V-Reference and replace it by +3V3_connector
  * Replace some 0402 components by 0603 components
- * 
+ * Update Flipflop Footprint (Missing GND solder paste already fixed)
