@@ -1,4 +1,4 @@
-20414532150536192
+20417894719114993
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -56476,6 +56476,13 @@ HC-49_US_ABRACON
 2
 2
 LEA_FootprintLibrary
+LCB_connector_top
+
+
+0
+300
+300
+LEA_FootprintLibrary
 LED_0402
 LED 0402
 
@@ -56776,6 +56783,13 @@ USB_C_Molex_217179-0001
 0
 16
 13
+LEA_FootprintLibrary
+lea_logo
+
+
+0
+0
+0
 LED_SMD
 LED-APA102-2020
 http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf

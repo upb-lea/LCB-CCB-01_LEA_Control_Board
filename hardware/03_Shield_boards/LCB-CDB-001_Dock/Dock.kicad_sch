@@ -12,6 +12,26 @@
   )
 
   (lib_symbols
+    (symbol "LEA_SymbolLibrary:LEA_Logo" (in_bom yes) (on_board yes)
+      (property "Reference" "L" (id 0) (at -3.81 1.27 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "LEA_Logo" (id 1) (at 0 -2.54 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "LEA_FootprintLibrary:lea_logo" (id 2) (at 1.27 3.81 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (id 3) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "LEA_Logo_0_1"
+        (rectangle (start -5.08 0) (end 5.08 -5.08)
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type background))
+        )
+      )
+    )
   )
 
 
@@ -2165,6 +2185,23 @@
     )
   )
 
+  (symbol (lib_id "LEA_SymbolLibrary:LEA_Logo") (at 220.98 24.13 0) (unit 1)
+    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (uuid b63cdb00-c6fe-4585-b79e-0bb44e47fc06)
+    (property "Reference" "L1" (id 0) (at 227.33 25.3999 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "LEA_Logo" (id 1) (at 227.33 27.9399 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "LEA_FootprintLibrary:lea_logo" (id 2) (at 222.25 20.32 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 220.98 24.13 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+  )
+
   (sheet (at 26.67 24.13) (size 40.64 85.09) (fields_autoplaced)
     (stroke (width 1) (type solid) (color 255 0 2 1))
     (fill (color 0 0 0 0.0000))
@@ -2723,6 +2760,9 @@
     )
     (path "/f04d4fc4-2eb7-4ec0-9c89-19a72e337841/eb3d9aec-fb88-4b38-a8a0-4a06ce7843ec"
       (reference "J63") (unit 1) (value "Conn_02x30_Row_Letter_Last") (footprint "LEA_FootprintLibrary:PinHeader_2x30_P2.54mm_Vertical")
+    )
+    (path "/b63cdb00-c6fe-4585-b79e-0bb44e47fc06"
+      (reference "L1") (unit 1) (value "LEA_Logo") (footprint "LEA_FootprintLibrary:lea_logo")
     )
     (path "/096374be-7039-4083-8932-ff2fbc8f6c1c/01258e1b-4727-46de-a03c-8599af5a106d"
       (reference "R1") (unit 1) (value "100k") (footprint "LEA_FootprintLibrary:R_0603")
