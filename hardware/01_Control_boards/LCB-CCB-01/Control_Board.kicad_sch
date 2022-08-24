@@ -20566,7 +20566,7 @@
       (reference "R216") (unit 1) (value "0R") (footprint "LEA_FootprintLibrary:R_0402")
     )
     (path "/00000000-0000-0000-0000-000061af4b2b/00000000-0000-0000-0000-000061cdcc6e"
-      (reference "R217") (unit 1) (value "2.2K") (footprint "LEA_FootprintLibrary:R_0402")
+      (reference "R217") (unit 1) (value "12K") (footprint "LEA_FootprintLibrary:R_0402")
     )
     (path "/00000000-0000-0000-0000-000061af4b2b/377c16df-37a7-4265-a7d8-a576fc73aa73"
       (reference "R218") (unit 1) (value "0R") (footprint "LEA_FootprintLibrary:R_0402")

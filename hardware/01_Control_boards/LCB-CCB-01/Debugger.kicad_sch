@@ -3757,7 +3757,7 @@
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061cdcc6e)
     (property "Reference" "R217" (id 0) (at 101.6 137.16 0))
-    (property "Value" "2.2K" (id 1) (at 101.6 139.7 0))
+    (property "Value" "12K" (id 1) (at 101.6 139.7 0))
     (property "Footprint" "LEA_FootprintLibrary:R_0402" (id 2) (at 105.41 148.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
