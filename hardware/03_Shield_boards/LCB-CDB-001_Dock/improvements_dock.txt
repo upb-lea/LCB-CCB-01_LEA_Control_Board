@@ -1,0 +1,3 @@
+# Improvements to next version
+ * USB connector is too far from the pcb edge. It is not possible to connect a cable
+ * Optional: use higher buttons

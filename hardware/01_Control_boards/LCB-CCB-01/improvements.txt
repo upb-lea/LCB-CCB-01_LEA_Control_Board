@@ -3,3 +3,4 @@
  * Replace some 0402 components by 0603 components
  * Update Flipflop Footprint (Missing GND solder paste already fixed)
  * add labels for connector left/right on PCB
+ * Add label for debugger "XDS100v2" on the board, so the user can directly see which debugger he as to select
