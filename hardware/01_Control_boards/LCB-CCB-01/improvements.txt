@@ -4,6 +4,6 @@
  * Update Flipflop Footprint (Missing GND solder paste already fixed)
  * add labels for connector left/right on PCB
  * Add label for debugger "XDS100v2" on the board, so the user can directly see which debugger he as to select
- * LED D202 red instead of green, lable "Power"
+ * LED D201 and D1001 red instead of green, lable "Power"
  * LED D203 blue instead of green, lable "TxD"
  * LED D204 blue instead of green, lable "RxD"

@@ -1,3 +1,9 @@
 # Improvements to next version
  * USB connector is too far from the pcb edge. It is not possible to connect a cable
  * Optional: use higher buttons
+ * D3 and D6 read instead of green
+ * increase distance between potentiometers
+ * bring buttons to pcb edge (Problem: always touching pinheaders when pushing buttons. Note: higher buttons will not solve the problem)
+ * bring switches to pcb edge (may need to increase pcb size)
+ * change button switch direction from up/down to left/right
+ * labels: analog inputs C2C3_N -> C3_N and C2_P (It is not clear what if C2 or C3 is the pin what is programmed)
