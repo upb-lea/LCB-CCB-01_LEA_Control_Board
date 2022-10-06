@@ -1,6 +1,6 @@
 # LEA_control_board
 
-
+![](documentation/lcb_all_pcbs.png)
 
 ## Set environment variable for 3D models:
 
@@ -12,8 +12,6 @@ Note: if you are using KiCAD6, and there is a variable `KICAD6_3DMODEL_DIR`, ign
 
 
 ## Flash XDS100 Firmware to FTDI Chip:
-
-
 
  * Download FT Prog [here](https://ftdichip.com/utilities/)
  * Load the configuration file for XDS100v2 programmer: `File` -> `Open template` -> [Modified template](/software/01_Control_boards/XDS100v2_UART.xml)
