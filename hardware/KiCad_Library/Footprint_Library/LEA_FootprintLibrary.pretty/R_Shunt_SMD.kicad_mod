@@ -46,6 +46,7 @@
   (fp_line (start 5.08 4.826) (end -5.334 4.826) (layer "B.CrtYd") (width 0.05) (tstamp caa3be8d-02bd-411a-bb1d-5f13cc4b1a0d))
   (fp_line (start 5.08 -4.826) (end 5.08 4.826) (layer "B.CrtYd") (width 0.05) (tstamp d7ac7907-d6b7-4272-a467-74c0860dd4c4))
   (fp_circle (center 0 0) (end 5.5 0) (layer "F.CrtYd") (width 0.12) (fill none) (tstamp eea3336d-92a9-4ecf-912e-271e2068ec76))
+  (fp_circle (center 0 0) (end 5.5 0) (layer "F.Fab") (width 0.12) (fill none) (tstamp d8a733a3-7030-4d26-b869-b876acb4dd5c))
   (pad "" thru_hole circle (at 0 0) (size 1.6 1.6) (drill 1.1) (layers *.Cu *.Mask)
     (zone_connect 2) (tstamp f283fe66-f0f5-4892-8d1c-3ef48d6dae97))
   (pad "1" smd rect (at -9.535 0.062) (size 1.5 14.3) (layers "B.Cu")

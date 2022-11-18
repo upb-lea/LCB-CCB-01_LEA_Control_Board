@@ -8,10 +8,12 @@ Differences:
  * Technology: Thinfilm `_THIN` / Thickfilm `THICK`
  * `HINT`: e.g. `SHUNT`
  * Derivation in percent: `_1P` / `_5P` / `10P` / `20P`
+ * Voltag: `75V` / `100V`
 
 Examples:
- * `R_SMD_0603__THIN_100R__1P_HINT`
- * `R_SMD_0403_THICK__4R7_10P_HINT`
+ * `R_0805_100R__THIN_20P_150V`
+ * `R_0603_100R__THIN__1P__75V`
+ * `R_0403__4R7_THICK_10P__50V`
 
 
 ## THT Resistors
@@ -30,11 +32,12 @@ Examples:
 * Type: `SMD` / `THT`
 * Values: `100u` / `4u7` / `10n`
 * Size: `0603` / `0704` / `0403`
+* Voltage: `25V` / `100V` / `600V`
 
 Examples:
- * `C_SMD_0603__1u0`
- * `C_SMD_0805__10u`
- * `C_SMD_1206__4u7`
+ * `C_SMD_0603_100V__1u0`
+ * `C_SMD_0805__25V__10u`
+ * `C_SMD_1206__16V__4u7`
 
 ## Diodes
 * Type: `SMD` / `THT`

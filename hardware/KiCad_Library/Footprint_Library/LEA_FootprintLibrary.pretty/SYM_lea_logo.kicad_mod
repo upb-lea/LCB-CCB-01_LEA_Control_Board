@@ -1,11 +1,11 @@
-(footprint "lea_logo" (version 20211014) (generator pcbnew)
+(footprint "SYM_lea_logo" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
   (tedit 0)
   (fp_text reference "REF**" (at 0 7.62 unlocked) (layer "F.SilkS") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 4c746297-8b19-41c4-b31a-8e2b2f7e025e)
   )
-  (fp_text value "lea_logo" (at 0 5.715 unlocked) (layer "F.Fab")
+  (fp_text value "SYM_lea_logo" (at 0 5.715 unlocked) (layer "F.Fab")
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 36c5b198-2247-4c5e-93e9-b8dd8ba84732)
   )
