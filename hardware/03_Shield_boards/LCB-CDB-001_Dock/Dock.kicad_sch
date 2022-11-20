@@ -2233,7 +2233,7 @@
   )
 
   (symbol (lib_id "LEA_SymbolLibrary:LEA_Logo") (at 220.98 26.67 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid 6311b957-e59e-4903-8306-59c5e6cc09c2)
     (property "Reference" "O1" (id 0) (at 217.17 25.4 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2847,61 +2847,61 @@
       (reference "R4") (unit 1) (value "100k") (footprint "LEA_FootprintLibrary:R_0603")
     )
     (path "/096374be-7039-4083-8932-ff2fbc8f6c1c/a36fcd80-4bad-4918-99f5-24dfee9c2f51"
-      (reference "R5") (unit 1) (value "100") (footprint "LEA_FootprintLibrary:R_0603")
+      (reference "R5") (unit 1) (value "100R") (footprint "LEA_FootprintLibrary:R_0603")
     )
     (path "/096374be-7039-4083-8932-ff2fbc8f6c1c/94e4641f-11aa-486b-a573-4d637b5179ef"
-      (reference "R6") (unit 1) (value "100") (footprint "LEA_FootprintLibrary:R_0603")
+      (reference "R6") (unit 1) (value "100R") (footprint "LEA_FootprintLibrary:R_0603")
     )
     (path "/096374be-7039-4083-8932-ff2fbc8f6c1c/51670e6e-d707-4b5b-8644-f6ace9cceb00"
-      (reference "R7") (unit 1) (value "100") (footprint "LEA_FootprintLibrary:R_0603")
+      (reference "R7") (unit 1) (value "100R") (footprint "LEA_FootprintLibrary:R_0603")
     )
     (path "/096374be-7039-4083-8932-ff2fbc8f6c1c/5636a91b-ec9b-4e1e-8afc-c5ec4eb44952"
-      (reference "R8") (unit 1) (value "100") (footprint "LEA_FootprintLibrary:R_0603")
+      (reference "R8") (unit 1) (value "100R") (footprint "LEA_FootprintLibrary:R_0603")
     )
     (path "/3c546e43-e134-49b0-8a55-aa529c1403a3/f2e6843c-d14a-49e0-8c3a-fef64798022b"
-      (reference "R9") (unit 1) (value "600") (footprint "LEA_FootprintLibrary:R_0603")
+      (reference "R9") (unit 1) (value "R_0603_680R_THICK__1P__75V") (footprint "LEA_FootprintLibrary:R_0603")
     )
     (path "/3c546e43-e134-49b0-8a55-aa529c1403a3/24394941-47fb-4f1b-8490-45d67899358c"
-      (reference "R10") (unit 1) (value "600") (footprint "LEA_FootprintLibrary:R_0603")
+      (reference "R10") (unit 1) (value "R_0603_680R_THICK__1P__75V") (footprint "LEA_FootprintLibrary:R_0603")
     )
     (path "/3c546e43-e134-49b0-8a55-aa529c1403a3/79678763-c2a7-4f43-9139-dd5014133eb9"
-      (reference "R11") (unit 1) (value "600") (footprint "LEA_FootprintLibrary:R_0603")
+      (reference "R11") (unit 1) (value "R_0603_680R_THICK__1P__75V") (footprint "LEA_FootprintLibrary:R_0603")
     )
     (path "/3c546e43-e134-49b0-8a55-aa529c1403a3/c51fe006-df9b-4922-b321-edd0c9d9a7e8"
-      (reference "R12") (unit 1) (value "600") (footprint "LEA_FootprintLibrary:R_0603")
+      (reference "R12") (unit 1) (value "R_0603_680R_THICK__1P__75V") (footprint "LEA_FootprintLibrary:R_0603")
     )
     (path "/3c546e43-e134-49b0-8a55-aa529c1403a3/6f53f98a-fd81-4c18-88b9-4d3e38d1d905"
-      (reference "R13") (unit 1) (value "600") (footprint "LEA_FootprintLibrary:R_0603")
+      (reference "R13") (unit 1) (value "R_0603_680R_THICK__1P__75V") (footprint "LEA_FootprintLibrary:R_0603")
     )
     (path "/3c546e43-e134-49b0-8a55-aa529c1403a3/c2d79056-5cb9-41a7-8256-7b24c0f0e3e9"
-      (reference "R14") (unit 1) (value "600") (footprint "LEA_FootprintLibrary:R_0603")
+      (reference "R14") (unit 1) (value "R_0603_680R_THICK__1P__75V") (footprint "LEA_FootprintLibrary:R_0603")
     )
     (path "/3c546e43-e134-49b0-8a55-aa529c1403a3/53dc0242-61a5-4100-a528-1432cd551ef0"
-      (reference "R15") (unit 1) (value "600") (footprint "LEA_FootprintLibrary:R_0603")
+      (reference "R15") (unit 1) (value "R_0603_680R_THICK__1P__75V") (footprint "LEA_FootprintLibrary:R_0603")
     )
     (path "/3c546e43-e134-49b0-8a55-aa529c1403a3/01363a39-1f49-41f0-a2c7-9d7267b6f7a1"
-      (reference "R16") (unit 1) (value "600") (footprint "LEA_FootprintLibrary:R_0603")
+      (reference "R16") (unit 1) (value "R_0603_680R_THICK__1P__75V") (footprint "LEA_FootprintLibrary:R_0603")
     )
     (path "/3c546e43-e134-49b0-8a55-aa529c1403a3/9cb3684f-83bf-4c09-b4b9-f0160ba53633"
-      (reference "R17") (unit 1) (value "600") (footprint "LEA_FootprintLibrary:R_0603")
+      (reference "R17") (unit 1) (value "R_0603_680R_THICK__1P__75V") (footprint "LEA_FootprintLibrary:R_0603")
     )
     (path "/3c546e43-e134-49b0-8a55-aa529c1403a3/bde5718e-0446-443e-986d-3f07496cbae3"
-      (reference "R18") (unit 1) (value "600") (footprint "LEA_FootprintLibrary:R_0603")
+      (reference "R18") (unit 1) (value "R_0603_680R_THICK__1P__75V") (footprint "LEA_FootprintLibrary:R_0603")
     )
     (path "/3c546e43-e134-49b0-8a55-aa529c1403a3/c99c9cf8-2a53-4e20-b3a9-cce47f3a781d"
-      (reference "R19") (unit 1) (value "600") (footprint "LEA_FootprintLibrary:R_0603")
+      (reference "R19") (unit 1) (value "R_0603_680R_THICK__1P__75V") (footprint "LEA_FootprintLibrary:R_0603")
     )
     (path "/3c546e43-e134-49b0-8a55-aa529c1403a3/985ae366-b39e-40dd-9c94-fc7a62f64291"
-      (reference "R20") (unit 1) (value "600") (footprint "LEA_FootprintLibrary:R_0603")
+      (reference "R20") (unit 1) (value "R_0603_680R_THICK__1P__75V") (footprint "LEA_FootprintLibrary:R_0603")
     )
     (path "/3c546e43-e134-49b0-8a55-aa529c1403a3/0daec93d-db34-4d96-ae16-d1e3716b98b9"
-      (reference "R21") (unit 1) (value "600") (footprint "LEA_FootprintLibrary:R_0603")
+      (reference "R21") (unit 1) (value "R_0603_680R_THICK__1P__75V") (footprint "LEA_FootprintLibrary:R_0603")
     )
     (path "/3c546e43-e134-49b0-8a55-aa529c1403a3/3a9f68fd-0423-4c86-a688-04665def7633"
-      (reference "R22") (unit 1) (value "600") (footprint "LEA_FootprintLibrary:R_0603")
+      (reference "R22") (unit 1) (value "R_0603_680R_THICK__1P__75V") (footprint "LEA_FootprintLibrary:R_0603")
     )
     (path "/3c546e43-e134-49b0-8a55-aa529c1403a3/f44b16b5-a33a-4a18-914a-284fdb311ddf"
-      (reference "R23") (unit 1) (value "600") (footprint "LEA_FootprintLibrary:R_0603")
+      (reference "R23") (unit 1) (value "R_0603_680R_THICK__1P__75V") (footprint "LEA_FootprintLibrary:R_0603")
     )
     (path "/96d94755-8adc-4dca-b9fb-eb0d14586e19/1029b5e9-53e8-4d68-8d0a-182bcd2b7e5b"
       (reference "R24") (unit 1) (value "0R") (footprint "LEA_FootprintLibrary:R_0402")
@@ -2949,46 +2949,46 @@
       (reference "SW4") (unit 1) (value "SW_Push") (footprint "LEA_FootprintLibrary:SW_Push")
     )
     (path "/096374be-7039-4083-8932-ff2fbc8f6c1c/30751966-a0b0-4ecc-a088-2c34ac7b2a3a"
-      (reference "U1") (unit 1) (value "MC74HC14ADG") (footprint "LEA_FootprintLibrary:SOIC-14")
+      (reference "U1") (unit 1) (value "ST_6CH_CMOS_SOIC14_MC74HC14ADG") (footprint "LEA_FootprintLibrary:SOIC-14")
     )
     (path "/096374be-7039-4083-8932-ff2fbc8f6c1c/62b9bb34-390c-4fda-83da-0b53d909d3c0"
-      (reference "U1") (unit 2) (value "MC74HC14ADG") (footprint "LEA_FootprintLibrary:SOIC-14")
+      (reference "U1") (unit 2) (value "ST_6CH_CMOS_SOIC14_MC74HC14ADG") (footprint "LEA_FootprintLibrary:SOIC-14")
     )
     (path "/096374be-7039-4083-8932-ff2fbc8f6c1c/5bdccece-4880-4ca3-8f09-65d786984900"
-      (reference "U1") (unit 3) (value "MC74HC14ADG") (footprint "LEA_FootprintLibrary:SOIC-14")
+      (reference "U1") (unit 3) (value "ST_6CH_CMOS_SOIC14_MC74HC14ADG") (footprint "LEA_FootprintLibrary:SOIC-14")
     )
     (path "/096374be-7039-4083-8932-ff2fbc8f6c1c/51ea0c18-87f7-462b-bf7e-bb4468d03618"
-      (reference "U1") (unit 4) (value "MC74HC14ADG") (footprint "LEA_FootprintLibrary:SOIC-14")
+      (reference "U1") (unit 4) (value "ST_6CH_CMOS_SOIC14_MC74HC14ADG") (footprint "LEA_FootprintLibrary:SOIC-14")
     )
     (path "/096374be-7039-4083-8932-ff2fbc8f6c1c/74600461-43f6-45fe-8b16-075cd840fe57"
-      (reference "U1") (unit 5) (value "MC74HC14ADG") (footprint "LEA_FootprintLibrary:SOIC-14")
+      (reference "U1") (unit 5) (value "ST_6CH_CMOS_SOIC14_MC74HC14ADG") (footprint "LEA_FootprintLibrary:SOIC-14")
     )
     (path "/096374be-7039-4083-8932-ff2fbc8f6c1c/038e41bc-d044-434d-a284-95d1274107b0"
-      (reference "U1") (unit 6) (value "MC74HC14ADG") (footprint "LEA_FootprintLibrary:SOIC-14")
+      (reference "U1") (unit 6) (value "ST_6CH_CMOS_SOIC14_MC74HC14ADG") (footprint "LEA_FootprintLibrary:SOIC-14")
     )
     (path "/096374be-7039-4083-8932-ff2fbc8f6c1c/054f1401-311a-43cc-b3f3-e925fe33e26d"
-      (reference "U1") (unit 7) (value "MC74HC14ADG") (footprint "LEA_FootprintLibrary:SOIC-14")
+      (reference "U1") (unit 7) (value "ST_6CH_CMOS_SOIC14_MC74HC14ADG") (footprint "LEA_FootprintLibrary:SOIC-14")
     )
     (path "/096374be-7039-4083-8932-ff2fbc8f6c1c/584d6ed0-5995-414f-b02e-ce4cfa845288"
-      (reference "U2") (unit 1) (value "MC74HC14ADG") (footprint "LEA_FootprintLibrary:SOIC-14")
+      (reference "U2") (unit 1) (value "ST_6CH_CMOS_SOIC14_MC74HC14ADG") (footprint "LEA_FootprintLibrary:SOIC-14")
     )
     (path "/096374be-7039-4083-8932-ff2fbc8f6c1c/47a700f0-dcde-4be4-8d6f-853681b95f7f"
-      (reference "U2") (unit 2) (value "MC74HC14ADG") (footprint "LEA_FootprintLibrary:SOIC-14")
+      (reference "U2") (unit 2) (value "ST_6CH_CMOS_SOIC14_MC74HC14ADG") (footprint "LEA_FootprintLibrary:SOIC-14")
     )
     (path "/096374be-7039-4083-8932-ff2fbc8f6c1c/5df1e229-0262-43e1-8ef5-7885e5008669"
-      (reference "U2") (unit 3) (value "MC74HC14ADG") (footprint "LEA_FootprintLibrary:SOIC-14")
+      (reference "U2") (unit 3) (value "ST_6CH_CMOS_SOIC14_MC74HC14ADG") (footprint "LEA_FootprintLibrary:SOIC-14")
     )
     (path "/096374be-7039-4083-8932-ff2fbc8f6c1c/14d2cb56-5e9d-4bec-adb3-816214f09480"
-      (reference "U2") (unit 4) (value "MC74HC14ADG") (footprint "LEA_FootprintLibrary:SOIC-14")
+      (reference "U2") (unit 4) (value "ST_6CH_CMOS_SOIC14_MC74HC14ADG") (footprint "LEA_FootprintLibrary:SOIC-14")
     )
     (path "/096374be-7039-4083-8932-ff2fbc8f6c1c/3993067b-2eb9-4c63-b1d7-8978af0102d1"
-      (reference "U2") (unit 5) (value "MC74HC14ADG") (footprint "LEA_FootprintLibrary:SOIC-14")
+      (reference "U2") (unit 5) (value "ST_6CH_CMOS_SOIC14_MC74HC14ADG") (footprint "LEA_FootprintLibrary:SOIC-14")
     )
     (path "/096374be-7039-4083-8932-ff2fbc8f6c1c/c896e072-ef12-4953-87ee-ecf8b3486648"
-      (reference "U2") (unit 6) (value "MC74HC14ADG") (footprint "LEA_FootprintLibrary:SOIC-14")
+      (reference "U2") (unit 6) (value "ST_6CH_CMOS_SOIC14_MC74HC14ADG") (footprint "LEA_FootprintLibrary:SOIC-14")
     )
     (path "/096374be-7039-4083-8932-ff2fbc8f6c1c/9e24b019-e44e-4084-af04-5a2bbc9d6051"
-      (reference "U2") (unit 7) (value "MC74HC14ADG") (footprint "LEA_FootprintLibrary:SOIC-14")
+      (reference "U2") (unit 7) (value "ST_6CH_CMOS_SOIC14_MC74HC14ADG") (footprint "LEA_FootprintLibrary:SOIC-14")
     )
     (path "/96d94755-8adc-4dca-b9fb-eb0d14586e19/82d24c14-78ef-4472-bd52-86e55fe63930"
       (reference "U3") (unit 1) (value "TPS73733DCQ") (footprint "LEA_FootprintLibrary:SOT-223-6_TI")

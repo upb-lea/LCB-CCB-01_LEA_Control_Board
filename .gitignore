@@ -7,3 +7,6 @@
 /hardware/03_Shield_boards/LCB-CDB-001_Dock/Dock-backups/
 *.ods
 *.pdf
+
+
+/hardware/KiCad_Library/__pycache__/
