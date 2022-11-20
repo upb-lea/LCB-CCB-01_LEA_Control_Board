@@ -4965,13 +4965,13 @@
       (reference "R208") (unit 1) (value "100R") (footprint "LEA_FootprintLibrary:R_0603")
     )
     (path "/00000000-0000-0000-0000-0000618fb791/00000000-0000-0000-0000-000061be5192"
-      (reference "R301") (unit 1) (value "700R") (footprint "LEA_FootprintLibrary:R_0603")
+      (reference "R301") (unit 1) (value "680R") (footprint "LEA_FootprintLibrary:R_0603")
     )
     (path "/00000000-0000-0000-0000-0000618fb791/00000000-0000-0000-0000-000061c159ac"
-      (reference "R302") (unit 1) (value "700R") (footprint "LEA_FootprintLibrary:R_0603")
+      (reference "R302") (unit 1) (value "680R") (footprint "LEA_FootprintLibrary:R_0603")
     )
     (path "/00000000-0000-0000-0000-0000618fb791/00000000-0000-0000-0000-000061c16321"
-      (reference "R303") (unit 1) (value "700R") (footprint "LEA_FootprintLibrary:R_0603")
+      (reference "R303") (unit 1) (value "680R") (footprint "LEA_FootprintLibrary:R_0603")
     )
     (path "/00000000-0000-0000-0000-0000618fb8b6/00000000-0000-0000-0000-000061a6e4f2"
       (reference "TP201") (unit 1) (value "Keystone_Electronics_5019") (footprint "LEA_FootprintLibrary:TestPoint_KeystoneElectronics5019")
