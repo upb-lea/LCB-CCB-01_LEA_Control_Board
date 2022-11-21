@@ -20521,13 +20521,13 @@
       (reference "R201") (unit 1) (value "2.2K") (footprint "LEA_FootprintLibrary:R_0402")
     )
     (path "/00000000-0000-0000-0000-000061af4b2b/00000000-0000-0000-0000-000061c71be9"
-      (reference "R202") (unit 1) (value "600R") (footprint "LEA_FootprintLibrary:R_0402")
+      (reference "R202") (unit 1) (value "R_0402_680R_THICK__1P__50V") (footprint "LEA_FootprintLibrary:R_0402")
     )
     (path "/00000000-0000-0000-0000-000061af4b2b/00000000-0000-0000-0000-000061c42782"
-      (reference "R203") (unit 1) (value "5K") (footprint "LEA_FootprintLibrary:R_0402")
+      (reference "R203") (unit 1) (value "R_0402_4k99_THICK__1P_50V") (footprint "LEA_FootprintLibrary:R_0402")
     )
     (path "/00000000-0000-0000-0000-000061af4b2b/00000000-0000-0000-0000-000061c431ae"
-      (reference "R204") (unit 1) (value "5K") (footprint "LEA_FootprintLibrary:R_0402")
+      (reference "R204") (unit 1) (value "R_0402_4k99_THICK__1P_50V") (footprint "LEA_FootprintLibrary:R_0402")
     )
     (path "/00000000-0000-0000-0000-000061af4b2b/00000000-0000-0000-0000-000061d96eb9"
       (reference "R205") (unit 1) (value "2.2K") (footprint "LEA_FootprintLibrary:R_0402")
@@ -20554,10 +20554,10 @@
       (reference "R212") (unit 1) (value "0R") (footprint "LEA_FootprintLibrary:R_0402")
     )
     (path "/00000000-0000-0000-0000-000061af4b2b/00000000-0000-0000-0000-000061c9bb53"
-      (reference "R213") (unit 1) (value "600R") (footprint "LEA_FootprintLibrary:R_0402")
+      (reference "R213") (unit 1) (value "R_0402_680R_THICK__1P__50V") (footprint "LEA_FootprintLibrary:R_0402")
     )
     (path "/00000000-0000-0000-0000-000061af4b2b/00000000-0000-0000-0000-000061c9c48e"
-      (reference "R214") (unit 1) (value "600R") (footprint "LEA_FootprintLibrary:R_0402")
+      (reference "R214") (unit 1) (value "R_0402_680R_THICK__1P__50V") (footprint "LEA_FootprintLibrary:R_0402")
     )
     (path "/00000000-0000-0000-0000-000061af4b2b/4af14907-dbca-44c1-8c7e-ab5b79a893cd"
       (reference "R215") (unit 1) (value "0R") (footprint "LEA_FootprintLibrary:R_0402")
@@ -20734,22 +20734,22 @@
       (reference "R926") (unit 1) (value "0.1R") (footprint "LEA_FootprintLibrary:R_0402")
     )
     (path "/00000000-0000-0000-0000-000061de0978/00000000-0000-0000-0000-000061de7290"
-      (reference "R1001") (unit 1) (value "600R") (footprint "LEA_FootprintLibrary:R_0402")
+      (reference "R1001") (unit 1) (value "R_0402_680R_THICK__1P__50V") (footprint "LEA_FootprintLibrary:R_0402")
     )
     (path "/00000000-0000-0000-0000-000061de0978/bbd4733d-7ec0-4f17-beb6-0be64574337a"
-      (reference "R1002") (unit 1) (value "600R") (footprint "LEA_FootprintLibrary:R_0402")
+      (reference "R1002") (unit 1) (value "R_0402_680R_THICK__1P__50V") (footprint "LEA_FootprintLibrary:R_0402")
     )
     (path "/00000000-0000-0000-0000-000061de0978/00000000-0000-0000-0000-000061dea481"
-      (reference "R1003") (unit 1) (value "600R") (footprint "LEA_FootprintLibrary:R_0402")
+      (reference "R1003") (unit 1) (value "R_0402_680R_THICK__1P__50V") (footprint "LEA_FootprintLibrary:R_0402")
     )
     (path "/00000000-0000-0000-0000-000061de0978/00000000-0000-0000-0000-000061deb7f4"
-      (reference "R1004") (unit 1) (value "600R") (footprint "LEA_FootprintLibrary:R_0402")
+      (reference "R1004") (unit 1) (value "R_0402_680R_THICK__1P__50V") (footprint "LEA_FootprintLibrary:R_0402")
     )
     (path "/00000000-0000-0000-0000-000061de0978/00000000-0000-0000-0000-000061ded16e"
-      (reference "R1005") (unit 1) (value "600R") (footprint "LEA_FootprintLibrary:R_0402")
+      (reference "R1005") (unit 1) (value "R_0402_680R_THICK__1P__50V") (footprint "LEA_FootprintLibrary:R_0402")
     )
     (path "/00000000-0000-0000-0000-000061de0978/ceacc570-d51a-479d-8841-921c97709e40"
-      (reference "R1006") (unit 1) (value "600R") (footprint "LEA_FootprintLibrary:R_0402")
+      (reference "R1006") (unit 1) (value "R_0402_680R_THICK__1P__50V") (footprint "LEA_FootprintLibrary:R_0402")
     )
     (path "/00000000-0000-0000-0000-000061c8b835/a5b0d9b0-6ab5-449e-b179-06e7b6ebcd1f"
       (reference "S301") (unit 1) (value "CAS-120TA") (footprint "LEA_FootprintLibrary:CAS-120TA")
