@@ -20212,10 +20212,10 @@
       (reference "C606") (unit 1) (value "2.2uF/25V") (footprint "LEA_FootprintLibrary:C_0402")
     )
     (path "/00000000-0000-0000-0000-000061e84f12/00000000-0000-0000-0000-000061f11d25"
-      (reference "C607") (unit 1) (value "10uF/25V") (footprint "LEA_FootprintLibrary:C_0402")
+      (reference "C607") (unit 1) (value "10uF/10V") (footprint "LEA_FootprintLibrary:C_0402")
     )
     (path "/00000000-0000-0000-0000-000061e84f12/00000000-0000-0000-0000-000061f11d41"
-      (reference "C608") (unit 1) (value "10uF/25V") (footprint "LEA_FootprintLibrary:C_0402")
+      (reference "C608") (unit 1) (value "10uF/10V") (footprint "LEA_FootprintLibrary:C_0402")
     )
     (path "/00000000-0000-0000-0000-000061d28cbe/00000000-0000-0000-0000-000062579517"
       (reference "C701") (unit 1) (value "100nF/50V") (footprint "LEA_FootprintLibrary:C_0402")
