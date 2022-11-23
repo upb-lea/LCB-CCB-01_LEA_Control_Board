@@ -59,6 +59,10 @@ Examples:
  
  
 ## Logic ICs
-Needs to be defined.
+
+
+## Schmitt-Trigger
+Examples:
+ * `ST_6CH_CMOS_SOIC14_MC74HC14ADG`
 
 
