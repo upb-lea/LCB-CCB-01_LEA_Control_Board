@@ -3,7 +3,7 @@
 ![](documentation/lcb_all_pcbs.png)
 
 ## Set environment variable for 3D models:
-
+![](documentation/3d_model.png)
 In the main menu, first select "Preferences" and then "Configure Path".
 Replace the environment variable `MODEL_3D` with the current location of the 3D-models, e.g. `/path/LEA_control_board/hardware/KiCad_Library/Footprint_Library/3D_Model`. 
 
@@ -20,3 +20,10 @@ Note: if you are using KiCAD6, and there is a variable `KICAD6_3DMODEL_DIR`, ign
 Note: 
 The modified file has the `Virtual COM Port` enabled to provide UART communication. This is not implemented into as into the [tutorial](https://www.youtube.com/watch?v=vZaF5ckf3OQ). To enable this, see the figure. 
 ![](/software/01_Control_boards/virtual_com_port.png)
+
+## Manufacturing the LCB
+ * Minimum PCB thickness is 2.3 mm due to the position-pin overlapping of J501/402 and J502/J403.
+ * For automated placement, the position pin holes of the connectors J501/402/J502/J403 should be milled with a depth of minimum 1.3 mm. 
+ 
+![](/documentation/01_Control_boards/LCB-CCB-01/PCB_Manufacturing.png)
+
