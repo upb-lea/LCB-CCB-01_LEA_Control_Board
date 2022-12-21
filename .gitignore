@@ -10,3 +10,21 @@
 
 
 /hardware/KiCad_Library/__pycache__/
+
+
+# code composer studio files
+*/*/*/CPU1_FLASH/
+*/*/*/CPU1_RAM/
+*/*/*/CPU2_FLASH/
+*/*/*/CPU2_RAM/
+*/*/*/targetConfigs/
+*/*/*/.launches/
+*/*/*/.settings/
+*.d
+.project
+.cproject
+.ccsproject
+*.cmd
+*.asm
+*/*/*/device/
+

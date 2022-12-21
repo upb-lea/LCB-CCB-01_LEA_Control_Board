@@ -1,0 +1,95 @@
+//=================================================================================================
+/// @file       myCLA.c
+///
+/// @brief      Datei enthält Variablen und Funktionen um die Funktion des CLA-Moduls eines
+///							TMS320F2838x zu demonstrieren. Es werden drei CLA-Tasks implementiert: Task 1
+///							initialisiert das CLA-Modul. Task 2 liest und beschreibt Peripherie-Register
+///							(ADC und ePWM). Task 3 führt eine einfache Rechenoperation aus.
+///
+/// @version    V1.2
+///
+/// @date       13.09.2022
+///
+/// @author     Daniel Urbaneck
+//=================================================================================================
+//-------------------------------------------------------------------------------------------------
+// Includes
+//-------------------------------------------------------------------------------------------------
+#include "myCLA.h"
+
+
+//-------------------------------------------------------------------------------------------------
+// Global variables
+//-------------------------------------------------------------------------------------------------
+
+
+//-------------------------------------------------------------------------------------------------
+// Global functions
+//-------------------------------------------------------------------------------------------------
+//=== Function: ClaTask1 ==========================================================================
+///
+/// @brief  CLA-Task 1. Dient als Initialisierungs-Task für das CLA-Modul,
+///					da die CPU auf manche CLA-Register nicht zugreifen kann.
+///
+/// @param  void
+///
+/// @return void
+///
+//=================================================================================================
+__interrupt void ClaTask1(void)
+{
+		// No-Operation-Befehl für das CLA-Modul. Der Befehl funktioniert nicht korrekt,
+		// Es werden bei jedem Aufruf drei statt einem Taktzyklus gewartet.
+		//__asm(" MNOP");
+    // Freigabe für das Auslösen eines Task-Interrupts (ISR wird von CPU aufgerufen)
+		// während der Task noch bearbeitet wird. Auf das Register kann nur das CLA-Modul
+    // zugreifen. Wird der CLA-Task Interrupt während eines Tasks (d.h. vor dem Ende
+    // des Tasks) ausgelöst, so wird am Ende des Tasks kein weiterer Interrupt ausgelöst.
+    // TASKx = 0: wird ignoriert
+    // TASKx = 1: Interrupt kann von CLA während des CLA-Tasks ausgelöst werden
+		Cla1OnlyRegs->SOFTINTEN.bit.TASK1 = 1;
+		// CLA-Task Interrupt auslösen. Auf das Register kann nur das CLA-Modul zugreifen
+    // TASKx = 0: wird ignoriert
+    // TASKx = 1: Interrupt wird ausgelöst
+		Cla1OnlyRegs->SOFTINTFRC.bit.TASK1 = 1;
+}
+
+
+//=== Function: ClaTask2 ==========================================================================
+///
+/// @brief  CLA-Task 2. Dient zur Demonstration von Peripherie-getriggerten Tasks
+///					und dem Zugriff von CLA auf bestimmte Peripherie (ADC, PWM, CMPSS).
+///
+/// @param  void
+///
+/// @return void
+///
+//=================================================================================================
+__interrupt void ClaTask2(void)
+{
+		// Tastverhältnis linear zum ADC-Messwert ändern
+		EPwm1Regs.CMPA.bit.CMPA = 0.12195 * AdcaResultRegs.ADCRESULT0;
+		// Hier wird der CPU-Interrupt "ClaTask1Isr" ausgelöst, sofern er nicht bereits
+		// zuvor durch "Cla1OnlyRegs->SOFTINTFRC.bit.TASK2 = 1" ausgelöst wurde
+}
+
+
+//=== Function: ClaTask3 ==========================================================================
+///
+/// @brief  CLA-Task 3. Dient zur Demonstration von Software-getriggerten
+///					Tasks und dem Austausch von Daten zwischen CPU und CLA.
+///
+/// @param  void
+///
+/// @return void
+///
+//=================================================================================================
+__interrupt void ClaTask3(void)
+{
+		// Rechenaufgabe durchführen
+		claToCpu = claToCpu + cpuToCla;
+		// Hier wird der CPU-Interrupt "ClaTask1Isr" ausgelöst, sofern er nicht bereits
+		// zuvor durch "Cla1OnlyRegs->SOFTINTFRC.bit.TASK3 = 1" ausgelöst wurde
+}
+
+
