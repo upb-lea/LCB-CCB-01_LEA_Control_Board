@@ -3056,13 +3056,33 @@
     (effects (font (size 5 5) bold) (justify right bottom))
     (uuid 4bcdac75-dc76-4de4-8fa1-52bc3f7eeed5)
   )
+  (text "Note:\nReference and input signal \nrange is 0V ... 2.1V"
+    (at 166.37 127 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 74babe83-5d83-4714-b865-8c01aae0e6b7)
+  )
   (text "Error2 - D0D1" (at 106.68 97.79 180)
     (effects (font (size 5 5) bold) (justify right bottom))
     (uuid 9a1f241a-3cb9-4268-9577-4e53b0816f12)
   )
+  (text "Note:\nReference and input signal \nrange is 0V ... 2.1V"
+    (at 15.24 124.46 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid b24f2806-787d-41ad-a25f-f1e2b9b89abe)
+  )
   (text "Error4 - C4C5" (at 251.46 97.79 180)
     (effects (font (size 5 5) bold) (justify right bottom))
     (uuid c7877255-9b2c-4508-bdb9-8fa419ba0ade)
+  )
+  (text "Note:\nReference and input signal \nrange is 0V ... 2.1V"
+    (at 15.24 44.45 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid dc4fa210-8173-49a7-a70a-5eb1f063761f)
+  )
+  (text "Note:\nReference and input signal \nrange is 0V ... 2.1V"
+    (at 165.1 44.45 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid f9984ed2-de4c-4c8c-ad50-91b3457c3c6e)
   )
 
   (label "OPA4IN-" (at 204.47 119.38 0)

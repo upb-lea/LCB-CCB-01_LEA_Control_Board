@@ -1,6 +1,11 @@
 # Improvements to next version
+
+## Schematic
  * Remove +3.3V-Reference and replace it by +3V3_connector
  * Replace some 0402 components by 0603 components
+ * Replace error comparators due to no rail-to-rail input (only 0 ... 2.1V is allowed instead of 0 ... 3.3V)
+
+## Layout
  * Update Flipflop Footprint (Missing GND solder paste already fixed)
  * add labels for connector left/right on PCB
  * Add label for debugger "XDS100v2" on the board, so the user can directly see which debugger he as to select
