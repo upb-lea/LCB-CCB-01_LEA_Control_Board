@@ -1,6 +1,14 @@
 # LEA_control_board
 
-![](documentation/lcb_all_pcbs.png)
+![](documentation/lcb_all_pcbs.png)    
+
+The LEA-Control-Board (LCB) is a construction kit to provide power electronic converters with a control board.
+
+The basic module is the control board itself. It contains a powerful dual-core processor, error latches and various predefined low-pass filters to respond to input signals. An XDS100v2 debugger is directly integrated on the board. 
+
+The docking board is suitable for initial operation. This contains various input options (switches, buttons, potentiometers) as well as LEDs for output.
+
+The external hardware monitor is for viewing internal counter variables on the oscilloscope and is mainly used for troubleshooting the control board in the overall system (control board + power converter).
 
 ## Set environment variable for 3D models:
 ![](documentation/3d_model.png)
