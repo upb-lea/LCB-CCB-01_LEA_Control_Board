@@ -4,6 +4,7 @@
  * Remove +3.3V-Reference and replace it by +3V3_connector
  * Replace some 0402 components by 0603 components
  * Replace error comparators due to no rail-to-rail input (only 0 ... 2.1V is allowed instead of 0 ... 3.3V)
+ * Filtering for ADC and error comparator are in series. This leads to unwanted linking in filter time constants and also in filter functionality, because the first filter resistor limits the current for the second filter. This results in an unwanted input signal for the input comparator. The workaround is to bring the filter values to uncritical values (r1=100, c1=1n, r2=2k2, c2=1n). The final solution is a schematic change in placing the filters in parallel, not in series.
 
 ## Layout
  * Update Flipflop Footprint (Missing GND solder paste already fixed)
