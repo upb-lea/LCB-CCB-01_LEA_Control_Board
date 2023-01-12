@@ -2,7 +2,7 @@
   (layer "F.Cu")
   (tedit 61E2DFB7)
   (descr "C 0402")
-  (attr through_hole)
+  (attr smd)
   (fp_text reference "REF**" (at 0.6 -1.5) (layer "F.SilkS")
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp d522df4c-6e80-4387-b20c-874e7e590146)
