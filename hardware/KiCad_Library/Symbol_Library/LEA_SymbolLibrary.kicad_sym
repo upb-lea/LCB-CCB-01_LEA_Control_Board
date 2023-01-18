@@ -1527,10 +1527,10 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "ACCESSORY_rubber_feet_0_0"
-      (text "Feet" (at -3.175 -1.27 0)
+      (text "Feet Set" (at -3.81 -1.27 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )
-      (text "Rubber " (at -3.175 1.27 0)
+      (text "Rubber " (at -3.81 1.27 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )
     )
