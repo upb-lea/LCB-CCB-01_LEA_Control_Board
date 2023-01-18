@@ -1,4 +1,4 @@
-(footprint "Fiducials_Optimal" (version 20211014) (generator pcbnew)
+(footprint "Fiducials_large" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
   (tedit 622FD898)
   (attr smd)
@@ -6,7 +6,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp f53719e4-6fd0-4bac-bb57-a45227e799cc)
   )
-  (fp_text value "Fiducials_Optimal" (at 7.8 -2.3 unlocked) (layer "F.Fab") hide
+  (fp_text value "Fiducials_large" (at 7.8 -2.3 unlocked) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 53385e6c-6384-464e-a8a8-c7786a3f7765)
   )

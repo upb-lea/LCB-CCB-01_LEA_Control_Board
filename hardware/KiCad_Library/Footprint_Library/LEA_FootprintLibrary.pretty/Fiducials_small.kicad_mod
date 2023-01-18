@@ -1,4 +1,4 @@
-(footprint "Fiducials_Minimum" (version 20211014) (generator pcbnew)
+(footprint "Fiducials_small" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
   (tedit 622FD960)
   (attr smd)
@@ -6,7 +6,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 380766a2-6617-4f78-bd0a-17cf33e8286e)
   )
-  (fp_text value "Fiducials_Minimum" (at 0 -12.5 unlocked) (layer "F.Fab") hide
+  (fp_text value "Fiducials_small" (at 0 -12.5 unlocked) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 29005cb8-c98b-44fa-9c39-7ca2416d0bd7)
   )
