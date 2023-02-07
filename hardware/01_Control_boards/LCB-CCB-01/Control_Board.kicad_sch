@@ -20572,16 +20572,16 @@
       (reference "L202") (unit 1) (value "BLM15AG601SN1D") (footprint "LEA_FootprintLibrary:L_0402")
     )
     (path "/00000000-0000-0000-0000-000061e84f12/00000000-0000-0000-0000-000061f11cbb"
-      (reference "L601") (unit 1) (value "60R") (footprint "LEA_FootprintLibrary:L_0603")
+      (reference "L601") (unit 1) (value "60R") (footprint "LEA_FootprintLibrary:L_0805")
     )
     (path "/00000000-0000-0000-0000-000061e84f12/00000000-0000-0000-0000-000061f11ceb"
-      (reference "L602") (unit 1) (value "60R") (footprint "LEA_FootprintLibrary:L_0603")
+      (reference "L602") (unit 1) (value "60R") (footprint "LEA_FootprintLibrary:L_0805")
     )
     (path "/00000000-0000-0000-0000-000061e84f12/00000000-0000-0000-0000-000061f11d55"
-      (reference "L603") (unit 1) (value "60R") (footprint "LEA_FootprintLibrary:L_0603")
+      (reference "L603") (unit 1) (value "60R") (footprint "LEA_FootprintLibrary:L_0805")
     )
     (path "/00000000-0000-0000-0000-000061e84f12/dba7d977-164e-497a-ac84-7921d4fc4efb"
-      (reference "L604") (unit 1) (value "60R") (footprint "LEA_FootprintLibrary:L_0603")
+      (reference "L604") (unit 1) (value "60R") (footprint "LEA_FootprintLibrary:L_0805")
     )
     (path "/00000000-0000-0000-0000-000061af4b2b/6c41288c-8c74-4fa9-905e-4e440fb320ce"
       (reference "R201") (unit 1) (value "2.2K") (footprint "LEA_FootprintLibrary:R_0402")
