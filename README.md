@@ -20,16 +20,17 @@ Note: if you are using KiCAD6, and there is a variable `KICAD6_3DMODEL_DIR`, ign
 
 
 ## Flash XDS100 Firmware to FTDI Chip:
-
+ * Watch this [video](https://www.youtube.com/watch?v=vZaF5ckf3OQ) first
  * Download FT Prog [here](https://ftdichip.com/utilities/)
  * Load the configuration file for XDS100v2 programmer: `File` -> `Open template` -> [Modified template](/software/01_Control_boards/XDS100v2_UART.xml)
- * Flash file
+ * Right click on `Device: 0` -> right click -> `Apply Template` -> `Template: XDS100v2_UART.xml`
+ * Flash file: `Programm Devices` -> `Program`
  
 Note: 
-It is very important to click on "apply template" as shown in the video. Otherwise the controller will not be programmed correctly!
+It is very important to click on "Apply Template" as shown in the video. Otherwise the controller will not be programmed correctly!
 
 Note: 
-The modified file has the `Virtual COM Port` enabled to provide UART communication. This is not implemented as in the [tutorial](https://www.youtube.com/watch?v=vZaF5ckf3OQ). To enable this, see the figure. 
+The modified file has the `Virtual COM Port` enabled to provide UART communication. This is not implemented as in the video. To enable this, see the figure. 
 ![](/software/01_Control_boards/virtual_com_port.png)
 
 ## Manufacturing the LCB
