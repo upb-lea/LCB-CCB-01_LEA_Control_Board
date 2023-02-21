@@ -10,7 +10,13 @@ The docking board is suitable for initial operation. This contains various input
 
 The external hardware monitor is for viewing internal counter variables on the oscilloscope and is mainly used for troubleshooting the control board in the overall system (control board + power converter).
 
-## Set environment variable for 3D models:
+## Kicad Options
+### Symbol library and footprint libary
+The libraries are included by default. Open Kicad, load one of the projects and see the libraries:
+ * `symbol editor` -> Search for `LEA_SymbolLibrary`
+ * `footprint editor` -> Search for `LEA_FootprintLibrary`
+
+### Set environment variable for 3D models:
 ![](documentation/3d_model.png)
 In the main menu, first select "Preferences" and then "Configure Path".
 Replace the environment variable `MODEL_3D` with the current location of the 3D-models, e.g. `/path/LEA_control_board/hardware/KiCad_Library/Footprint_Library/3D_Model`. 
