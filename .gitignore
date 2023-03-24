@@ -23,9 +23,6 @@
 */*/*/.launches/
 */*/*/.settings/
 *.d
-.project
-.cproject
-.ccsproject
 *.cmd
 *.asm
 */*/*/device/
