@@ -24,7 +24,7 @@ Replace the environment variable `MODEL_3D` with the current location of the 3D-
 Note: if you are using KiCAD6, and there is a variable `KICAD6_3DMODEL_DIR`, ignore this variable and add `MODEL_3D` as mentioned above.
 ![](documentation/00_KiCAD_settings/3d_model_path_preferences.png)
 
-
+# Software
 ## Flash XDS100 Firmware to FTDI Chip:
  * Watch this [video](https://www.youtube.com/watch?v=vZaF5ckf3OQ) first
  * Download FT Prog [here](https://ftdichip.com/utilities/)
@@ -39,9 +39,17 @@ Note:
 The modified file has the `Virtual COM Port` enabled to provide UART communication. This is not implemented as in the video. To enable this, see the figure. 
 ![](/software/01_Control_boards/virtual_com_port.png)
 
-## Manufacturing the LCB
+## Code Composer Studio: Import software project and adapt it to your computer filepaths
+ * `Project` -> `Import CCS Projects...` -> Choose your project to import
+ * In `Select search-directory` browse to your project (e.g. `.../LEA_control_board/software/01_Control_boards/F28386D_GPIO/`
+ * Press `Finish`
+ 
+
+
+# Manufacturing the LCB
  * Minimum PCB thickness is 2.3 mm due to the position-pin overlapping of J501/402 and J502/J403.
  * For automated placement, the position pin holes of the connectors J501/402/J502/J403 should be milled with a depth of minimum 1.3 mm. 
  
 ![](/documentation/01_Control_boards/LCB-CCB-01/PCB_Manufacturing.png)
+
 
