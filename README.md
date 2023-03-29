@@ -52,4 +52,8 @@ The modified file has the `Virtual COM Port` enabled to provide UART communicati
  
 ![](/documentation/01_Control_boards/LCB-CCB-01/PCB_Manufacturing.png)
 
-
+# MCU BGA soldering process
+ * Remove all solder from MCU pad (smooth and flat surface).
+ * Clean with PCB cleaner and remove all dust residues.
+ * Apply a very thin layer of Flux on MCU pad.
+ * Use the Rework station for the soldering the MCU chip.
