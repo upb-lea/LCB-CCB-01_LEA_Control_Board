@@ -39,11 +39,17 @@ Note:
 The modified file has the `Virtual COM Port` enabled to provide UART communication. This is not implemented as in the video. To enable this, see the figure. 
 ![](/software/01_Control_boards/virtual_com_port.png)
 
+## Code Composer Studio: Settings for code from this repository
+For equal code indentations, perform the following steps:
+ * `Window` -> `Preferences` -> `Show advanced settings`
+ * `Window` -> `Preferences` -> `C/C++` -> `Code Style` -> `Formatter` -> `Edit ...` -> `Tab size: 2` -> `Apply` -> `OK` -> `Apply and Close`
+
 ## Code Composer Studio: Import software project and adapt it to your computer filepaths
  * `Project` -> `Import CCS Projects...` -> Choose your project to import
  * In `Select search-directory` browse to your project (e.g. `.../LEA_control_board/software/01_Control_boards/F28386D_GPIO/`
  * Press `Finish`
  
+
 
 
 # Manufacturing the LCB
