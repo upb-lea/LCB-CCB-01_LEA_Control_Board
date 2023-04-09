@@ -1,10 +1,5 @@
 .DS_Store
-/hardware/01_Control_boards/LCB-CCB-01/Control_Board-backups/
-/hardware/02_Extension_boards/Hardware_Monitor_Extended/Hardware_Monitor_Extended-backups/
-/hardware/02_Extension_boards/LCB-CHW-002 Hardware_Monitor_Extended/Hardware_Monitor_Extended-backups/
-/hardware/02_Extension_boards/LCB-CHW-002\ Hardware_Monitor_Extended/Hardware_Monitor-backups/
-/hardware/02_Extension_boards/LCB-CHW-001\ Hardware\ Monitor/Hardware_Monitor-backups/
-/hardware/03_Shield_boards/LCB-CDB-001_Dock/Dock-backups/
+/LCB-CCB-01/LCB-CCB-01-backups/
 *.ods
 *.pdf
 *.zip

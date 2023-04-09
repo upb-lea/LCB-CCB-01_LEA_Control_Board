@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 0.0,
+          "height": 1.0,
+          "width": 1.0
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.208
+          "min_clearance": 0.12
         }
       },
       "diff_pair_dimensions": [
@@ -53,6 +53,11 @@
           "gap": 0.0,
           "via_gap": 0.0,
           "width": 0.0
+        },
+        {
+          "gap": 0.12,
+          "via_gap": 1.0,
+          "width": 0.18
         }
       ],
       "drc_exclusions": [],
@@ -63,12 +68,12 @@
         "annular_width": "error",
         "clearance": "error",
         "copper_edge_clearance": "error",
-        "courtyards_overlap": "error",
+        "courtyards_overlap": "ignore",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
         "drill_out_of_range": "error",
-        "duplicate_footprints": "warning",
-        "extra_footprint": "warning",
+        "duplicate_footprints": "error",
+        "extra_footprint": "error",
         "footprint_type_mismatch": "error",
         "hole_clearance": "error",
         "hole_near_hole": "error",
@@ -76,26 +81,26 @@
         "item_on_disabled_layer": "error",
         "items_not_allowed": "error",
         "length_out_of_range": "error",
-        "malformed_courtyard": "error",
+        "malformed_courtyard": "ignore",
         "microvia_drill_out_of_range": "error",
         "missing_courtyard": "ignore",
-        "missing_footprint": "warning",
-        "net_conflict": "warning",
+        "missing_footprint": "error",
+        "net_conflict": "error",
         "npth_inside_courtyard": "ignore",
         "padstack": "error",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_over_copper": "warning",
-        "silk_overlap": "warning",
+        "silk_over_copper": "ignore",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
-        "track_dangling": "warning",
+        "track_dangling": "error",
         "track_width": "error",
         "tracks_crossing": "error",
         "unconnected_items": "error",
         "unresolved_variable": "error",
-        "via_dangling": "warning",
+        "via_dangling": "error",
         "zone_has_empty_net": "error",
         "zones_intersect": "error"
       },
@@ -103,28 +108,40 @@
         "allow_blind_buried_vias": false,
         "allow_microvias": false,
         "max_error": 0.005,
-        "min_clearance": 0.0,
-        "min_copper_edge_clearance": 0.0,
-        "min_hole_clearance": 0.0,
+        "min_clearance": 0.09999999999999999,
+        "min_copper_edge_clearance": 0.19999999999999998,
+        "min_hole_clearance": 0.19999999999999998,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.19999999999999998,
         "min_microvia_drill": 0.09999999999999999,
         "min_silk_clearance": 0.0,
-        "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.19999999999999998,
-        "min_via_annular_width": 0.049999999999999996,
+        "min_through_hole_diameter": 0.19999999999999998,
+        "min_track_width": 0.09999999999999999,
+        "min_via_annular_width": 0.09999999999999999,
         "min_via_diameter": 0.39999999999999997,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
         "use_height_for_length_calcs": true
       },
       "track_widths": [
-        0.0
+        0.0,
+        0.12,
+        0.15,
+        0.18,
+        0.2,
+        0.254,
+        0.3,
+        0.5,
+        1.0
       ],
       "via_dimensions": [
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.4,
+          "drill": 0.2
         }
       ],
       "zones_allow_external_fillets": false,
@@ -332,7 +349,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "unannotated": "error",
@@ -343,22 +360,20 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": [
-      "LEA_SymbolLibrary"
-    ]
+    "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "LCB-ADA-01.kicad_pro",
+    "filename": "Control_Board.kicad_pro",
     "version": 1
   },
   "net_settings": {
     "classes": [
       {
         "bus_width": 12.0,
-        "clearance": 0.12,
-        "diff_pair_gap": 0.15,
+        "clearance": 0.11,
+        "diff_pair_gap": 0.12,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
+        "diff_pair_width": 0.18,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
@@ -366,8 +381,29 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.15,
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
+        "via_diameter": 0.4,
+        "via_drill": 0.2,
+        "wire_width": 6.0
+      },
+      {
+        "bus_width": 12.0,
+        "clearance": 0.12,
+        "diff_pair_gap": 0.12,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.18,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "USB",
+        "nets": [
+          "/XDS100 - Page 2/D+",
+          "/XDS100 - Page 2/D-"
+        ],
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.18,
+        "via_diameter": 0.4,
+        "via_drill": 0.2,
         "wire_width": 6.0
       }
     ],
@@ -382,13 +418,13 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "Control_Board.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
   },
   "schematic": {
-    "annotate_start_num": 0,
+    "annotate_start_num": 900,
     "drawing": {
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
@@ -399,9 +435,9 @@
       "intersheets_ref_show": false,
       "intersheets_ref_suffix": "",
       "junction_size_choice": 3,
-      "label_size_ratio": 0.375,
+      "label_size_ratio": 0.25,
       "pin_symbol_size": 25.0,
-      "text_offset_ratio": 0.15
+      "text_offset_ratio": 0.08
     },
     "legacy_lib_dir": "",
     "legacy_lib_list": [],
@@ -419,7 +455,7 @@
       "workbook_filename": ""
     },
     "page_layout_descr_file": "",
-    "plot_directory": "../../../documentation/01_Control_boards/LCB-ADA-01/",
+    "plot_directory": "../documentation/",
     "spice_adjust_passive_values": false,
     "spice_external_command": "spice \"%I\"",
     "subpart_first_id": 65,
@@ -427,8 +463,48 @@
   },
   "sheets": [
     [
-      "62de8ba3-d732-4c75-a355-fd2d290a6608",
+      "968a6172-7a4e-40ab-a78a-e4d03671e136",
       ""
+    ],
+    [
+      "00000000-0000-0000-0000-000061af4b2b",
+      "XDS100 - Page 2"
+    ],
+    [
+      "00000000-0000-0000-0000-000061c8b835",
+      "Isolation - Page 3"
+    ],
+    [
+      "00000000-0000-0000-0000-000061e9b523",
+      "Connector Top - Page 4"
+    ],
+    [
+      "c434d867-e31f-4345-bdde-33c75f8c31bd",
+      "Connector Bottom - Page 5"
+    ],
+    [
+      "00000000-0000-0000-0000-000061e84f12",
+      "Power - Page 6"
+    ],
+    [
+      "00000000-0000-0000-0000-000061d28cbe",
+      "MCU - Page 7"
+    ],
+    [
+      "95bbcc65-aaf6-4934-b29a-07e56c337823",
+      "Error Detection - Page 8"
+    ],
+    [
+      "00000000-0000-0000-0000-000061d28dc9",
+      "Analog Filter - Page 9"
+    ],
+    [
+      "00000000-0000-0000-0000-000061de0978",
+      "Status LEDs - Page 10"
+    ],
+    [
+      "00000000-0000-0000-0000-000061d28d3d",
+      "MCU GPIOs - Page 11"
     ]
   ],
   "text_variables": {}
