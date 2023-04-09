@@ -10,6 +10,16 @@ The docking board is suitable for initial operation. This contains various input
 
 The external hardware monitor is for viewing internal counter variables on the oscilloscope and is mainly used for troubleshooting the control board in the overall system (control board + power converter).
 
+## PCB overview
+This is the main repository of the LEA-Control-Board (LCB) project. Due to correct PCB versioning, every single PCB is in its own repository.
+ * [LCB-CDB-01_Dock_Board](https://github.com/upb-lea/LCB-CDB-01_Dock_Board)
+ * [LCB-CHW-01_Hardware_Monitor](https://github.com/upb-lea/LCB-CHW-01_Hardware_Monitor)
+ * [LCB-ADA-01_Adapter_Board](https://github.com/upb-lea/LCB-ADA-01_Adapter_Board)
+
+Symbols, Footprints and 3D-models can be found in the [LEA KiCad Library](https://github.com/upb-lea/LEA_KiCad_Library).
+
+Due initially wrong selected comparators (no rail-to-rail), the comparator adapter board `LCB-ADA-01` was introduced to replace the comparator.
+
 ## PCB versioning
 Example `LCB-CCB-01-1.0.5`:
  * First three letters `LCB`: Parent project name `LEA Control Board`
