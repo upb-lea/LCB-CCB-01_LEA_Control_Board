@@ -10,15 +10,11 @@ The docking board is suitable for initial operation. This contains various input
 
 The external hardware monitor is for viewing internal counter variables on the oscilloscope and is mainly used for troubleshooting the control board in the overall system (control board + power converter).
 
-
-
-
-
 ## PCB versioning
 Example `LCB-CCB-01-1.0.5`:
  * First three letters `LCB`: Parent project name `LEA Control Board`
  * Second three letters `CCB`: PCB name `Control Board`
- * Number `01`: Size
+ * Number `01`: PCB size. For future use in case of several PCB sizes.
  * First version number `1`: Major version, increases for incompatible changes
  * Second number `0`: PCB release, increases for improved layouts
  * Third number `5`: Schematic version, increases for component changes, but no layout changes
@@ -66,7 +62,3 @@ For equal code indentations, perform the following steps:
  * In `Select search-directory` browse to your project (e.g. `.../LEA_control_board/software/01_Control_boards/F28386D_GPIO/`
  * Press `Finish`
  
-
-
-
-

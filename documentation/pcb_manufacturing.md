@@ -12,7 +12,7 @@
  * Use the Rework station for the soldering the MCU chip.
  
  
-# Software 
+# Initial debugger programming 
 ## Flash XDS100 Firmware to FTDI Chip:
  * Watch this [video](https://www.youtube.com/watch?v=vZaF5ckf3OQ) first
  * Download FT Prog [here](https://ftdichip.com/utilities/)
