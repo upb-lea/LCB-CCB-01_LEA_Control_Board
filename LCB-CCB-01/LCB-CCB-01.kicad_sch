@@ -1,4 +1,4 @@
-(kicad_sch (version 20211123) (generator eeschema)
+(kicad_sch (version 20230121) (generator eeschema)
 
   (uuid 968a6172-7a4e-40ab-a78a-e4d03671e136)
 
@@ -13,25 +13,25 @@
 
   (lib_symbols
     (symbol "LEA_SymbolLibrary:ACCESSORY_USB_C_cable" (in_bom yes) (on_board no)
-      (property "Reference" "ACCESSORY" (id 0) (at 0 3.81 0)
+      (property "Reference" "ACCESSORY" (at 0 3.81 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Value" "ACCESSORY_USB_C_cable" (id 1) (at 0.635 6.35 0)
+      (property "Value" "ACCESSORY_USB_C_cable" (at 0.635 6.35 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Footprint" "" (id 2) (at 0 0 0)
+      (property "Footprint" "" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Datasheet" "https://www.mouser.de/datasheet/2/813/ACCA-2532_Model__1_-1621233.pdf" (id 3) (at 3.175 13.335 0)
+      (property "Datasheet" "https://www.mouser.de/datasheet/2/813/ACCA-2532_Model__1_-1621233.pdf" (at 3.175 13.335 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "mouser#" "474-CAB-15424" (id 4) (at 6.35 8.255 0)
+      (property "mouser#" "474-CAB-15424" (at 6.35 8.255 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "manf#" "CAB-15424" (id 5) (at -0.635 9.525 0)
+      (property "manf#" "CAB-15424" (at -0.635 9.525 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Manufacturer" "SparkFun" (id 6) (at 7.62 3.81 0)
+      (property "Manufacturer" "SparkFun" (at 7.62 3.81 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "ACCESSORY_USB_C_cable_0_0"
@@ -44,7 +44,60 @@
       )
       (symbol "ACCESSORY_USB_C_cable_0_1"
         (rectangle (start -5.08 2.54) (end 5.08 -2.54)
-          (stroke (width 0) (type default) (color 0 0 0 0))
+          (stroke (width 0) (type default))
+          (fill (type background))
+        )
+      )
+    )
+    (symbol "LEA_SymbolLibrary:Fiducial_medium" (pin_numbers hide) (pin_names hide) (in_bom no) (on_board yes)
+      (property "Reference" "O" (at -3.81 3.81 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "Fiducial_medium" (at 3.81 6.35 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Footprint" "LEA_FootprintLibrary:Fiducials_medium" (at 1.27 5.08 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 1.27 5.08 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "Fiducial_medium_0_0"
+        (text "Fiducial" (at 0 1.27 0)
+          (effects (font (size 1.27 1.27)))
+        )
+        (text "medium" (at 0 -1.27 0)
+          (effects (font (size 1.27 1.27)))
+        )
+      )
+      (symbol "Fiducial_medium_0_1"
+        (rectangle (start -5.08 2.54) (end 5.08 -2.54)
+          (stroke (width 0) (type default))
+          (fill (type background))
+        )
+      )
+    )
+    (symbol "LEA_SymbolLibrary:SYM_LEA_Logo" (in_bom no) (on_board yes)
+      (property "Reference" "SYM" (at -3.81 3.81 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "SYM_LEA_Logo" (at -7.62 8.89 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Footprint" "LEA_FootprintLibrary:SYM_lea_logo" (at 1.27 6.35 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 2.54 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "SYM_LEA_Logo_0_0"
+        (text "LEA Logo" (at 0 0 0)
+          (effects (font (size 1.27 1.27)))
+        )
+      )
+      (symbol "SYM_LEA_Logo_0_1"
+        (rectangle (start -5.08 2.54) (end 5.08 -2.54)
+          (stroke (width 0) (type default))
           (fill (type background))
         )
       )
@@ -19606,29 +19659,324 @@
     (uuid 2fa00179-40b7-4a5f-abe8-7fbd4f6fb89e)
   )
 
+  (symbol (lib_id "LEA_SymbolLibrary:Fiducial_medium") (at 167.64 176.53 0) (unit 1)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 0cbdafe1-7617-499e-b67a-64c6010a05e2)
+    (property "Reference" "O901" (at 163.83 172.72 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "Fiducial_medium" (at 171.45 170.18 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "LEA_FootprintLibrary:Fiducials_medium" (at 168.91 171.45 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 168.91 171.45 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "LCB-CCB-01"
+        (path "/968a6172-7a4e-40ab-a78a-e4d03671e136"
+          (reference "O901") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "LEA_SymbolLibrary:ACCESSORY_USB_C_cable") (at 167.64 187.96 0) (unit 1)
-    (in_bom yes) (on_board no)
+    (in_bom yes) (on_board no) (dnp no)
     (uuid 43d1a074-85e6-4cd5-9abe-ca968b2fb699)
-    (property "Reference" "ACCESSORY901" (id 0) (at 162.56 184.15 0)
+    (property "Reference" "ACCESSORY901" (at 162.56 184.15 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "ACCESSORY_USB_C_cable" (id 1) (at 168.275 181.61 0)
+    (property "Value" "ACCESSORY_USB_C_cable" (at 168.275 181.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "" (id 2) (at 167.64 187.96 0)
+    (property "Footprint" "" (at 167.64 187.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://www.mouser.de/datasheet/2/813/ACCA-2532_Model__1_-1621233.pdf" (id 3) (at 170.815 174.625 0)
+    (property "Datasheet" "https://www.mouser.de/datasheet/2/813/ACCA-2532_Model__1_-1621233.pdf" (at 170.815 174.625 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "mouser#" "474-CAB-15424" (id 4) (at 173.99 179.705 0)
+    (property "mouser#" "474-CAB-15424" (at 173.99 179.705 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "manf#" "CAB-15424" (id 5) (at 167.005 178.435 0)
+    (property "manf#" "CAB-15424" (at 167.005 178.435 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Manufacturer" "SparkFun" (id 6) (at 175.26 184.15 0)
+    (property "Manufacturer" "SparkFun" (at 175.26 184.15 0)
       (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "LCB-CCB-01"
+        (path "/968a6172-7a4e-40ab-a78a-e4d03671e136"
+          (reference "ACCESSORY901") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "LEA_SymbolLibrary:Fiducial_medium") (at 167.64 157.48 0) (unit 1)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 47917f11-31e8-4b71-abf2-57f74957d81c)
+    (property "Reference" "O904" (at 163.83 153.67 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "Fiducial_medium" (at 171.45 151.13 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "LEA_FootprintLibrary:Fiducials_medium" (at 168.91 152.4 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 168.91 152.4 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "LCB-CCB-01"
+        (path "/968a6172-7a4e-40ab-a78a-e4d03671e136"
+          (reference "O904") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "LEA_SymbolLibrary:Fiducial_medium") (at 167.64 113.03 0) (unit 1)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 4b4f6f00-19c1-482b-b09c-92ee43d241e7)
+    (property "Reference" "O911" (at 163.83 109.22 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "Fiducial_medium" (at 171.45 106.68 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "LEA_FootprintLibrary:Fiducials_medium" (at 168.91 107.95 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 168.91 107.95 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "LCB-CCB-01"
+        (path "/968a6172-7a4e-40ab-a78a-e4d03671e136"
+          (reference "O911") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "LEA_SymbolLibrary:SYM_LEA_Logo") (at 167.64 100.33 0) (unit 1)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 50a082d0-1480-4f4f-ae3d-15949aeb6326)
+    (property "Reference" "SYM901" (at 163.83 96.52 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "SYM_LEA_Logo" (at 160.02 91.44 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "LEA_FootprintLibrary:SYM_lea_logo" (at 168.91 93.98 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 167.64 97.79 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "LCB-CCB-01"
+        (path "/968a6172-7a4e-40ab-a78a-e4d03671e136"
+          (reference "SYM901") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "LEA_SymbolLibrary:Fiducial_medium") (at 167.64 163.83 0) (unit 1)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 747b50b6-89f4-4d26-8060-3b05f5e93196)
+    (property "Reference" "O903" (at 163.83 160.02 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "Fiducial_medium" (at 171.45 157.48 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "LEA_FootprintLibrary:Fiducials_medium" (at 168.91 158.75 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 168.91 158.75 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "LCB-CCB-01"
+        (path "/968a6172-7a4e-40ab-a78a-e4d03671e136"
+          (reference "O903") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "LEA_SymbolLibrary:Fiducial_medium") (at 167.64 151.13 0) (unit 1)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 8a11eb41-edfa-494d-8714-4b987cd7b80c)
+    (property "Reference" "O905" (at 163.83 147.32 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "Fiducial_medium" (at 171.45 144.78 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "LEA_FootprintLibrary:Fiducials_medium" (at 168.91 146.05 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 168.91 146.05 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "LCB-CCB-01"
+        (path "/968a6172-7a4e-40ab-a78a-e4d03671e136"
+          (reference "O905") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "LEA_SymbolLibrary:Fiducial_medium") (at 167.64 132.08 0) (unit 1)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid a4bec242-0a03-47f8-b12c-f43aa59c7063)
+    (property "Reference" "O908" (at 163.83 128.27 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "Fiducial_medium" (at 171.45 125.73 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "LEA_FootprintLibrary:Fiducials_medium" (at 168.91 127 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 168.91 127 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "LCB-CCB-01"
+        (path "/968a6172-7a4e-40ab-a78a-e4d03671e136"
+          (reference "O908") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "LEA_SymbolLibrary:Fiducial_medium") (at 167.64 125.73 0) (unit 1)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid ac6594be-4bdf-4e53-900d-03b80e70ac64)
+    (property "Reference" "O909" (at 163.83 121.92 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "Fiducial_medium" (at 171.45 119.38 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "LEA_FootprintLibrary:Fiducials_medium" (at 168.91 120.65 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 168.91 120.65 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "LCB-CCB-01"
+        (path "/968a6172-7a4e-40ab-a78a-e4d03671e136"
+          (reference "O909") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "LEA_SymbolLibrary:Fiducial_medium") (at 167.64 119.38 0) (unit 1)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid b74906f2-26e4-4340-b865-5934cace0df1)
+    (property "Reference" "O910" (at 163.83 115.57 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "Fiducial_medium" (at 171.45 113.03 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "LEA_FootprintLibrary:Fiducials_medium" (at 168.91 114.3 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 168.91 114.3 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "LCB-CCB-01"
+        (path "/968a6172-7a4e-40ab-a78a-e4d03671e136"
+          (reference "O910") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "LEA_SymbolLibrary:Fiducial_medium") (at 167.64 144.78 0) (unit 1)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid d277caf7-2e29-4033-af45-241371ed1587)
+    (property "Reference" "O906" (at 163.83 140.97 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "Fiducial_medium" (at 171.45 138.43 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "LEA_FootprintLibrary:Fiducials_medium" (at 168.91 139.7 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 168.91 139.7 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "LCB-CCB-01"
+        (path "/968a6172-7a4e-40ab-a78a-e4d03671e136"
+          (reference "O906") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "LEA_SymbolLibrary:Fiducial_medium") (at 167.64 170.18 0) (unit 1)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid d9f943ff-8882-43bc-b55c-14927e475b72)
+    (property "Reference" "O902" (at 163.83 166.37 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "Fiducial_medium" (at 171.45 163.83 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "LEA_FootprintLibrary:Fiducials_medium" (at 168.91 165.1 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 168.91 165.1 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "LCB-CCB-01"
+        (path "/968a6172-7a4e-40ab-a78a-e4d03671e136"
+          (reference "O902") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "LEA_SymbolLibrary:Fiducial_medium") (at 167.64 138.43 0) (unit 1)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid e7853a52-db90-4552-8f07-9bdbe3fc9f7a)
+    (property "Reference" "O907" (at 163.83 134.62 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "Fiducial_medium" (at 171.45 132.08 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "LEA_FootprintLibrary:Fiducials_medium" (at 168.91 133.35 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 168.91 133.35 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "LCB-CCB-01"
+        (path "/968a6172-7a4e-40ab-a78a-e4d03671e136"
+          (reference "O907") (unit 1)
+        )
+      )
     )
   )
 
@@ -19636,23 +19984,33 @@
     (stroke (width 1) (type solid) (color 255 0 0 1))
     (fill (color 0 0 0 0.0000))
     (uuid 00000000-0000-0000-0000-000061af4b2b)
-    (property "Sheet name" "XDS100 - Page 2" (id 0) (at 181.61 17.5496 0)
+    (property "Sheetname" "XDS100 - Page 2" (at 181.61 17.5496 0)
       (effects (font (size 2 2) bold) (justify left bottom))
     )
-    (property "Sheet file" "Debugger.kicad_sch" (id 1) (at 181.61 35.2984 0)
+    (property "Sheetfile" "Debugger.kicad_sch" (at 181.61 35.2984 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (instances
+      (project "LCB-CCB-01"
+        (path "/968a6172-7a4e-40ab-a78a-e4d03671e136" (page "2"))
+      )
     )
   )
 
   (sheet (at 232.41 19.05) (size 39.37 15.24) (fields_autoplaced)
-    (stroke (width 1) (type solid) (color 0 0 0 0))
+    (stroke (width 1) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid 00000000-0000-0000-0000-000061c8b835)
-    (property "Sheet name" "Isolation - Page 3" (id 0) (at 232.41 17.5496 0)
+    (property "Sheetname" "Isolation - Page 3" (at 232.41 17.5496 0)
       (effects (font (size 2 2) bold) (justify left bottom))
     )
-    (property "Sheet file" "Isolation.kicad_sch" (id 1) (at 232.41 35.2984 0)
+    (property "Sheetfile" "Isolation.kicad_sch" (at 232.41 35.2984 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (instances
+      (project "LCB-CCB-01"
+        (path "/968a6172-7a4e-40ab-a78a-e4d03671e136" (page "3"))
+      )
     )
   )
 
@@ -19660,11 +20018,16 @@
     (stroke (width 1) (type solid) (color 0 255 255 1))
     (fill (color 0 0 0 0.0000))
     (uuid 00000000-0000-0000-0000-000061d28cbe)
-    (property "Sheet name" "MCU - Page 7" (id 0) (at 232.41 61.9996 0)
+    (property "Sheetname" "MCU - Page 7" (at 232.41 61.9996 0)
       (effects (font (size 2 2) bold) (justify left bottom))
     )
-    (property "Sheet file" "MCU.kicad_sch" (id 1) (at 232.41 79.7484 0)
+    (property "Sheetfile" "MCU.kicad_sch" (at 232.41 79.7484 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (instances
+      (project "LCB-CCB-01"
+        (path "/968a6172-7a4e-40ab-a78a-e4d03671e136" (page "7"))
+      )
     )
   )
 
@@ -19672,11 +20035,16 @@
     (stroke (width 1) (type solid) (color 0 0 0 1))
     (fill (color 0 0 0 0.0000))
     (uuid 00000000-0000-0000-0000-000061d28d3d)
-    (property "Sheet name" "MCU GPIOs - Page 11" (id 0) (at 232.41 106.4496 0)
+    (property "Sheetname" "MCU GPIOs - Page 11" (at 232.41 106.4496 0)
       (effects (font (size 2 2) bold) (justify left bottom))
     )
-    (property "Sheet file" "MCU_GPIOs.kicad_sch" (id 1) (at 232.41 124.1984 0)
+    (property "Sheetfile" "MCU_GPIOs.kicad_sch" (at 232.41 124.1984 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (instances
+      (project "LCB-CCB-01"
+        (path "/968a6172-7a4e-40ab-a78a-e4d03671e136" (page "11"))
+      )
     )
   )
 
@@ -19684,11 +20052,16 @@
     (stroke (width 1) (type solid) (color 128 77 0 1))
     (fill (color 0 0 0 0.0000))
     (uuid 00000000-0000-0000-0000-000061d28dc9)
-    (property "Sheet name" "Analog Filter - Page 9" (id 0) (at 232.41 83.5896 0)
+    (property "Sheetname" "Analog Filter - Page 9" (at 232.41 83.5896 0)
       (effects (font (size 2 2) bold) (justify left bottom))
     )
-    (property "Sheet file" "AnalogFilter.kicad_sch" (id 1) (at 232.41 101.3384 0)
+    (property "Sheetfile" "AnalogFilter.kicad_sch" (at 232.41 101.3384 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (instances
+      (project "LCB-CCB-01"
+        (path "/968a6172-7a4e-40ab-a78a-e4d03671e136" (page "9"))
+      )
     )
   )
 
@@ -19696,11 +20069,16 @@
     (stroke (width 1) (type solid) (color 255 255 0 1))
     (fill (color 0 0 0 0.0000))
     (uuid 00000000-0000-0000-0000-000061de0978)
-    (property "Sheet name" "Status LEDs - Page 10" (id 0) (at 181.61 106.4496 0)
+    (property "Sheetname" "Status LEDs - Page 10" (at 181.61 106.4496 0)
       (effects (font (size 2 2) bold) (justify left bottom))
     )
-    (property "Sheet file" "LEDS.kicad_sch" (id 1) (at 181.61 124.1984 0)
+    (property "Sheetfile" "LEDS.kicad_sch" (at 181.61 124.1984 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (instances
+      (project "LCB-CCB-01"
+        (path "/968a6172-7a4e-40ab-a78a-e4d03671e136" (page "10"))
+      )
     )
   )
 
@@ -19708,11 +20086,16 @@
     (stroke (width 1) (type solid) (color 0 72 72 1))
     (fill (color 0 0 0 0.0000))
     (uuid 00000000-0000-0000-0000-000061e84f12)
-    (property "Sheet name" "Power - Page 6" (id 0) (at 181.61 61.9996 0)
+    (property "Sheetname" "Power - Page 6" (at 181.61 61.9996 0)
       (effects (font (size 2 2) bold) (justify left bottom))
     )
-    (property "Sheet file" "Power.kicad_sch" (id 1) (at 181.61 79.7484 0)
+    (property "Sheetfile" "Power.kicad_sch" (at 181.61 79.7484 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (instances
+      (project "LCB-CCB-01"
+        (path "/968a6172-7a4e-40ab-a78a-e4d03671e136" (page "6"))
+      )
     )
   )
 
@@ -19720,23 +20103,33 @@
     (stroke (width 1) (type solid) (color 255 0 255 1))
     (fill (color 0 0 0 0.0000))
     (uuid 00000000-0000-0000-0000-000061e9b523)
-    (property "Sheet name" "Connector Top - Page 4" (id 0) (at 181.61 39.1396 0)
+    (property "Sheetname" "Connector Top - Page 4" (at 181.61 39.1396 0)
       (effects (font (size 2 2) bold) (justify left bottom))
     )
-    (property "Sheet file" "Connector_Top.kicad_sch" (id 1) (at 181.61 56.8884 0)
+    (property "Sheetfile" "Connector_Top.kicad_sch" (at 181.61 56.8884 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (instances
+      (project "LCB-CCB-01"
+        (path "/968a6172-7a4e-40ab-a78a-e4d03671e136" (page "4"))
+      )
     )
   )
 
   (sheet (at 181.61 85.09) (size 39.37 15.24) (fields_autoplaced)
-    (stroke (width 1) (type solid) (color 0 0 0 0))
+    (stroke (width 1) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid 95bbcc65-aaf6-4934-b29a-07e56c337823)
-    (property "Sheet name" "Error Detection - Page 8" (id 0) (at 181.61 83.5896 0)
+    (property "Sheetname" "Error Detection - Page 8" (at 181.61 83.5896 0)
       (effects (font (size 2 2) bold) (justify left bottom))
     )
-    (property "Sheet file" "ErrorcComparator.kicad_sch" (id 1) (at 181.61 101.3384 0)
+    (property "Sheetfile" "ErrorcComparator.kicad_sch" (at 181.61 101.3384 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (instances
+      (project "LCB-CCB-01"
+        (path "/968a6172-7a4e-40ab-a78a-e4d03671e136" (page "8"))
+      )
     )
   )
 
@@ -19744,1180 +20137,20 @@
     (stroke (width 1) (type solid) (color 0 0 255 1))
     (fill (color 0 0 0 0.0000))
     (uuid c434d867-e31f-4345-bdde-33c75f8c31bd)
-    (property "Sheet name" "Connector Bottom - Page 5" (id 0) (at 232.41 39.1396 0)
+    (property "Sheetname" "Connector Bottom - Page 5" (at 232.41 39.1396 0)
       (effects (font (size 2 2) bold) (justify left bottom))
     )
-    (property "Sheet file" "Connector_Bottom.kicad_sch" (id 1) (at 232.41 56.8884 0)
+    (property "Sheetfile" "Connector_Bottom.kicad_sch" (at 232.41 56.8884 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (instances
+      (project "LCB-CCB-01"
+        (path "/968a6172-7a4e-40ab-a78a-e4d03671e136" (page "5"))
+      )
     )
   )
 
   (sheet_instances
     (path "/" (page "1"))
-    (path "/00000000-0000-0000-0000-000061af4b2b" (page "2"))
-    (path "/00000000-0000-0000-0000-000061c8b835" (page "3"))
-    (path "/00000000-0000-0000-0000-000061e9b523" (page "4"))
-    (path "/c434d867-e31f-4345-bdde-33c75f8c31bd" (page "5"))
-    (path "/00000000-0000-0000-0000-000061e84f12" (page "6"))
-    (path "/00000000-0000-0000-0000-000061d28cbe" (page "7"))
-    (path "/95bbcc65-aaf6-4934-b29a-07e56c337823" (page "8"))
-    (path "/00000000-0000-0000-0000-000061d28dc9" (page "9"))
-    (path "/00000000-0000-0000-0000-000061de0978" (page "10"))
-    (path "/00000000-0000-0000-0000-000061d28d3d" (page "11"))
-  )
-
-  (symbol_instances
-    (path "/00000000-0000-0000-0000-000061af4b2b/f4455ebb-6e39-45c4-a044-9b978188bc85"
-      (reference "#FLG0201") (unit 1) (value "PWR_FLAG") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061e9b523/15cf0e69-b1c2-49b7-9df6-a07020c4229a"
-      (reference "#FLG0401") (unit 1) (value "PWR_FLAG") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061e9b523/8553e77d-e68f-49d6-96b0-9c42645ed1b8"
-      (reference "#FLG0402") (unit 1) (value "PWR_FLAG") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061e9b523/f0913444-447b-43bf-8503-a86c3dc5d9e5"
-      (reference "#FLG0403") (unit 1) (value "PWR_FLAG") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061e84f12/09899dda-33ec-417a-8fc9-2f011696bb05"
-      (reference "#FLG0601") (unit 1) (value "PWR_FLAG") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061e84f12/9b44bd82-b990-40e7-a5b0-d4674028a8f0"
-      (reference "#FLG0602") (unit 1) (value "PWR_FLAG") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061e84f12/2bbcc81a-0e86-41e5-9505-09f67e086e99"
-      (reference "#FLG0603") (unit 1) (value "PWR_FLAG") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061e84f12/055f3633-0d87-4047-9a22-4b3cfe758941"
-      (reference "#PWR0101") (unit 1) (value "+3.3V_HV") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061e84f12/95eeb9ff-5cae-4c15-b2b1-ed1a8084c8dd"
-      (reference "#PWR0102") (unit 1) (value "+3.3V_HV") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061af4b2b/00000000-0000-0000-0000-000061c5e88e"
-      (reference "#PWR0201") (unit 1) (value "+3.3V_LV") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061af4b2b/ca48bdab-aab9-4643-90d9-d658294b25b9"
-      (reference "#PWR0202") (unit 1) (value "+3.3V_LV") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061af4b2b/00000000-0000-0000-0000-000061c2c0e6"
-      (reference "#PWR0203") (unit 1) (value "+1.8V_LV") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061af4b2b/00000000-0000-0000-0000-000061bd82bb"
-      (reference "#PWR0204") (unit 1) (value "+5V_LV") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061af4b2b/00000000-0000-0000-0000-000061c2aa35"
-      (reference "#PWR0205") (unit 1) (value "+3.3V_LV") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061af4b2b/00000000-0000-0000-0000-000061c6a824"
-      (reference "#PWR0206") (unit 1) (value "GND_LV") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061af4b2b/00000000-0000-0000-0000-000061bdc8bc"
-      (reference "#PWR0207") (unit 1) (value "GND_LV") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061af4b2b/00000000-0000-0000-0000-000061c3d690"
-      (reference "#PWR0208") (unit 1) (value "+5V_LV") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061af4b2b/00000000-0000-0000-0000-000061c31581"
-      (reference "#PWR0209") (unit 1) (value "+3.3V_LV") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061af4b2b/00000000-0000-0000-0000-000061d9fbf0"
-      (reference "#PWR0210") (unit 1) (value "+3.3V_LV") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061af4b2b/75feadef-e37d-4521-8b15-1ef8ad04de97"
-      (reference "#PWR0211") (unit 1) (value "+3.3V_LV") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061af4b2b/00000000-0000-0000-0000-000061c89815"
-      (reference "#PWR0212") (unit 1) (value "GND_LV") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061af4b2b/00000000-0000-0000-0000-000061c562bc"
-      (reference "#PWR0213") (unit 1) (value "GND_LV") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061af4b2b/00000000-0000-0000-0000-000061d71857"
-      (reference "#PWR0214") (unit 1) (value "GND_LV") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061af4b2b/00000000-0000-0000-0000-000061bd9280"
-      (reference "#PWR0215") (unit 1) (value "GND_LV") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061af4b2b/00000000-0000-0000-0000-000061c29a82"
-      (reference "#PWR0216") (unit 1) (value "+3.3V_LV") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061af4b2b/00000000-0000-0000-0000-000061c2a4dc"
-      (reference "#PWR0217") (unit 1) (value "+3.3V_LV") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061af4b2b/00000000-0000-0000-0000-000061cae6ae"
-      (reference "#PWR0218") (unit 1) (value "+3.3V_LV") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061af4b2b/00000000-0000-0000-0000-000061c07d58"
-      (reference "#PWR0219") (unit 1) (value "GND_LV") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061af4b2b/06938b1c-0ee8-4502-be20-5ee45bf1444b"
-      (reference "#PWR0220") (unit 1) (value "+3.3V_LV") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061af4b2b/00000000-0000-0000-0000-000061c00513"
-      (reference "#PWR0221") (unit 1) (value "GND_LV") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061af4b2b/00000000-0000-0000-0000-000061be3726"
-      (reference "#PWR0222") (unit 1) (value "GND_LV") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061af4b2b/e1da4563-092c-49bb-bc74-9bb41a12f4ff"
-      (reference "#PWR0223") (unit 1) (value "GND_LV") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061af4b2b/26426f3e-2e6c-4377-936c-889666c3f618"
-      (reference "#PWR0224") (unit 1) (value "+3.3V_LV") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061af4b2b/7d26e843-68a1-4da5-a707-9f2fb93c4051"
-      (reference "#PWR0225") (unit 1) (value "+1.8V_LV") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061af4b2b/e09af8ce-3ac8-4b67-a0be-a98c52ecfc16"
-      (reference "#PWR0226") (unit 1) (value "+3.3V_LV") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061af4b2b/2427ced1-8be4-4552-97f6-500d5260324a"
-      (reference "#PWR0227") (unit 1) (value "GND_LV") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061af4b2b/4235ef72-6177-44a0-993f-93306f9c9ad4"
-      (reference "#PWR0228") (unit 1) (value "GND_LV") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061af4b2b/d07ae89c-220b-42c0-8423-8e497efe836c"
-      (reference "#PWR0229") (unit 1) (value "GND_LV") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061c8b835/00000000-0000-0000-0000-000061d198ac"
-      (reference "#PWR0301") (unit 1) (value "+3.3V_LV") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061c8b835/00000000-0000-0000-0000-000061d198a0"
-      (reference "#PWR0302") (unit 1) (value "+3.3V_HV") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061c8b835/00000000-0000-0000-0000-000061d198a6"
-      (reference "#PWR0303") (unit 1) (value "GND_HV") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061c8b835/00000000-0000-0000-0000-000061d198b2"
-      (reference "#PWR0304") (unit 1) (value "GND_LV") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061c8b835/675d2fe7-e728-4b80-8a7c-8d39a42b4cff"
-      (reference "#PWR0305") (unit 1) (value "+3.3V_HV") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061c8b835/69abb89d-d70a-4546-99d5-c1d32d70d18c"
-      (reference "#PWR0306") (unit 1) (value "GND_HV") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061c8b835/00000000-0000-0000-0000-000061cd3805"
-      (reference "#PWR0307") (unit 1) (value "+3.3V_LV") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061c8b835/00000000-0000-0000-0000-000061cd37f9"
-      (reference "#PWR0308") (unit 1) (value "+3.3V_HV") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061c8b835/00000000-0000-0000-0000-000061cd37ff"
-      (reference "#PWR0309") (unit 1) (value "GND_HV") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061c8b835/00000000-0000-0000-0000-000061cd380b"
-      (reference "#PWR0310") (unit 1) (value "GND_LV") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061e9b523/da9dc8cf-db3f-4c8a-b3a5-fd06a8633cd3"
-      (reference "#PWR0401") (unit 1) (value "+3V3_HV") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061e9b523/4f8e6e9c-b3e7-4858-a27e-691bde421ddf"
-      (reference "#PWR0402") (unit 1) (value "+3.3V_HV") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061e9b523/eb29fd78-48fc-4f82-b21a-e40a7eb6fb10"
-      (reference "#PWR0403") (unit 1) (value "GND_HV") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061e9b523/11b398f8-ff19-47ae-bd94-4d64ced0119a"
-      (reference "#PWR0404") (unit 1) (value "AGND_HV") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061e9b523/15903109-7559-4220-b429-131e8b43b620"
-      (reference "#PWR0405") (unit 1) (value "GND_HV") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061e84f12/00000000-0000-0000-0000-000061e89380"
-      (reference "#PWR0602") (unit 1) (value "+1V2_HV") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061e84f12/00000000-0000-0000-0000-000061f11d19"
-      (reference "#PWR0603") (unit 1) (value "+3V3_HV") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061e84f12/00000000-0000-0000-0000-000061f11cdd"
-      (reference "#PWR0604") (unit 1) (value "+3.3V_HV") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061e84f12/00000000-0000-0000-0000-000061f11d13"
-      (reference "#PWR0606") (unit 1) (value "+3.3V_HV_A") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061e84f12/00000000-0000-0000-0000-000061f11d4d"
-      (reference "#PWR0607") (unit 1) (value "+1V2_HV") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061e84f12/00000000-0000-0000-0000-000061f11d47"
-      (reference "#PWR0608") (unit 1) (value "+1.2V_HV") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061e84f12/00000000-0000-0000-0000-000061f11cc7"
-      (reference "#PWR0609") (unit 1) (value "GND_HV") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061e84f12/00000000-0000-0000-0000-000061f11ccd"
-      (reference "#PWR0610") (unit 1) (value "GND_HV") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061e84f12/00000000-0000-0000-0000-000061f11cf7"
-      (reference "#PWR0611") (unit 1) (value "GND_HV") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061e84f12/c81e63e6-b1cd-4b7e-b010-367d447b9d54"
-      (reference "#PWR0612") (unit 1) (value "AGND_HV") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061e84f12/00000000-0000-0000-0000-000061f11d2b"
-      (reference "#PWR0613") (unit 1) (value "GND_HV") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061e84f12/00000000-0000-0000-0000-000061f11d31"
-      (reference "#PWR0614") (unit 1) (value "GND_HV") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061e84f12/00000000-0000-0000-0000-000061e89356"
-      (reference "#PWR0615") (unit 1) (value "GND_HV") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061e84f12/3a95d9b0-b702-4b11-8aff-00514c6a38e0"
-      (reference "#PWR0616") (unit 1) (value "GND_HV") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061e84f12/be2165db-07d0-4e54-8851-a21f218f661f"
-      (reference "#PWR0617") (unit 1) (value "AGND_HV") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061d28cbe/c7f234aa-ff0e-43f0-973c-a0f2385acbbd"
-      (reference "#PWR0701") (unit 1) (value "+3.3V_HV") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061d28cbe/40bc3c3c-3b0b-4e4a-b148-208fb03c6f67"
-      (reference "#PWR0702") (unit 1) (value "+3.3V_HV") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061d28cbe/00000000-0000-0000-0000-00006243f6be"
-      (reference "#PWR0703") (unit 1) (value "+3.3V_HV") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061d28cbe/00000000-0000-0000-0000-000062c3bd0c"
-      (reference "#PWR0704") (unit 1) (value "+3.3V_HV") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061d28cbe/67fa39f2-c531-41db-97a7-4701abcfee2b"
-      (reference "#PWR0705") (unit 1) (value "GND_HV") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061d28cbe/ffe42611-3128-4f91-a45c-77cae44a0b0c"
-      (reference "#PWR0706") (unit 1) (value "GND_HV") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061d28cbe/00000000-0000-0000-0000-000061ea8653"
-      (reference "#PWR0707") (unit 1) (value "+3.3V_HV") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061d28cbe/00000000-0000-0000-0000-000062aa932f"
-      (reference "#PWR0708") (unit 1) (value "GND_HV") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061d28cbe/00000000-0000-0000-0000-000062915c07"
-      (reference "#PWR0709") (unit 1) (value "GND_HV") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061d28cbe/00000000-0000-0000-0000-000062635bfa"
-      (reference "#PWR0710") (unit 1) (value "+3.3V_HV") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061d28cbe/00000000-0000-0000-0000-00006278ac4b"
-      (reference "#PWR0711") (unit 1) (value "+1.2V_HV") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061d28cbe/4bd0f9aa-3283-4fd9-ba7b-bd6d7571a47c"
-      (reference "#PWR0712") (unit 1) (value "+3.3V_HV") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061d28cbe/00000000-0000-0000-0000-0000623ab609"
-      (reference "#PWR0713") (unit 1) (value "+3.3V_HV_A") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061d28cbe/12f9b544-df79-4073-9ba3-44f62b953252"
-      (reference "#PWR0714") (unit 1) (value "GND_HV") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061d28cbe/00000000-0000-0000-0000-000062914520"
-      (reference "#PWR0715") (unit 1) (value "GND_HV") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061d28cbe/00000000-0000-0000-0000-000062770301"
-      (reference "#PWR0716") (unit 1) (value "+1.2V_HV") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061d28cbe/00000000-0000-0000-0000-00006208dbf6"
-      (reference "#PWR0717") (unit 1) (value "+3.3V_HV") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061d28cbe/00000000-0000-0000-0000-000061f185a8"
-      (reference "#PWR0718") (unit 1) (value "+3.3V_HV") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061d28cbe/00000000-0000-0000-0000-000061f18a90"
-      (reference "#PWR0719") (unit 1) (value "GND_HV") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061d28cbe/00000000-0000-0000-0000-00006208e25c"
-      (reference "#PWR0720") (unit 1) (value "GND_HV") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061d28cbe/00000000-0000-0000-0000-000062813639"
-      (reference "#PWR0721") (unit 1) (value "+3.3V_HV_A") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061d28cbe/00000000-0000-0000-0000-00006279d822"
-      (reference "#PWR0722") (unit 1) (value "+1.2V_HV") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061d28cbe/e495e239-6507-4d19-8d16-0f4e761b74de"
-      (reference "#PWR0723") (unit 1) (value "+1.2V_HV") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061d28cbe/00000000-0000-0000-0000-000061de7f1e"
-      (reference "#PWR0724") (unit 1) (value "GND_HV") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061d28cbe/00000000-0000-0000-0000-000061de77bc"
-      (reference "#PWR0725") (unit 1) (value "GND_HV") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061d28cbe/00000000-0000-0000-0000-00006281311a"
-      (reference "#PWR0726") (unit 1) (value "GND_HV") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061d28cbe/00000000-0000-0000-0000-00006279cd34"
-      (reference "#PWR0727") (unit 1) (value "GND_HV") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061d28cbe/5c26a802-a185-4824-8d80-f1185a26f39a"
-      (reference "#PWR0728") (unit 1) (value "GND_HV") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061d28cbe/00000000-0000-0000-0000-000062423314"
-      (reference "#PWR0729") (unit 1) (value "+3.3V_HV") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061d28cbe/00000000-0000-0000-0000-0000623fd05c"
-      (reference "#PWR0730") (unit 1) (value "GND_HV") (footprint "")
-    )
-    (path "/95bbcc65-aaf6-4934-b29a-07e56c337823/f60812ab-4ddc-4fe1-b2c6-fde1760b0347"
-      (reference "#PWR0801") (unit 1) (value "+3.3V_HV") (footprint "")
-    )
-    (path "/95bbcc65-aaf6-4934-b29a-07e56c337823/b3c7fd3c-6c13-490b-990b-a9be623aa17a"
-      (reference "#PWR0802") (unit 1) (value "+3.3V_HV") (footprint "")
-    )
-    (path "/95bbcc65-aaf6-4934-b29a-07e56c337823/96e67e09-85bc-4e53-a4dc-3a83af2d1c9d"
-      (reference "#PWR0803") (unit 1) (value "GND_HV") (footprint "")
-    )
-    (path "/95bbcc65-aaf6-4934-b29a-07e56c337823/e8197d49-b509-4691-8dec-433c2500e5cd"
-      (reference "#PWR0804") (unit 1) (value "GND_HV") (footprint "")
-    )
-    (path "/95bbcc65-aaf6-4934-b29a-07e56c337823/80ee5b09-eb15-48ae-9a9f-d2a3e2b61a7d"
-      (reference "#PWR0805") (unit 1) (value "GND_HV") (footprint "")
-    )
-    (path "/95bbcc65-aaf6-4934-b29a-07e56c337823/93261c29-079a-427c-8043-8125c8b8fb96"
-      (reference "#PWR0806") (unit 1) (value "GND_HV") (footprint "")
-    )
-    (path "/95bbcc65-aaf6-4934-b29a-07e56c337823/75144ac2-1216-40be-9665-0a38b42ba368"
-      (reference "#PWR0807") (unit 1) (value "GND_HV") (footprint "")
-    )
-    (path "/95bbcc65-aaf6-4934-b29a-07e56c337823/409778f8-87b8-45d9-a22a-20b0f8b3a3ab"
-      (reference "#PWR0808") (unit 1) (value "GND_HV") (footprint "")
-    )
-    (path "/95bbcc65-aaf6-4934-b29a-07e56c337823/d0c66319-07bc-4337-bca5-683abb287ce0"
-      (reference "#PWR0809") (unit 1) (value "+3.3V_HV") (footprint "")
-    )
-    (path "/95bbcc65-aaf6-4934-b29a-07e56c337823/339bd815-d839-40a7-bbff-fc9346540e67"
-      (reference "#PWR0810") (unit 1) (value "+3.3V_HV") (footprint "")
-    )
-    (path "/95bbcc65-aaf6-4934-b29a-07e56c337823/e1638251-f644-449f-a006-62bcfd19acdd"
-      (reference "#PWR0811") (unit 1) (value "GND_HV") (footprint "")
-    )
-    (path "/95bbcc65-aaf6-4934-b29a-07e56c337823/1b7ec8ad-ac34-45fd-8060-045c07e7b481"
-      (reference "#PWR0812") (unit 1) (value "GND_HV") (footprint "")
-    )
-    (path "/95bbcc65-aaf6-4934-b29a-07e56c337823/8d2784a6-11ec-4f3d-8d7f-c846ee85d567"
-      (reference "#PWR0813") (unit 1) (value "GND_HV") (footprint "")
-    )
-    (path "/95bbcc65-aaf6-4934-b29a-07e56c337823/a265a8ef-5653-4a1f-86d4-954553d5a3de"
-      (reference "#PWR0814") (unit 1) (value "GND_HV") (footprint "")
-    )
-    (path "/95bbcc65-aaf6-4934-b29a-07e56c337823/908cb3c1-5d5e-4715-9cdb-1a3915d9116e"
-      (reference "#PWR0815") (unit 1) (value "GND_HV") (footprint "")
-    )
-    (path "/95bbcc65-aaf6-4934-b29a-07e56c337823/c77b803f-c595-4731-9765-9e2ccfdd67a6"
-      (reference "#PWR0816") (unit 1) (value "GND_HV") (footprint "")
-    )
-    (path "/95bbcc65-aaf6-4934-b29a-07e56c337823/68700578-d88d-4621-9e38-1b4c33ac6155"
-      (reference "#PWR0817") (unit 1) (value "+3.3V_HV") (footprint "")
-    )
-    (path "/95bbcc65-aaf6-4934-b29a-07e56c337823/7a0187cf-970d-4c8e-93f3-27672baf133b"
-      (reference "#PWR0818") (unit 1) (value "+3.3V_HV") (footprint "")
-    )
-    (path "/95bbcc65-aaf6-4934-b29a-07e56c337823/0963bed6-5ab6-42c6-a523-56e4ccf0d265"
-      (reference "#PWR0819") (unit 1) (value "+3.3V_HV") (footprint "")
-    )
-    (path "/95bbcc65-aaf6-4934-b29a-07e56c337823/bff839d7-8497-4e29-91b6-1b9118c507ac"
-      (reference "#PWR0820") (unit 1) (value "GND_HV") (footprint "")
-    )
-    (path "/95bbcc65-aaf6-4934-b29a-07e56c337823/753f8c9a-0199-4f39-887a-cfcf5344bcd6"
-      (reference "#PWR0821") (unit 1) (value "GND_HV") (footprint "")
-    )
-    (path "/95bbcc65-aaf6-4934-b29a-07e56c337823/2d217889-2272-4f91-8914-1af607a35ac1"
-      (reference "#PWR0822") (unit 1) (value "GND_HV") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061dcad86"
-      (reference "#PWR0901") (unit 1) (value "+3.3V_HV_A") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061d418dc"
-      (reference "#PWR0902") (unit 1) (value "+3.3V_HV_A") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061d28dc9/55567251-4264-409f-a2dd-060dbc8fd552"
-      (reference "#PWR0903") (unit 1) (value "AGND_HV") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061d28dc9/dd4098e8-01db-4e76-adac-1e0a51645a2b"
-      (reference "#PWR0904") (unit 1) (value "AGND_HV") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061d28dc9/72c17422-3039-4464-ba91-c9f8eb414b33"
-      (reference "#PWR0905") (unit 1) (value "AGND_HV") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061d28dc9/999df346-42e8-41ab-82e2-1d7e8fa64d26"
-      (reference "#PWR0906") (unit 1) (value "AGND_HV") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061d28dc9/604b1ec6-f7e4-416e-9738-86a7addb958b"
-      (reference "#PWR0907") (unit 1) (value "AGND_HV") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061d28dc9/d3f6886f-6a94-43b9-a0d9-f8bdd635ed2a"
-      (reference "#PWR0908") (unit 1) (value "AGND_HV") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061de0978/00000000-0000-0000-0000-000061de7372"
-      (reference "#PWR01001") (unit 1) (value "+3.3V_HV") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061de0978/00000000-0000-0000-0000-000061de7a3c"
-      (reference "#PWR01002") (unit 1) (value "GND_HV") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061de0978/c0ad85fa-fb5e-439b-b8c5-29850a49bd8f"
-      (reference "#PWR01003") (unit 1) (value "GND_HV") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061de0978/00000000-0000-0000-0000-000061dea48f"
-      (reference "#PWR01004") (unit 1) (value "GND_HV") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061de0978/00000000-0000-0000-0000-000061deb802"
-      (reference "#PWR01005") (unit 1) (value "GND_HV") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061de0978/00000000-0000-0000-0000-000061ded17c"
-      (reference "#PWR01006") (unit 1) (value "GND_HV") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061de0978/309c1589-51ed-45f5-9a94-0d928b5146bc"
-      (reference "#PWR01007") (unit 1) (value "GND_HV") (footprint "")
-    )
-    (path "/43d1a074-85e6-4cd5-9abe-ca968b2fb699"
-      (reference "ACCESSORY901") (unit 1) (value "ACCESSORY_USB_C_cable") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000061af4b2b/7c6cb13e-c72d-41f4-a21b-8bdb1c65dd20"
-      (reference "C201") (unit 1) (value "4.7uF/16V") (footprint "LEA_FootprintLibrary:C_0603")
-    )
-    (path "/00000000-0000-0000-0000-000061af4b2b/2033d11d-9473-4267-a93e-c1a8aa319dc9"
-      (reference "C202") (unit 1) (value "10nF/50V") (footprint "LEA_FootprintLibrary:C_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061af4b2b/00000000-0000-0000-0000-000061c3df9b"
-      (reference "C203") (unit 1) (value "10nF/50V") (footprint "LEA_FootprintLibrary:C_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061af4b2b/00000000-0000-0000-0000-000061c4a3aa"
-      (reference "C204") (unit 1) (value "1uF/50V") (footprint "LEA_FootprintLibrary:C_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061af4b2b/d797ddef-d487-4c8f-805d-ea01fc54861c"
-      (reference "C205") (unit 1) (value "4.7uF/16V") (footprint "LEA_FootprintLibrary:C_0603")
-    )
-    (path "/00000000-0000-0000-0000-000061af4b2b/730f19d5-150b-4cee-a533-73626f1ffe70"
-      (reference "C206") (unit 1) (value "100nF/50V") (footprint "LEA_FootprintLibrary:C_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061af4b2b/1fc23e02-55ec-4f4c-9c3e-2ecf1fcf5655"
-      (reference "C207") (unit 1) (value "4.7uF/16V") (footprint "LEA_FootprintLibrary:C_0603")
-    )
-    (path "/00000000-0000-0000-0000-000061af4b2b/d32261bc-f30b-455e-afab-cac295edfc64"
-      (reference "C208") (unit 1) (value "100nF/50V") (footprint "LEA_FootprintLibrary:C_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061af4b2b/00000000-0000-0000-0000-000061c3a6fa"
-      (reference "C209") (unit 1) (value "100nF/50V") (footprint "LEA_FootprintLibrary:C_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061af4b2b/f83f883f-98f9-496e-9b49-3471c503c0ad"
-      (reference "C210") (unit 1) (value "100nF/50V") (footprint "LEA_FootprintLibrary:C_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061af4b2b/e525d240-d285-4c15-86f5-451fd14a100d"
-      (reference "C211") (unit 1) (value "100nF/50V") (footprint "LEA_FootprintLibrary:C_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061af4b2b/c1a2e277-877a-44bc-bcf7-fd77855897d9"
-      (reference "C212") (unit 1) (value "100nF/50V") (footprint "LEA_FootprintLibrary:C_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061af4b2b/788c595d-82ad-4571-8dea-9a7ef7a51c80"
-      (reference "C213") (unit 1) (value "100nF/50V") (footprint "LEA_FootprintLibrary:C_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061af4b2b/d897a3f2-5a37-44ab-b0e1-156820f6c404"
-      (reference "C214") (unit 1) (value "100nF/50V") (footprint "LEA_FootprintLibrary:C_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061af4b2b/34b16d80-f8cc-4061-b10a-1dd2efe1564e"
-      (reference "C215") (unit 1) (value "100nF/50V") (footprint "LEA_FootprintLibrary:C_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061af4b2b/98434b63-3140-447c-bf3b-71745985145e"
-      (reference "C216") (unit 1) (value "4.7uF/16V") (footprint "LEA_FootprintLibrary:C_0603")
-    )
-    (path "/00000000-0000-0000-0000-000061af4b2b/42b59e68-f629-4986-8e53-35bb3135da1f"
-      (reference "C217") (unit 1) (value "100nF/50V") (footprint "LEA_FootprintLibrary:C_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061af4b2b/3fe47ff5-7b52-4767-b1d3-a9d3a154e322"
-      (reference "C218") (unit 1) (value "100nF/50V") (footprint "LEA_FootprintLibrary:C_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061af4b2b/f89c5a71-6222-4d77-b5c6-df599e6553c7"
-      (reference "C219") (unit 1) (value "100nF/50V") (footprint "LEA_FootprintLibrary:C_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061af4b2b/2ddc0ac4-aded-4383-bfc5-afe7f2fac606"
-      (reference "C220") (unit 1) (value "100nF/50V") (footprint "LEA_FootprintLibrary:C_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061c8b835/00000000-0000-0000-0000-000061d198b8"
-      (reference "C301") (unit 1) (value "2.2uF/25V") (footprint "LEA_FootprintLibrary:C_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061c8b835/00000000-0000-0000-0000-000061d198c4"
-      (reference "C302") (unit 1) (value "100nF/50V") (footprint "LEA_FootprintLibrary:C_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061c8b835/00000000-0000-0000-0000-000061d198ca"
-      (reference "C303") (unit 1) (value "100nF/50V") (footprint "LEA_FootprintLibrary:C_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061c8b835/00000000-0000-0000-0000-000061d198be"
-      (reference "C304") (unit 1) (value "2.2uF/25V") (footprint "LEA_FootprintLibrary:C_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061c8b835/00000000-0000-0000-0000-000061cd3811"
-      (reference "C305") (unit 1) (value "2.2uF/25V") (footprint "LEA_FootprintLibrary:C_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061c8b835/00000000-0000-0000-0000-000061cd381d"
-      (reference "C306") (unit 1) (value "100nF/50V") (footprint "LEA_FootprintLibrary:C_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061c8b835/00000000-0000-0000-0000-000061cd3823"
-      (reference "C307") (unit 1) (value "100nF/50V") (footprint "LEA_FootprintLibrary:C_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061c8b835/00000000-0000-0000-0000-000061cd3817"
-      (reference "C308") (unit 1) (value "2.2uF/25V") (footprint "LEA_FootprintLibrary:C_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061e84f12/00000000-0000-0000-0000-000061e89363"
-      (reference "C601") (unit 1) (value "1uF/50V") (footprint "LEA_FootprintLibrary:C_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061e84f12/00000000-0000-0000-0000-000061e89371"
-      (reference "C602") (unit 1) (value "1uF/50V") (footprint "LEA_FootprintLibrary:C_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061e84f12/00000000-0000-0000-0000-000061f11cc1"
-      (reference "C603") (unit 1) (value "2.2uF/25V") (footprint "LEA_FootprintLibrary:C_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061e84f12/00000000-0000-0000-0000-000061f11ce3"
-      (reference "C604") (unit 1) (value "2.2uF/25V") (footprint "LEA_FootprintLibrary:C_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061e84f12/00000000-0000-0000-0000-000061f11cf1"
-      (reference "C605") (unit 1) (value "2.2uF/25V") (footprint "LEA_FootprintLibrary:C_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061e84f12/00000000-0000-0000-0000-000061f11d0d"
-      (reference "C606") (unit 1) (value "2.2uF/25V") (footprint "LEA_FootprintLibrary:C_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061e84f12/00000000-0000-0000-0000-000061f11d25"
-      (reference "C607") (unit 1) (value "10uF/10V") (footprint "LEA_FootprintLibrary:C_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061e84f12/00000000-0000-0000-0000-000061f11d41"
-      (reference "C608") (unit 1) (value "10uF/10V") (footprint "LEA_FootprintLibrary:C_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061d28cbe/00000000-0000-0000-0000-000062579517"
-      (reference "C701") (unit 1) (value "100nF/50V") (footprint "LEA_FootprintLibrary:C_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061d28cbe/00000000-0000-0000-0000-000062915bfe"
-      (reference "C702") (unit 1) (value "10nF/50V") (footprint "LEA_FootprintLibrary:C_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061d28cbe/00000000-0000-0000-0000-00006278b77d"
-      (reference "C703") (unit 1) (value "100nF/50V") (footprint "LEA_FootprintLibrary:C_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061d28cbe/00000000-0000-0000-0000-000061f402d8"
-      (reference "C704") (unit 1) (value "100nF/50V") (footprint "LEA_FootprintLibrary:C_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061d28cbe/00000000-0000-0000-0000-0000621600d2"
-      (reference "C705") (unit 1) (value "100nF/50V") (footprint "LEA_FootprintLibrary:C_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061d28cbe/00000000-0000-0000-0000-0000627ed965"
-      (reference "C706") (unit 1) (value "100nF/50V") (footprint "LEA_FootprintLibrary:C_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061d28cbe/00000000-0000-0000-0000-0000627ed96b"
-      (reference "C707") (unit 1) (value "100nF/50V") (footprint "LEA_FootprintLibrary:C_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061d28cbe/00000000-0000-0000-0000-0000627788ec"
-      (reference "C708") (unit 1) (value "100nF/50V") (footprint "LEA_FootprintLibrary:C_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061d28cbe/00000000-0000-0000-0000-0000627788f2"
-      (reference "C709") (unit 1) (value "100nF/50V") (footprint "LEA_FootprintLibrary:C_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061d28cbe/00000000-0000-0000-0000-0000627788f8"
-      (reference "C710") (unit 1) (value "100nF/50V") (footprint "LEA_FootprintLibrary:C_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061d28cbe/00000000-0000-0000-0000-0000627788fe"
-      (reference "C711") (unit 1) (value "100nF/50V") (footprint "LEA_FootprintLibrary:C_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061d28cbe/00000000-0000-0000-0000-000062778904"
-      (reference "C712") (unit 1) (value "100nF/50V") (footprint "LEA_FootprintLibrary:C_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061d28cbe/00000000-0000-0000-0000-00006277890a"
-      (reference "C713") (unit 1) (value "100nF/50V") (footprint "LEA_FootprintLibrary:C_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061d28cbe/00000000-0000-0000-0000-000062778910"
-      (reference "C714") (unit 1) (value "100nF/50V") (footprint "LEA_FootprintLibrary:C_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061d28cbe/00000000-0000-0000-0000-0000623d15d4"
-      (reference "C715") (unit 1) (value "100nF/50V") (footprint "LEA_FootprintLibrary:C_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061d28cbe/00000000-0000-0000-0000-0000623d20ad"
-      (reference "C716") (unit 1) (value "100nF/50V") (footprint "LEA_FootprintLibrary:C_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061d28cbe/00000000-0000-0000-0000-0000623d23bb"
-      (reference "C717") (unit 1) (value "100nF/50V") (footprint "LEA_FootprintLibrary:C_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061d28cbe/00000000-0000-0000-0000-0000623d27d2"
-      (reference "C718") (unit 1) (value "100nF/50V") (footprint "LEA_FootprintLibrary:C_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061d28cbe/00000000-0000-0000-0000-0000623d2acb"
-      (reference "C719") (unit 1) (value "100nF/50V") (footprint "LEA_FootprintLibrary:C_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061d28cbe/00000000-0000-0000-0000-0000623d2ca7"
-      (reference "C720") (unit 1) (value "100nF/50V") (footprint "LEA_FootprintLibrary:C_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061d28cbe/00000000-0000-0000-0000-0000623d2f0c"
-      (reference "C721") (unit 1) (value "100nF/50V") (footprint "LEA_FootprintLibrary:C_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061d28cbe/00000000-0000-0000-0000-0000623d31d2"
-      (reference "C722") (unit 1) (value "100nF/50V") (footprint "LEA_FootprintLibrary:C_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061d28cbe/00000000-0000-0000-0000-0000623eb946"
-      (reference "C723") (unit 1) (value "100nF/50V") (footprint "LEA_FootprintLibrary:C_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061d28cbe/00000000-0000-0000-0000-0000623eb94c"
-      (reference "C724") (unit 1) (value "100nF/50V") (footprint "LEA_FootprintLibrary:C_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061d28cbe/00000000-0000-0000-0000-0000623eb952"
-      (reference "C725") (unit 1) (value "100nF/50V") (footprint "LEA_FootprintLibrary:C_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061d28cbe/00000000-0000-0000-0000-0000623eb958"
-      (reference "C726") (unit 1) (value "100nF/50V") (footprint "LEA_FootprintLibrary:C_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061d28cbe/00000000-0000-0000-0000-0000623eb95e"
-      (reference "C727") (unit 1) (value "100nF/50V") (footprint "LEA_FootprintLibrary:C_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061d28cbe/00000000-0000-0000-0000-0000623eb964"
-      (reference "C728") (unit 1) (value "100nF/50V") (footprint "LEA_FootprintLibrary:C_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061d28cbe/00000000-0000-0000-0000-0000623eb96a"
-      (reference "C729") (unit 1) (value "100nF/50V") (footprint "LEA_FootprintLibrary:C_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061d28cbe/00000000-0000-0000-0000-0000623eb970"
-      (reference "C730") (unit 1) (value "100nF/50V") (footprint "LEA_FootprintLibrary:C_0402")
-    )
-    (path "/95bbcc65-aaf6-4934-b29a-07e56c337823/9f0980a4-2b08-462e-8039-7d0077fa0c84"
-      (reference "C801") (unit 1) (value "1nF/50V") (footprint "LEA_FootprintLibrary:C_0402")
-    )
-    (path "/95bbcc65-aaf6-4934-b29a-07e56c337823/3f0e78ab-dc6c-42de-94d0-f04e0c0f05ea"
-      (reference "C802") (unit 1) (value "10nF/50V") (footprint "LEA_FootprintLibrary:C_0402")
-    )
-    (path "/95bbcc65-aaf6-4934-b29a-07e56c337823/465dc69d-010e-453d-b84c-b13423d03048"
-      (reference "C803") (unit 1) (value "100nF/50V") (footprint "LEA_FootprintLibrary:C_0402")
-    )
-    (path "/95bbcc65-aaf6-4934-b29a-07e56c337823/aee220ad-d693-4f6b-bc88-e3b03806cd26"
-      (reference "C804") (unit 1) (value "1nF/50V") (footprint "LEA_FootprintLibrary:C_0402")
-    )
-    (path "/95bbcc65-aaf6-4934-b29a-07e56c337823/af849c15-063f-4d15-b604-05b10f7e1396"
-      (reference "C805") (unit 1) (value "10nF/50V") (footprint "LEA_FootprintLibrary:C_0402")
-    )
-    (path "/95bbcc65-aaf6-4934-b29a-07e56c337823/a13937ef-7d13-4eeb-a75b-eae151862d63"
-      (reference "C806") (unit 1) (value "100nF/50V") (footprint "LEA_FootprintLibrary:C_0402")
-    )
-    (path "/95bbcc65-aaf6-4934-b29a-07e56c337823/e95885ed-cafa-4897-92c4-13fb13567e5d"
-      (reference "C807") (unit 1) (value "1nF/50V") (footprint "LEA_FootprintLibrary:C_0402")
-    )
-    (path "/95bbcc65-aaf6-4934-b29a-07e56c337823/a33ef8d3-3ac4-424d-b703-f51666595098"
-      (reference "C808") (unit 1) (value "10nF/50V") (footprint "LEA_FootprintLibrary:C_0402")
-    )
-    (path "/95bbcc65-aaf6-4934-b29a-07e56c337823/12cf61a1-27f0-47cd-873e-ac5dc2c6f63c"
-      (reference "C809") (unit 1) (value "100nF/50V") (footprint "LEA_FootprintLibrary:C_0402")
-    )
-    (path "/95bbcc65-aaf6-4934-b29a-07e56c337823/f5534086-7d0f-424c-87bd-2962474675a8"
-      (reference "C810") (unit 1) (value "1nF/50V") (footprint "LEA_FootprintLibrary:C_0402")
-    )
-    (path "/95bbcc65-aaf6-4934-b29a-07e56c337823/aa1d5310-69b2-4547-829d-bc56ba47df27"
-      (reference "C811") (unit 1) (value "10nF/50V") (footprint "LEA_FootprintLibrary:C_0402")
-    )
-    (path "/95bbcc65-aaf6-4934-b29a-07e56c337823/df844d55-964c-4e3c-87c3-6c05d6ecafb7"
-      (reference "C812") (unit 1) (value "100nF/50V") (footprint "LEA_FootprintLibrary:C_0402")
-    )
-    (path "/95bbcc65-aaf6-4934-b29a-07e56c337823/a868f417-2e12-4de6-bbad-8703f8747291"
-      (reference "C813") (unit 1) (value "100nF/50V") (footprint "LEA_FootprintLibrary:C_0402")
-    )
-    (path "/95bbcc65-aaf6-4934-b29a-07e56c337823/2400e8d9-88fb-499d-90ff-9426f2f33639"
-      (reference "C814") (unit 1) (value "100nF/50V") (footprint "LEA_FootprintLibrary:C_0402")
-    )
-    (path "/95bbcc65-aaf6-4934-b29a-07e56c337823/d1ae219e-cac7-4ebb-a23e-24da5f27740c"
-      (reference "C815") (unit 1) (value "100nF/50V") (footprint "LEA_FootprintLibrary:C_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061de68ce"
-      (reference "C901") (unit 1) (value "100nF/50V") (footprint "LEA_FootprintLibrary:C_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061d7bbf2"
-      (reference "C902") (unit 1) (value "100nF/50V") (footprint "LEA_FootprintLibrary:C_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061cf544f"
-      (reference "C903") (unit 1) (value "100nF/50V") (footprint "LEA_FootprintLibrary:C_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061da86ab"
-      (reference "C905") (unit 1) (value "100pF/50V") (footprint "LEA_FootprintLibrary:C_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061da910b"
-      (reference "C906") (unit 1) (value "100pF/50V") (footprint "LEA_FootprintLibrary:C_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061da9444"
-      (reference "C907") (unit 1) (value "1nF/50V") (footprint "LEA_FootprintLibrary:C_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061da9808"
-      (reference "C908") (unit 1) (value "1nF/50V") (footprint "LEA_FootprintLibrary:C_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061dab3d2"
-      (reference "C909") (unit 1) (value "100pF/50V") (footprint "LEA_FootprintLibrary:C_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061dab752"
-      (reference "C910") (unit 1) (value "100pF/50V") (footprint "LEA_FootprintLibrary:C_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061daacd9"
-      (reference "C911") (unit 1) (value "1nF/50V") (footprint "LEA_FootprintLibrary:C_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061daafe4"
-      (reference "C912") (unit 1) (value "1nF/50V") (footprint "LEA_FootprintLibrary:C_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061daa3b9"
-      (reference "C913") (unit 1) (value "100pF/50V") (footprint "LEA_FootprintLibrary:C_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061daa8cb"
-      (reference "C914") (unit 1) (value "100pF/50V") (footprint "LEA_FootprintLibrary:C_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061da7d9c"
-      (reference "C915") (unit 1) (value "1nF/50V") (footprint "LEA_FootprintLibrary:C_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061da822a"
-      (reference "C916") (unit 1) (value "1nF/50V") (footprint "LEA_FootprintLibrary:C_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061dabe66"
-      (reference "C917") (unit 1) (value "100pF/50V") (footprint "LEA_FootprintLibrary:C_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061dabb1e"
-      (reference "C918") (unit 1) (value "100pF/50V") (footprint "LEA_FootprintLibrary:C_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000062eeabcb"
-      (reference "C919") (unit 1) (value "1nF/50V") (footprint "LEA_FootprintLibrary:C_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061da7a37"
-      (reference "C920") (unit 1) (value "1nF/50V") (footprint "LEA_FootprintLibrary:C_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061da9bfd"
-      (reference "C921") (unit 1) (value "100pF/50V") (footprint "LEA_FootprintLibrary:C_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061da9f7d"
-      (reference "C922") (unit 1) (value "100pF/50V") (footprint "LEA_FootprintLibrary:C_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061dacb04"
-      (reference "C923") (unit 1) (value "1nF/50V") (footprint "LEA_FootprintLibrary:C_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061dacf4a"
-      (reference "C924") (unit 1) (value "1nF/50V") (footprint "LEA_FootprintLibrary:C_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061dac566"
-      (reference "C925") (unit 1) (value "100pF/50V") (footprint "LEA_FootprintLibrary:C_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061dac16c"
-      (reference "C926") (unit 1) (value "100pF/50V") (footprint "LEA_FootprintLibrary:C_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061dad5bf"
-      (reference "C927") (unit 1) (value "1nF/50V") (footprint "LEA_FootprintLibrary:C_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061dad295"
-      (reference "C928") (unit 1) (value "1nF/50V") (footprint "LEA_FootprintLibrary:C_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061d28dc9/e3f94e54-1fee-42bc-94b4-346ba16ab702"
-      (reference "C929") (unit 1) (value "22uF/16V") (footprint "LEA_FootprintLibrary:C_0603")
-    )
-    (path "/00000000-0000-0000-0000-000061af4b2b/00000000-0000-0000-0000-000061c5ca4a"
-      (reference "D201") (unit 1) (value "LED_SML-P11MTT86R") (footprint "LEA_FootprintLibrary:LED_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061af4b2b/765b10e8-7d61-4100-bcc8-39d61ba67ce2"
-      (reference "D202") (unit 1) (value "BAS3010A03WE6327HTSA1") (footprint "LEA_FootprintLibrary:SOD-323_Infineon")
-    )
-    (path "/00000000-0000-0000-0000-000061af4b2b/00000000-0000-0000-0000-000061c9a4e6"
-      (reference "D203") (unit 1) (value "LED_SML-P11MTT86R") (footprint "LEA_FootprintLibrary:LED_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061af4b2b/00000000-0000-0000-0000-000061c9c817"
-      (reference "D204") (unit 1) (value "LED_SML-P11MTT86R") (footprint "LEA_FootprintLibrary:LED_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061de0978/00000000-0000-0000-0000-000061de727d"
-      (reference "D1001") (unit 1) (value "LED_SML-P11MTT86R") (footprint "LEA_FootprintLibrary:LED_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061de0978/65bdfaba-6fc1-4fc6-827c-0293d3073097"
-      (reference "D1002") (unit 1) (value "LED_SML-P11MTT86R") (footprint "LEA_FootprintLibrary:LED_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061de0978/00000000-0000-0000-0000-000061dea47a"
-      (reference "D1003") (unit 1) (value "LED_SML-P11MTT86R") (footprint "LEA_FootprintLibrary:LED_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061de0978/00000000-0000-0000-0000-000061e0c2c6"
-      (reference "D1004") (unit 1) (value "LED_SML-P11YTT86R") (footprint "LEA_FootprintLibrary:LED_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061de0978/00000000-0000-0000-0000-000061e0b2d0"
-      (reference "D1005") (unit 1) (value "LED_SML-P11UTT86R") (footprint "LEA_FootprintLibrary:LED_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061de0978/d125b361-649d-4b25-9a14-55f919412c7e"
-      (reference "D1006") (unit 1) (value "LED_SML-P11MTT86R") (footprint "LEA_FootprintLibrary:LED_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061af4b2b/98fc9f8f-dc59-447a-842d-4abf46c55fec"
-      (reference "J201") (unit 1) (value "USBC_GTC_USB4110-GF-A") (footprint "LEA_FootprintLibrary:USB_C_GCT_USB4110-GF-A")
-    )
-    (path "/00000000-0000-0000-0000-000061af4b2b/4791c070-4f33-478a-8bae-29183093f9e4"
-      (reference "J202") (unit 1) (value "CLM-107-02-L-D-K-TR") (footprint "LEA_FootprintLibrary:CLM-107-02-L-D-K-TR")
-    )
-    (path "/00000000-0000-0000-0000-000061e9b523/75772822-9140-40f7-82f0-f61780988f3e"
-      (reference "J401") (unit 1) (value "Molex_532617006") (footprint "LEA_FootprintLibrary:6-PinHeader_Molex_532617006")
-    )
-    (path "/00000000-0000-0000-0000-000061e9b523/5de33e32-ca4b-4965-b46b-ff38ca2a914e"
-      (reference "J402") (unit 1) (value "ERF5-075-05.0-L-DV-TR") (footprint "LEA_FootprintLibrary:ERF5-075-05.0-L-DV")
-    )
-    (path "/00000000-0000-0000-0000-000061e9b523/1492e72b-7f33-4bb8-934f-0a95ae1fd9fa"
-      (reference "J402") (unit 2) (value "ERF5-075-05.0-L-DV-TR") (footprint "LEA_FootprintLibrary:ERF5-075-05.0-L-DV")
-    )
-    (path "/00000000-0000-0000-0000-000061e9b523/c23c2371-12b8-428e-9eb7-ba946395dce2"
-      (reference "J403") (unit 1) (value "ERF5-075-05.0-L-DV-TR") (footprint "LEA_FootprintLibrary:ERF5-075-05.0-L-DV")
-    )
-    (path "/00000000-0000-0000-0000-000061e9b523/8af28cd2-386a-4f94-b2c5-80526779b599"
-      (reference "J403") (unit 2) (value "ERF5-075-05.0-L-DV-TR") (footprint "LEA_FootprintLibrary:ERF5-075-05.0-L-DV")
-    )
-    (path "/c434d867-e31f-4345-bdde-33c75f8c31bd/b0f28c28-ff93-4203-b21a-a36535e3597a"
-      (reference "J501") (unit 1) (value "ERM5-075-05.0-L-DV-K-TR") (footprint "LEA_FootprintLibrary:ERM5-075-05.0-L-DV")
-    )
-    (path "/c434d867-e31f-4345-bdde-33c75f8c31bd/3162b11d-cd9f-4607-b1b2-77023124b926"
-      (reference "J501") (unit 2) (value "ERM5-075-05.0-L-DV-K-TR") (footprint "LEA_FootprintLibrary:ERM5-075-05.0-L-DV")
-    )
-    (path "/c434d867-e31f-4345-bdde-33c75f8c31bd/43b5a832-ba79-4cca-b58d-d08a6b0e1f1d"
-      (reference "J502") (unit 1) (value "ERM5-075-05.0-L-DV-K-TR") (footprint "LEA_FootprintLibrary:ERM5-075-05.0-L-DV")
-    )
-    (path "/c434d867-e31f-4345-bdde-33c75f8c31bd/3eaaa10b-5021-415c-9ba3-ee655632fe17"
-      (reference "J502") (unit 2) (value "ERM5-075-05.0-L-DV-K-TR") (footprint "LEA_FootprintLibrary:ERM5-075-05.0-L-DV")
-    )
-    (path "/00000000-0000-0000-0000-000061af4b2b/00000000-0000-0000-0000-000061cc91e9"
-      (reference "L201") (unit 1) (value "BLM15AG601SN1D") (footprint "LEA_FootprintLibrary:L_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061af4b2b/00000000-0000-0000-0000-000061cc811f"
-      (reference "L202") (unit 1) (value "BLM15AG601SN1D") (footprint "LEA_FootprintLibrary:L_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061e84f12/00000000-0000-0000-0000-000061f11cbb"
-      (reference "L601") (unit 1) (value "60R") (footprint "LEA_FootprintLibrary:L_0805")
-    )
-    (path "/00000000-0000-0000-0000-000061e84f12/00000000-0000-0000-0000-000061f11ceb"
-      (reference "L602") (unit 1) (value "60R") (footprint "LEA_FootprintLibrary:L_0805")
-    )
-    (path "/00000000-0000-0000-0000-000061e84f12/00000000-0000-0000-0000-000061f11d55"
-      (reference "L603") (unit 1) (value "60R") (footprint "LEA_FootprintLibrary:L_0805")
-    )
-    (path "/00000000-0000-0000-0000-000061e84f12/dba7d977-164e-497a-ac84-7921d4fc4efb"
-      (reference "L604") (unit 1) (value "60R") (footprint "LEA_FootprintLibrary:L_0805")
-    )
-    (path "/00000000-0000-0000-0000-000061af4b2b/6c41288c-8c74-4fa9-905e-4e440fb320ce"
-      (reference "R201") (unit 1) (value "2.2K") (footprint "LEA_FootprintLibrary:R_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061af4b2b/00000000-0000-0000-0000-000061c71be9"
-      (reference "R202") (unit 1) (value "R_0402_680R_THICK__1P__50V") (footprint "LEA_FootprintLibrary:R_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061af4b2b/00000000-0000-0000-0000-000061c42782"
-      (reference "R203") (unit 1) (value "R_0402_4k99_THICK__1P_50V") (footprint "LEA_FootprintLibrary:R_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061af4b2b/00000000-0000-0000-0000-000061c431ae"
-      (reference "R204") (unit 1) (value "R_0402_4k99_THICK__1P_50V") (footprint "LEA_FootprintLibrary:R_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061af4b2b/00000000-0000-0000-0000-000061d96eb9"
-      (reference "R205") (unit 1) (value "2.2K") (footprint "LEA_FootprintLibrary:R_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061af4b2b/4edb74e2-5262-4fc1-b368-243e6d4fc182"
-      (reference "R206") (unit 1) (value "0R") (footprint "LEA_FootprintLibrary:R_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061af4b2b/746dbd1d-1b5f-4f59-9182-be373bf1c8b8"
-      (reference "R207") (unit 1) (value "2.2K") (footprint "LEA_FootprintLibrary:R_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061af4b2b/00000000-0000-0000-0000-000061c844c3"
-      (reference "R208") (unit 1) (value "2.2K") (footprint "LEA_FootprintLibrary:R_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061af4b2b/00000000-0000-0000-0000-000061c3eea0"
-      (reference "R209") (unit 1) (value "0R") (footprint "LEA_FootprintLibrary:R_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061af4b2b/00000000-0000-0000-0000-000061c3ff07"
-      (reference "R210") (unit 1) (value "10K") (footprint "LEA_FootprintLibrary:R_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061af4b2b/00000000-0000-0000-0000-000061c40a53"
-      (reference "R211") (unit 1) (value "2.2K") (footprint "LEA_FootprintLibrary:R_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061af4b2b/87e7cbb9-a681-4fdf-b865-dc9bcd0f7456"
-      (reference "R212") (unit 1) (value "0R") (footprint "LEA_FootprintLibrary:R_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061af4b2b/00000000-0000-0000-0000-000061c9bb53"
-      (reference "R213") (unit 1) (value "R_0402_680R_THICK__1P__50V") (footprint "LEA_FootprintLibrary:R_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061af4b2b/00000000-0000-0000-0000-000061c9c48e"
-      (reference "R214") (unit 1) (value "R_0402_680R_THICK__1P__50V") (footprint "LEA_FootprintLibrary:R_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061af4b2b/4af14907-dbca-44c1-8c7e-ab5b79a893cd"
-      (reference "R215") (unit 1) (value "0R") (footprint "LEA_FootprintLibrary:R_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061af4b2b/55f481a6-dfb3-411c-9e23-c82760267bdc"
-      (reference "R216") (unit 1) (value "0R") (footprint "LEA_FootprintLibrary:R_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061af4b2b/00000000-0000-0000-0000-000061cdcc6e"
-      (reference "R217") (unit 1) (value "12K") (footprint "LEA_FootprintLibrary:R_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061af4b2b/377c16df-37a7-4265-a7d8-a576fc73aa73"
-      (reference "R218") (unit 1) (value "0R") (footprint "LEA_FootprintLibrary:R_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061af4b2b/c5906f06-3983-426c-b768-fe0b53ef2069"
-      (reference "R219") (unit 1) (value "0R") (footprint "LEA_FootprintLibrary:R_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061d28cbe/833667dd-3b2e-4011-bd69-6a35c0a22e02"
-      (reference "R701") (unit 1) (value "2.2K") (footprint "LEA_FootprintLibrary:R_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061d28cbe/b67e6aab-f3d7-4c8d-ab3e-c24a2e9ee402"
-      (reference "R702") (unit 1) (value "2.2K") (footprint "LEA_FootprintLibrary:R_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061d28cbe/00000000-0000-0000-0000-000062c3b79c"
-      (reference "R703") (unit 1) (value "2.2K") (footprint "LEA_FootprintLibrary:R_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061d28cbe/d70ddf57-576f-4465-8b46-905db11f92e3"
-      (reference "R704") (unit 1) (value "0R") (footprint "LEA_FootprintLibrary:R_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061d28cbe/27ab1a53-2ec9-47e0-ad08-ba033a687c9b"
-      (reference "R705") (unit 1) (value "2.2K") (footprint "LEA_FootprintLibrary:R_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061d28cbe/cca06f96-3346-408f-a425-b2a3a19df607"
-      (reference "R706") (unit 1) (value "2.2K") (footprint "LEA_FootprintLibrary:R_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061d28cbe/00000000-0000-0000-0000-0000621e390b"
-      (reference "R707") (unit 1) (value "33R") (footprint "LEA_FootprintLibrary:R_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061d28cbe/00000000-0000-0000-0000-00006223a17c"
-      (reference "R708") (unit 1) (value "33R") (footprint "LEA_FootprintLibrary:R_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061d28cbe/00000000-0000-0000-0000-00006223a3f5"
-      (reference "R709") (unit 1) (value "33R") (footprint "LEA_FootprintLibrary:R_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061d28cbe/00000000-0000-0000-0000-00006223a742"
-      (reference "R710") (unit 1) (value "33R") (footprint "LEA_FootprintLibrary:R_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061d28cbe/174ce75d-e0e4-4e97-8bf5-e156d61f767d"
-      (reference "R711") (unit 1) (value "56R") (footprint "LEA_FootprintLibrary:R_0402")
-    )
-    (path "/95bbcc65-aaf6-4934-b29a-07e56c337823/3908119d-7111-47ec-9f53-61abaac4d77c"
-      (reference "R801") (unit 1) (value "1K") (footprint "LEA_FootprintLibrary:R_0402")
-    )
-    (path "/95bbcc65-aaf6-4934-b29a-07e56c337823/5435ba97-c507-4fe0-9d3d-ac645769be0b"
-      (reference "R802") (unit 1) (value "1K") (footprint "LEA_FootprintLibrary:R_0402")
-    )
-    (path "/95bbcc65-aaf6-4934-b29a-07e56c337823/3f7dd820-21e6-4707-bb9e-58f76c7aae9a"
-      (reference "R803") (unit 1) (value "1K") (footprint "LEA_FootprintLibrary:R_0402")
-    )
-    (path "/95bbcc65-aaf6-4934-b29a-07e56c337823/d68c600b-ec33-4b5a-9676-9491c2af0ede"
-      (reference "R804") (unit 1) (value "1K") (footprint "LEA_FootprintLibrary:R_0402")
-    )
-    (path "/95bbcc65-aaf6-4934-b29a-07e56c337823/89443a27-e595-43ce-af0a-bf91eaadea4e"
-      (reference "R805") (unit 1) (value "33K") (footprint "LEA_FootprintLibrary:R_0402")
-    )
-    (path "/95bbcc65-aaf6-4934-b29a-07e56c337823/5e3285ea-1568-4856-9046-64d631a89d3b"
-      (reference "R806") (unit 1) (value "33K") (footprint "LEA_FootprintLibrary:R_0402")
-    )
-    (path "/95bbcc65-aaf6-4934-b29a-07e56c337823/f9ada51e-7cbc-4cd6-8315-17dacad7d669"
-      (reference "R807") (unit 1) (value "10K") (footprint "LEA_FootprintLibrary:R_0402")
-    )
-    (path "/95bbcc65-aaf6-4934-b29a-07e56c337823/cb8e4e8c-2f30-4914-b82c-446f8248c3bd"
-      (reference "R808") (unit 1) (value "10K") (footprint "LEA_FootprintLibrary:R_0402")
-    )
-    (path "/95bbcc65-aaf6-4934-b29a-07e56c337823/537aed56-39b6-4d5e-b5f7-89b089605869"
-      (reference "R809") (unit 1) (value "1K") (footprint "LEA_FootprintLibrary:R_0402")
-    )
-    (path "/95bbcc65-aaf6-4934-b29a-07e56c337823/ebc9d38b-5f4b-4c02-92ae-db8f5e296ffa"
-      (reference "R810") (unit 1) (value "1K") (footprint "LEA_FootprintLibrary:R_0402")
-    )
-    (path "/95bbcc65-aaf6-4934-b29a-07e56c337823/c040ac76-9cff-4b75-9738-883b919fbf79"
-      (reference "R811") (unit 1) (value "1K") (footprint "LEA_FootprintLibrary:R_0402")
-    )
-    (path "/95bbcc65-aaf6-4934-b29a-07e56c337823/86cdb029-65ed-4363-9471-a1667a0c0c46"
-      (reference "R812") (unit 1) (value "1K") (footprint "LEA_FootprintLibrary:R_0402")
-    )
-    (path "/95bbcc65-aaf6-4934-b29a-07e56c337823/c4ce3e19-ffc9-4e78-aedf-5c018aed6d3b"
-      (reference "R813") (unit 1) (value "33K") (footprint "LEA_FootprintLibrary:R_0402")
-    )
-    (path "/95bbcc65-aaf6-4934-b29a-07e56c337823/a01df3e4-e5d8-461f-8ea7-3897e67f4bf9"
-      (reference "R814") (unit 1) (value "33K") (footprint "LEA_FootprintLibrary:R_0402")
-    )
-    (path "/95bbcc65-aaf6-4934-b29a-07e56c337823/0e780acd-1f98-4e7b-87a6-cf3e87f7abed"
-      (reference "R815") (unit 1) (value "10K") (footprint "LEA_FootprintLibrary:R_0402")
-    )
-    (path "/95bbcc65-aaf6-4934-b29a-07e56c337823/1af6a24c-dcde-41e9-ba9d-ac74e08a9504"
-      (reference "R816") (unit 1) (value "10K") (footprint "LEA_FootprintLibrary:R_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061c4ad7f"
-      (reference "R901") (unit 1) (value "1K") (footprint "LEA_FootprintLibrary:R_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061c4b002"
-      (reference "R902") (unit 1) (value "1K") (footprint "LEA_FootprintLibrary:R_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061c4b1e5"
-      (reference "R903") (unit 1) (value "1K") (footprint "LEA_FootprintLibrary:R_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061c4b2fc"
-      (reference "R904") (unit 1) (value "1K") (footprint "LEA_FootprintLibrary:R_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061c4c4a7"
-      (reference "R905") (unit 1) (value "1K") (footprint "LEA_FootprintLibrary:R_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061c4c77d"
-      (reference "R906") (unit 1) (value "1K") (footprint "LEA_FootprintLibrary:R_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061c4bf8c"
-      (reference "R907") (unit 1) (value "1K") (footprint "LEA_FootprintLibrary:R_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061c4c33c"
-      (reference "R908") (unit 1) (value "1K") (footprint "LEA_FootprintLibrary:R_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061c4ba29"
-      (reference "R909") (unit 1) (value "1K") (footprint "LEA_FootprintLibrary:R_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061c4bcf4"
-      (reference "R910") (unit 1) (value "1K") (footprint "LEA_FootprintLibrary:R_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061c4a76a"
-      (reference "R911") (unit 1) (value "1K") (footprint "LEA_FootprintLibrary:R_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061c4aab3"
-      (reference "R912") (unit 1) (value "1K") (footprint "LEA_FootprintLibrary:R_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061c4ccf1"
-      (reference "R913") (unit 1) (value "1K") (footprint "LEA_FootprintLibrary:R_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061c4cb19"
-      (reference "R914") (unit 1) (value "1K") (footprint "LEA_FootprintLibrary:R_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061c494c9"
-      (reference "R915") (unit 1) (value "1K") (footprint "LEA_FootprintLibrary:R_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061c4a5a6"
-      (reference "R916") (unit 1) (value "1K") (footprint "LEA_FootprintLibrary:R_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061c4b5fe"
-      (reference "R917") (unit 1) (value "1K") (footprint "LEA_FootprintLibrary:R_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061c4b814"
-      (reference "R918") (unit 1) (value "1K") (footprint "LEA_FootprintLibrary:R_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061c4d4f6"
-      (reference "R919") (unit 1) (value "1K") (footprint "LEA_FootprintLibrary:R_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061c4d69a"
-      (reference "R920") (unit 1) (value "1K") (footprint "LEA_FootprintLibrary:R_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061c4d282"
-      (reference "R921") (unit 1) (value "1K") (footprint "LEA_FootprintLibrary:R_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061c4d043"
-      (reference "R922") (unit 1) (value "1K") (footprint "LEA_FootprintLibrary:R_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061c4dd9c"
-      (reference "R923") (unit 1) (value "1K") (footprint "LEA_FootprintLibrary:R_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061c4d96a"
-      (reference "R924") (unit 1) (value "1K") (footprint "LEA_FootprintLibrary:R_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061f0e895"
-      (reference "R925") (unit 1) (value "0R") (footprint "LEA_FootprintLibrary:R_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061e8e44d"
-      (reference "R926") (unit 1) (value "0.1R") (footprint "LEA_FootprintLibrary:R_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061de0978/00000000-0000-0000-0000-000061de7290"
-      (reference "R1001") (unit 1) (value "R_0402_680R_THICK__1P__50V") (footprint "LEA_FootprintLibrary:R_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061de0978/bbd4733d-7ec0-4f17-beb6-0be64574337a"
-      (reference "R1002") (unit 1) (value "R_0402_680R_THICK__1P__50V") (footprint "LEA_FootprintLibrary:R_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061de0978/00000000-0000-0000-0000-000061dea481"
-      (reference "R1003") (unit 1) (value "R_0402_680R_THICK__1P__50V") (footprint "LEA_FootprintLibrary:R_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061de0978/00000000-0000-0000-0000-000061deb7f4"
-      (reference "R1004") (unit 1) (value "R_0402_680R_THICK__1P__50V") (footprint "LEA_FootprintLibrary:R_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061de0978/00000000-0000-0000-0000-000061ded16e"
-      (reference "R1005") (unit 1) (value "R_0402_680R_THICK__1P__50V") (footprint "LEA_FootprintLibrary:R_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061de0978/ceacc570-d51a-479d-8841-921c97709e40"
-      (reference "R1006") (unit 1) (value "R_0402_680R_THICK__1P__50V") (footprint "LEA_FootprintLibrary:R_0402")
-    )
-    (path "/00000000-0000-0000-0000-000061c8b835/a5b0d9b0-6ab5-449e-b179-06e7b6ebcd1f"
-      (reference "S301") (unit 1) (value "CAS-120TA") (footprint "LEA_FootprintLibrary:CAS-120TA")
-    )
-    (path "/00000000-0000-0000-0000-000061d28cbe/07606643-070f-45b1-9137-53de67504fef"
-      (reference "S701") (unit 1) (value "CAS-D20TA") (footprint "LEA_FootprintLibrary:CAS-D20TA")
-    )
-    (path "/00000000-0000-0000-0000-000061d28cbe/63d9b170-3ee0-4f4f-8300-05533a6faff7"
-      (reference "S701") (unit 2) (value "CAS-D20TA") (footprint "LEA_FootprintLibrary:CAS-D20TA")
-    )
-    (path "/00000000-0000-0000-0000-000061af4b2b/00000000-0000-0000-0000-000061bdda61"
-      (reference "U201") (unit 1) (value "FT2232HL") (footprint "LEA_FootprintLibrary:LQFP-64_12x12_Pitch0.5mm_FTDI")
-    )
-    (path "/00000000-0000-0000-0000-000061af4b2b/00000000-0000-0000-0000-000061c031cc"
-      (reference "U202") (unit 1) (value "93LC56BT-I_OT") (footprint "LEA_FootprintLibrary:SOT-23-6_Microchip")
-    )
-    (path "/00000000-0000-0000-0000-000061af4b2b/00000000-0000-0000-0000-000061c14330"
-      (reference "U203") (unit 1) (value "MIC5259-3.3YD5-TR") (footprint "LEA_FootprintLibrary:SOT-23-5_Microchip")
-    )
-    (path "/00000000-0000-0000-0000-000061c8b835/22010f7e-494d-4849-aedc-d787ece534d2"
-      (reference "U301") (unit 1) (value "ISO7741FQDWWQ1") (footprint "LEA_FootprintLibrary:SOIC-16_TI_DWW0016A_Optimized")
-    )
-    (path "/00000000-0000-0000-0000-000061c8b835/623e5ac2-c441-4c53-8b4a-c03e2ec833ce"
-      (reference "U302") (unit 1) (value "ISO7741FQDWWQ1") (footprint "LEA_FootprintLibrary:SOIC-16_TI_DWW0016A_Optimized")
-    )
-    (path "/00000000-0000-0000-0000-000061e84f12/00000000-0000-0000-0000-000061e89350"
-      (reference "U601") (unit 1) (value "MIC5504-1.2YM5-T5") (footprint "LEA_FootprintLibrary:SOT-23-5_Microchip")
-    )
-    (path "/00000000-0000-0000-0000-000061d28cbe/00000000-0000-0000-0000-000062437460"
-      (reference "U701") (unit 1) (value "TPS3702CX33DDCT") (footprint "LEA_FootprintLibrary:TSOT-23-6_TI")
-    )
-    (path "/00000000-0000-0000-0000-000061d28cbe/00000000-0000-0000-0000-0000624360d4"
-      (reference "U702") (unit 1) (value "TPS3702CX12DDCT") (footprint "LEA_FootprintLibrary:TSOT-23-6_TI")
-    )
-    (path "/00000000-0000-0000-0000-000061d28cbe/00000000-0000-0000-0000-000061da064b"
-      (reference "U703") (unit 1) (value "TMS320F2838xDZWT") (footprint "LEA_FootprintLibrary:BGA-361_19x19_16.0x16.0mm")
-    )
-    (path "/00000000-0000-0000-0000-000061d28cbe/00000000-0000-0000-0000-000061fd11b7"
-      (reference "U703") (unit 2) (value "TMS320F2838xDZWT") (footprint "LEA_FootprintLibrary:BGA-361_19x19_16.0x16.0mm")
-    )
-    (path "/00000000-0000-0000-0000-000061d28cbe/00000000-0000-0000-0000-000061ea0b13"
-      (reference "U703") (unit 3) (value "TMS320F2838xDZWT") (footprint "LEA_FootprintLibrary:BGA-361_19x19_16.0x16.0mm")
-    )
-    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061dccc42"
-      (reference "U703") (unit 4) (value "TMS320F2838xDZWT") (footprint "LEA_FootprintLibrary:BGA-361_19x19_16.0x16.0mm")
-    )
-    (path "/00000000-0000-0000-0000-000061d28d3d/00000000-0000-0000-0000-000061db92c5"
-      (reference "U703") (unit 5) (value "TMS320F2838xDZWT") (footprint "LEA_FootprintLibrary:BGA-361_19x19_16.0x16.0mm")
-    )
-    (path "/00000000-0000-0000-0000-000061d28d3d/00000000-0000-0000-0000-000061dc3552"
-      (reference "U703") (unit 6) (value "TMS320F2838xDZWT") (footprint "LEA_FootprintLibrary:BGA-361_19x19_16.0x16.0mm")
-    )
-    (path "/00000000-0000-0000-0000-000061d28cbe/00000000-0000-0000-0000-00006203b5a0"
-      (reference "U704") (unit 1) (value "PI6C49CB04AQ3WEX") (footprint "LEA_FootprintLibrary:SOIC-8")
-    )
-    (path "/95bbcc65-aaf6-4934-b29a-07e56c337823/d18ddc34-0c12-48db-958f-a20063663372"
-      (reference "U801") (unit 1) (value "74HC74BQ,115") (footprint "LEA_FootprintLibrary:DHVQFN14_SOT762-1_Nexpria")
-    )
-    (path "/95bbcc65-aaf6-4934-b29a-07e56c337823/0b3bf54d-4b48-4ce5-9485-595b515d06f2"
-      (reference "U801") (unit 2) (value "74HC74BQ,115") (footprint "LEA_FootprintLibrary:DHVQFN14_SOT762-1_Nexpria")
-    )
-    (path "/95bbcc65-aaf6-4934-b29a-07e56c337823/8800b03a-4aea-486e-b09a-9e9fe7389541"
-      (reference "U801") (unit 3) (value "74HC74BQ,115") (footprint "LEA_FootprintLibrary:DHVQFN14_SOT762-1_Nexpria")
-    )
-    (path "/95bbcc65-aaf6-4934-b29a-07e56c337823/d3afec99-d312-4a2e-93b8-c3619bafbc0e"
-      (reference "U802") (unit 1) (value "74HC74BQ,115") (footprint "LEA_FootprintLibrary:DHVQFN14_SOT762-1_Nexpria")
-    )
-    (path "/95bbcc65-aaf6-4934-b29a-07e56c337823/724e6855-34cd-4cc9-9f0f-e23f54b4a58c"
-      (reference "U802") (unit 2) (value "74HC74BQ,115") (footprint "LEA_FootprintLibrary:DHVQFN14_SOT762-1_Nexpria")
-    )
-    (path "/95bbcc65-aaf6-4934-b29a-07e56c337823/6d2e1868-0bd7-48f5-9aec-f30f20124528"
-      (reference "U802") (unit 3) (value "74HC74BQ,115") (footprint "LEA_FootprintLibrary:DHVQFN14_SOT762-1_Nexpria")
-    )
-    (path "/95bbcc65-aaf6-4934-b29a-07e56c337823/acde4934-14b4-4be8-8850-a8fb7259293d"
-      (reference "U803") (unit 1) (value "MAX978ESE+") (footprint "LEA_FootprintLibrary:SOIC-16")
-    )
-    (path "/95bbcc65-aaf6-4934-b29a-07e56c337823/a0219020-ea82-48a1-9744-b17aa7e52aef"
-      (reference "U803") (unit 2) (value "MAX978ESE+") (footprint "LEA_FootprintLibrary:SOIC-16")
-    )
-    (path "/95bbcc65-aaf6-4934-b29a-07e56c337823/1a6e589f-50b3-4b28-b66a-fd22c9d30e4d"
-      (reference "U803") (unit 3) (value "MAX978ESE+") (footprint "LEA_FootprintLibrary:SOIC-16")
-    )
-    (path "/95bbcc65-aaf6-4934-b29a-07e56c337823/c9358642-401a-4ee3-899b-4f81ae1485ee"
-      (reference "U803") (unit 4) (value "MAX978ESE+") (footprint "LEA_FootprintLibrary:SOIC-16")
-    )
-    (path "/95bbcc65-aaf6-4934-b29a-07e56c337823/ad0cf30e-2fd5-49f8-8dde-a57ea2bb4953"
-      (reference "U803") (unit 5) (value "MAX978ESE+") (footprint "LEA_FootprintLibrary:SOIC-16")
-    )
-    (path "/00000000-0000-0000-0000-000061d28dc9/00000000-0000-0000-0000-000061dc9684"
-      (reference "U901") (unit 1) (value "MAX6037AAUK30+T") (footprint "LEA_FootprintLibrary:SOT-23-5_Microchip")
-    )
-    (path "/00000000-0000-0000-0000-000061d28dc9/08176248-7865-4d7f-a978-3d4eaa2a7fad"
-      (reference "U902") (unit 1) (value "OPA607QDBVRQ1") (footprint "LEA_FootprintLibrary:SOT-23-5_TI")
-    )
-    (path "/00000000-0000-0000-0000-000061d28dc9/b2a769b6-a3da-4f4b-b15d-3097ccf0363f"
-      (reference "U902") (unit 2) (value "OPA607QDBVRQ1") (footprint "LEA_FootprintLibrary:SOT-23-5_TI")
-    )
-    (path "/00000000-0000-0000-0000-000061af4b2b/56f6aace-1374-416f-ac40-39994b82bbbe"
-      (reference "Y201") (unit 1) (value "ECS-2033-120-AU") (footprint "LEA_FootprintLibrary:Osc_ECS_2.5x2")
-    )
-    (path "/00000000-0000-0000-0000-000061d28cbe/00000000-0000-0000-0000-000061ef14e7"
-      (reference "Y701") (unit 1) (value "ECS-2520S33-250-FN-TR") (footprint "LEA_FootprintLibrary:Osc_ECS_2.5x2")
-    )
   )
 )
