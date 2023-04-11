@@ -31,6 +31,8 @@ Example `LCB-CCB-01-1.0.5`:
 
 
 ## Kicad Options
+To open the LEA Control Board files, [KiCad 7](https://www.kicad.org/) needs to be used. Make sure that you run the latest version of KiCad.
+
 ### Downloading this project and folder structure
 To use this project, LEA KiCad symbols, footprints and 3D-models need to be included. Note, that both folders need to be in the same direction.
 
