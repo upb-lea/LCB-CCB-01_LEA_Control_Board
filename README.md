@@ -61,16 +61,5 @@ Note: if you are using KiCAD6, and there is a variable `KICAD6_3DMODEL_DIR`, ign
 ![](documentation/figures/3d_model_path_preferences.png)
 
 # Software
-## Initial program the XDS100 debugger chip
-Refer to this [document](/documentation/pcb_manufacturing.md)
-
-## Code Composer Studio: Settings for code from this repository
-For equal code indentations, perform the following steps:
- * `Window` -> `Preferences` -> `Show advanced settings`
- * `Window` -> `Preferences` -> `C/C++` -> `Code Style` -> `Formatter` -> `Edit ...` -> `Tab size: 2` -> `Apply` -> `OK` -> `Apply and Close`
-
-## Code Composer Studio: Import software project and adapt it to your computer filepaths
- * `Project` -> `Import CCS Projects...` -> Choose your project to import
- * In `Select search-directory` browse to your project (e.g. `.../LEA_control_board/software/01_Control_boards/F28386D_GPIO/`
- * Press `Finish`
+Software examples can be found [in this repository](https://github.com/upb-lea/LCB-Software).
  
