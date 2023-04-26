@@ -16,7 +16,7 @@
       (property "Reference" "J" (at -1.27 52.07 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Value" "Conn_ERM5-075-05.0-L-DV-K-TR" (at -2.54 -46.99 0)
+      (property "Value" "ERM5-075-05.0-L-DV-K-TR" (at -2.54 -46.99 0)
         (effects (font (size 1.27 1.27)))
       )
       (property "Footprint" "LEA_FootprintLibrary:ERM5-075-05.0-L-DV" (at 2.54 19.05 0)
