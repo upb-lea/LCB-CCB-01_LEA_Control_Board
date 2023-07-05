@@ -54,7 +54,7 @@ The libraries are included by default, if the above mentioned folder structure w
 
 ### Set environment variable for 3D models:
 ![](documentation/figures/3d_model.png)
-Please refer to ![this section](https://github.com/upb-lea/LEA_KiCad_Library#set-environment-variable-for-3d-models).
+Please refer to [this section](https://github.com/upb-lea/LEA_KiCad_Library#set-environment-variable-for-3d-models).
 
 # Software
 Software examples can be found [in this repository](https://github.com/upb-lea/LCB-Software).
