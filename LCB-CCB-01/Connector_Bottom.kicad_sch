@@ -1990,7 +1990,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
   )
-  (global_label "EPWM3A|PGIO149" (shape passive) (at 173.99 66.04 180) (fields_autoplaced)
+  (global_label "EPWM3A|GPIO149" (shape passive) (at 173.99 66.04 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 088638d9-209b-43f9-951e-112efdb087fa)
     (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 485.14 -90.17 0)
