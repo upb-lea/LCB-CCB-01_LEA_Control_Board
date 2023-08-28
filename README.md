@@ -4,11 +4,11 @@
 
 The LEA-Control-Board (LCB) is a construction kit to provide power electronic converters with a control board.
 
-The basic module is the control board itself. It contains a powerful dual-core processor, error latches and various predefined low-pass filters to respond to input signals. An XDS100v2 debugger is directly integrated on the board. 
+The basic module is the control board (LCB-CCB) itself. It contains a powerful dual-core processor, error latches and various predefined low-pass filters to respond to input signals. An XDS100v2 debugger is directly integrated on the board. 
 
-The docking board is suitable for initial operation. This contains various input options (switches, buttons, potentiometers) as well as LEDs for output.
+The docking board (LCB-CDB) is suitable for initial operation. This contains various input options (switches, buttons, potentiometers) as well as LEDs for output.
 
-The external hardware monitor is for viewing internal counter variables on the oscilloscope and is mainly used for troubleshooting the control board in the overall system (control board + power converter).
+The external hardware monitor (LCB-CHW) is for viewing internal counter variables on the oscilloscope and is mainly used for troubleshooting the control board in the overall system (control board + power converter).
 
 ## PCB overview
 This is the main repository of the LEA-Control-Board (LCB) project. Due to correct PCB versioning, every single PCB is in its own repository.
@@ -18,7 +18,7 @@ This is the main repository of the LEA-Control-Board (LCB) project. Due to corre
 
 Symbols, Footprints and 3D-models can be found in the [LEA KiCad Library](https://github.com/upb-lea/LEA_KiCad_Library).
 
-Due initially wrong selected comparators (no rail-to-rail), the comparator adapter board `LCB-ADA-01` was introduced to replace the comparator.
+Due initially wrong selected comparators (no rail-to-rail), the comparator adapter board [LCB-ADA-01](https://github.com/upb-lea/LCB-ADA-01_Adapter_Board) was introduced to replace the comparator.
 
 ## PCB versioning
 Example `LCB-CCB-01-1.0.5`:
@@ -56,6 +56,6 @@ The libraries are included by default, if the above mentioned folder structure w
 ![](documentation/figures/3d_model.png)
 Please refer to [this section](https://github.com/upb-lea/LEA_KiCad_Library#set-environment-variable-for-3d-models).
 
-# Software
-Software examples can be found [in this repository](https://github.com/upb-lea/LCB-Software).
+## Software
+Various software examples using the LEA-Control-Board is available and can be found [in this repository](https://github.com/upb-lea/LCB-Software). There are examples for using the hardware monitor, SPI, UART and many others.
  
