@@ -15,6 +15,7 @@ This is the main repository of the LEA-Control-Board (LCB) project. Due to corre
  * [LCB-CDB-01_Dock_Board](https://github.com/upb-lea/LCB-CDB-01_Dock_Board)
  * [LCB-CHW-01_Hardware_Monitor](https://github.com/upb-lea/LCB-CHW-01_Hardware_Monitor)
  * [LCB-ADA-01_Adapter_Board](https://github.com/upb-lea/LCB-ADA-01_Adapter_Board)
+ * [LCB-CPB-01_Pin_Board](https://github.com/upb-lea/LCB-CPB-01_Pin_Board)
 
 Symbols, Footprints and 3D-models can be found in the [LEA KiCad Library](https://github.com/upb-lea/LEA_KiCad_Library).
 
