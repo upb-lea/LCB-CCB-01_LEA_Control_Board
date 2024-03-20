@@ -10,12 +10,18 @@ The docking board (LCB-CDB) is suitable for initial operation. This contains var
 
 The external hardware monitor (LCB-CHW) is for viewing internal counter variables on the oscilloscope and is mainly used for troubleshooting the control board in the overall system (control board + power converter).
 
+![](documentation/figures/test_pcbs_labeled.png)    
+
+The pin board (LCB-CPB) is for in-circuit signal measurments by an external scope on certain pins.
+The test board (LCB-CTB) was developed to check all pins, PWM signals, ADCs and DACs for functionality after a new board has been completed (end of line test).
+
 ## PCB overview
 This is the main repository of the LEA Control Board (LCB) project. Due to correct PCB versioning, every single PCB is in its own repository.
  * [LCB-CDB-01_Dock_Board](https://github.com/upb-lea/LCB-CDB-01_Dock_Board)
  * [LCB-CHW-01_Hardware_Monitor](https://github.com/upb-lea/LCB-CHW-01_Hardware_Monitor)
  * [LCB-ADA-01_Adapter_Board](https://github.com/upb-lea/LCB-ADA-01_Adapter_Board)
  * [LCB-CPB-01_Pin_Board](https://github.com/upb-lea/LCB-CPB-01_Pin_Board)
+ * [LCB-CTB-01_Test_Board](https://github.com/upb-lea/LCB-CTB-01_Test_Board)
 
 Symbols, footprints and 3D-models can be found in the [LEA KiCad Library](https://github.com/upb-lea/LEA_KiCad_Library).
 
