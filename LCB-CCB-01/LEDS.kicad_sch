@@ -1,1220 +1,3104 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid d0583253-7f1c-498c-afba-93bf9b28c781)
-
-  (paper "A4")
-
-  (title_block
-    (title "LCB-CCB-01: Control Board - Status LEDs")
-    (date "2022-03-17")
-    (rev "0.1")
-    (company "PADERBORN UNIVERSITY DEPARTMENT OF POWER ELECTRONICS AND ELECTRICAL DRIVES")
-  )
-
-  (lib_symbols
-    (symbol "LEA_SymbolLibrary:+3.3V_HV" (power) (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (at 1.27 0 90)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "+3.3V_HV" (at 0 5.08 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"+3.3V_HV\"" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "+3.3V_HV_1_1"
-        (polyline
-          (pts
-            (xy -0.762 1.27)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 2.54)
-            (xy 0.762 1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (pin power_in line (at 0 0 90) (length 0) hide
-          (name "+3.3V_HV" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "LEA_SymbolLibrary:GND_HV" (power) (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (at 2.54 -2.54 90)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "GND_HV" (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"GND_HV\" , ground" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "GND_HV_1_1"
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 -1.27)
-            (xy 1.27 -1.27)
-            (xy 0 -2.54)
-            (xy -1.27 -1.27)
-            (xy 0 -1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (pin power_in line (at 0 0 90) (length 0) hide
-          (name "GND_HV" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "LEA_SymbolLibrary:LED_0402_G_1mA_SML-P11MTT86R" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "D" (at 0 5.08 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "Green_1mA" (at 0 2.54 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "LEA_FootprintLibrary:LED_0402" (at 0 -2.54 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-p11-e.pdf" (at 0 10.2108 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Manufacturer" "ROHM Semiconductor" (at 0 7.62 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "mouser#" "755-SML-P11MTT86R" (at -1.27 -8.255 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "manf#" "SML-P11MTT86R" (at 0 5.08 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "LED 0402. Green, IF 1mA, 1,9V" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "LED_0402_G_1mA_SML-P11MTT86R_0_0"
-        (text "0402" (at -1.905 0.635 0)
-          (effects (font (size 0.5 0.5)))
-        )
-      )
-      (symbol "LED_0402_G_1mA_SML-P11MTT86R_1_1"
-        (polyline
-          (pts
-            (xy -0.6604 -1.0414)
-            (xy -0.6604 0.9906)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0.8636 -1.0414)
-            (xy -0.6604 -0.0254)
-            (xy 0.8636 0.9906)
-            (xy 0.8636 -1.0414)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0.1016 0.7366)
-            (xy -0.4064 1.2446)
-            (xy -0.1524 1.2446)
-            (xy -0.4064 1.2446)
-            (xy -0.4064 0.9906)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0.6096 1.2446)
-            (xy 0.1016 1.7526)
-            (xy 0.3556 1.7526)
-            (xy 0.1016 1.7526)
-            (xy 0.1016 1.4986)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (pin passive line (at 2.54 0 180) (length 1.6002)
-          (name "A" (effects (font (size 1.27 1.27))))
-          (number "A" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -2.54 0 0) (length 1.778)
-          (name "C" (effects (font (size 1.27 1.27))))
-          (number "C" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "LEA_SymbolLibrary:LED_0402_R_1mA_SML-P11UTT86R" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "D" (at 0 5.08 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "Red_1mA" (at 0 2.54 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "LEA_FootprintLibrary:LED_0402" (at 0 -2.54 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-p11-e.pdf" (at 0 10.2108 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Manufacturer" "ROHM Semiconductor" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "mouser#" "755-SML-P11UTT86R" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "manf#" "SML-P11UTT86R" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "LED 0402. Red, IF 1mA, 1,8V" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "LED_0402_R_1mA_SML-P11UTT86R_0_0"
-        (text "0402" (at -1.905 0.635 0)
-          (effects (font (size 0.5 0.5)))
-        )
-      )
-      (symbol "LED_0402_R_1mA_SML-P11UTT86R_1_1"
-        (polyline
-          (pts
-            (xy -0.6604 -1.0414)
-            (xy -0.6604 0.9906)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0.8636 -1.0414)
-            (xy -0.6604 -0.0254)
-            (xy 0.8636 0.9906)
-            (xy 0.8636 -1.0414)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0.1016 0.7366)
-            (xy -0.4064 1.2446)
-            (xy -0.1524 1.2446)
-            (xy -0.4064 1.2446)
-            (xy -0.4064 0.9906)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0.6096 1.2446)
-            (xy 0.1016 1.7526)
-            (xy 0.3556 1.7526)
-            (xy 0.1016 1.7526)
-            (xy 0.1016 1.4986)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (pin passive line (at 2.54 0 180) (length 1.6002)
-          (name "A" (effects (font (size 1.27 1.27))))
-          (number "A" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -2.54 0 0) (length 1.778)
-          (name "C" (effects (font (size 1.27 1.27))))
-          (number "C" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "LEA_SymbolLibrary:LED_0402_Y_1mA_SML-P11YTT86R" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "D" (at 0 5.08 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "Yellow_1mA" (at 0 2.54 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "LEA_FootprintLibrary:LED_0402" (at 0 -2.54 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-p11-e.pdf" (at 0 10.2108 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Manufacturer" "ROHM Semiconductor" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "mouser#" "755-SML-P11YTT86R" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "manf#" "SML-P11YTT86R" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "LED 0402. Yellow, IF 1mA, 1,9V" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "LED_0402_Y_1mA_SML-P11YTT86R_0_0"
-        (text "0402" (at -1.905 0.635 0)
-          (effects (font (size 0.5 0.5)))
-        )
-      )
-      (symbol "LED_0402_Y_1mA_SML-P11YTT86R_1_1"
-        (polyline
-          (pts
-            (xy -0.6604 -1.0414)
-            (xy -0.6604 0.9906)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0.8636 -1.0414)
-            (xy -0.6604 -0.0254)
-            (xy 0.8636 0.9906)
-            (xy 0.8636 -1.0414)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0.1016 0.7366)
-            (xy -0.4064 1.2446)
-            (xy -0.1524 1.2446)
-            (xy -0.4064 1.2446)
-            (xy -0.4064 0.9906)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0.6096 1.2446)
-            (xy 0.1016 1.7526)
-            (xy 0.3556 1.7526)
-            (xy 0.1016 1.7526)
-            (xy 0.1016 1.4986)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (pin passive line (at 2.54 0 180) (length 1.6002)
-          (name "A" (effects (font (size 1.27 1.27))))
-          (number "A" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -2.54 0 0) (length 1.778)
-          (name "C" (effects (font (size 1.27 1.27))))
-          (number "C" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "LEA_SymbolLibrary:R_0402_680R_THICK__1P__50V" (pin_numbers hide) (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "R" (at 0.762 0.508 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "680R" (at 0.762 -1.016 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Footprint" "LEA_FootprintLibrary:R_0402" (at 0 10.16 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Mfr. No" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "manf#" "CRCW0402680RFKEDC" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Mouser No" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Manufacturer" "Vishay" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "mouser#" "71-CRCW0402680RFKEDC" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "R resistor" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Resistor 0402" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "R_*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "R_0402_680R_THICK__1P__50V_0_0"
-        (text "0402" (at 0 0 900)
-          (effects (font (size 0.8 0.8)))
-        )
-      )
-      (symbol "R_0402_680R_THICK__1P__50V_0_1"
-        (rectangle (start -0.762 1.778) (end 0.762 -1.778)
-          (stroke (width 0.2032) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "R_0402_680R_THICK__1P__50V_1_1"
-        (pin passive line (at 0 2.54 270) (length 0.762)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -2.54 90) (length 0.762)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-  )
-
-
-  (wire (pts (xy 72.39 99.06) (xy 72.39 100.33))
-    (stroke (width 0) (type default))
-    (uuid 0887e962-8f08-410d-9589-9308e22a7936)
-  )
-  (polyline (pts (xy 50.8 63.5) (xy 97.79 63.5))
-    (stroke (width 0.3) (type dash))
-    (uuid 09fbb18e-ebe1-4175-b1a9-ad86632b98fa)
-  )
-
-  (wire (pts (xy 191.77 115.57) (xy 191.77 116.84))
-    (stroke (width 0) (type default))
-    (uuid 0ea296d6-5875-4618-860c-bfe68796f5b4)
-  )
-  (wire (pts (xy 149.86 109.22) (xy 149.86 110.49))
-    (stroke (width 0) (type default))
-    (uuid 19e92ce9-a257-42ae-9d0d-c5f08504446f)
-  )
-  (polyline (pts (xy 243.84 124.46) (xy 243.84 63.5))
-    (stroke (width 0.3) (type dash))
-    (uuid 29685c96-f130-4352-b630-3ac8c3d04823)
-  )
-
-  (wire (pts (xy 191.77 109.22) (xy 191.77 110.49))
-    (stroke (width 0) (type default))
-    (uuid 43b4c41e-2f8b-4ca3-9572-a148323b8957)
-  )
-  (wire (pts (xy 163.83 102.87) (xy 163.83 104.14))
-    (stroke (width 0) (type default))
-    (uuid 50d6612f-7f92-41c4-9e0a-c8c46e77f4d3)
-  )
-  (polyline (pts (xy 139.7 63.5) (xy 243.84 63.5))
-    (stroke (width 0.3) (type dash))
-    (uuid 5804f2d8-f973-4194-ad88-eb7fd390b4d6)
-  )
-
-  (wire (pts (xy 231.14 109.22) (xy 231.14 110.49))
-    (stroke (width 0) (type default))
-    (uuid 70547fb4-cb3b-4446-8bde-1bd362db1e88)
-  )
-  (wire (pts (xy 191.77 102.87) (xy 191.77 104.14))
-    (stroke (width 0) (type default))
-    (uuid 7cd8109f-5f99-46a5-9e32-14f7754144db)
-  )
-  (polyline (pts (xy 97.79 124.46) (xy 97.79 63.5))
-    (stroke (width 0.3) (type dash))
-    (uuid 8199a6d9-4354-4fcc-b708-9cdf92299d11)
-  )
-
-  (wire (pts (xy 72.39 92.71) (xy 72.39 93.98))
-    (stroke (width 0) (type default))
-    (uuid 85e63610-ac9f-46a7-bbdc-5b101fccdd1d)
-  )
-  (polyline (pts (xy 50.8 63.5) (xy 50.8 124.46))
-    (stroke (width 0.3) (type dash))
-    (uuid a5584e1d-0159-441a-adec-3c037b356ec2)
-  )
-  (polyline (pts (xy 139.7 124.46) (xy 243.84 124.46))
-    (stroke (width 0.3) (type dash))
-    (uuid a92b11f2-8d4e-47fc-bb3a-cdf3b9af0db9)
-  )
-  (polyline (pts (xy 50.8 124.46) (xy 97.79 124.46))
-    (stroke (width 0.3) (type dash))
-    (uuid adfc154d-516a-4340-b72c-3e886492e663)
-  )
-
-  (wire (pts (xy 217.17 109.22) (xy 217.17 110.49))
-    (stroke (width 0) (type default))
-    (uuid b8dbe2de-283b-405e-95ac-e8f8950e16ea)
-  )
-  (wire (pts (xy 217.17 102.87) (xy 217.17 104.14))
-    (stroke (width 0) (type default))
-    (uuid bc96b171-0e5f-4f36-b582-eb709cbba257)
-  )
-  (wire (pts (xy 149.86 115.57) (xy 149.86 116.84))
-    (stroke (width 0) (type default))
-    (uuid c97c6248-42dc-4aef-8321-f2739b1c363f)
-  )
-  (wire (pts (xy 163.83 109.22) (xy 163.83 110.49))
-    (stroke (width 0) (type default))
-    (uuid ca221485-8dbb-436e-8b3e-94c2d532aee3)
-  )
-  (wire (pts (xy 231.14 115.57) (xy 231.14 116.84))
-    (stroke (width 0) (type default))
-    (uuid d3c9565e-65ee-4661-9d5b-1087e2099043)
-  )
-  (polyline (pts (xy 139.7 63.5) (xy 139.7 124.46))
-    (stroke (width 0.3) (type dash))
-    (uuid dc992968-ff88-4b0e-8f16-5cf9643dabdf)
-  )
-
-  (wire (pts (xy 217.17 115.57) (xy 217.17 116.84))
-    (stroke (width 0) (type default))
-    (uuid e226f21d-d833-4b38-a2cd-20826072ac2f)
-  )
-  (wire (pts (xy 231.14 102.87) (xy 231.14 104.14))
-    (stroke (width 0) (type default))
-    (uuid e4a6ed49-a634-414a-bc0a-13e940197246)
-  )
-  (wire (pts (xy 72.39 105.41) (xy 72.39 106.68))
-    (stroke (width 0) (type default))
-    (uuid e4d2c258-274a-4398-b6a0-528d81ed8508)
-  )
-  (wire (pts (xy 163.83 115.57) (xy 163.83 116.84))
-    (stroke (width 0) (type default))
-    (uuid f7a980e1-d757-405b-965e-cb3c9b1ceca1)
-  )
-
-  (text "Status LEDs" (at 213.36 76.2 0)
-    (effects (font (size 5 5) bold) (justify right bottom))
-    (uuid 388c2314-3bbb-44d9-9a1b-6e615b8010bf)
-  )
-  (text "Power LED" (at 93.98 74.93 0)
-    (effects (font (size 5 5) (thickness 1) bold) (justify right bottom))
-    (uuid 9d71d7cd-9ce2-47a8-b021-c0d7acb758ba)
-  )
-
-  (global_label "LED_Green|GPIO5" (shape input) (at 149.86 104.14 90) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 1838018b-76e2-46c4-810f-488a77452c50)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 149.7806 85.1244 90)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
-  (global_label "LED_Red|GPIO7" (shape input) (at 231.14 102.87 90) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 90fe3643-434a-4ce0-9840-3cad77f88b18)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 231.0606 85.7291 90)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
-  (global_label "LED_Green|GPIO3" (shape input) (at 163.83 102.87 90) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid b4ed4f70-ce9b-434b-8f47-4b685d5bf70d)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 163.7506 83.8544 90)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
-  (global_label "LED_Red|GPIO6" (shape input) (at 217.17 102.87 90) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid e76ed5b3-3300-4086-a950-0e5fe7abe0d2)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 217.0906 85.7291 90)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
-  (global_label "LED_Yellow|GPIO2" (shape input) (at 191.77 102.87 90) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid fa7a6ff2-91e8-47a3-8788-97a1388c06f6)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 191.6906 83.2496 90)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
-
-  (symbol (lib_id "LEA_SymbolLibrary:LED_0402_G_1mA_SML-P11MTT86R") (at 72.39 96.52 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 00000000-0000-0000-0000-000061de727d)
-    (property "Reference" "D1001" (at 66.04 96.52 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Green_1mA" (at 80.01 96.52 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "LEA_FootprintLibrary:LED_0402" (at 74.93 96.52 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-p11-e.pdf" (at 62.1792 96.52 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "ROHM Semiconductor" (at 64.77 96.52 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mouser No" "755-SML-P11MTT86R" (at 65.532 96.52 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mfr. No" "SML-P11MTT86R" (at 58.9788 96.52 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "mouser#" "755-SML-P11MTT86R" (at 80.645 97.79 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "manf#" "SML-P11MTT86R" (at 67.31 96.52 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "A" (uuid 5606c2c9-8d20-49a7-a220-882fb12b6de9))
-    (pin "C" (uuid 22cf2b78-58f6-41b8-91e4-ab2251996a63))
-    (instances
-      (project "LCB-CCB-01"
-        (path "/968a6172-7a4e-40ab-a78a-e4d03671e136/00000000-0000-0000-0000-000061de0978"
-          (reference "D1001") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "LEA_SymbolLibrary:R_0402_680R_THICK__1P__50V") (at 72.39 102.87 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 00000000-0000-0000-0000-000061de7290)
-    (property "Reference" "R1001" (at 74.93 102.87 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "680R" (at 71.628 101.854 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "LEA_FootprintLibrary:R_0402" (at 72.39 113.03 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 72.39 102.87 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mfr. No" "" (at 72.39 102.87 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mouser No" "" (at 72.39 102.87 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "Vishay" (at 72.39 102.87 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "manf#" "CRCW0402680RFKEDC" (at 72.39 102.87 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "mouser#" "71-CRCW0402680RFKEDC" (at 72.39 102.87 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid ce049c30-6629-4827-b32b-d3c8b0d57289))
-    (pin "2" (uuid b481b075-9fdf-42c9-9f4f-1820179a57db))
-    (instances
-      (project "LCB-CCB-01"
-        (path "/968a6172-7a4e-40ab-a78a-e4d03671e136/00000000-0000-0000-0000-000061de0978"
-          (reference "R1001") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "LEA_SymbolLibrary:+3.3V_HV") (at 72.39 92.71 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 00000000-0000-0000-0000-000061de7372)
-    (property "Reference" "#PWR01001" (at 73.66 92.71 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+3.3V_HV" (at 72.39 88.3158 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 72.39 92.71 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 72.39 92.71 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 5112e7ff-94f4-4953-9b3b-e89ab066bf44))
-    (instances
-      (project "LCB-CCB-01"
-        (path "/968a6172-7a4e-40ab-a78a-e4d03671e136/00000000-0000-0000-0000-000061de0978"
-          (reference "#PWR01001") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "LEA_SymbolLibrary:GND_HV") (at 72.39 106.68 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 00000000-0000-0000-0000-000061de7a3c)
-    (property "Reference" "#PWR01002" (at 74.93 109.22 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND_HV" (at 72.39 110.49 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 72.39 106.68 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 72.39 106.68 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 72596630-6f62-446b-a788-e57836f8a3c1))
-    (instances
-      (project "LCB-CCB-01"
-        (path "/968a6172-7a4e-40ab-a78a-e4d03671e136/00000000-0000-0000-0000-000061de0978"
-          (reference "#PWR01002") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "LEA_SymbolLibrary:LED_0402_G_1mA_SML-P11MTT86R") (at 163.83 106.68 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 00000000-0000-0000-0000-000061dea47a)
-    (property "Reference" "D1003" (at 161.29 105.41 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Green_1mA" (at 166.37 102.87 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "LEA_FootprintLibrary:LED_0402" (at 166.37 106.68 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-p11-e.pdf" (at 153.6192 106.68 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "ROHM Semiconductor" (at 156.21 106.68 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mouser No" "755-SML-P11MTT86R" (at 156.972 106.68 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mfr. No" "SML-P11MTT86R" (at 150.4188 106.68 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "mouser#" "755-SML-P11MTT86R" (at 172.085 107.95 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "manf#" "SML-P11MTT86R" (at 158.75 106.68 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "A" (uuid 46a7dba6-e84c-4e04-a72e-86e4c6e4e198))
-    (pin "C" (uuid a19bb3b9-c3b6-449b-be8f-c06006e4fd2a))
-    (instances
-      (project "LCB-CCB-01"
-        (path "/968a6172-7a4e-40ab-a78a-e4d03671e136/00000000-0000-0000-0000-000061de0978"
-          (reference "D1003") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "LEA_SymbolLibrary:R_0402_680R_THICK__1P__50V") (at 163.83 113.03 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 00000000-0000-0000-0000-000061dea481)
-    (property "Reference" "R1003" (at 161.29 113.03 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "680R" (at 166.37 110.49 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "LEA_FootprintLibrary:R_0402" (at 163.83 123.19 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 163.83 113.03 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mfr. No" "" (at 163.83 113.03 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mouser No" "" (at 163.83 113.03 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "Vishay" (at 163.83 113.03 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "manf#" "CRCW0402680RFKEDC" (at 163.83 113.03 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "mouser#" "71-CRCW0402680RFKEDC" (at 163.83 113.03 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid a4016004-dc80-4dea-8e6b-d39f67a11e91))
-    (pin "2" (uuid facfc131-66c7-4b5b-b59f-7d81e0c94438))
-    (instances
-      (project "LCB-CCB-01"
-        (path "/968a6172-7a4e-40ab-a78a-e4d03671e136/00000000-0000-0000-0000-000061de0978"
-          (reference "R1003") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "LEA_SymbolLibrary:GND_HV") (at 163.83 116.84 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 00000000-0000-0000-0000-000061dea48f)
-    (property "Reference" "#PWR01004" (at 166.37 119.38 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND_HV" (at 163.83 120.65 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 163.83 116.84 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 163.83 116.84 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid de9814ea-c668-40c7-a581-41a00d5ad413))
-    (instances
-      (project "LCB-CCB-01"
-        (path "/968a6172-7a4e-40ab-a78a-e4d03671e136/00000000-0000-0000-0000-000061de0978"
-          (reference "#PWR01004") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "LEA_SymbolLibrary:R_0402_680R_THICK__1P__50V") (at 191.77 113.03 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 00000000-0000-0000-0000-000061deb7f4)
-    (property "Reference" "R1004" (at 189.23 113.03 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "680R" (at 194.31 110.49 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "LEA_FootprintLibrary:R_0402" (at 191.77 123.19 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 191.77 113.03 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mfr. No" "" (at 191.77 113.03 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mouser No" "" (at 191.77 113.03 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "Vishay" (at 191.77 113.03 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "manf#" "CRCW0402680RFKEDC" (at 191.77 113.03 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "mouser#" "71-CRCW0402680RFKEDC" (at 191.77 113.03 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 2d5b3e10-9b65-4abf-803e-969a546fc8e3))
-    (pin "2" (uuid 18648368-8315-41f6-b287-55706b48f79e))
-    (instances
-      (project "LCB-CCB-01"
-        (path "/968a6172-7a4e-40ab-a78a-e4d03671e136/00000000-0000-0000-0000-000061de0978"
-          (reference "R1004") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "LEA_SymbolLibrary:GND_HV") (at 191.77 116.84 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 00000000-0000-0000-0000-000061deb802)
-    (property "Reference" "#PWR01005" (at 194.31 119.38 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND_HV" (at 191.77 120.65 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 191.77 116.84 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 191.77 116.84 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid fbc71af7-de54-4238-9761-e2dd07bc84ed))
-    (instances
-      (project "LCB-CCB-01"
-        (path "/968a6172-7a4e-40ab-a78a-e4d03671e136/00000000-0000-0000-0000-000061de0978"
-          (reference "#PWR01005") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "LEA_SymbolLibrary:R_0402_680R_THICK__1P__50V") (at 217.17 113.03 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 00000000-0000-0000-0000-000061ded16e)
-    (property "Reference" "R1005" (at 214.63 113.03 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "680R" (at 219.71 110.49 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "LEA_FootprintLibrary:R_0402" (at 217.17 123.19 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 217.17 113.03 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mfr. No" "" (at 217.17 113.03 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mouser No" "" (at 217.17 113.03 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "Vishay" (at 217.17 113.03 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "manf#" "CRCW0402680RFKEDC" (at 217.17 113.03 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "mouser#" "71-CRCW0402680RFKEDC" (at 217.17 113.03 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid b15cb383-7ebe-47e4-8de4-90e4bb592ca1))
-    (pin "2" (uuid cd456294-dca4-4c26-9abc-c7a07f86c1c8))
-    (instances
-      (project "LCB-CCB-01"
-        (path "/968a6172-7a4e-40ab-a78a-e4d03671e136/00000000-0000-0000-0000-000061de0978"
-          (reference "R1005") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "LEA_SymbolLibrary:GND_HV") (at 217.17 116.84 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 00000000-0000-0000-0000-000061ded17c)
-    (property "Reference" "#PWR01006" (at 219.71 119.38 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND_HV" (at 217.17 120.65 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 217.17 116.84 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 217.17 116.84 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 3de5b137-b7ed-4a67-a65d-5332350a142e))
-    (instances
-      (project "LCB-CCB-01"
-        (path "/968a6172-7a4e-40ab-a78a-e4d03671e136/00000000-0000-0000-0000-000061de0978"
-          (reference "#PWR01006") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "LEA_SymbolLibrary:LED_0402_R_1mA_SML-P11UTT86R") (at 217.17 106.68 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 00000000-0000-0000-0000-000061e0b2d0)
-    (property "Reference" "D1005" (at 214.63 101.6 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "Red_1mA" (at 219.71 100.33 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "LEA_FootprintLibrary:LED_0402" (at 219.71 106.68 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-p11-e.pdf" (at 206.9592 106.68 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "ROHM Semiconductor" (at 217.17 106.68 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mouser No" "755-SML-P11UTT86R" (at 210.312 106.68 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mfr. No" "SML-P11UTT86R" (at 207.8736 106.68 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "mouser#" "755-SML-P11UTT86R" (at 217.17 106.68 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "manf#" "SML-P11UTT86R" (at 217.17 106.68 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "A" (uuid 1875410c-e4b4-4ec3-b634-5e1a0d17ab0f))
-    (pin "C" (uuid 79a1619b-f9a8-42ec-8ecc-7ef7d3baec62))
-    (instances
-      (project "LCB-CCB-01"
-        (path "/968a6172-7a4e-40ab-a78a-e4d03671e136/00000000-0000-0000-0000-000061de0978"
-          (reference "D1005") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "LEA_SymbolLibrary:LED_0402_Y_1mA_SML-P11YTT86R") (at 191.77 106.68 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 00000000-0000-0000-0000-000061e0c2c6)
-    (property "Reference" "D1004" (at 189.23 101.6 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "Yellow_1mA" (at 194.31 99.06 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "LEA_FootprintLibrary:LED_0402" (at 194.31 106.68 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-p11-e.pdf" (at 181.5592 106.68 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "ROHM Semiconductor" (at 191.77 106.68 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mouser No" "755-SML-P11YTT86R" (at 184.912 106.68 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mfr. No" "SML-P11YTT86R" (at 176.8348 106.68 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "mouser#" "755-SML-P11YTT86R" (at 191.77 106.68 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "manf#" "SML-P11YTT86R" (at 191.77 106.68 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "A" (uuid 0f8c7f8e-c569-41d5-a9c5-be2602986fec))
-    (pin "C" (uuid 428a4858-7900-478d-911b-bba8c1cdea3d))
-    (instances
-      (project "LCB-CCB-01"
-        (path "/968a6172-7a4e-40ab-a78a-e4d03671e136/00000000-0000-0000-0000-000061de0978"
-          (reference "D1004") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "LEA_SymbolLibrary:GND_HV") (at 231.14 116.84 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 309c1589-51ed-45f5-9a94-0d928b5146bc)
-    (property "Reference" "#PWR01007" (at 233.68 119.38 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND_HV" (at 231.14 120.65 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 231.14 116.84 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 231.14 116.84 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 944cdf96-ab3d-48ed-bdab-8fcebcec2eb3))
-    (instances
-      (project "LCB-CCB-01"
-        (path "/968a6172-7a4e-40ab-a78a-e4d03671e136/00000000-0000-0000-0000-000061de0978"
-          (reference "#PWR01007") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "LEA_SymbolLibrary:LED_0402_G_1mA_SML-P11MTT86R") (at 149.86 106.68 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 65bdfaba-6fc1-4fc6-827c-0293d3073097)
-    (property "Reference" "D1002" (at 147.32 105.41 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Green_1mA" (at 152.4 102.87 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "LEA_FootprintLibrary:LED_0402" (at 152.4 106.68 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-p11-e.pdf" (at 139.6492 106.68 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "ROHM Semiconductor" (at 142.24 106.68 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mouser No" "755-SML-P11MTT86R" (at 143.002 106.68 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mfr. No" "SML-P11MTT86R" (at 136.4488 106.68 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "mouser#" "755-SML-P11MTT86R" (at 158.115 107.95 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "manf#" "SML-P11MTT86R" (at 144.78 106.68 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "A" (uuid 55579cdc-c9d5-46b0-bb34-d7c38f97321d))
-    (pin "C" (uuid 71264d74-b4b1-4c8a-8d58-bfb4dade974d))
-    (instances
-      (project "LCB-CCB-01"
-        (path "/968a6172-7a4e-40ab-a78a-e4d03671e136/00000000-0000-0000-0000-000061de0978"
-          (reference "D1002") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "LEA_SymbolLibrary:R_0402_680R_THICK__1P__50V") (at 149.86 113.03 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid bbd4733d-7ec0-4f17-beb6-0be64574337a)
-    (property "Reference" "R1002" (at 147.32 113.03 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "680R" (at 152.4 110.49 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "LEA_FootprintLibrary:R_0402" (at 149.86 123.19 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 149.86 113.03 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mfr. No" "" (at 149.86 113.03 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mouser No" "" (at 149.86 113.03 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "Vishay" (at 149.86 113.03 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "manf#" "CRCW0402680RFKEDC" (at 149.86 113.03 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "mouser#" "71-CRCW0402680RFKEDC" (at 149.86 113.03 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid d2c6fd53-3d43-4d49-969f-81319987a8e5))
-    (pin "2" (uuid f2b4d7a1-d791-4411-9fda-f35e98a77f67))
-    (instances
-      (project "LCB-CCB-01"
-        (path "/968a6172-7a4e-40ab-a78a-e4d03671e136/00000000-0000-0000-0000-000061de0978"
-          (reference "R1002") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "LEA_SymbolLibrary:GND_HV") (at 149.86 116.84 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid c0ad85fa-fb5e-439b-b8c5-29850a49bd8f)
-    (property "Reference" "#PWR01003" (at 152.4 119.38 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND_HV" (at 149.86 120.65 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 149.86 116.84 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 149.86 116.84 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 12008218-4f06-476d-ba32-9b7bf59a0bae))
-    (instances
-      (project "LCB-CCB-01"
-        (path "/968a6172-7a4e-40ab-a78a-e4d03671e136/00000000-0000-0000-0000-000061de0978"
-          (reference "#PWR01003") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "LEA_SymbolLibrary:R_0402_680R_THICK__1P__50V") (at 231.14 113.03 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid ceacc570-d51a-479d-8841-921c97709e40)
-    (property "Reference" "R1006" (at 228.6 113.03 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "680R" (at 233.68 110.49 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "LEA_FootprintLibrary:R_0402" (at 231.14 123.19 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 231.14 113.03 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mfr. No" "" (at 231.14 113.03 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mouser No" "" (at 231.14 113.03 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "Vishay" (at 231.14 113.03 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "manf#" "CRCW0402680RFKEDC" (at 231.14 113.03 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "mouser#" "71-CRCW0402680RFKEDC" (at 231.14 113.03 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 32c89413-793b-436a-b96c-5ae5c242ec95))
-    (pin "2" (uuid b27c6b92-6fb7-4cef-922c-8307cec18d6a))
-    (instances
-      (project "LCB-CCB-01"
-        (path "/968a6172-7a4e-40ab-a78a-e4d03671e136/00000000-0000-0000-0000-000061de0978"
-          (reference "R1006") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "LEA_SymbolLibrary:LED_0402_R_1mA_SML-P11UTT86R") (at 231.14 106.68 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid d125b361-649d-4b25-9a14-55f919412c7e)
-    (property "Reference" "D1006" (at 228.6 105.41 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Red_1mA" (at 233.68 105.41 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "LEA_FootprintLibrary:LED_0402" (at 233.68 106.68 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-p11-e.pdf" (at 220.9292 106.68 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "ROHM Semiconductor" (at 231.14 106.68 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mouser No" "755-SML-P11MTT86R" (at 224.282 106.68 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mfr. No" "SML-P11MTT86R" (at 217.7288 106.68 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "mouser#" "755-SML-P11UTT86R" (at 231.14 106.68 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "manf#" "SML-P11UTT86R" (at 231.14 106.68 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "A" (uuid de198ffa-3d6c-4f8c-a707-59c9dec58f83))
-    (pin "C" (uuid 57946eb1-21ff-46fc-954f-4cbac3b7ac38))
-    (instances
-      (project "LCB-CCB-01"
-        (path "/968a6172-7a4e-40ab-a78a-e4d03671e136/00000000-0000-0000-0000-000061de0978"
-          (reference "D1006") (unit 1)
-        )
-      )
-    )
-  )
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "d0583253-7f1c-498c-afba-93bf9b28c781")
+	(paper "A4")
+	(title_block
+		(title "LCB-CCB-01: Control Board - Status LEDs")
+		(date "2022-03-17")
+		(rev "0.1")
+		(company "PADERBORN UNIVERSITY DEPARTMENT OF POWER ELECTRONICS AND ELECTRICAL DRIVES")
+	)
+	(lib_symbols
+		(symbol "LEA_SymbolLibrary:+3.3V_HV"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 1.27 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3.3V_HV"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3V_HV\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3.3V_HV_1_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 90)
+					(length 0) hide
+					(name "+3.3V_HV"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "LEA_SymbolLibrary:GND_HV"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 2.54 -2.54 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND_HV"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND_HV\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_HV_1_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 90)
+					(length 0) hide
+					(name "GND_HV"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "LEA_SymbolLibrary:LED_0402_G_1mA_SML-P11MTT86R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Green_1mA"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "LEA_FootprintLibrary:LED_0402"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-p11-e.pdf"
+				(at 0 10.2108 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "LED 0402. Green, IF 1mA, 1,9V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "ROHM Semiconductor"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "mouser#" "755-SML-P11MTT86R"
+				(at -1.27 -8.255 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "manf#" "SML-P11MTT86R"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_0402_G_1mA_SML-P11MTT86R_0_0"
+				(text "0402"
+					(at -1.905 0.635 0)
+					(effects
+						(font
+							(size 0.5 0.5)
+						)
+					)
+				)
+			)
+			(symbol "LED_0402_G_1mA_SML-P11MTT86R_1_1"
+				(polyline
+					(pts
+						(xy -0.6604 -1.0414) (xy -0.6604 0.9906)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.8636 -1.0414) (xy -0.6604 -0.0254) (xy 0.8636 0.9906) (xy 0.8636 -1.0414)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.1016 0.7366) (xy -0.4064 1.2446) (xy -0.1524 1.2446) (xy -0.4064 1.2446) (xy -0.4064 0.9906)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.6096 1.2446) (xy 0.1016 1.7526) (xy 0.3556 1.7526) (xy 0.1016 1.7526) (xy 0.1016 1.4986)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.6002)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.778)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "LEA_SymbolLibrary:LED_0402_R_1mA_SML-P11UTT86R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Red_1mA"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "LEA_FootprintLibrary:LED_0402"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-p11-e.pdf"
+				(at 0 10.2108 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "LED 0402. Red, IF 1mA, 1,8V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "ROHM Semiconductor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "mouser#" "755-SML-P11UTT86R"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "manf#" "SML-P11UTT86R"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_0402_R_1mA_SML-P11UTT86R_0_0"
+				(text "0402"
+					(at -1.905 0.635 0)
+					(effects
+						(font
+							(size 0.5 0.5)
+						)
+					)
+				)
+			)
+			(symbol "LED_0402_R_1mA_SML-P11UTT86R_1_1"
+				(polyline
+					(pts
+						(xy -0.6604 -1.0414) (xy -0.6604 0.9906)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.8636 -1.0414) (xy -0.6604 -0.0254) (xy 0.8636 0.9906) (xy 0.8636 -1.0414)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.1016 0.7366) (xy -0.4064 1.2446) (xy -0.1524 1.2446) (xy -0.4064 1.2446) (xy -0.4064 0.9906)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.6096 1.2446) (xy 0.1016 1.7526) (xy 0.3556 1.7526) (xy 0.1016 1.7526) (xy 0.1016 1.4986)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.6002)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.778)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "LEA_SymbolLibrary:LED_0402_Y_1mA_SML-P11YTT86R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Yellow_1mA"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "LEA_FootprintLibrary:LED_0402"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-p11-e.pdf"
+				(at 0 10.2108 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "LED 0402. Yellow, IF 1mA, 1,9V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "ROHM Semiconductor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "mouser#" "755-SML-P11YTT86R"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "manf#" "SML-P11YTT86R"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_0402_Y_1mA_SML-P11YTT86R_0_0"
+				(text "0402"
+					(at -1.905 0.635 0)
+					(effects
+						(font
+							(size 0.5 0.5)
+						)
+					)
+				)
+			)
+			(symbol "LED_0402_Y_1mA_SML-P11YTT86R_1_1"
+				(polyline
+					(pts
+						(xy -0.6604 -1.0414) (xy -0.6604 0.9906)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.8636 -1.0414) (xy -0.6604 -0.0254) (xy 0.8636 0.9906) (xy 0.8636 -1.0414)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.1016 0.7366) (xy -0.4064 1.2446) (xy -0.1524 1.2446) (xy -0.4064 1.2446) (xy -0.4064 0.9906)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.6096 1.2446) (xy 0.1016 1.7526) (xy 0.3556 1.7526) (xy 0.1016 1.7526) (xy 0.1016 1.4986)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.6002)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.778)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "LEA_SymbolLibrary:R_0402_680R_THICK__1P__50V"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0.762 0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "680R"
+				(at 0.762 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "LEA_FootprintLibrary:R_0402"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor 0402"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mfr. No" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "manf#" "CRCW0402680RFKEDC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser No" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Vishay"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "mouser#" "71-CRCW0402680RFKEDC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0402_680R_THICK__1P__50V_0_0"
+				(text "0402"
+					(at 0 0 900)
+					(effects
+						(font
+							(size 0.8 0.8)
+						)
+					)
+				)
+			)
+			(symbol "R_0402_680R_THICK__1P__50V_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_0402_680R_THICK__1P__50V_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 72.39 99.06) (xy 72.39 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0887e962-8f08-410d-9589-9308e22a7936")
+	)
+	(polyline
+		(pts
+			(xy 50.8 63.5) (xy 97.79 63.5)
+		)
+		(stroke
+			(width 0.3)
+			(type dash)
+		)
+		(uuid "09fbb18e-ebe1-4175-b1a9-ad86632b98fa")
+	)
+	(wire
+		(pts
+			(xy 191.77 115.57) (xy 191.77 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ea296d6-5875-4618-860c-bfe68796f5b4")
+	)
+	(wire
+		(pts
+			(xy 149.86 109.22) (xy 149.86 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19e92ce9-a257-42ae-9d0d-c5f08504446f")
+	)
+	(polyline
+		(pts
+			(xy 243.84 124.46) (xy 243.84 63.5)
+		)
+		(stroke
+			(width 0.3)
+			(type dash)
+		)
+		(uuid "29685c96-f130-4352-b630-3ac8c3d04823")
+	)
+	(wire
+		(pts
+			(xy 191.77 109.22) (xy 191.77 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43b4c41e-2f8b-4ca3-9572-a148323b8957")
+	)
+	(wire
+		(pts
+			(xy 163.83 102.87) (xy 163.83 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50d6612f-7f92-41c4-9e0a-c8c46e77f4d3")
+	)
+	(polyline
+		(pts
+			(xy 139.7 63.5) (xy 243.84 63.5)
+		)
+		(stroke
+			(width 0.3)
+			(type dash)
+		)
+		(uuid "5804f2d8-f973-4194-ad88-eb7fd390b4d6")
+	)
+	(wire
+		(pts
+			(xy 231.14 109.22) (xy 231.14 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70547fb4-cb3b-4446-8bde-1bd362db1e88")
+	)
+	(wire
+		(pts
+			(xy 191.77 102.87) (xy 191.77 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cd8109f-5f99-46a5-9e32-14f7754144db")
+	)
+	(polyline
+		(pts
+			(xy 97.79 124.46) (xy 97.79 63.5)
+		)
+		(stroke
+			(width 0.3)
+			(type dash)
+		)
+		(uuid "8199a6d9-4354-4fcc-b708-9cdf92299d11")
+	)
+	(wire
+		(pts
+			(xy 72.39 92.71) (xy 72.39 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85e63610-ac9f-46a7-bbdc-5b101fccdd1d")
+	)
+	(polyline
+		(pts
+			(xy 50.8 63.5) (xy 50.8 124.46)
+		)
+		(stroke
+			(width 0.3)
+			(type dash)
+		)
+		(uuid "a5584e1d-0159-441a-adec-3c037b356ec2")
+	)
+	(polyline
+		(pts
+			(xy 139.7 124.46) (xy 243.84 124.46)
+		)
+		(stroke
+			(width 0.3)
+			(type dash)
+		)
+		(uuid "a92b11f2-8d4e-47fc-bb3a-cdf3b9af0db9")
+	)
+	(polyline
+		(pts
+			(xy 50.8 124.46) (xy 97.79 124.46)
+		)
+		(stroke
+			(width 0.3)
+			(type dash)
+		)
+		(uuid "adfc154d-516a-4340-b72c-3e886492e663")
+	)
+	(wire
+		(pts
+			(xy 217.17 109.22) (xy 217.17 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8dbe2de-283b-405e-95ac-e8f8950e16ea")
+	)
+	(wire
+		(pts
+			(xy 217.17 102.87) (xy 217.17 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc96b171-0e5f-4f36-b582-eb709cbba257")
+	)
+	(wire
+		(pts
+			(xy 149.86 115.57) (xy 149.86 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c97c6248-42dc-4aef-8321-f2739b1c363f")
+	)
+	(wire
+		(pts
+			(xy 163.83 109.22) (xy 163.83 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca221485-8dbb-436e-8b3e-94c2d532aee3")
+	)
+	(wire
+		(pts
+			(xy 231.14 115.57) (xy 231.14 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3c9565e-65ee-4661-9d5b-1087e2099043")
+	)
+	(polyline
+		(pts
+			(xy 139.7 63.5) (xy 139.7 124.46)
+		)
+		(stroke
+			(width 0.3)
+			(type dash)
+		)
+		(uuid "dc992968-ff88-4b0e-8f16-5cf9643dabdf")
+	)
+	(wire
+		(pts
+			(xy 217.17 115.57) (xy 217.17 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e226f21d-d833-4b38-a2cd-20826072ac2f")
+	)
+	(wire
+		(pts
+			(xy 231.14 102.87) (xy 231.14 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4a6ed49-a634-414a-bc0a-13e940197246")
+	)
+	(wire
+		(pts
+			(xy 72.39 105.41) (xy 72.39 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4d2c258-274a-4398-b6a0-528d81ed8508")
+	)
+	(wire
+		(pts
+			(xy 163.83 115.57) (xy 163.83 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7a980e1-d757-405b-965e-cb3c9b1ceca1")
+	)
+	(text "Status LEDs"
+		(exclude_from_sim no)
+		(at 213.36 76.2 0)
+		(effects
+			(font
+				(size 5 5)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+		(uuid "388c2314-3bbb-44d9-9a1b-6e615b8010bf")
+	)
+	(text "Power LED"
+		(exclude_from_sim no)
+		(at 93.98 74.93 0)
+		(effects
+			(font
+				(size 5 5)
+				(thickness 1)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+		(uuid "9d71d7cd-9ce2-47a8-b021-c0d7acb758ba")
+	)
+	(global_label "LED_Green|GPIO5"
+		(shape input)
+		(at 149.86 104.14 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1838018b-76e2-46c4-810f-488a77452c50")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 149.7806 85.1244 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LED_Red|GPIO7"
+		(shape input)
+		(at 231.14 102.87 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "90fe3643-434a-4ce0-9840-3cad77f88b18")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 231.0606 85.7291 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LED_Green|GPIO3"
+		(shape input)
+		(at 163.83 102.87 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b4ed4f70-ce9b-434b-8f47-4b685d5bf70d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 163.7506 83.8544 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LED_Red|GPIO6"
+		(shape input)
+		(at 217.17 102.87 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e76ed5b3-3300-4086-a950-0e5fe7abe0d2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 217.0906 85.7291 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LED_Yellow|GPIO2"
+		(shape input)
+		(at 191.77 102.87 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fa7a6ff2-91e8-47a3-8788-97a1388c06f6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 191.6906 83.2496 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LEA_SymbolLibrary:LED_0402_G_1mA_SML-P11MTT86R")
+		(at 72.39 96.52 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000061de727d")
+		(property "Reference" "D1001"
+			(at 66.04 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Green_1mA"
+			(at 80.01 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LEA_FootprintLibrary:LED_0402"
+			(at 74.93 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-p11-e.pdf"
+			(at 62.1792 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 72.39 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "ROHM Semiconductor"
+			(at 64.77 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser No" "755-SML-P11MTT86R"
+			(at 65.532 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. No" "SML-P11MTT86R"
+			(at 58.9788 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "755-SML-P11MTT86R"
+			(at 80.645 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "SML-P11MTT86R"
+			(at 67.31 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "A"
+			(uuid "5606c2c9-8d20-49a7-a220-882fb12b6de9")
+		)
+		(pin "C"
+			(uuid "22cf2b78-58f6-41b8-91e4-ab2251996a63")
+		)
+		(instances
+			(project "LCB-CCB-01"
+				(path "/968a6172-7a4e-40ab-a78a-e4d03671e136/00000000-0000-0000-0000-000061de0978"
+					(reference "D1001")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LEA_SymbolLibrary:R_0402_680R_THICK__1P__50V")
+		(at 72.39 102.87 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000061de7290")
+		(property "Reference" "R1001"
+			(at 74.93 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "680R"
+			(at 71.628 101.854 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LEA_FootprintLibrary:R_0402"
+			(at 72.39 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 72.39 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. No" ""
+			(at 72.39 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser No" ""
+			(at 72.39 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay"
+			(at 72.39 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "CRCW0402680RFKEDC"
+			(at 72.39 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "71-CRCW0402680RFKEDC"
+			(at 72.39 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ce049c30-6629-4827-b32b-d3c8b0d57289")
+		)
+		(pin "2"
+			(uuid "b481b075-9fdf-42c9-9f4f-1820179a57db")
+		)
+		(instances
+			(project "LCB-CCB-01"
+				(path "/968a6172-7a4e-40ab-a78a-e4d03671e136/00000000-0000-0000-0000-000061de0978"
+					(reference "R1001")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LEA_SymbolLibrary:+3.3V_HV")
+		(at 72.39 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000061de7372")
+		(property "Reference" "#PWR01001"
+			(at 73.66 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V_HV"
+			(at 72.39 88.3158 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 72.39 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5112e7ff-94f4-4953-9b3b-e89ab066bf44")
+		)
+		(instances
+			(project "LCB-CCB-01"
+				(path "/968a6172-7a4e-40ab-a78a-e4d03671e136/00000000-0000-0000-0000-000061de0978"
+					(reference "#PWR01001")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LEA_SymbolLibrary:GND_HV")
+		(at 72.39 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000061de7a3c")
+		(property "Reference" "#PWR01002"
+			(at 74.93 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_HV"
+			(at 72.39 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 72.39 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "72596630-6f62-446b-a788-e57836f8a3c1")
+		)
+		(instances
+			(project "LCB-CCB-01"
+				(path "/968a6172-7a4e-40ab-a78a-e4d03671e136/00000000-0000-0000-0000-000061de0978"
+					(reference "#PWR01002")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LEA_SymbolLibrary:LED_0402_G_1mA_SML-P11MTT86R")
+		(at 163.83 106.68 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000061dea47a")
+		(property "Reference" "D1003"
+			(at 161.29 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Green_1mA"
+			(at 166.37 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LEA_FootprintLibrary:LED_0402"
+			(at 166.37 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-p11-e.pdf"
+			(at 153.6192 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 163.83 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "ROHM Semiconductor"
+			(at 156.21 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser No" "755-SML-P11MTT86R"
+			(at 156.972 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. No" "SML-P11MTT86R"
+			(at 150.4188 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "755-SML-P11MTT86R"
+			(at 172.085 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "SML-P11MTT86R"
+			(at 158.75 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "A"
+			(uuid "46a7dba6-e84c-4e04-a72e-86e4c6e4e198")
+		)
+		(pin "C"
+			(uuid "a19bb3b9-c3b6-449b-be8f-c06006e4fd2a")
+		)
+		(instances
+			(project "LCB-CCB-01"
+				(path "/968a6172-7a4e-40ab-a78a-e4d03671e136/00000000-0000-0000-0000-000061de0978"
+					(reference "D1003")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LEA_SymbolLibrary:R_0402_680R_THICK__1P__50V")
+		(at 163.83 113.03 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000061dea481")
+		(property "Reference" "R1003"
+			(at 161.29 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "680R"
+			(at 166.37 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LEA_FootprintLibrary:R_0402"
+			(at 163.83 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 163.83 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. No" ""
+			(at 163.83 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser No" ""
+			(at 163.83 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay"
+			(at 163.83 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "CRCW0402680RFKEDC"
+			(at 163.83 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "71-CRCW0402680RFKEDC"
+			(at 163.83 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a4016004-dc80-4dea-8e6b-d39f67a11e91")
+		)
+		(pin "2"
+			(uuid "facfc131-66c7-4b5b-b59f-7d81e0c94438")
+		)
+		(instances
+			(project "LCB-CCB-01"
+				(path "/968a6172-7a4e-40ab-a78a-e4d03671e136/00000000-0000-0000-0000-000061de0978"
+					(reference "R1003")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LEA_SymbolLibrary:GND_HV")
+		(at 163.83 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000061dea48f")
+		(property "Reference" "#PWR01004"
+			(at 166.37 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_HV"
+			(at 163.83 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 163.83 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "de9814ea-c668-40c7-a581-41a00d5ad413")
+		)
+		(instances
+			(project "LCB-CCB-01"
+				(path "/968a6172-7a4e-40ab-a78a-e4d03671e136/00000000-0000-0000-0000-000061de0978"
+					(reference "#PWR01004")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LEA_SymbolLibrary:R_0402_680R_THICK__1P__50V")
+		(at 191.77 113.03 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000061deb7f4")
+		(property "Reference" "R1004"
+			(at 189.23 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "680R"
+			(at 194.31 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LEA_FootprintLibrary:R_0402"
+			(at 191.77 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 191.77 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. No" ""
+			(at 191.77 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser No" ""
+			(at 191.77 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay"
+			(at 191.77 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "CRCW0402680RFKEDC"
+			(at 191.77 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "71-CRCW0402680RFKEDC"
+			(at 191.77 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2d5b3e10-9b65-4abf-803e-969a546fc8e3")
+		)
+		(pin "2"
+			(uuid "18648368-8315-41f6-b287-55706b48f79e")
+		)
+		(instances
+			(project "LCB-CCB-01"
+				(path "/968a6172-7a4e-40ab-a78a-e4d03671e136/00000000-0000-0000-0000-000061de0978"
+					(reference "R1004")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LEA_SymbolLibrary:GND_HV")
+		(at 191.77 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000061deb802")
+		(property "Reference" "#PWR01005"
+			(at 194.31 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_HV"
+			(at 191.77 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 191.77 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fbc71af7-de54-4238-9761-e2dd07bc84ed")
+		)
+		(instances
+			(project "LCB-CCB-01"
+				(path "/968a6172-7a4e-40ab-a78a-e4d03671e136/00000000-0000-0000-0000-000061de0978"
+					(reference "#PWR01005")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LEA_SymbolLibrary:R_0402_680R_THICK__1P__50V")
+		(at 217.17 113.03 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000061ded16e")
+		(property "Reference" "R1005"
+			(at 214.63 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "680R"
+			(at 219.71 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LEA_FootprintLibrary:R_0402"
+			(at 217.17 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 217.17 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. No" ""
+			(at 217.17 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser No" ""
+			(at 217.17 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay"
+			(at 217.17 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "CRCW0402680RFKEDC"
+			(at 217.17 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "71-CRCW0402680RFKEDC"
+			(at 217.17 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b15cb383-7ebe-47e4-8de4-90e4bb592ca1")
+		)
+		(pin "2"
+			(uuid "cd456294-dca4-4c26-9abc-c7a07f86c1c8")
+		)
+		(instances
+			(project "LCB-CCB-01"
+				(path "/968a6172-7a4e-40ab-a78a-e4d03671e136/00000000-0000-0000-0000-000061de0978"
+					(reference "R1005")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LEA_SymbolLibrary:GND_HV")
+		(at 217.17 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000061ded17c")
+		(property "Reference" "#PWR01006"
+			(at 219.71 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_HV"
+			(at 217.17 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 217.17 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 217.17 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3de5b137-b7ed-4a67-a65d-5332350a142e")
+		)
+		(instances
+			(project "LCB-CCB-01"
+				(path "/968a6172-7a4e-40ab-a78a-e4d03671e136/00000000-0000-0000-0000-000061de0978"
+					(reference "#PWR01006")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LEA_SymbolLibrary:LED_0402_R_1mA_SML-P11UTT86R")
+		(at 217.17 106.68 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000061e0b2d0")
+		(property "Reference" "D1005"
+			(at 214.63 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Red_1mA"
+			(at 219.71 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LEA_FootprintLibrary:LED_0402"
+			(at 219.71 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-p11-e.pdf"
+			(at 206.9592 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 217.17 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "ROHM Semiconductor"
+			(at 217.17 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser No" "755-SML-P11UTT86R"
+			(at 210.312 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. No" "SML-P11UTT86R"
+			(at 207.8736 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "755-SML-P11UTT86R"
+			(at 217.17 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "SML-P11UTT86R"
+			(at 217.17 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "A"
+			(uuid "1875410c-e4b4-4ec3-b634-5e1a0d17ab0f")
+		)
+		(pin "C"
+			(uuid "79a1619b-f9a8-42ec-8ecc-7ef7d3baec62")
+		)
+		(instances
+			(project "LCB-CCB-01"
+				(path "/968a6172-7a4e-40ab-a78a-e4d03671e136/00000000-0000-0000-0000-000061de0978"
+					(reference "D1005")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LEA_SymbolLibrary:LED_0402_Y_1mA_SML-P11YTT86R")
+		(at 191.77 106.68 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000061e0c2c6")
+		(property "Reference" "D1004"
+			(at 189.23 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Yellow_1mA"
+			(at 194.31 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LEA_FootprintLibrary:LED_0402"
+			(at 194.31 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-p11-e.pdf"
+			(at 181.5592 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 191.77 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "ROHM Semiconductor"
+			(at 191.77 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser No" "755-SML-P11YTT86R"
+			(at 184.912 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. No" "SML-P11YTT86R"
+			(at 176.8348 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "755-SML-P11YTT86R"
+			(at 191.77 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "SML-P11YTT86R"
+			(at 191.77 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "A"
+			(uuid "0f8c7f8e-c569-41d5-a9c5-be2602986fec")
+		)
+		(pin "C"
+			(uuid "428a4858-7900-478d-911b-bba8c1cdea3d")
+		)
+		(instances
+			(project "LCB-CCB-01"
+				(path "/968a6172-7a4e-40ab-a78a-e4d03671e136/00000000-0000-0000-0000-000061de0978"
+					(reference "D1004")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LEA_SymbolLibrary:GND_HV")
+		(at 231.14 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "309c1589-51ed-45f5-9a94-0d928b5146bc")
+		(property "Reference" "#PWR01007"
+			(at 233.68 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_HV"
+			(at 231.14 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 231.14 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 231.14 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "944cdf96-ab3d-48ed-bdab-8fcebcec2eb3")
+		)
+		(instances
+			(project "LCB-CCB-01"
+				(path "/968a6172-7a4e-40ab-a78a-e4d03671e136/00000000-0000-0000-0000-000061de0978"
+					(reference "#PWR01007")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LEA_SymbolLibrary:LED_0402_G_1mA_SML-P11MTT86R")
+		(at 149.86 106.68 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "65bdfaba-6fc1-4fc6-827c-0293d3073097")
+		(property "Reference" "D1002"
+			(at 147.32 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Green_1mA"
+			(at 152.4 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LEA_FootprintLibrary:LED_0402"
+			(at 152.4 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-p11-e.pdf"
+			(at 139.6492 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 149.86 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "ROHM Semiconductor"
+			(at 142.24 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser No" "755-SML-P11MTT86R"
+			(at 143.002 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. No" "SML-P11MTT86R"
+			(at 136.4488 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "755-SML-P11MTT86R"
+			(at 158.115 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "SML-P11MTT86R"
+			(at 144.78 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "A"
+			(uuid "55579cdc-c9d5-46b0-bb34-d7c38f97321d")
+		)
+		(pin "C"
+			(uuid "71264d74-b4b1-4c8a-8d58-bfb4dade974d")
+		)
+		(instances
+			(project "LCB-CCB-01"
+				(path "/968a6172-7a4e-40ab-a78a-e4d03671e136/00000000-0000-0000-0000-000061de0978"
+					(reference "D1002")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LEA_SymbolLibrary:R_0402_680R_THICK__1P__50V")
+		(at 149.86 113.03 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bbd4733d-7ec0-4f17-beb6-0be64574337a")
+		(property "Reference" "R1002"
+			(at 147.32 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "680R"
+			(at 152.4 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LEA_FootprintLibrary:R_0402"
+			(at 149.86 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 149.86 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. No" ""
+			(at 149.86 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser No" ""
+			(at 149.86 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay"
+			(at 149.86 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "CRCW0402680RFKEDC"
+			(at 149.86 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "71-CRCW0402680RFKEDC"
+			(at 149.86 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d2c6fd53-3d43-4d49-969f-81319987a8e5")
+		)
+		(pin "2"
+			(uuid "f2b4d7a1-d791-4411-9fda-f35e98a77f67")
+		)
+		(instances
+			(project "LCB-CCB-01"
+				(path "/968a6172-7a4e-40ab-a78a-e4d03671e136/00000000-0000-0000-0000-000061de0978"
+					(reference "R1002")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LEA_SymbolLibrary:GND_HV")
+		(at 149.86 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c0ad85fa-fb5e-439b-b8c5-29850a49bd8f")
+		(property "Reference" "#PWR01003"
+			(at 152.4 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_HV"
+			(at 149.86 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 149.86 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "12008218-4f06-476d-ba32-9b7bf59a0bae")
+		)
+		(instances
+			(project "LCB-CCB-01"
+				(path "/968a6172-7a4e-40ab-a78a-e4d03671e136/00000000-0000-0000-0000-000061de0978"
+					(reference "#PWR01003")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LEA_SymbolLibrary:R_0402_680R_THICK__1P__50V")
+		(at 231.14 113.03 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ceacc570-d51a-479d-8841-921c97709e40")
+		(property "Reference" "R1006"
+			(at 228.6 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "680R"
+			(at 233.68 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LEA_FootprintLibrary:R_0402"
+			(at 231.14 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 231.14 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. No" ""
+			(at 231.14 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser No" ""
+			(at 231.14 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay"
+			(at 231.14 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "CRCW0402680RFKEDC"
+			(at 231.14 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "71-CRCW0402680RFKEDC"
+			(at 231.14 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "32c89413-793b-436a-b96c-5ae5c242ec95")
+		)
+		(pin "2"
+			(uuid "b27c6b92-6fb7-4cef-922c-8307cec18d6a")
+		)
+		(instances
+			(project "LCB-CCB-01"
+				(path "/968a6172-7a4e-40ab-a78a-e4d03671e136/00000000-0000-0000-0000-000061de0978"
+					(reference "R1006")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LEA_SymbolLibrary:LED_0402_R_1mA_SML-P11UTT86R")
+		(at 231.14 106.68 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d125b361-649d-4b25-9a14-55f919412c7e")
+		(property "Reference" "D1006"
+			(at 228.6 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Red_1mA"
+			(at 233.68 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LEA_FootprintLibrary:LED_0402"
+			(at 233.68 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-p11-e.pdf"
+			(at 220.9292 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 231.14 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "ROHM Semiconductor"
+			(at 231.14 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser No" "755-SML-P11MTT86R"
+			(at 224.282 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. No" "SML-P11MTT86R"
+			(at 217.7288 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "755-SML-P11UTT86R"
+			(at 231.14 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "SML-P11UTT86R"
+			(at 231.14 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "A"
+			(uuid "de198ffa-3d6c-4f8c-a707-59c9dec58f83")
+		)
+		(pin "C"
+			(uuid "57946eb1-21ff-46fc-954f-4cbac3b7ac38")
+		)
+		(instances
+			(project "LCB-CCB-01"
+				(path "/968a6172-7a4e-40ab-a78a-e4d03671e136/00000000-0000-0000-0000-000061de0978"
+					(reference "D1006")
+					(unit 1)
+				)
+			)
+		)
+	)
 )
