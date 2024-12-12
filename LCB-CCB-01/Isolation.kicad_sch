@@ -5,9 +5,9 @@
 	(uuid "460147d8-e4b6-4910-88e9-07d1ddd6c2df")
 	(paper "A4")
 	(title_block
-		(title "LCB-CCB-01: Control Board - Isolation")
-		(date "2022-03-17")
-		(rev "0.1")
+		(title "LCB-CCB-01: Control Board - Debugger XDS100  / JTAG")
+		(date "2024-12-12")
+		(rev "1.1.0")
 		(company "PADERBORN UNIVERSITY DEPARTMENT OF POWER ELECTRONICS AND ELECTRICAL DRIVES")
 	)
 	(lib_symbols

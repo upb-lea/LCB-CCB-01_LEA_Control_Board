@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "LCB-CCB-01: Control Board - Debugger XDS100  / JTAG")
-		(date "2022-03-17")
-		(rev "0.1")
+		(date "2024-12-12")
+		(rev "1.1.0")
 		(company "PADERBORN UNIVERSITY DEPARTMENT OF POWER ELECTRONICS AND ELECTRICAL DRIVES")
 	)
 	(lib_symbols
@@ -10131,7 +10131,7 @@
 		(lib_id "LEA_SymbolLibrary:MIC5259-3.3YD5-TR")
 		(at 248.92 64.77 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -10199,15 +10199,6 @@
 		)
 		(property "manf#" "MIC5259-3.3YD5-TR"
 			(at 248.92 45.6184 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
-			(at 248.92 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)

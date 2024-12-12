@@ -5,9 +5,9 @@
 	(uuid "d0583253-7f1c-498c-afba-93bf9b28c781")
 	(paper "A4")
 	(title_block
-		(title "LCB-CCB-01: Control Board - Status LEDs")
-		(date "2022-03-17")
-		(rev "0.1")
+		(title "LCB-CCB-01: Control Board - Debugger XDS100  / JTAG")
+		(date "2024-12-12")
+		(rev "1.1.0")
 		(company "PADERBORN UNIVERSITY DEPARTMENT OF POWER ELECTRONICS AND ELECTRICAL DRIVES")
 	)
 	(lib_symbols

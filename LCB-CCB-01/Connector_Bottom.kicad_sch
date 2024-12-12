@@ -5,9 +5,9 @@
 	(uuid "e213368f-13b9-41c2-8182-d9559fd0b037")
 	(paper "A4")
 	(title_block
-		(title "LCB-CCB-01: Control Board - Bottom Connector")
-		(date "2022-03-17")
-		(rev "0.1")
+		(title "LCB-CCB-01: Control Board - Debugger XDS100  / JTAG")
+		(date "2024-12-12")
+		(rev "1.1.0")
 		(company "PADERBORN UNIVERSITY DEPARTMENT OF POWER ELECTRONICS AND ELECTRICAL DRIVES")
 	)
 	(lib_symbols
@@ -12378,7 +12378,7 @@
 		(lib_id "LEA_SymbolLibrary:Conn_ERM5-075-05.0-L-DV-K-TR")
 		(at 109.22 104.14 0)
 		(unit 2)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -12446,15 +12446,6 @@
 		)
 		(property "manf#" "ERM5-075-05.0-L-DV-K-TR"
 			(at 149.86 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
-			(at 109.22 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12925,7 +12916,7 @@
 		(lib_id "LEA_SymbolLibrary:Conn_ERM5-075-05.0-L-DV-K-TR")
 		(at 247.65 104.14 0)
 		(unit 2)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -12993,15 +12984,6 @@
 		)
 		(property "manf#" "ERM5-075-05.0-L-DV-K-TR"
 			(at 288.29 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
-			(at 247.65 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13472,7 +13454,7 @@
 		(lib_id "LEA_SymbolLibrary:Conn_ERM5-075-05.0-L-DV-K-TR")
 		(at 180.34 105.41 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -13540,15 +13522,6 @@
 		)
 		(property "manf#" "ERM5-075-05.0-L-DV-K-TR"
 			(at 220.98 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
-			(at 180.34 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14019,7 +13992,7 @@
 		(lib_id "LEA_SymbolLibrary:Conn_ERM5-075-05.0-L-DV-K-TR")
 		(at 44.45 105.41 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -14087,15 +14060,6 @@
 		)
 		(property "manf#" "ERM5-075-05.0-L-DV-K-TR"
 			(at 85.09 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
-			(at 44.45 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)

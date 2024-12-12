@@ -5,9 +5,9 @@
 	(uuid "64d84e49-aaf5-4eba-8a78-1b20287a1fe2")
 	(paper "A4")
 	(title_block
-		(title "LCB-CCB-01: Control Board - Analog Filter")
-		(date "2022-03-17")
-		(rev "0.1")
+		(title "LCB-CCB-01: Control Board - Debugger XDS100  / JTAG")
+		(date "2024-12-12")
+		(rev "1.1.0")
 		(company "PADERBORN UNIVERSITY DEPARTMENT OF POWER ELECTRONICS AND ELECTRICAL DRIVES")
 	)
 	(lib_symbols
