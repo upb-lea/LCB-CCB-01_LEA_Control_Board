@@ -17,7 +17,7 @@
 			(pin_names
 				(offset 0)
 			)
-			(exclude_from_sim no)
+			(exclude_from_sim yes)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "#PWR"
@@ -122,7 +122,7 @@
 			)
 		)
 		(symbol "LEA_SymbolLibrary:74HC74BQ,115"
-			(exclude_from_sim no)
+			(exclude_from_sim yes)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
@@ -499,7 +499,7 @@
 			(pin_numbers hide)
 			(pin_names
 				(offset 0.254) hide)
-			(exclude_from_sim no)
+			(exclude_from_sim yes)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "C"
@@ -547,15 +547,6 @@
 					(hide yes)
 				)
 			)
-			(property "Mfr. No" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
 			(property "manf#" "C1005X7R1H104K"
 				(at 0 0 0)
 				(effects
@@ -566,15 +557,6 @@
 				)
 			)
 			(property "Manufacturer" "TDK"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Mouser No" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -689,7 +671,7 @@
 			(pin_numbers hide)
 			(pin_names
 				(offset 0.254) hide)
-			(exclude_from_sim no)
+			(exclude_from_sim yes)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "C"
@@ -737,15 +719,6 @@
 					(hide yes)
 				)
 			)
-			(property "Mfr. No" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
 			(property "manf#" "C1005X7R1H103KBE"
 				(at 0 0 0)
 				(effects
@@ -756,15 +729,6 @@
 				)
 			)
 			(property "Manufacturer" "TDK"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Mouser No" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -879,7 +843,7 @@
 			(pin_numbers hide)
 			(pin_names
 				(offset 0.254) hide)
-			(exclude_from_sim no)
+			(exclude_from_sim yes)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "C"
@@ -927,15 +891,6 @@
 					(hide yes)
 				)
 			)
-			(property "Mfr. No" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
 			(property "manf#" "C1005X7R1H102K"
 				(at 0 0 0)
 				(effects
@@ -946,15 +901,6 @@
 				)
 			)
 			(property "Manufacturer" "TDK"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Mouser No" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1071,7 +1017,7 @@
 			(pin_names
 				(offset 0)
 			)
-			(exclude_from_sim no)
+			(exclude_from_sim yes)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "#PWR"
@@ -1155,7 +1101,7 @@
 			(pin_names
 				(offset 1.016)
 			)
-			(exclude_from_sim no)
+			(exclude_from_sim yes)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "IC801"
@@ -1598,7 +1544,7 @@
 			(pin_numbers hide)
 			(pin_names
 				(offset 0.254) hide)
-			(exclude_from_sim no)
+			(exclude_from_sim yes)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
@@ -1646,25 +1592,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mfr. No" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
 			(property "manf#" "CRCW040210K0FKEDC"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Mouser No" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1775,7 +1703,7 @@
 			(pin_numbers hide)
 			(pin_names
 				(offset 0.254) hide)
-			(exclude_from_sim no)
+			(exclude_from_sim yes)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
@@ -1823,25 +1751,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mfr. No" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
 			(property "manf#" "CRCW04021K00FKEDC"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Mouser No" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1952,7 +1862,7 @@
 			(pin_numbers hide)
 			(pin_names
 				(offset 0.254) hide)
-			(exclude_from_sim no)
+			(exclude_from_sim yes)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
@@ -2000,25 +1910,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mfr. No" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
 			(property "manf#" "CRCW040233K0FKEDC"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Mouser No" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -4414,7 +4306,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V_HV\""
 			(at 85.09 173.99 0)
 			(effects
 				(font
@@ -4478,7 +4370,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Flip-Flops DUAL D F/F POS-EDGE"
 			(at 114.3 129.54 0)
 			(effects
 				(font
@@ -4489,24 +4381,6 @@
 		)
 		(property "Manufacturer" "Nexperia"
 			(at 114.3 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" "771-74HC74BQ-G"
-			(at 114.3 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" "74HC74BQ,115"
-			(at 114.3 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4628,25 +4502,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 68.58 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
-			(at 68.58 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
+		(property "Description" "Resistor 0402"
 			(at 68.58 133.35 0)
 			(effects
 				(font
@@ -4740,16 +4596,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 78.74 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
+		(property "Description" "Capacitor 0402"
 			(at 78.74 128.27 0)
 			(effects
 				(font
@@ -4759,15 +4606,6 @@
 			)
 		)
 		(property "Manufacturer" "TDK"
-			(at 78.74 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
 			(at 78.74 128.27 0)
 			(effects
 				(font
@@ -4853,7 +4691,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Analog Comparators Quad, SOIC-16, Single-Supply, High-Speed, Low-Power Comparators"
 			(at 224.79 121.92 0)
 			(effects
 				(font
@@ -4864,24 +4702,6 @@
 		)
 		(property "Manufacturer" "Maxim Integrated"
 			(at 226.06 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" "700-MAX978ESE"
-			(at 225.044 135.128 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" "MAX978ESE+"
-			(at 224.79 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5009,25 +4829,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 213.36 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
-			(at 213.36 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
+		(property "Description" "Resistor 0402"
 			(at 213.36 135.89 0)
 			(effects
 				(font
@@ -5122,7 +4924,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND_HV\" , ground"
 			(at 68.58 142.24 0)
 			(effects
 				(font
@@ -5188,16 +4990,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 134.62 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
+		(property "Description" "Capacitor 0402"
 			(at 134.62 180.34 0)
 			(effects
 				(font
@@ -5207,15 +5000,6 @@
 			)
 		)
 		(property "Manufacturer" "TDK"
-			(at 134.62 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
 			(at 134.62 180.34 0)
 			(effects
 				(font
@@ -5301,7 +5085,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND_HV\" , ground"
 			(at 134.62 190.5 0)
 			(effects
 				(font
@@ -5366,7 +5150,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V_HV\""
 			(at 213.36 110.49 0)
 			(effects
 				(font
@@ -5432,25 +5216,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 64.77 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
-			(at 64.77 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
+		(property "Description" "Resistor 0402"
 			(at 64.77 33.02 0)
 			(effects
 				(font
@@ -5546,16 +5312,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 57.15 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
+		(property "Description" "Capacitor 0402"
 			(at 57.15 49.53 0)
 			(effects
 				(font
@@ -5565,15 +5322,6 @@
 			)
 		)
 		(property "Manufacturer" "TDK"
-			(at 57.15 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
 			(at 57.15 49.53 0)
 			(effects
 				(font
@@ -5658,25 +5406,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 46.99 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
-			(at 46.99 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
+		(property "Description" "Resistor 0402"
 			(at 46.99 38.1 0)
 			(effects
 				(font
@@ -5771,7 +5501,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND_HV\" , ground"
 			(at 238.76 63.5 0)
 			(effects
 				(font
@@ -5835,16 +5565,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 74.93 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
+		(property "Description" "Capacitor 0402"
 			(at 74.93 49.53 0)
 			(effects
 				(font
@@ -5854,15 +5575,6 @@
 			)
 		)
 		(property "Manufacturer" "TDK"
-			(at 74.93 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
 			(at 74.93 49.53 0)
 			(effects
 				(font
@@ -5949,25 +5661,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 68.58 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
-			(at 68.58 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
+		(property "Description" "Resistor 0402"
 			(at 68.58 111.76 0)
 			(effects
 				(font
@@ -6063,25 +5757,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 210.82 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
-			(at 210.82 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
+		(property "Description" "Resistor 0402"
 			(at 210.82 33.02 0)
 			(effects
 				(font
@@ -6175,25 +5851,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 229.87 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
-			(at 229.87 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
+		(property "Description" "Resistor 0402"
 			(at 229.87 49.53 0)
 			(effects
 				(font
@@ -6288,7 +5946,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V_HV\""
 			(at 36.83 171.45 0)
 			(effects
 				(font
@@ -6354,7 +6012,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Flip-Flops DUAL D F/F POS-EDGE"
 			(at 104.14 184.15 0)
 			(effects
 				(font
@@ -6365,24 +6023,6 @@
 		)
 		(property "Manufacturer" "Nexperia"
 			(at 104.14 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" "771-74HC74BQ-G"
-			(at 104.14 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" "74HC74BQ,115"
-			(at 104.14 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6502,7 +6142,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Flip-Flops DUAL D F/F POS-EDGE"
 			(at 256.54 50.8 0)
 			(effects
 				(font
@@ -6513,24 +6153,6 @@
 		)
 		(property "Manufacturer" "Nexperia"
 			(at 256.54 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" "771-74HC74BQ-G"
-			(at 256.54 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" "74HC74BQ,115"
-			(at 256.54 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6651,7 +6273,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND_HV\" , ground"
 			(at 210.82 63.5 0)
 			(effects
 				(font
@@ -6716,7 +6338,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND_HV\" , ground"
 			(at 85.09 186.69 0)
 			(effects
 				(font
@@ -6781,7 +6403,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V_HV\""
 			(at 134.62 172.72 0)
 			(effects
 				(font
@@ -6846,7 +6468,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND_HV\" , ground"
 			(at 92.71 63.5 0)
 			(effects
 				(font
@@ -6910,25 +6532,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 195.58 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
-			(at 195.58 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
+		(property "Description" "Resistor 0402"
 			(at 195.58 119.38 0)
 			(effects
 				(font
@@ -7024,7 +6628,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Flip-Flops DUAL D F/F POS-EDGE"
 			(at 55.88 181.61 0)
 			(effects
 				(font
@@ -7035,24 +6639,6 @@
 		)
 		(property "Manufacturer" "Nexperia"
 			(at 55.88 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" "771-74HC74BQ-G"
-			(at 55.88 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" "74HC74BQ,115"
-			(at 55.88 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7172,25 +6758,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 83.82 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
-			(at 83.82 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
+		(property "Description" "Resistor 0402"
 			(at 83.82 49.53 0)
 			(effects
 				(font
@@ -7285,7 +6853,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND_HV\" , ground"
 			(at 96.52 142.24 0)
 			(effects
 				(font
@@ -7350,7 +6918,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND_HV\" , ground"
 			(at 213.36 144.78 0)
 			(effects
 				(font
@@ -7415,7 +6983,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND_HV\" , ground"
 			(at 196.85 63.5 0)
 			(effects
 				(font
@@ -7480,7 +7048,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND_HV\" , ground"
 			(at 50.8 63.5 0)
 			(effects
 				(font
@@ -7546,16 +7114,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 50.8 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
+		(property "Description" "Capacitor 0402"
 			(at 50.8 49.53 0)
 			(effects
 				(font
@@ -7565,15 +7124,6 @@
 			)
 		)
 		(property "Manufacturer" "TDK"
-			(at 50.8 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
 			(at 50.8 49.53 0)
 			(effects
 				(font
@@ -7658,25 +7208,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 232.41 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
-			(at 232.41 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
+		(property "Description" "Resistor 0402"
 			(at 232.41 130.81 0)
 			(effects
 				(font
@@ -7771,7 +7303,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Analog Comparators Quad, SOIC-16, Single-Supply, High-Speed, Low-Power Comparators"
 			(at 77.47 119.38 0)
 			(effects
 				(font
@@ -7782,24 +7314,6 @@
 		)
 		(property "Manufacturer" "Maxim Integrated"
 			(at 78.74 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" "700-MAX978ESE"
-			(at 77.724 132.588 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" "MAX978ESE+"
-			(at 77.47 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7925,16 +7439,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 220.98 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
+		(property "Description" "Capacitor 0402"
 			(at 220.98 49.53 0)
 			(effects
 				(font
@@ -7944,15 +7449,6 @@
 			)
 		)
 		(property "Manufacturer" "TDK"
-			(at 220.98 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
 			(at 220.98 49.53 0)
 			(effects
 				(font
@@ -8038,7 +7534,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND_HV\" , ground"
 			(at 199.39 144.78 0)
 			(effects
 				(font
@@ -8104,16 +7600,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 60.96 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
+		(property "Description" "Capacitor 0402"
 			(at 60.96 128.27 0)
 			(effects
 				(font
@@ -8123,15 +7610,6 @@
 			)
 		)
 		(property "Manufacturer" "TDK"
-			(at 60.96 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
 			(at 60.96 128.27 0)
 			(effects
 				(font
@@ -8218,16 +7696,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 36.83 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
+		(property "Description" "Capacitor 0402"
 			(at 36.83 179.07 0)
 			(effects
 				(font
@@ -8237,15 +7706,6 @@
 			)
 		)
 		(property "Manufacturer" "TDK"
-			(at 36.83 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
 			(at 36.83 179.07 0)
 			(effects
 				(font
@@ -8332,16 +7792,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 205.74 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
+		(property "Description" "Capacitor 0402"
 			(at 205.74 130.81 0)
 			(effects
 				(font
@@ -8351,15 +7802,6 @@
 			)
 		)
 		(property "Manufacturer" "TDK"
-			(at 205.74 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
 			(at 205.74 130.81 0)
 			(effects
 				(font
@@ -8445,7 +7887,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Analog Comparators Quad, SOIC-16, Single-Supply, High-Speed, Low-Power Comparators"
 			(at 74.93 40.64 0)
 			(effects
 				(font
@@ -8456,24 +7898,6 @@
 		)
 		(property "Manufacturer" "Maxim Integrated"
 			(at 76.2 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" "700-MAX978ESE"
-			(at 75.184 53.848 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" "MAX978ESE+"
-			(at 74.93 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8599,7 +8023,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Analog Comparators Quad, SOIC-16, Single-Supply, High-Speed, Low-Power Comparators"
 			(at 142.24 179.07 0)
 			(effects
 				(font
@@ -8610,24 +8034,6 @@
 		)
 		(property "Manufacturer" "Maxim Integrated"
 			(at 143.51 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" "700-MAX978ESE"
-			(at 142.494 165.862 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" "MAX978ESE+"
-			(at 142.24 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8755,16 +8161,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 196.85 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
+		(property "Description" "Capacitor 0402"
 			(at 196.85 49.53 0)
 			(effects
 				(font
@@ -8774,15 +8171,6 @@
 			)
 		)
 		(property "Manufacturer" "TDK"
-			(at 196.85 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
 			(at 196.85 49.53 0)
 			(effects
 				(font
@@ -8869,16 +8257,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 203.2 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
+		(property "Description" "Capacitor 0402"
 			(at 203.2 49.53 0)
 			(effects
 				(font
@@ -8888,15 +8267,6 @@
 			)
 		)
 		(property "Manufacturer" "TDK"
-			(at 203.2 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
 			(at 203.2 49.53 0)
 			(effects
 				(font
@@ -8982,7 +8352,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V_HV\""
 			(at 210.82 29.21 0)
 			(effects
 				(font
@@ -9047,7 +8417,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND_HV\" , ground"
 			(at 36.83 184.15 0)
 			(effects
 				(font
@@ -9111,25 +8481,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 50.8 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
-			(at 50.8 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
+		(property "Description" "Resistor 0402"
 			(at 50.8 116.84 0)
 			(effects
 				(font
@@ -9223,25 +8575,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 87.63 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
-			(at 87.63 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
+		(property "Description" "Resistor 0402"
 			(at 87.63 128.27 0)
 			(effects
 				(font
@@ -9336,7 +8670,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND_HV\" , ground"
 			(at 241.3 144.78 0)
 			(effects
 				(font
@@ -9401,7 +8735,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Analog Comparators Quad, SOIC-16, Single-Supply, High-Speed, Low-Power Comparators"
 			(at 218.44 40.64 0)
 			(effects
 				(font
@@ -9412,24 +8746,6 @@
 		)
 		(property "Manufacturer" "Maxim Integrated"
 			(at 219.71 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" "700-MAX978ESE"
-			(at 218.694 53.848 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" "MAX978ESE+"
-			(at 218.44 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9557,25 +8873,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 210.82 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
-			(at 210.82 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
+		(property "Description" "Resistor 0402"
 			(at 210.82 54.61 0)
 			(effects
 				(font
@@ -9670,7 +8968,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V_HV\""
 			(at 68.58 107.95 0)
 			(effects
 				(font
@@ -9734,7 +9032,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Flip-Flops DUAL D F/F POS-EDGE"
 			(at 110.49 50.8 0)
 			(effects
 				(font
@@ -9745,24 +9043,6 @@
 		)
 		(property "Manufacturer" "Nexperia"
 			(at 110.49 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" "771-74HC74BQ-G"
-			(at 110.49 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" "74HC74BQ,115"
-			(at 110.49 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9884,16 +9164,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 85.09 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
+		(property "Description" "Capacitor 0402"
 			(at 85.09 181.61 0)
 			(effects
 				(font
@@ -9903,15 +9174,6 @@
 			)
 		)
 		(property "Manufacturer" "TDK"
-			(at 85.09 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
 			(at 85.09 181.61 0)
 			(effects
 				(font
@@ -9996,7 +9258,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Flip-Flops DUAL D F/F POS-EDGE"
 			(at 259.08 132.08 0)
 			(effects
 				(font
@@ -10007,24 +9269,6 @@
 		)
 		(property "Manufacturer" "Nexperia"
 			(at 259.08 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" "771-74HC74BQ-G"
-			(at 259.08 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" "74HC74BQ,115"
-			(at 259.08 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10144,25 +9388,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 193.04 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
-			(at 193.04 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
+		(property "Description" "Resistor 0402"
 			(at 193.04 38.1 0)
 			(effects
 				(font
@@ -10256,16 +9482,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 223.52 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
+		(property "Description" "Capacitor 0402"
 			(at 223.52 130.81 0)
 			(effects
 				(font
@@ -10275,15 +9492,6 @@
 			)
 		)
 		(property "Manufacturer" "TDK"
-			(at 223.52 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
 			(at 223.52 130.81 0)
 			(effects
 				(font
@@ -10369,7 +9577,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND_HV\" , ground"
 			(at 54.61 142.24 0)
 			(effects
 				(font
@@ -10434,7 +9642,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND_HV\" , ground"
 			(at 64.77 63.5 0)
 			(effects
 				(font
@@ -10500,16 +9708,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 54.61 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
+		(property "Description" "Capacitor 0402"
 			(at 54.61 128.27 0)
 			(effects
 				(font
@@ -10519,15 +9718,6 @@
 			)
 		)
 		(property "Manufacturer" "TDK"
-			(at 54.61 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
 			(at 54.61 128.27 0)
 			(effects
 				(font
@@ -10614,25 +9804,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 213.36 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
-			(at 213.36 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
+		(property "Description" "Resistor 0402"
 			(at 213.36 114.3 0)
 			(effects
 				(font
@@ -10728,16 +9900,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 199.39 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
+		(property "Description" "Capacitor 0402"
 			(at 199.39 130.81 0)
 			(effects
 				(font
@@ -10747,15 +9910,6 @@
 			)
 		)
 		(property "Manufacturer" "TDK"
-			(at 199.39 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
 			(at 199.39 130.81 0)
 			(effects
 				(font
@@ -10841,7 +9995,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V_HV\""
 			(at 64.77 29.21 0)
 			(effects
 				(font
@@ -10907,25 +10061,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 64.77 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
-			(at 64.77 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
+		(property "Description" "Resistor 0402"
 			(at 64.77 54.61 0)
 			(effects
 				(font

@@ -13,7 +13,7 @@
 	(lib_symbols
 		(symbol "LEA_SymbolLibrary:Conn_ERM5-075-05.0-L-DV-K-TR"
 			(pin_names hide)
-			(exclude_from_sim no)
+			(exclude_from_sim yes)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
@@ -79,6 +79,15 @@
 			)
 			(property "manf#" "ERM5-075-05.0-L-DV-K-TR"
 				(at 40.64 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Enable" "0"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -12408,7 +12417,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Board to Board & Mezzanine Connectors 0.50 mm Edge Rate Rugged High Speed Terminal"
 			(at 109.22 104.14 0)
 			(effects
 				(font
@@ -12419,24 +12428,6 @@
 		)
 		(property "Manufacturer" "Samtec"
 			(at 149.86 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" "200-ERM5075050LDVKTR"
-			(at 149.86 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" "ERM5-075-05.0-L-DV-K-TR"
-			(at 149.86 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12455,6 +12446,15 @@
 		)
 		(property "manf#" "ERM5-075-05.0-L-DV-K-TR"
 			(at 149.86 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
+			(at 109.22 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12964,7 +12964,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Board to Board & Mezzanine Connectors 0.50 mm Edge Rate Rugged High Speed Terminal"
 			(at 247.65 104.14 0)
 			(effects
 				(font
@@ -12975,24 +12975,6 @@
 		)
 		(property "Manufacturer" "Samtec"
 			(at 288.29 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" "200-ERM5075050LDVKTR"
-			(at 288.29 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" "ERM5-075-05.0-L-DV-K-TR"
-			(at 288.29 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13011,6 +12993,15 @@
 		)
 		(property "manf#" "ERM5-075-05.0-L-DV-K-TR"
 			(at 288.29 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
+			(at 247.65 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13520,7 +13511,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Board to Board & Mezzanine Connectors 0.50 mm Edge Rate Rugged High Speed Terminal"
 			(at 180.34 105.41 0)
 			(effects
 				(font
@@ -13531,24 +13522,6 @@
 		)
 		(property "Manufacturer" "Samtec"
 			(at 220.98 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" "200-ERM5075050LDVKTR"
-			(at 220.98 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" "ERM5-075-05.0-L-DV-K-TR"
-			(at 220.98 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13567,6 +13540,15 @@
 		)
 		(property "manf#" "ERM5-075-05.0-L-DV-K-TR"
 			(at 220.98 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
+			(at 180.34 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14076,7 +14058,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Board to Board & Mezzanine Connectors 0.50 mm Edge Rate Rugged High Speed Terminal"
 			(at 44.45 105.41 0)
 			(effects
 				(font
@@ -14087,24 +14069,6 @@
 		)
 		(property "Manufacturer" "Samtec"
 			(at 85.09 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" "200-ERM5075050LDVKTR"
-			(at 85.09 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" "ERM5-075-05.0-L-DV-K-TR"
-			(at 85.09 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14123,6 +14087,15 @@
 		)
 		(property "manf#" "ERM5-075-05.0-L-DV-K-TR"
 			(at 85.09 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
+			(at 44.45 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)

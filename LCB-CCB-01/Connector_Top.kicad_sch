@@ -17,7 +17,7 @@
 			(pin_names
 				(offset 0)
 			)
-			(exclude_from_sim no)
+			(exclude_from_sim yes)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "#PWR"
@@ -127,7 +127,7 @@
 			(pin_names
 				(offset 0)
 			)
-			(exclude_from_sim no)
+			(exclude_from_sim yes)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "#PWR"
@@ -237,7 +237,7 @@
 			(pin_names
 				(offset 0)
 			)
-			(exclude_from_sim no)
+			(exclude_from_sim yes)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "#PWR"
@@ -319,7 +319,7 @@
 		)
 		(symbol "LEA_SymbolLibrary:Conn_ERF5-075-05.0-L-DV-TR"
 			(pin_names hide)
-			(exclude_from_sim no)
+			(exclude_from_sim yes)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
@@ -3130,7 +3130,7 @@
 		(symbol "LEA_SymbolLibrary:Conn_Molex_532617006"
 			(pin_names
 				(offset 1.016) hide)
-			(exclude_from_sim no)
+			(exclude_from_sim yes)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
@@ -3397,7 +3397,7 @@
 			(pin_names
 				(offset 0)
 			)
-			(exclude_from_sim no)
+			(exclude_from_sim yes)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "#PWR"
@@ -3542,7 +3542,7 @@
 				(pin power_out line
 					(at 0 0 90)
 					(length 0)
-					(name "pwr"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4868,7 +4868,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 27.94) (xy 55.88 27.94)
+			(xy 60.96 27.94) (xy 54.61 27.94)
 		)
 		(stroke
 			(width 0)
@@ -5528,7 +5528,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 26.67) (xy 55.88 27.94)
+			(xy 54.61 26.67) (xy 54.61 27.94)
 		)
 		(stroke
 			(width 0)
@@ -13609,7 +13609,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"AGND_HV\" , AGround"
 			(at 74.93 38.1 0)
 			(effects
 				(font
@@ -13673,7 +13673,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Board to Board & Mezzanine Connectors 0.50 mm Edge Rate Rugged High Speed Socket"
 			(at 116.84 114.3 0)
 			(effects
 				(font
@@ -13684,24 +13684,6 @@
 		)
 		(property "Manufacturer" "Samtec"
 			(at 146.05 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" "200-ERF507505.0LDVTR"
-			(at 154.94 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" "ERF5-075-05.0-L-DV-TR"
-			(at 156.21 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14230,7 +14212,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND_HV\" , ground"
 			(at 201.93 41.91 0)
 			(effects
 				(font
@@ -14296,7 +14278,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Special symbol for telling ERC where power comes from"
 			(at 60.96 27.94 0)
 			(effects
 				(font
@@ -14362,7 +14344,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V_HV\""
 			(at 201.93 26.67 0)
 			(effects
 				(font
@@ -14426,7 +14408,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Board to Board & Mezzanine Connectors 0.50 mm Edge Rate Rugged High Speed Socket"
 			(at 52.07 115.57 0)
 			(effects
 				(font
@@ -14437,24 +14419,6 @@
 		)
 		(property "Manufacturer" "Samtec"
 			(at 81.28 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" "200-ERF507505.0LDVTR"
-			(at 90.17 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" "ERF5-075-05.0-L-DV-TR"
-			(at 91.44 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14983,7 +14947,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "6 Pin Male, right angle, 1.25mm Pitch"
 			(at 212.09 40.64 0)
 			(effects
 				(font
@@ -14994,24 +14958,6 @@
 		)
 		(property "Manufacturer" "Molex"
 			(at 212.09 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" "538-53261-7006"
-			(at 212.09 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" "53261-7006"
-			(at 212.09 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15109,7 +15055,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Special symbol for telling ERC where power comes from"
 			(at 55.88 36.83 0)
 			(effects
 				(font
@@ -15173,7 +15119,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Board to Board & Mezzanine Connectors 0.50 mm Edge Rate Rugged High Speed Socket"
 			(at 246.38 114.3 0)
 			(effects
 				(font
@@ -15184,24 +15130,6 @@
 		)
 		(property "Manufacturer" "Samtec"
 			(at 275.59 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" "200-ERF507505.0LDVTR"
-			(at 284.48 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" "ERF5-075-05.0-L-DV-TR"
-			(at 285.75 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15729,7 +15657,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Board to Board & Mezzanine Connectors 0.50 mm Edge Rate Rugged High Speed Socket"
 			(at 179.07 115.57 0)
 			(effects
 				(font
@@ -15740,24 +15668,6 @@
 		)
 		(property "Manufacturer" "Samtec"
 			(at 208.28 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" "200-ERF507505.0LDVTR"
-			(at 217.17 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" "ERF5-075-05.0-L-DV-TR"
-			(at 218.44 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16244,7 +16154,7 @@
 	)
 	(symbol
 		(lib_id "LEA_SymbolLibrary:+3V3_HV")
-		(at 55.88 26.67 0)
+		(at 54.61 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16252,7 +16162,7 @@
 		(dnp no)
 		(uuid "da9dc8cf-db3f-4c8a-b3a5-fd06a8633cd3")
 		(property "Reference" "#PWR0401"
-			(at 57.15 26.67 90)
+			(at 55.88 26.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16261,7 +16171,7 @@
 			)
 		)
 		(property "Value" "+3V3_HV"
-			(at 55.88 22.2758 0)
+			(at 54.61 22.2758 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16269,7 +16179,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 55.88 26.67 0)
+			(at 54.61 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16278,7 +16188,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 26.67 0)
+			(at 54.61 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16286,8 +16196,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 55.88 26.67 0)
+		(property "Description" "Power symbol creates a global label with name \"+3V3_HV\""
+			(at 54.61 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16351,7 +16261,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND_HV\" , ground"
 			(at 50.8 38.1 0)
 			(effects
 				(font
@@ -16417,7 +16327,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Special symbol for telling ERC where power comes from"
 			(at 80.01 36.83 0)
 			(effects
 				(font

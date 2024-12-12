@@ -15,7 +15,7 @@
 			(pin_names
 				(offset 1.016)
 			)
-			(exclude_from_sim no)
+			(exclude_from_sim yes)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
@@ -11570,7 +11570,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "TMS320F2838x Real-Time Microcontrollers With Connectivity Manager"
 			(at 68.58 55.88 0)
 			(effects
 				(font
@@ -11581,15 +11581,6 @@
 		)
 		(property "Manufacturer" "Texas Instruments"
 			(at 27.94 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" "TMS320F2838xDZWT"
-			(at 68.58 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12678,7 +12669,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "TMS320F2838x Real-Time Microcontrollers With Connectivity Manager"
 			(at 223.52 91.44 0)
 			(effects
 				(font
@@ -12689,15 +12680,6 @@
 		)
 		(property "Manufacturer" "Texas Instruments"
 			(at 182.88 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" "TMS320F2838xDZWT"
-			(at 223.52 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)

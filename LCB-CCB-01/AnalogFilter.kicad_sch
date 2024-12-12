@@ -17,7 +17,7 @@
 			(pin_names
 				(offset 0)
 			)
-			(exclude_from_sim no)
+			(exclude_from_sim yes)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "#PWR"
@@ -127,7 +127,7 @@
 			(pin_names
 				(offset 0)
 			)
-			(exclude_from_sim no)
+			(exclude_from_sim yes)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "#PWR"
@@ -211,7 +211,7 @@
 			(pin_numbers hide)
 			(pin_names
 				(offset 0.254) hide)
-			(exclude_from_sim no)
+			(exclude_from_sim yes)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "C"
@@ -259,15 +259,6 @@
 					(hide yes)
 				)
 			)
-			(property "Mfr. No" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
 			(property "manf#" "C1005X7R1H104K"
 				(at 0 0 0)
 				(effects
@@ -278,15 +269,6 @@
 				)
 			)
 			(property "Manufacturer" "TDK"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Mouser No" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -401,7 +383,7 @@
 			(pin_numbers hide)
 			(pin_names
 				(offset 0.254) hide)
-			(exclude_from_sim no)
+			(exclude_from_sim yes)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "C"
@@ -449,15 +431,6 @@
 					(hide yes)
 				)
 			)
-			(property "Mfr. No" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
 			(property "manf#" "C0402C101K5GAL"
 				(at 0 0 0)
 				(effects
@@ -468,15 +441,6 @@
 				)
 			)
 			(property "Manufacturer" "Kemet"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Mouser No" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -591,7 +555,7 @@
 			(pin_numbers hide)
 			(pin_names
 				(offset 0.254) hide)
-			(exclude_from_sim no)
+			(exclude_from_sim yes)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "C"
@@ -639,15 +603,6 @@
 					(hide yes)
 				)
 			)
-			(property "Mfr. No" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
 			(property "manf#" "C1005X7R1H102K"
 				(at 0 0 0)
 				(effects
@@ -658,15 +613,6 @@
 				)
 			)
 			(property "Manufacturer" "TDK"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Mouser No" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -781,7 +727,7 @@
 			(pin_numbers hide)
 			(pin_names
 				(offset 0.254) hide)
-			(exclude_from_sim no)
+			(exclude_from_sim yes)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "C"
@@ -829,15 +775,6 @@
 					(hide yes)
 				)
 			)
-			(property "Mfr. No" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
 			(property "manf#" "CL10A226KQ8NRNE"
 				(at 0 0 0)
 				(effects
@@ -848,15 +785,6 @@
 				)
 			)
 			(property "Manufacturer" "Samsung"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Mouser No" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -971,7 +899,7 @@
 			(pin_names
 				(offset 1.016)
 			)
-			(exclude_from_sim no)
+			(exclude_from_sim yes)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
@@ -1149,11 +1077,11 @@
 			)
 		)
 		(symbol "LEA_SymbolLibrary:OP_1_OPA607QDBVRQ1"
-			(exclude_from_sim no)
+			(exclude_from_sim yes)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at 0 16.51 0)
+				(at -6.985 8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1161,7 +1089,7 @@
 				)
 			)
 			(property "Value" "OPA607QDBVRQ1"
-				(at 0 12.7 0)
+				(at 0.635 6.985 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1228,6 +1156,15 @@
 					(font
 						(size 1.27 1.27)
 					)
+				)
+			)
+			(property "ki_keywords" "OP"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
 				)
 			)
 			(symbol "OP_1_OPA607QDBVRQ1_1_1"
@@ -1352,7 +1289,7 @@
 			(pin_numbers hide)
 			(pin_names
 				(offset 0.254) hide)
-			(exclude_from_sim no)
+			(exclude_from_sim yes)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
@@ -1400,7 +1337,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mfr. No" ""
+			(property "manf#" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1409,7 +1346,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser No" ""
+			(property "mouser#" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1511,7 +1448,7 @@
 			(pin_numbers hide)
 			(pin_names
 				(offset 0.254) hide)
-			(exclude_from_sim no)
+			(exclude_from_sim yes)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
@@ -1559,25 +1496,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mfr. No" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
 			(property "manf#" "CRCW04020000Z0EDC"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Mouser No" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1688,7 +1607,7 @@
 			(pin_numbers hide)
 			(pin_names
 				(offset 0.254) hide)
-			(exclude_from_sim no)
+			(exclude_from_sim yes)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
@@ -1736,25 +1655,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mfr. No" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
 			(property "manf#" "CRCW04021K00FKEDC"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Mouser No" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1865,7 +1766,7 @@
 			(pin_names
 				(offset 1.016)
 			)
-			(exclude_from_sim no)
+			(exclude_from_sim yes)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
@@ -9164,7 +9065,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.715 111.76) (xy 262.89 111.76)
+			(xy 259.08 111.76) (xy 262.89 111.76)
 		)
 		(stroke
 			(width 0)
@@ -9304,7 +9205,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.715 106.68) (xy 262.89 106.68)
+			(xy 259.08 106.68) (xy 262.89 106.68)
 		)
 		(stroke
 			(width 0)
@@ -9874,7 +9775,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.715 109.22) (xy 262.89 109.22)
+			(xy 259.08 109.22) (xy 262.89 109.22)
 		)
 		(stroke
 			(width 0)
@@ -9894,7 +9795,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 92.71) (xy 219.075 92.71)
+			(xy 212.09 92.71) (xy 218.44 92.71)
 		)
 		(stroke
 			(width 0)
@@ -9934,7 +9835,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.715 114.3) (xy 262.89 114.3)
+			(xy 259.08 114.3) (xy 262.89 114.3)
 		)
 		(stroke
 			(width 0)
@@ -10164,7 +10065,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.155 92.71) (xy 227.965 92.71)
+			(xy 223.52 92.71) (xy 228.6 92.71)
 		)
 		(stroke
 			(width 0)
@@ -10982,7 +10883,7 @@
 		(uuid "c9af433b-c759-435f-b23f-8e61bde22221")
 	)
 	(label "C4_P"
-		(at 259.715 111.76 180)
+		(at 259.08 111.76 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11037,7 +10938,7 @@
 		(uuid "f3948324-ce3a-4786-8e6f-06525e602a33")
 	)
 	(label "D0_P"
-		(at 259.715 114.3 180)
+		(at 259.08 114.3 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11706,25 +11607,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 58.42 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
-			(at 58.42 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
+		(property "Description" "Resistor 0402"
 			(at 58.42 82.55 0)
 			(effects
 				(font
@@ -11818,25 +11701,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 58.42 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
-			(at 58.42 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
+		(property "Description" "Resistor 0402"
 			(at 58.42 85.09 0)
 			(effects
 				(font
@@ -11930,25 +11795,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 58.42 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
-			(at 58.42 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
+		(property "Description" "Resistor 0402"
 			(at 58.42 92.71 0)
 			(effects
 				(font
@@ -12042,25 +11889,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 58.42 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
-			(at 58.42 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
+		(property "Description" "Resistor 0402"
 			(at 58.42 95.25 0)
 			(effects
 				(font
@@ -12154,25 +11983,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 58.42 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
-			(at 58.42 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
+		(property "Description" "Resistor 0402"
 			(at 58.42 97.79 0)
 			(effects
 				(font
@@ -12266,25 +12077,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 58.42 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
-			(at 58.42 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
+		(property "Description" "Resistor 0402"
 			(at 58.42 100.33 0)
 			(effects
 				(font
@@ -12378,25 +12171,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 58.42 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
-			(at 58.42 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
+		(property "Description" "Resistor 0402"
 			(at 58.42 102.87 0)
 			(effects
 				(font
@@ -12490,25 +12265,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 58.42 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
-			(at 58.42 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
+		(property "Description" "Resistor 0402"
 			(at 58.42 105.41 0)
 			(effects
 				(font
@@ -12602,25 +12359,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 58.42 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
-			(at 58.42 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
+		(property "Description" "Resistor 0402"
 			(at 58.42 110.49 0)
 			(effects
 				(font
@@ -12714,25 +12453,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 58.42 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
-			(at 58.42 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
+		(property "Description" "Resistor 0402"
 			(at 58.42 113.03 0)
 			(effects
 				(font
@@ -12826,25 +12547,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 58.42 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
-			(at 58.42 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
+		(property "Description" "Resistor 0402"
 			(at 58.42 115.57 0)
 			(effects
 				(font
@@ -12938,25 +12641,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 58.42 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
-			(at 58.42 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
+		(property "Description" "Resistor 0402"
 			(at 58.42 118.11 0)
 			(effects
 				(font
@@ -13050,25 +12735,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 58.42 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
-			(at 58.42 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
+		(property "Description" "Resistor 0402"
 			(at 58.42 120.65 0)
 			(effects
 				(font
@@ -13162,25 +12829,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 58.42 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
-			(at 58.42 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
+		(property "Description" "Resistor 0402"
 			(at 58.42 123.19 0)
 			(effects
 				(font
@@ -13274,25 +12923,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 58.42 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
-			(at 58.42 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
+		(property "Description" "Resistor 0402"
 			(at 58.42 128.27 0)
 			(effects
 				(font
@@ -13386,25 +13017,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 58.42 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
-			(at 58.42 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
+		(property "Description" "Resistor 0402"
 			(at 58.42 130.81 0)
 			(effects
 				(font
@@ -13498,25 +13111,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 58.42 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
-			(at 58.42 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
+		(property "Description" "Resistor 0402"
 			(at 58.42 133.35 0)
 			(effects
 				(font
@@ -13610,25 +13205,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 58.42 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
-			(at 58.42 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
+		(property "Description" "Resistor 0402"
 			(at 58.42 135.89 0)
 			(effects
 				(font
@@ -13722,25 +13299,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 58.42 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
-			(at 58.42 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
+		(property "Description" "Resistor 0402"
 			(at 58.42 140.97 0)
 			(effects
 				(font
@@ -13834,25 +13393,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 58.42 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
-			(at 58.42 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
+		(property "Description" "Resistor 0402"
 			(at 58.42 143.51 0)
 			(effects
 				(font
@@ -13946,25 +13487,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 58.42 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
-			(at 58.42 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
+		(property "Description" "Resistor 0402"
 			(at 58.42 146.05 0)
 			(effects
 				(font
@@ -14058,25 +13581,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 58.42 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
-			(at 58.42 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
+		(property "Description" "Resistor 0402"
 			(at 58.42 148.59 0)
 			(effects
 				(font
@@ -14170,25 +13675,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 58.42 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
-			(at 58.42 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
+		(property "Description" "Resistor 0402"
 			(at 58.42 151.13 0)
 			(effects
 				(font
@@ -14282,25 +13769,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 58.42 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
-			(at 58.42 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
+		(property "Description" "Resistor 0402"
 			(at 58.42 153.67 0)
 			(effects
 				(font
@@ -14396,16 +13865,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 185.42 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
+		(property "Description" "Capacitor 0402"
 			(at 185.42 40.64 0)
 			(effects
 				(font
@@ -14415,15 +13875,6 @@
 			)
 		)
 		(property "Manufacturer" "TDK"
-			(at 185.42 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
 			(at 185.42 40.64 0)
 			(effects
 				(font
@@ -14509,7 +13960,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V_H_A\""
 			(at 185.42 31.75 0)
 			(effects
 				(font
@@ -14575,16 +14026,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 87.63 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
+		(property "Description" "Capacitor 0402"
 			(at 87.63 40.64 0)
 			(effects
 				(font
@@ -14594,15 +14036,6 @@
 			)
 		)
 		(property "Manufacturer" "TDK"
-			(at 87.63 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
 			(at 87.63 40.64 0)
 			(effects
 				(font
@@ -14689,16 +14122,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 71.12 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
+		(property "Description" "Capacitor 0402"
 			(at 71.12 170.18 0)
 			(effects
 				(font
@@ -14708,15 +14132,6 @@
 			)
 		)
 		(property "Manufacturer" "TDK"
-			(at 71.12 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
 			(at 71.12 170.18 0)
 			(effects
 				(font
@@ -14803,16 +14218,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 74.93 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
+		(property "Description" "Capacitor 0402"
 			(at 74.93 161.29 0)
 			(effects
 				(font
@@ -14822,15 +14228,6 @@
 			)
 		)
 		(property "Manufacturer" "TDK"
-			(at 74.93 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
 			(at 74.93 161.29 0)
 			(effects
 				(font
@@ -14917,16 +14314,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 78.74 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
+		(property "Description" "Capacitor 0402"
 			(at 78.74 170.18 0)
 			(effects
 				(font
@@ -14936,15 +14324,6 @@
 			)
 		)
 		(property "Manufacturer" "TDK"
-			(at 78.74 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
 			(at 78.74 170.18 0)
 			(effects
 				(font
@@ -15031,16 +14410,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 82.55 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
+		(property "Description" "Capacitor 0402"
 			(at 82.55 161.29 0)
 			(effects
 				(font
@@ -15050,15 +14420,6 @@
 			)
 		)
 		(property "Manufacturer" "Kemet"
-			(at 82.55 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
 			(at 82.55 161.29 0)
 			(effects
 				(font
@@ -15145,16 +14506,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 86.36 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
+		(property "Description" "Capacitor 0402"
 			(at 86.36 170.18 0)
 			(effects
 				(font
@@ -15164,15 +14516,6 @@
 			)
 		)
 		(property "Manufacturer" "Kemet"
-			(at 86.36 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
 			(at 86.36 170.18 0)
 			(effects
 				(font
@@ -15259,16 +14602,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 90.17 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
+		(property "Description" "Capacitor 0402"
 			(at 90.17 161.29 0)
 			(effects
 				(font
@@ -15278,15 +14612,6 @@
 			)
 		)
 		(property "Manufacturer" "TDK"
-			(at 90.17 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
 			(at 90.17 161.29 0)
 			(effects
 				(font
@@ -15373,16 +14698,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 93.98 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
+		(property "Description" "Capacitor 0402"
 			(at 93.98 170.18 0)
 			(effects
 				(font
@@ -15392,15 +14708,6 @@
 			)
 		)
 		(property "Manufacturer" "TDK"
-			(at 93.98 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
 			(at 93.98 170.18 0)
 			(effects
 				(font
@@ -15487,16 +14794,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 97.79 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
+		(property "Description" "Capacitor 0402"
 			(at 97.79 161.29 0)
 			(effects
 				(font
@@ -15506,15 +14804,6 @@
 			)
 		)
 		(property "Manufacturer" "Kemet"
-			(at 97.79 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
 			(at 97.79 161.29 0)
 			(effects
 				(font
@@ -15601,16 +14890,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 101.6 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
+		(property "Description" "Capacitor 0402"
 			(at 101.6 170.18 0)
 			(effects
 				(font
@@ -15620,15 +14900,6 @@
 			)
 		)
 		(property "Manufacturer" "Kemet"
-			(at 101.6 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
 			(at 101.6 170.18 0)
 			(effects
 				(font
@@ -15715,16 +14986,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 105.41 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
+		(property "Description" "Capacitor 0402"
 			(at 105.41 161.29 0)
 			(effects
 				(font
@@ -15734,15 +14996,6 @@
 			)
 		)
 		(property "Manufacturer" "Kemet"
-			(at 105.41 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
 			(at 105.41 161.29 0)
 			(effects
 				(font
@@ -15829,16 +15082,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 109.22 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
+		(property "Description" "Capacitor 0402"
 			(at 109.22 170.18 0)
 			(effects
 				(font
@@ -15848,15 +15092,6 @@
 			)
 		)
 		(property "Manufacturer" "Kemet"
-			(at 109.22 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
 			(at 109.22 170.18 0)
 			(effects
 				(font
@@ -15943,16 +15178,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 113.03 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
+		(property "Description" "Capacitor 0402"
 			(at 113.03 161.29 0)
 			(effects
 				(font
@@ -15962,15 +15188,6 @@
 			)
 		)
 		(property "Manufacturer" "TDK"
-			(at 113.03 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
 			(at 113.03 161.29 0)
 			(effects
 				(font
@@ -16057,16 +15274,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 116.84 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
+		(property "Description" "Capacitor 0402"
 			(at 116.84 170.18 0)
 			(effects
 				(font
@@ -16076,15 +15284,6 @@
 			)
 		)
 		(property "Manufacturer" "TDK"
-			(at 116.84 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
 			(at 116.84 170.18 0)
 			(effects
 				(font
@@ -16171,16 +15370,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 120.65 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
+		(property "Description" "Capacitor 0402"
 			(at 120.65 161.29 0)
 			(effects
 				(font
@@ -16190,15 +15380,6 @@
 			)
 		)
 		(property "Manufacturer" "Kemet"
-			(at 120.65 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
 			(at 120.65 161.29 0)
 			(effects
 				(font
@@ -16285,16 +15466,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 124.46 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
+		(property "Description" "Capacitor 0402"
 			(at 124.46 170.18 0)
 			(effects
 				(font
@@ -16304,15 +15476,6 @@
 			)
 		)
 		(property "Manufacturer" "Kemet"
-			(at 124.46 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
 			(at 124.46 170.18 0)
 			(effects
 				(font
@@ -16399,16 +15562,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 128.27 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
+		(property "Description" "Capacitor 0402"
 			(at 128.27 161.29 0)
 			(effects
 				(font
@@ -16418,15 +15572,6 @@
 			)
 		)
 		(property "Manufacturer" "Kemet"
-			(at 128.27 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
 			(at 128.27 161.29 0)
 			(effects
 				(font
@@ -16513,16 +15658,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 132.08 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
+		(property "Description" "Capacitor 0402"
 			(at 132.08 170.18 0)
 			(effects
 				(font
@@ -16532,15 +15668,6 @@
 			)
 		)
 		(property "Manufacturer" "Kemet"
-			(at 132.08 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
 			(at 132.08 170.18 0)
 			(effects
 				(font
@@ -16627,16 +15754,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 135.89 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
+		(property "Description" "Capacitor 0402"
 			(at 135.89 161.29 0)
 			(effects
 				(font
@@ -16646,15 +15764,6 @@
 			)
 		)
 		(property "Manufacturer" "Kemet"
-			(at 135.89 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
 			(at 135.89 161.29 0)
 			(effects
 				(font
@@ -16741,16 +15850,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 139.7 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
+		(property "Description" "Capacitor 0402"
 			(at 139.7 170.18 0)
 			(effects
 				(font
@@ -16760,15 +15860,6 @@
 			)
 		)
 		(property "Manufacturer" "Kemet"
-			(at 139.7 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
 			(at 139.7 170.18 0)
 			(effects
 				(font
@@ -16855,16 +15946,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 143.51 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
+		(property "Description" "Capacitor 0402"
 			(at 143.51 161.29 0)
 			(effects
 				(font
@@ -16874,15 +15956,6 @@
 			)
 		)
 		(property "Manufacturer" "TDK"
-			(at 143.51 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
 			(at 143.51 161.29 0)
 			(effects
 				(font
@@ -16969,16 +16042,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 147.32 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
+		(property "Description" "Capacitor 0402"
 			(at 147.32 170.18 0)
 			(effects
 				(font
@@ -16988,15 +16052,6 @@
 			)
 		)
 		(property "Manufacturer" "TDK"
-			(at 147.32 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
 			(at 147.32 170.18 0)
 			(effects
 				(font
@@ -17083,16 +16138,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 151.13 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
+		(property "Description" "Capacitor 0402"
 			(at 151.13 161.29 0)
 			(effects
 				(font
@@ -17102,15 +16148,6 @@
 			)
 		)
 		(property "Manufacturer" "TDK"
-			(at 151.13 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
 			(at 151.13 161.29 0)
 			(effects
 				(font
@@ -17197,16 +16234,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 154.94 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
+		(property "Description" "Capacitor 0402"
 			(at 154.94 170.18 0)
 			(effects
 				(font
@@ -17216,15 +16244,6 @@
 			)
 		)
 		(property "Manufacturer" "TDK"
-			(at 154.94 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
 			(at 154.94 170.18 0)
 			(effects
 				(font
@@ -17309,7 +16328,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Precision Voltage Reference 3.0V"
 			(at 73.66 39.37 0)
 			(effects
 				(font
@@ -17320,24 +16339,6 @@
 		)
 		(property "Manufacturer" "Maxim Integrated"
 			(at 73.66 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" "700-MAX6037AAUK30T"
-			(at 73.66 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" "MAX6037AAUK30+T"
-			(at 73.6092 15.7988 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17431,7 +16432,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V_H_A\""
 			(at 57.15 30.48 0)
 			(effects
 				(font
@@ -17496,7 +16497,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "TMS320F2838x Real-Time Microcontrollers With Connectivity Manager"
 			(at 181.61 97.79 0)
 			(effects
 				(font
@@ -17507,15 +16508,6 @@
 		)
 		(property "Manufacturer" "Texas Instruments"
 			(at 222.25 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" "TMS320F2838xDZWT"
-			(at 181.61 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18606,16 +17598,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 57.15 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
+		(property "Description" "Capacitor 0402"
 			(at 57.15 40.64 0)
 			(effects
 				(font
@@ -18625,15 +17608,6 @@
 			)
 		)
 		(property "Manufacturer" "TDK"
-			(at 57.15 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
 			(at 57.15 40.64 0)
 			(effects
 				(font
@@ -18720,25 +17694,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 212.09 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
-			(at 212.09 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
+		(property "Description" "Resistor 0402, small symbol"
 			(at 212.09 109.22 0)
 			(effects
 				(font
@@ -18748,6 +17704,24 @@
 			)
 		)
 		(property "Manufacturer" ""
+			(at 212.09 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" ""
+			(at 212.09 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" ""
 			(at 212.09 109.22 0)
 			(effects
 				(font
@@ -18773,7 +17747,7 @@
 	)
 	(symbol
 		(lib_id "LEA_SymbolLibrary:R_0402__0R0_THICK__1P__50V")
-		(at 221.615 92.71 270)
+		(at 220.98 92.71 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18781,7 +17755,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061f0e895")
 		(property "Reference" "R925"
-			(at 213.995 91.44 90)
+			(at 213.36 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18790,7 +17764,7 @@
 			)
 		)
 		(property "Value" "0R0"
-			(at 224.155 91.44 90)
+			(at 223.52 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18799,7 +17773,7 @@
 			)
 		)
 		(property "Footprint" "LEA_FootprintLibrary:R_0402"
-			(at 231.775 92.71 0)
+			(at 231.14 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18808,7 +17782,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 221.615 92.71 0)
+			(at 220.98 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18816,26 +17790,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 221.615 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
-			(at 221.615 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
-			(at 221.615 92.71 0)
+		(property "Description" "Resistor 0402"
+			(at 220.98 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18844,7 +17800,7 @@
 			)
 		)
 		(property "Manufacturer" "Vishay"
-			(at 221.615 92.71 0)
+			(at 220.98 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18853,7 +17809,7 @@
 			)
 		)
 		(property "manf#" "CRCW04020000Z0EDC"
-			(at 221.615 92.71 0)
+			(at 220.98 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18862,7 +17818,7 @@
 			)
 		)
 		(property "mouser#" "71-CRCW04020000Z0EDC"
-			(at 221.615 92.71 0)
+			(at 220.98 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18930,16 +17886,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 67.31 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
+		(property "Description" "Capacitor 0402"
 			(at 67.31 161.29 0)
 			(effects
 				(font
@@ -18949,15 +17896,6 @@
 			)
 		)
 		(property "Manufacturer" "TDK"
-			(at 67.31 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
 			(at 67.31 161.29 0)
 			(effects
 				(font
@@ -19060,24 +17998,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser No" "595-OPA607QDBVRQ1"
-			(at 234.95 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" "OPA607QDBVRQ1"
-			(at 234.95 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "mouser#" "595-OPA607QDBVRQ1"
 			(at 234.95 20.32 0)
 			(effects
@@ -19164,7 +18084,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"AGND_HV\" , AGround"
 			(at 57.15 48.26 0)
 			(effects
 				(font
@@ -19229,7 +18149,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"AGND_HV\" , AGround"
 			(at 207.01 158.75 0)
 			(effects
 				(font
@@ -19294,7 +18214,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"AGND_HV\" , AGround"
 			(at 185.42 48.26 0)
 			(effects
 				(font
@@ -19359,7 +18279,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"AGND_HV\" , AGround"
 			(at 212.09 125.73 0)
 			(effects
 				(font
@@ -19435,24 +18355,6 @@
 		)
 		(property "Manufacturer" "Texas Instruments"
 			(at 177.8 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" "595-OPA607QDBVRQ1"
-			(at 177.8 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" "OPA607QDBVRQ1"
-			(at 177.8 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19546,7 +18448,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"AGND_HV\" , AGround"
 			(at 113.03 177.8 0)
 			(effects
 				(font
@@ -19611,7 +18513,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"AGND_HV\" , AGround"
 			(at 87.63 48.26 0)
 			(effects
 				(font
@@ -19677,16 +18579,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 212.09 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
+		(property "Description" "Capacitor 0603"
 			(at 212.09 118.11 0)
 			(effects
 				(font
@@ -19696,15 +18589,6 @@
 			)
 		)
 		(property "Manufacturer" "Samsung"
-			(at 212.09 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
 			(at 212.09 118.11 0)
 			(effects
 				(font

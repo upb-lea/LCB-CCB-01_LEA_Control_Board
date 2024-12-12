@@ -17,7 +17,7 @@
 			(pin_names
 				(offset 0)
 			)
-			(exclude_from_sim no)
+			(exclude_from_sim yes)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "#PWR"
@@ -127,7 +127,7 @@
 			(pin_names
 				(offset 0)
 			)
-			(exclude_from_sim no)
+			(exclude_from_sim yes)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "#PWR"
@@ -237,7 +237,7 @@
 			(pin_names
 				(offset 0)
 			)
-			(exclude_from_sim no)
+			(exclude_from_sim yes)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "#PWR"
@@ -343,7 +343,7 @@
 		)
 		(symbol "LEA_SymbolLibrary:CLM-107-02-L-D-K-TR"
 			(pin_names hide)
-			(exclude_from_sim no)
+			(exclude_from_sim yes)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
@@ -841,7 +841,7 @@
 			(pin_numbers hide)
 			(pin_names
 				(offset 0.254) hide)
-			(exclude_from_sim no)
+			(exclude_from_sim yes)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "C"
@@ -889,15 +889,6 @@
 					(hide yes)
 				)
 			)
-			(property "Mfr. No" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
 			(property "manf#" "C1005X7R1H104K"
 				(at 0 0 0)
 				(effects
@@ -908,15 +899,6 @@
 				)
 			)
 			(property "Manufacturer" "TDK"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Mouser No" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1031,7 +1013,7 @@
 			(pin_numbers hide)
 			(pin_names
 				(offset 0.254) hide)
-			(exclude_from_sim no)
+			(exclude_from_sim yes)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "C"
@@ -1079,15 +1061,6 @@
 					(hide yes)
 				)
 			)
-			(property "Mfr. No" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
 			(property "manf#" "C1005X7R1H103KBE"
 				(at 0 0 0)
 				(effects
@@ -1098,15 +1071,6 @@
 				)
 			)
 			(property "Manufacturer" "TDK"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Mouser No" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1221,7 +1185,7 @@
 			(pin_numbers hide)
 			(pin_names
 				(offset 0.254) hide)
-			(exclude_from_sim no)
+			(exclude_from_sim yes)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "C"
@@ -1269,15 +1233,6 @@
 					(hide yes)
 				)
 			)
-			(property "Mfr. No" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
 			(property "manf#" "C1005X5R1V105K"
 				(at 0 0 0)
 				(effects
@@ -1288,15 +1243,6 @@
 				)
 			)
 			(property "Manufacturer" "TDK"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Mouser No" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1411,7 +1357,7 @@
 			(pin_numbers hide)
 			(pin_names
 				(offset 0.254) hide)
-			(exclude_from_sim no)
+			(exclude_from_sim yes)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "C"
@@ -1459,15 +1405,6 @@
 					(hide yes)
 				)
 			)
-			(property "Mfr. No" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
 			(property "manf#" "C1608X5R1V475K"
 				(at 0 0 0)
 				(effects
@@ -1478,15 +1415,6 @@
 				)
 			)
 			(property "Manufacturer" "TDK"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Mouser No" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1598,7 +1526,7 @@
 			)
 		)
 		(symbol "LEA_SymbolLibrary:Conn_USBC_GTC_USB4110-GF-A"
-			(exclude_from_sim no)
+			(exclude_from_sim yes)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
@@ -2113,7 +2041,7 @@
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016) hide)
-			(exclude_from_sim no)
+			(exclude_from_sim yes)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "D"
@@ -2124,7 +2052,7 @@
 					)
 				)
 			)
-			(property "Value" "1A0_BAS3010A"
+			(property "Value" "1A0"
 				(at 0 5.08 0)
 				(effects
 					(font
@@ -2263,7 +2191,7 @@
 			)
 		)
 		(symbol "LEA_SymbolLibrary:ECS-2033-120-AU"
-			(exclude_from_sim no)
+			(exclude_from_sim yes)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "Y"
@@ -2428,7 +2356,7 @@
 			(pin_names
 				(offset 1.016)
 			)
-			(exclude_from_sim no)
+			(exclude_from_sim yes)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
@@ -2629,7 +2557,7 @@
 			(pin_names
 				(offset 1.016)
 			)
-			(exclude_from_sim no)
+			(exclude_from_sim yes)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
@@ -3874,7 +3802,7 @@
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016) hide)
-			(exclude_from_sim no)
+			(exclude_from_sim yes)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "L"
@@ -4036,7 +3964,7 @@
 			(pin_names
 				(offset 0)
 			)
-			(exclude_from_sim no)
+			(exclude_from_sim yes)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "#PWR"
@@ -4120,26 +4048,27 @@
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016) hide)
-			(exclude_from_sim no)
+			(exclude_from_sim yes)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "D"
-				(at 0 5.08 0)
+				(at 0 2.794 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Green_1mA"
-				(at 0 2.54 0)
+			(property "Value" "1mA"
+				(at 0.127 -6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
-			(property "Footprint" "LEA_FootprintLibrary:LED_0402"
+			(property "Footprint" "LEA_FootprintLibrary:LED_0402_G"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -4148,8 +4077,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-p11-e.pdf"
-				(at 0 10.2108 0)
+			(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-p11mtt86(r)-e.pdf"
+				(at 0 11.9888 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4157,7 +4086,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "LED 0402. Green, IF 1mA, 1,9V"
+			(property "Description" "LED 0402,Green, If 1mA, Vf 1.9V"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4167,7 +4096,7 @@
 				)
 			)
 			(property "Manufacturer" "ROHM Semiconductor"
-				(at 0 7.62 0)
+				(at 0 -4.318 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4176,7 +4105,7 @@
 				)
 			)
 			(property "mouser#" "755-SML-P11MTT86R"
-				(at -1.27 -8.255 0)
+				(at 0 6.858 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4185,7 +4114,7 @@
 				)
 			)
 			(property "manf#" "SML-P11MTT86R"
-				(at 0 5.08 0)
+				(at 0 14.6812 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4193,9 +4122,17 @@
 					(hide yes)
 				)
 			)
-			(symbol "LED_0402_G_1mA_SML-P11MTT86R_0_0"
+			(symbol "LED_0402_G_1mA_SML-P11MTT86R_1_0"
 				(text "0402"
 					(at -1.905 0.635 0)
+					(effects
+						(font
+							(size 0.5 0.5)
+						)
+					)
+				)
+				(text "G"
+					(at 1.524 0.635 0)
 					(effects
 						(font
 							(size 0.5 0.5)
@@ -4294,7 +4231,7 @@
 			(pin_names
 				(offset 1.016)
 			)
-			(exclude_from_sim no)
+			(exclude_from_sim yes)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "IC"
@@ -4360,6 +4297,15 @@
 			)
 			(property "manf#" "MIC5259-3.3YD5-TR"
 				(at 0 19.1516 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Enable" "0"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4475,7 +4421,7 @@
 			(pin_numbers hide)
 			(pin_names
 				(offset 0.254) hide)
-			(exclude_from_sim no)
+			(exclude_from_sim yes)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
@@ -4523,26 +4469,8 @@
 					(hide yes)
 				)
 			)
-			(property "Mfr. No" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
 			(property "mouser#" "71-CRCW04024K99FKEDC "
 				(at 13.97 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Mouser No" ""
-				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4652,7 +4580,7 @@
 			(pin_numbers hide)
 			(pin_names
 				(offset 0.254) hide)
-			(exclude_from_sim no)
+			(exclude_from_sim yes)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
@@ -4700,25 +4628,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mfr. No" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
 			(property "manf#" "CRCW0402680RFKEDC"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Mouser No" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -4829,7 +4739,7 @@
 			(pin_numbers hide)
 			(pin_names
 				(offset 0.254) hide)
-			(exclude_from_sim no)
+			(exclude_from_sim yes)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
@@ -4877,25 +4787,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mfr. No" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
 			(property "manf#" "CRCW04020000Z0EDC"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Mouser No" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -5006,7 +4898,7 @@
 			(pin_numbers hide)
 			(pin_names
 				(offset 0.254) hide)
-			(exclude_from_sim no)
+			(exclude_from_sim yes)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
@@ -5054,25 +4946,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mfr. No" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
 			(property "manf#" "CRCW040210K0FKEDC"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Mouser No" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -5183,7 +5057,7 @@
 			(pin_numbers hide)
 			(pin_names
 				(offset 0.254) hide)
-			(exclude_from_sim no)
+			(exclude_from_sim yes)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
@@ -5231,25 +5105,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mfr. No" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
 			(property "manf#" "CRCW040212K0FKEDC"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Mouser No" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -5360,7 +5216,7 @@
 			(pin_numbers hide)
 			(pin_names
 				(offset 0.254) hide)
-			(exclude_from_sim no)
+			(exclude_from_sim yes)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
@@ -5408,25 +5264,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mfr. No" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
 			(property "manf#" "CRCW04022K20FKEDC"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Mouser No" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -5598,7 +5436,7 @@
 				(pin power_out line
 					(at 0 0 90)
 					(length 0)
-					(name "pwr"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5697,16 +5535,16 @@
 		(uuid "1e648b38-3f75-453a-abaa-5e3d45f80309")
 	)
 	(junction
-		(at 97.155 73.66)
+		(at 96.52 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "203ba469-55b0-47c8-9865-298c171389ad")
+		(uuid "253d2189-83b5-43ba-952a-2dad96bca1e0")
 	)
 	(junction
-		(at 142.875 191.77)
+		(at 143.51 191.77)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2270350b-c2ef-4aff-93ac-5d2b3b88270e")
+		(uuid "27db4cf4-df42-474e-96a1-d34369a31edf")
 	)
 	(junction
 		(at 134.62 142.24)
@@ -5733,16 +5571,16 @@
 		(uuid "306aace6-642f-4fa5-8e0b-5ed57818f86b")
 	)
 	(junction
+		(at 139.7 177.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "31830687-35c0-4d74-9e80-2220a5475703")
+	)
+	(junction
 		(at 139.7 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "34ce7009-187e-4541-a14e-708b3a2903d9")
-	)
-	(junction
-		(at 97.155 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3bef937c-624b-44ba-a589-bc7261e6512d")
 	)
 	(junction
 		(at 273.05 63.5)
@@ -5769,16 +5607,16 @@
 		(uuid "47cfde1e-1672-42de-9bee-9436d612bef9")
 	)
 	(junction
+		(at 104.14 191.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "48af6ad3-9e7f-4ec6-9572-93d6cebfabe5")
+	)
+	(junction
 		(at 137.16 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4e677390-a246-4ca0-954c-746e0870f88f")
-	)
-	(junction
-		(at 142.24 177.165)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5600639f-23ac-4140-ae2d-2bd0eb34b245")
 	)
 	(junction
 		(at 144.78 142.24)
@@ -5835,6 +5673,12 @@
 		(uuid "76a5fc83-3bb2-4fc5-a13b-a8164dcf620a")
 	)
 	(junction
+		(at 143.51 177.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7dba47bf-7a9e-4d76-acce-9e04e40ea7d3")
+	)
+	(junction
 		(at 92.71 177.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5851,6 +5695,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8485f993-1e88-41ed-9182-3d4a971f99e0")
+	)
+	(junction
+		(at 154.94 177.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9569cbd5-d148-40a0-bafe-fdc2f9beefcd")
 	)
 	(junction
 		(at 234.95 119.38)
@@ -5871,12 +5721,6 @@
 		(uuid "9e136ac4-5d28-4814-9ebf-c30c372bc2ec")
 	)
 	(junction
-		(at 154.94 177.165)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a5d3d567-a194-493b-91fe-1c932c60853f")
-	)
-	(junction
 		(at 100.33 191.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5889,16 +5733,10 @@
 		(uuid "a6891c49-3648-41ce-811e-fccb4c4653af")
 	)
 	(junction
-		(at 139.7 177.165)
+		(at 147.32 177.8)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b0938463-469b-40bf-a905-0ae2c8ad91bf")
-	)
-	(junction
-		(at 104.775 191.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b3e709c2-a876-4cf4-b170-f5d0cc826e9e")
+		(uuid "b41552b8-85e7-470d-bb7e-cecc656172c4")
 	)
 	(junction
 		(at 104.14 86.36)
@@ -5923,6 +5761,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c1e2f60e-9f94-4fdb-9e02-19dd1fa6043a")
+	)
+	(junction
+		(at 100.33 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d172d0a4-431f-4c63-9d34-f3fd83bfacd6")
 	)
 	(junction
 		(at 142.24 29.21)
@@ -5997,12 +5841,6 @@
 		(uuid "f080cadd-e35c-47e3-bb78-10db51436ff9")
 	)
 	(junction
-		(at 147.32 177.165)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f2961d49-821d-4bb5-acff-d50aeed8b2a5")
-	)
-	(junction
 		(at 269.24 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6019,6 +5857,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fbea8652-faef-4084-ba47-6dd95032d70a")
+	)
+	(junction
+		(at 96.52 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fdbeb368-be16-414a-9055-9c68df29e020")
 	)
 	(no_connect
 		(at 170.18 78.74)
@@ -6200,6 +6044,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 177.8) (xy 139.7 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "053e6aaf-4ffb-4a90-bf9b-e2b7ce273a9e")
+	)
+	(wire
+		(pts
 			(xy 132.08 191.77) (xy 139.7 191.77)
 		)
 		(stroke
@@ -6220,7 +6074,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 187.325) (xy 115.57 191.77)
+			(xy 115.57 186.69) (xy 115.57 191.77)
 		)
 		(stroke
 			(width 0)
@@ -6330,7 +6184,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.155 73.66) (xy 97.155 77.47)
+			(xy 96.52 73.66) (xy 96.52 77.47)
 		)
 		(stroke
 			(width 0)
@@ -6470,7 +6324,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 182.245) (xy 92.71 177.8)
+			(xy 92.71 181.61) (xy 92.71 177.8)
 		)
 		(stroke
 			(width 0)
@@ -6580,7 +6434,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 187.325) (xy 100.33 191.77)
+			(xy 100.33 186.69) (xy 100.33 191.77)
 		)
 		(stroke
 			(width 0)
@@ -6600,7 +6454,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 177.165) (xy 142.24 177.165)
+			(xy 139.7 177.8) (xy 143.51 177.8)
 		)
 		(stroke
 			(width 0)
@@ -6647,6 +6501,16 @@
 			(type default)
 		)
 		(uuid "2f900f6b-8bfe-42ab-bbc6-ee39e3921303")
+	)
+	(wire
+		(pts
+			(xy 104.14 193.04) (xy 104.14 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32e7ddab-07ab-4e6a-bcce-9a9933831df8")
 	)
 	(wire
 		(pts
@@ -6740,23 +6604,13 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 182.245) (xy 115.57 177.8)
+			(xy 115.57 181.61) (xy 115.57 177.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3a8435e5-2117-4ec8-83a7-89261bf0655f")
-	)
-	(wire
-		(pts
-			(xy 139.7 177.165) (xy 139.7 182.245)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b443eab-8527-42a0-877b-cde4f5864976")
 	)
 	(wire
 		(pts
@@ -6790,7 +6644,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 177.165) (xy 147.32 177.165)
+			(xy 154.94 177.8) (xy 147.32 177.8)
 		)
 		(stroke
 			(width 0)
@@ -6890,16 +6744,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 177.165) (xy 147.32 182.245)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4813743b-008b-4910-b593-8fec87d1bdc7")
-	)
-	(wire
-		(pts
 			(xy 134.62 142.24) (xy 137.16 142.24)
 		)
 		(stroke
@@ -6960,7 +6804,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 182.245) (xy 162.56 177.165)
+			(xy 162.56 181.61) (xy 162.56 177.8)
 		)
 		(stroke
 			(width 0)
@@ -7080,16 +6924,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.875 191.77) (xy 147.32 191.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "591c166a-7aec-47c9-b6e6-a6761d16ab9e")
-	)
-	(wire
-		(pts
 			(xy 170.18 86.36) (xy 172.72 86.36)
 		)
 		(stroke
@@ -7120,7 +6954,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 187.325) (xy 139.7 191.77)
+			(xy 139.7 186.69) (xy 139.7 191.77)
 		)
 		(stroke
 			(width 0)
@@ -7197,6 +7031,16 @@
 			(type default)
 		)
 		(uuid "639d4f01-0aa4-4432-83b9-744290b7ce72")
+	)
+	(wire
+		(pts
+			(xy 96.52 86.36) (xy 100.33 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66136c5b-b8ce-438a-a27d-a8f17153c657")
 	)
 	(wire
 		(pts
@@ -7380,7 +7224,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 177.165) (xy 139.7 177.165)
+			(xy 132.08 177.8) (xy 139.7 177.8)
 		)
 		(stroke
 			(width 0)
@@ -7420,7 +7264,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 182.245) (xy 154.94 177.165)
+			(xy 154.94 181.61) (xy 154.94 177.8)
 		)
 		(stroke
 			(width 0)
@@ -7550,7 +7394,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 191.77) (xy 104.775 191.77)
+			(xy 100.33 191.77) (xy 104.14 191.77)
 		)
 		(stroke
 			(width 0)
@@ -7590,7 +7434,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.155 82.55) (xy 97.155 86.36)
+			(xy 96.52 82.55) (xy 96.52 86.36)
 		)
 		(stroke
 			(width 0)
@@ -7690,6 +7534,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 191.77) (xy 147.32 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a4041c4-afb6-411c-a9bf-54014285cc40")
+	)
+	(wire
+		(pts
 			(xy 82.55 64.77) (xy 82.55 68.58)
 		)
 		(stroke
@@ -7780,7 +7634,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 86.36) (xy 97.155 86.36)
+			(xy 91.44 86.36) (xy 96.52 86.36)
 		)
 		(stroke
 			(width 0)
@@ -7790,7 +7644,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 182.245) (xy 132.08 177.165)
+			(xy 132.08 181.61) (xy 132.08 177.8)
 		)
 		(stroke
 			(width 0)
@@ -7830,7 +7684,17 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 177.165) (xy 154.94 177.165)
+			(xy 100.33 86.36) (xy 104.14 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a52a225e-40a3-407b-8fa0-a4daa870c71e")
+	)
+	(wire
+		(pts
+			(xy 162.56 177.8) (xy 154.94 177.8)
 		)
 		(stroke
 			(width 0)
@@ -7910,7 +7774,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 191.77) (xy 142.875 191.77)
+			(xy 139.7 191.77) (xy 143.51 191.77)
 		)
 		(stroke
 			(width 0)
@@ -7930,7 +7794,17 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 177.8) (xy 100.33 182.245)
+			(xy 143.51 176.53) (xy 143.51 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abcb11f4-6b3c-4510-b4a8-cf3635bc2412")
+	)
+	(wire
+		(pts
+			(xy 100.33 177.8) (xy 100.33 181.61)
 		)
 		(stroke
 			(width 0)
@@ -8050,6 +7924,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 87.63) (xy 100.33 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9f70254-13a2-46d1-a7b3-d6f4d988ff7d")
+	)
+	(wire
+		(pts
 			(xy 262.89 77.47) (xy 273.05 77.47)
 		)
 		(stroke
@@ -8090,6 +7974,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 177.8) (xy 147.32 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bedd1c09-1125-47a3-b52c-1ba953c522f9")
+	)
+	(wire
+		(pts
 			(xy 107.95 142.24) (xy 109.22 142.24)
 		)
 		(stroke
@@ -8117,6 +8011,16 @@
 			(type default)
 		)
 		(uuid "c09b3909-98dc-4c19-9722-23109960986b")
+	)
+	(wire
+		(pts
+			(xy 96.52 73.66) (xy 111.76 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c41d4c65-b6b7-4ac5-b3c7-84c8467395b7")
 	)
 	(wire
 		(pts
@@ -8150,7 +8054,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 177.165) (xy 142.24 177.165)
+			(xy 147.32 177.8) (xy 143.51 177.8)
 		)
 		(stroke
 			(width 0)
@@ -8180,7 +8084,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 191.77) (xy 162.56 187.325)
+			(xy 162.56 191.77) (xy 162.56 186.69)
 		)
 		(stroke
 			(width 0)
@@ -8197,16 +8101,6 @@
 			(type default)
 		)
 		(uuid "d0d7d96e-e106-4edb-ac94-532b7c48cfd2")
-	)
-	(wire
-		(pts
-			(xy 97.155 73.66) (xy 111.76 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1817a81-d444-4cd9-95f6-174ec9e2a60e")
 	)
 	(wire
 		(pts
@@ -8270,6 +8164,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 191.77) (xy 107.95 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6ece468-78f0-46df-b071-ca5812a1897a")
+	)
+	(wire
+		(pts
 			(xy 139.7 144.78) (xy 139.7 142.24)
 		)
 		(stroke
@@ -8330,7 +8234,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 187.325) (xy 107.95 191.77)
+			(xy 107.95 186.69) (xy 107.95 191.77)
 		)
 		(stroke
 			(width 0)
@@ -8390,7 +8294,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 187.325) (xy 132.08 191.77)
+			(xy 132.08 186.69) (xy 132.08 191.77)
 		)
 		(stroke
 			(width 0)
@@ -8420,7 +8324,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 187.325) (xy 92.71 191.77)
+			(xy 92.71 186.69) (xy 92.71 191.77)
 		)
 		(stroke
 			(width 0)
@@ -8440,7 +8344,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 182.245) (xy 107.95 177.8)
+			(xy 107.95 181.61) (xy 107.95 177.8)
 		)
 		(stroke
 			(width 0)
@@ -8450,7 +8354,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 187.325) (xy 147.32 191.77)
+			(xy 147.32 186.69) (xy 147.32 191.77)
 		)
 		(stroke
 			(width 0)
@@ -8530,16 +8434,6 @@
 	)
 	(wire
 		(pts
-			(xy 104.775 191.77) (xy 107.95 191.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef61677d-3bb3-4ca8-aabc-f76a7dcd1e97")
-	)
-	(wire
-		(pts
 			(xy 261.62 144.78) (xy 264.16 144.78)
 		)
 		(stroke
@@ -8547,16 +8441,6 @@
 			(type default)
 		)
 		(uuid "f067dd8a-be5c-47ff-bfab-774eadbb46a8")
-	)
-	(wire
-		(pts
-			(xy 97.155 86.36) (xy 104.14 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1317b55-4c10-4cc5-9d23-54b8bc45afbd")
 	)
 	(wire
 		(pts
@@ -8650,7 +8534,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 73.66) (xy 97.155 73.66)
+			(xy 91.44 73.66) (xy 96.52 73.66)
 		)
 		(stroke
 			(width 0)
@@ -8740,7 +8624,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 187.325) (xy 154.94 191.77)
+			(xy 154.94 186.69) (xy 154.94 191.77)
 		)
 		(stroke
 			(width 0)
@@ -9511,7 +9395,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V_LV\""
 			(at 60.96 30.48 0)
 			(effects
 				(font
@@ -9576,7 +9460,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND_LV\" , ground"
 			(at 45.72 87.63 0)
 			(effects
 				(font
@@ -9641,7 +9525,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND_LV\" , ground"
 			(at 60.96 46.99 0)
 			(effects
 				(font
@@ -9705,7 +9589,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "USB Interface IC USB HS to Dual UART/ FIFO/SPI/JTAG/I2C"
 			(at 127 101.6 0)
 			(effects
 				(font
@@ -9716,24 +9600,6 @@
 		)
 		(property "Manufacturer" "FTDI"
 			(at 162.56 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" "895-FT2232HL-TRAY"
-			(at 170.18 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" "FT2232HL-TRAY"
-			(at 127 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10004,7 +9870,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND_LV\" , ground"
 			(at 139.7 144.78 0)
 			(effects
 				(font
@@ -10069,7 +9935,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND_LV\" , ground"
 			(at 107.95 144.78 0)
 			(effects
 				(font
@@ -10133,7 +9999,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "EEPROM Serial-Microwire 2K-Bit 128 x 16 2MHz,93LC56BT-I/OT,SOT-23-6,SMD"
 			(at 247.65 114.3 0)
 			(effects
 				(font
@@ -10144,24 +10010,6 @@
 		)
 		(property "Manufacturer" "Microchip"
 			(at 247.65 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" "579-93LC56BT-I/OT"
-			(at 247.65 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" "93LC56BT-I/OT"
-			(at 267.97 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10258,7 +10106,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND_LV\" , ground"
 			(at 234.95 121.92 0)
 			(effects
 				(font
@@ -10322,7 +10170,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LDO Voltage Regulator 3.3V 300mA"
 			(at 248.92 64.77 0)
 			(effects
 				(font
@@ -10333,24 +10181,6 @@
 		)
 		(property "Manufacturer" "Microchip"
 			(at 248.666 85.598 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" "998-MIC5259-3.3YD5TR"
-			(at 247.142 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" "MIC5259-3.3YD5-TR"
-			(at 248.92 45.6184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10369,6 +10199,15 @@
 		)
 		(property "manf#" "MIC5259-3.3YD5-TR"
 			(at 248.92 45.6184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
+			(at 248.92 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10444,7 +10283,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V_LV\""
 			(at 234.95 102.87 0)
 			(effects
 				(font
@@ -10509,7 +10348,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V_LV\""
 			(at 261.62 102.87 0)
 			(effects
 				(font
@@ -10574,7 +10413,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V_LV\""
 			(at 99.06 30.48 0)
 			(effects
 				(font
@@ -10639,7 +10478,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+1.8V_LV\""
 			(at 139.7 29.21 0)
 			(effects
 				(font
@@ -10704,7 +10543,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V_LV\""
 			(at 273.05 62.23 0)
 			(effects
 				(font
@@ -10770,16 +10609,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 234.95 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
+		(property "Description" "Capacitor 0402"
 			(at 234.95 115.57 0)
 			(effects
 				(font
@@ -10789,15 +10619,6 @@
 			)
 		)
 		(property "Manufacturer" "TDK"
-			(at 234.95 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
 			(at 234.95 115.57 0)
 			(effects
 				(font
@@ -10883,7 +10704,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+5V_LV\""
 			(at 228.6 60.96 0)
 			(effects
 				(font
@@ -10949,16 +10770,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 262.89 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
+		(property "Description" "Capacitor 0402"
 			(at 262.89 71.12 0)
 			(effects
 				(font
@@ -10968,15 +10780,6 @@
 			)
 		)
 		(property "Manufacturer" "TDK"
-			(at 262.89 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
 			(at 262.89 71.12 0)
 			(effects
 				(font
@@ -11061,25 +10864,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 36.83 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
-			(at 36.83 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
+		(property "Description" "Resistor 0402"
 			(at 36.83 83.82 0)
 			(effects
 				(font
@@ -11173,25 +10958,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 261.62 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
-			(at 261.62 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
+		(property "Description" "Resistor 0402"
 			(at 261.62 106.68 0)
 			(effects
 				(font
@@ -11285,25 +11052,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 266.7 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
-			(at 266.7 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
+		(property "Description" "Resistor 0402"
 			(at 266.7 111.76 0)
 			(effects
 				(font
@@ -11398,25 +11147,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 50.8 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
-			(at 50.8 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
+		(property "Description" "Resistor 0402, small symbol"
 			(at 50.8 43.18 0)
 			(effects
 				(font
@@ -11511,25 +11242,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 50.8 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
-			(at 50.8 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
+		(property "Description" "Resistor 0402, small symbol"
 			(at 50.8 45.72 0)
 			(effects
 				(font
@@ -11625,16 +11338,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 273.05 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
+		(property "Description" "Capacitor 0402"
 			(at 273.05 71.12 0)
 			(effects
 				(font
@@ -11644,15 +11348,6 @@
 			)
 		)
 		(property "Manufacturer" "TDK"
-			(at 273.05 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
 			(at 273.05 71.12 0)
 			(effects
 				(font
@@ -11738,7 +11433,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND_LV\" , ground"
 			(at 248.92 78.74 0)
 			(effects
 				(font
@@ -11776,7 +11471,7 @@
 				)
 			)
 		)
-		(property "Value" "Green_1mA"
+		(property "Value" "1mA"
 			(at 255.27 30.48 0)
 			(effects
 				(font
@@ -11784,7 +11479,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LEA_FootprintLibrary:LED_0402"
+		(property "Footprint" "LEA_FootprintLibrary:LED_0402_G"
 			(at 250.19 29.21 0)
 			(effects
 				(font
@@ -11793,7 +11488,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-p11-e.pdf"
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-p11mtt86(r)-e.pdf"
 			(at 237.4392 29.21 0)
 			(effects
 				(font
@@ -11802,7 +11497,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LED 0402,Green, If 1mA, Vf 1.9V"
 			(at 247.65 29.21 0)
 			(effects
 				(font
@@ -11813,24 +11508,6 @@
 		)
 		(property "Manufacturer" "ROHM Semiconductor"
 			(at 240.03 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" "755-SML-P11MTT86R"
-			(at 240.792 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" "SML-P11MTT86R"
-			(at 234.2388 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11915,7 +11592,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V_LV\""
 			(at 247.65 25.4 0)
 			(effects
 				(font
@@ -11980,7 +11657,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND_LV\" , ground"
 			(at 247.65 39.37 0)
 			(effects
 				(font
@@ -12045,25 +11722,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 247.65 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
-			(at 247.65 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
+		(property "Description" "Resistor 0402"
 			(at 247.65 35.56 0)
 			(effects
 				(font
@@ -12157,25 +11816,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 176.53 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
-			(at 176.53 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
+		(property "Description" "Resistor 0402"
 			(at 176.53 76.2 0)
 			(effects
 				(font
@@ -12270,7 +11911,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND_LV\" , ground"
 			(at 195.58 77.47 0)
 			(effects
 				(font
@@ -12308,7 +11949,7 @@
 				)
 			)
 		)
-		(property "Value" "Green_1mA"
+		(property "Value" "1mA"
 			(at 193.04 111.76 0)
 			(effects
 				(font
@@ -12316,7 +11957,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LEA_FootprintLibrary:LED_0402"
+		(property "Footprint" "LEA_FootprintLibrary:LED_0402_G"
 			(at 193.04 119.38 0)
 			(effects
 				(font
@@ -12325,7 +11966,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-p11-e.pdf"
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-p11mtt86(r)-e.pdf"
 			(at 193.04 106.6292 0)
 			(effects
 				(font
@@ -12334,7 +11975,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LED 0402,Green, If 1mA, Vf 1.9V"
 			(at 193.04 116.84 0)
 			(effects
 				(font
@@ -12345,24 +11986,6 @@
 		)
 		(property "Manufacturer" "ROHM Semiconductor"
 			(at 193.04 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" "755-SML-P11MTT86R"
-			(at 193.04 109.982 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" "SML-P11MTT86R"
-			(at 193.04 103.4288 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12447,25 +12070,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 182.88 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
-			(at 182.88 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
+		(property "Description" "Resistor 0402"
 			(at 182.88 116.84 0)
 			(effects
 				(font
@@ -12560,25 +12165,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 182.88 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
-			(at 182.88 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
+		(property "Description" "Resistor 0402"
 			(at 182.88 119.38 0)
 			(effects
 				(font
@@ -12646,7 +12233,7 @@
 				)
 			)
 		)
-		(property "Value" "Green_1mA"
+		(property "Value" "1mA"
 			(at 200.66 121.92 0)
 			(effects
 				(font
@@ -12654,7 +12241,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LEA_FootprintLibrary:LED_0402"
+		(property "Footprint" "LEA_FootprintLibrary:LED_0402_G"
 			(at 193.04 121.92 0)
 			(effects
 				(font
@@ -12663,7 +12250,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-p11-e.pdf"
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-p11mtt86(r)-e.pdf"
 			(at 193.04 109.1692 0)
 			(effects
 				(font
@@ -12672,7 +12259,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LED 0402,Green, If 1mA, Vf 1.9V"
 			(at 193.04 119.38 0)
 			(effects
 				(font
@@ -12683,24 +12270,6 @@
 		)
 		(property "Manufacturer" "ROHM Semiconductor"
 			(at 193.04 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" "755-SML-P11MTT86R"
-			(at 193.04 112.522 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" "SML-P11MTT86R"
-			(at 193.04 105.9688 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12785,7 +12354,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V_LV\""
 			(at 201.93 109.22 0)
 			(effects
 				(font
@@ -12851,7 +12420,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ferrite Bead, 0402, 600Ohm, 300mA"
 			(at 85.09 73.66 0)
 			(effects
 				(font
@@ -12862,24 +12431,6 @@
 		)
 		(property "Manufacturer" "Murata"
 			(at 90.17 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" "81-BLM15AG601SN1D"
-			(at 93.98 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" "BLM15AG601SN1D"
-			(at 107.95 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12965,7 +12516,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Ferrite Bead, 0402, 600Ohm, 300mA"
 			(at 85.09 68.58 0)
 			(effects
 				(font
@@ -12976,24 +12527,6 @@
 		)
 		(property "Manufacturer" "Murata"
 			(at 90.17 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" "81-BLM15AG601SN1D"
-			(at 93.98 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" "BLM15AG601SN1D"
-			(at 107.95 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13077,25 +12610,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 105.41 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
-			(at 105.41 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
+		(property "Description" "Resistor 0402"
 			(at 105.41 138.43 0)
 			(effects
 				(font
@@ -13148,7 +12663,7 @@
 	)
 	(symbol
 		(lib_id "LEA_SymbolLibrary:GND_LV")
-		(at 97.155 86.36 0)
+		(at 100.33 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13156,7 +12671,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061d71857")
 		(property "Reference" "#PWR0214"
-			(at 99.695 88.9 90)
+			(at 102.87 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13165,7 +12680,7 @@
 			)
 		)
 		(property "Value" "GND_LV"
-			(at 97.155 90.17 0)
+			(at 100.33 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13173,7 +12688,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 97.155 86.36 0)
+			(at 100.33 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13182,7 +12697,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 97.155 86.36 0)
+			(at 100.33 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13190,8 +12705,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 97.155 86.36 0)
+		(property "Description" "Power symbol creates a global label with name \"GND_LV\" , ground"
+			(at 100.33 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13254,25 +12769,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 102.87 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
-			(at 102.87 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
+		(property "Description" "Resistor 0402"
 			(at 102.87 58.42 0)
 			(effects
 				(font
@@ -13367,7 +12864,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V_LV\""
 			(at 82.55 64.77 0)
 			(effects
 				(font
@@ -13432,7 +12929,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V_LV\""
 			(at 231.14 142.24 0)
 			(effects
 				(font
@@ -13498,16 +12995,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 104.14 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
+		(property "Description" "Capacitor 0603"
 			(at 104.14 80.01 0)
 			(effects
 				(font
@@ -13517,15 +13005,6 @@
 			)
 		)
 		(property "Manufacturer" "TDK"
-			(at 104.14 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
 			(at 104.14 80.01 0)
 			(effects
 				(font
@@ -13612,16 +13091,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 234.95 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
+		(property "Description" "Capacitor 0402"
 			(at 234.95 71.12 0)
 			(effects
 				(font
@@ -13631,15 +13101,6 @@
 			)
 		)
 		(property "Manufacturer" "TDK"
-			(at 234.95 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
 			(at 234.95 71.12 0)
 			(effects
 				(font
@@ -13725,7 +13186,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND_LV\" , ground"
 			(at 63.5 191.77 0)
 			(effects
 				(font
@@ -13790,7 +13251,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V_LV\""
 			(at 17.78 173.99 0)
 			(effects
 				(font
@@ -13813,7 +13274,7 @@
 	)
 	(symbol
 		(lib_id "LEA_SymbolLibrary:C_0402_100n_X7R_10P__50V")
-		(at 162.56 184.785 0)
+		(at 162.56 184.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13821,7 +13282,7 @@
 		(dnp no)
 		(uuid "2ddc0ac4-aded-4383-bfc5-afe7f2fac606")
 		(property "Reference" "C220"
-			(at 165.735 186.69 90)
+			(at 165.735 186.055 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13830,7 +13291,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 160.02 189.865 90)
+			(at 160.02 189.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13839,7 +13300,7 @@
 			)
 		)
 		(property "Footprint" "LEA_FootprintLibrary:C_0402"
-			(at 162.56 174.625 0)
+			(at 162.56 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13848,7 +13309,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 184.785 0)
+			(at 162.56 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13856,17 +13317,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 162.56 184.785 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
-			(at 162.56 184.785 0)
+		(property "Description" "Capacitor 0402"
+			(at 162.56 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13875,16 +13327,7 @@
 			)
 		)
 		(property "Manufacturer" "TDK"
-			(at 162.56 184.785 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
-			(at 162.56 184.785 0)
+			(at 162.56 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13893,7 +13336,7 @@
 			)
 		)
 		(property "manf#" "C1005X7R1H104K"
-			(at 162.56 184.785 0)
+			(at 162.56 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13902,7 +13345,7 @@
 			)
 		)
 		(property "mouser#" "810-C1005X7R1H104K"
-			(at 162.56 184.785 0)
+			(at 162.56 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13927,7 +13370,7 @@
 	)
 	(symbol
 		(lib_id "LEA_SymbolLibrary:C_0402_100n_X7R_10P__50V")
-		(at 115.57 184.785 0)
+		(at 115.57 184.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13935,7 +13378,7 @@
 		(dnp no)
 		(uuid "34b16d80-f8cc-4061-b10a-1dd2efe1564e")
 		(property "Reference" "C215"
-			(at 118.745 186.69 90)
+			(at 118.745 186.055 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13944,7 +13387,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 113.03 189.865 90)
+			(at 113.03 189.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13953,7 +13396,7 @@
 			)
 		)
 		(property "Footprint" "LEA_FootprintLibrary:C_0402"
-			(at 115.57 174.625 0)
+			(at 115.57 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13962,7 +13405,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 184.785 0)
+			(at 115.57 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13970,17 +13413,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 115.57 184.785 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
-			(at 115.57 184.785 0)
+		(property "Description" "Capacitor 0402"
+			(at 115.57 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13989,16 +13423,7 @@
 			)
 		)
 		(property "Manufacturer" "TDK"
-			(at 115.57 184.785 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
-			(at 115.57 184.785 0)
+			(at 115.57 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14007,7 +13432,7 @@
 			)
 		)
 		(property "manf#" "C1005X7R1H104K"
-			(at 115.57 184.785 0)
+			(at 115.57 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14016,7 +13441,7 @@
 			)
 		)
 		(property "mouser#" "810-C1005X7R1H104K"
-			(at 115.57 184.785 0)
+			(at 115.57 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14082,25 +13507,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 45.72 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
-			(at 45.72 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
+		(property "Description" "Resistor 0402"
 			(at 45.72 143.51 0)
 			(effects
 				(font
@@ -14153,7 +13560,7 @@
 	)
 	(symbol
 		(lib_id "LEA_SymbolLibrary:C_0402_100n_X7R_10P__50V")
-		(at 147.32 184.785 0)
+		(at 147.32 184.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14161,7 +13568,7 @@
 		(dnp no)
 		(uuid "3fe47ff5-7b52-4767-b1d3-a9d3a154e322")
 		(property "Reference" "C218"
-			(at 150.495 186.69 90)
+			(at 150.495 186.055 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14170,7 +13577,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 144.78 189.865 90)
+			(at 144.78 189.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14179,7 +13586,7 @@
 			)
 		)
 		(property "Footprint" "LEA_FootprintLibrary:C_0402"
-			(at 147.32 174.625 0)
+			(at 147.32 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14188,7 +13595,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 184.785 0)
+			(at 147.32 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14196,17 +13603,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 147.32 184.785 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
-			(at 147.32 184.785 0)
+		(property "Description" "Capacitor 0402"
+			(at 147.32 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14215,16 +13613,7 @@
 			)
 		)
 		(property "Manufacturer" "TDK"
-			(at 147.32 184.785 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
-			(at 147.32 184.785 0)
+			(at 147.32 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14233,7 +13622,7 @@
 			)
 		)
 		(property "manf#" "C1005X7R1H104K"
-			(at 147.32 184.785 0)
+			(at 147.32 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14242,7 +13631,7 @@
 			)
 		)
 		(property "mouser#" "810-C1005X7R1H104K"
-			(at 147.32 184.785 0)
+			(at 147.32 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14267,7 +13656,7 @@
 	)
 	(symbol
 		(lib_id "LEA_SymbolLibrary:GND_LV")
-		(at 104.775 191.77 0)
+		(at 104.14 193.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14275,7 +13664,7 @@
 		(dnp no)
 		(uuid "4235ef72-6177-44a0-993f-93306f9c9ad4")
 		(property "Reference" "#PWR0228"
-			(at 107.315 194.31 90)
+			(at 106.68 195.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14284,7 +13673,7 @@
 			)
 		)
 		(property "Value" "GND_LV"
-			(at 104.775 195.58 0)
+			(at 104.14 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14292,7 +13681,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.775 191.77 0)
+			(at 104.14 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14301,7 +13690,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.775 191.77 0)
+			(at 104.14 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14309,8 +13698,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 104.775 191.77 0)
+		(property "Description" "Power symbol creates a global label with name \"GND_LV\" , ground"
+			(at 104.14 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14332,7 +13721,7 @@
 	)
 	(symbol
 		(lib_id "LEA_SymbolLibrary:C_0402_100n_X7R_10P__50V")
-		(at 139.7 184.785 0)
+		(at 139.7 184.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14340,7 +13729,7 @@
 		(dnp no)
 		(uuid "42b59e68-f629-4986-8e53-35bb3135da1f")
 		(property "Reference" "C217"
-			(at 142.875 186.69 90)
+			(at 142.875 186.055 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14349,7 +13738,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 137.16 189.865 90)
+			(at 137.16 189.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14358,7 +13747,7 @@
 			)
 		)
 		(property "Footprint" "LEA_FootprintLibrary:C_0402"
-			(at 139.7 174.625 0)
+			(at 139.7 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14367,7 +13756,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 184.785 0)
+			(at 139.7 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14375,17 +13764,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 139.7 184.785 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
-			(at 139.7 184.785 0)
+		(property "Description" "Capacitor 0402"
+			(at 139.7 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14394,16 +13774,7 @@
 			)
 		)
 		(property "Manufacturer" "TDK"
-			(at 139.7 184.785 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
-			(at 139.7 184.785 0)
+			(at 139.7 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14412,7 +13783,7 @@
 			)
 		)
 		(property "manf#" "C1005X7R1H104K"
-			(at 139.7 184.785 0)
+			(at 139.7 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14421,7 +13792,7 @@
 			)
 		)
 		(property "mouser#" "810-C1005X7R1H104K"
-			(at 139.7 184.785 0)
+			(at 139.7 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14487,7 +13858,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Headers & Wire Housings Low Profile Dual-Wipe Socket, 1.00mm Pitch, 14-Pin JTAG TI"
 			(at 45.72 185.42 0)
 			(effects
 				(font
@@ -14498,24 +13869,6 @@
 		)
 		(property "Manufacturer" "Samtec"
 			(at 45.72 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" "200-CLM10702LDKTR"
-			(at 45.72 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" "CLM-107-02-L-D-K-TR"
-			(at 45.72 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14635,25 +13988,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 45.72 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
-			(at 45.72 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
+		(property "Description" "Resistor 0402"
 			(at 45.72 125.73 0)
 			(effects
 				(font
@@ -14747,25 +14082,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 175.26 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
-			(at 175.26 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
+		(property "Description" "Resistor 0402"
 			(at 175.26 58.42 0)
 			(effects
 				(font
@@ -14859,25 +14176,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 45.72 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
-			(at 45.72 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
+		(property "Description" "Resistor 0402"
 			(at 45.72 134.62 0)
 			(effects
 				(font
@@ -14971,7 +14270,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Standard Clock Oscillators 12.000 MHZ 3.3Volt 100 ppm -55C +125C"
 			(at 248.92 148.59 0)
 			(effects
 				(font
@@ -14982,24 +14281,6 @@
 		)
 		(property "Manufacturer" "ECS"
 			(at 248.92 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" "520-2033-120-AU"
-			(at 248.92 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" "ECS-2033-120-AU"
-			(at 248.92 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15089,25 +14370,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 175.26 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
-			(at 175.26 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
+		(property "Description" "Resistor 0402"
 			(at 175.26 34.29 0)
 			(effects
 				(font
@@ -15160,7 +14423,7 @@
 	)
 	(symbol
 		(lib_id "LEA_SymbolLibrary:C_0402_100n_X7R_10P__50V")
-		(at 97.155 80.01 0)
+		(at 96.52 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15168,7 +14431,7 @@
 		(dnp no)
 		(uuid "730f19d5-150b-4cee-a533-73626f1ffe70")
 		(property "Reference" "C206"
-			(at 98.425 78.74 90)
+			(at 97.79 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15177,7 +14440,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 94.615 85.09 90)
+			(at 93.98 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15186,7 +14449,7 @@
 			)
 		)
 		(property "Footprint" "LEA_FootprintLibrary:C_0402"
-			(at 97.155 69.85 0)
+			(at 96.52 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15195,7 +14458,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 97.155 80.01 0)
+			(at 96.52 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15203,17 +14466,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 97.155 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
-			(at 97.155 80.01 0)
+		(property "Description" "Capacitor 0402"
+			(at 96.52 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15222,16 +14476,7 @@
 			)
 		)
 		(property "Manufacturer" "TDK"
-			(at 97.155 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
-			(at 97.155 80.01 0)
+			(at 96.52 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15240,7 +14485,7 @@
 			)
 		)
 		(property "manf#" "C1005X7R1H104K"
-			(at 97.155 80.01 0)
+			(at 96.52 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15249,7 +14494,7 @@
 			)
 		)
 		(property "mouser#" "810-C1005X7R1H104K"
-			(at 97.155 80.01 0)
+			(at 96.52 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15315,25 +14560,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 176.53 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
-			(at 176.53 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
+		(property "Description" "Resistor 0402"
 			(at 176.53 68.58 0)
 			(effects
 				(font
@@ -15428,7 +14655,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V_LV\""
 			(at 195.58 64.77 0)
 			(effects
 				(font
@@ -15466,7 +14693,7 @@
 				)
 			)
 		)
-		(property "Value" "1A0_BAS3010A"
+		(property "Value" "1A0"
 			(at 60.96 38.1 0)
 			(effects
 				(font
@@ -15492,7 +14719,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Schottky Diodes & Rectifiers Medium Power IF Diode"
 			(at 53.34 35.56 0)
 			(effects
 				(font
@@ -15503,24 +14730,6 @@
 		)
 		(property "Manufacturer" "Infineon"
 			(at 53.34 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" "726-BAS3010A-03WE6"
-			(at 53.34 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" "BAS3010A03WE6327HTSA1"
-			(at 53.34 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15563,7 +14772,7 @@
 	)
 	(symbol
 		(lib_id "LEA_SymbolLibrary:C_0402_100n_X7R_10P__50V")
-		(at 100.33 184.785 0)
+		(at 100.33 184.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15571,7 +14780,7 @@
 		(dnp no)
 		(uuid "788c595d-82ad-4571-8dea-9a7ef7a51c80")
 		(property "Reference" "C213"
-			(at 103.505 186.69 90)
+			(at 103.505 186.055 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15580,7 +14789,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 97.79 189.865 90)
+			(at 97.79 189.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15589,7 +14798,7 @@
 			)
 		)
 		(property "Footprint" "LEA_FootprintLibrary:C_0402"
-			(at 100.33 174.625 0)
+			(at 100.33 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15598,7 +14807,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 184.785 0)
+			(at 100.33 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15606,17 +14815,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 100.33 184.785 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
-			(at 100.33 184.785 0)
+		(property "Description" "Capacitor 0402"
+			(at 100.33 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15625,16 +14825,7 @@
 			)
 		)
 		(property "Manufacturer" "TDK"
-			(at 100.33 184.785 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
-			(at 100.33 184.785 0)
+			(at 100.33 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15643,7 +14834,7 @@
 			)
 		)
 		(property "manf#" "C1005X7R1H104K"
-			(at 100.33 184.785 0)
+			(at 100.33 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15652,7 +14843,7 @@
 			)
 		)
 		(property "mouser#" "810-C1005X7R1H104K"
-			(at 100.33 184.785 0)
+			(at 100.33 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15720,16 +14911,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 228.6 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
+		(property "Description" "Capacitor 0603"
 			(at 228.6 71.12 0)
 			(effects
 				(font
@@ -15739,15 +14921,6 @@
 			)
 		)
 		(property "Manufacturer" "TDK"
-			(at 228.6 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
 			(at 228.6 71.12 0)
 			(effects
 				(font
@@ -15791,7 +14964,7 @@
 	)
 	(symbol
 		(lib_id "LEA_SymbolLibrary:+1.8V_LV")
-		(at 142.24 177.165 0)
+		(at 143.51 176.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15799,7 +14972,7 @@
 		(dnp no)
 		(uuid "7d26e843-68a1-4da5-a707-9f2fb93c4051")
 		(property "Reference" "#PWR0225"
-			(at 143.51 177.165 90)
+			(at 144.78 176.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15808,7 +14981,7 @@
 			)
 		)
 		(property "Value" "+1.8V_HV"
-			(at 142.24 172.7708 0)
+			(at 143.51 172.1358 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15816,7 +14989,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 142.24 177.165 0)
+			(at 143.51 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15825,7 +14998,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 177.165 0)
+			(at 143.51 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15833,8 +15006,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 142.24 177.165 0)
+		(property "Description" "Power symbol creates a global label with name \"+1.8V_LV\""
+			(at 143.51 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15897,25 +15070,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 45.72 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
-			(at 45.72 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
+		(property "Description" "Resistor 0402"
 			(at 45.72 116.84 0)
 			(effects
 				(font
@@ -15968,7 +15123,7 @@
 	)
 	(symbol
 		(lib_id "LEA_SymbolLibrary:C_0603__4u7_X5R_10P__35V")
-		(at 132.08 184.785 0)
+		(at 132.08 184.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15976,7 +15131,7 @@
 		(dnp no)
 		(uuid "98434b63-3140-447c-bf3b-71745985145e")
 		(property "Reference" "C216"
-			(at 133.35 183.515 90)
+			(at 133.35 182.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15985,7 +15140,7 @@
 			)
 		)
 		(property "Value" "4u7"
-			(at 129.54 189.865 90)
+			(at 129.54 189.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15994,7 +15149,7 @@
 			)
 		)
 		(property "Footprint" "LEA_FootprintLibrary:C_0603"
-			(at 132.08 174.625 0)
+			(at 132.08 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16003,7 +15158,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 184.785 0)
+			(at 132.08 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16011,17 +15166,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 132.08 184.785 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
-			(at 132.08 184.785 0)
+		(property "Description" "Capacitor 0603"
+			(at 132.08 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16030,16 +15176,7 @@
 			)
 		)
 		(property "Manufacturer" "TDK"
-			(at 132.08 184.785 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
-			(at 132.08 184.785 0)
+			(at 132.08 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16048,7 +15185,7 @@
 			)
 		)
 		(property "manf#" "C1608X5R1V475K"
-			(at 132.08 184.785 0)
+			(at 132.08 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16057,7 +15194,7 @@
 			)
 		)
 		(property "mouser#" "810-C1608X5R1V475K"
-			(at 132.08 184.785 0)
+			(at 132.08 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16123,7 +15260,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "USB Connectors USB Type C, 2.0, Rec, SMT , G/F, RA , Top Mnt, T & R"
 			(at 30.48 55.88 0)
 			(effects
 				(font
@@ -16134,24 +15271,6 @@
 		)
 		(property "Manufacturer" "GTC"
 			(at 72.39 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" "640-USB4110-GF-A"
-			(at 73.66 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" "USB4110-GF-A"
-			(at 72.39 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16227,7 +15346,7 @@
 	)
 	(symbol
 		(lib_id "LEA_SymbolLibrary:C_0402_100n_X7R_10P__50V")
-		(at 92.71 184.785 0)
+		(at 92.71 184.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16235,7 +15354,7 @@
 		(dnp no)
 		(uuid "c1a2e277-877a-44bc-bcf7-fd77855897d9")
 		(property "Reference" "C212"
-			(at 95.885 186.69 90)
+			(at 95.885 186.055 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16244,7 +15363,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 90.17 189.865 90)
+			(at 90.17 189.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16253,7 +15372,7 @@
 			)
 		)
 		(property "Footprint" "LEA_FootprintLibrary:C_0402"
-			(at 92.71 174.625 0)
+			(at 92.71 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16262,7 +15381,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 92.71 184.785 0)
+			(at 92.71 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16270,17 +15389,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 92.71 184.785 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
-			(at 92.71 184.785 0)
+		(property "Description" "Capacitor 0402"
+			(at 92.71 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16289,16 +15399,7 @@
 			)
 		)
 		(property "Manufacturer" "TDK"
-			(at 92.71 184.785 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
-			(at 92.71 184.785 0)
+			(at 92.71 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16307,7 +15408,7 @@
 			)
 		)
 		(property "manf#" "C1005X7R1H104K"
-			(at 92.71 184.785 0)
+			(at 92.71 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16316,7 +15417,7 @@
 			)
 		)
 		(property "mouser#" "810-C1005X7R1H104K"
-			(at 92.71 184.785 0)
+			(at 92.71 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16382,25 +15483,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 45.72 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
-			(at 45.72 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
+		(property "Description" "Resistor 0402"
 			(at 45.72 152.4 0)
 			(effects
 				(font
@@ -16495,7 +15578,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V_LV\""
 			(at 175.26 27.94 0)
 			(effects
 				(font
@@ -16518,7 +15601,7 @@
 	)
 	(symbol
 		(lib_id "LEA_SymbolLibrary:GND_LV")
-		(at 142.875 191.77 0)
+		(at 143.51 191.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16526,7 +15609,7 @@
 		(dnp no)
 		(uuid "d07ae89c-220b-42c0-8423-8e497efe836c")
 		(property "Reference" "#PWR0229"
-			(at 145.415 194.31 90)
+			(at 146.05 194.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16535,7 +15618,7 @@
 			)
 		)
 		(property "Value" "GND_LV"
-			(at 142.875 195.58 0)
+			(at 143.51 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16543,7 +15626,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 142.875 191.77 0)
+			(at 143.51 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16552,7 +15635,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.875 191.77 0)
+			(at 143.51 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16560,8 +15643,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 142.875 191.77 0)
+		(property "Description" "Power symbol creates a global label with name \"GND_LV\" , ground"
+			(at 143.51 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16626,16 +15709,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 110.49 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
+		(property "Description" "Capacitor 0402"
 			(at 110.49 80.01 0)
 			(effects
 				(font
@@ -16645,15 +15719,6 @@
 			)
 		)
 		(property "Manufacturer" "TDK"
-			(at 110.49 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
 			(at 110.49 80.01 0)
 			(effects
 				(font
@@ -16740,16 +15805,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 91.44 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
+		(property "Description" "Capacitor 0603"
 			(at 91.44 80.01 0)
 			(effects
 				(font
@@ -16759,15 +15815,6 @@
 			)
 		)
 		(property "Manufacturer" "TDK"
-			(at 91.44 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
 			(at 91.44 80.01 0)
 			(effects
 				(font
@@ -16811,7 +15858,7 @@
 	)
 	(symbol
 		(lib_id "LEA_SymbolLibrary:C_0402_100n_X7R_10P__50V")
-		(at 107.95 184.785 0)
+		(at 107.95 184.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16819,7 +15866,7 @@
 		(dnp no)
 		(uuid "d897a3f2-5a37-44ab-b0e1-156820f6c404")
 		(property "Reference" "C214"
-			(at 111.125 186.69 90)
+			(at 111.125 186.055 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16828,7 +15875,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 105.41 189.865 90)
+			(at 105.41 189.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16837,7 +15884,7 @@
 			)
 		)
 		(property "Footprint" "LEA_FootprintLibrary:C_0402"
-			(at 107.95 174.625 0)
+			(at 107.95 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16846,7 +15893,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 184.785 0)
+			(at 107.95 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16854,17 +15901,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 107.95 184.785 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
-			(at 107.95 184.785 0)
+		(property "Description" "Capacitor 0402"
+			(at 107.95 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16873,16 +15911,7 @@
 			)
 		)
 		(property "Manufacturer" "TDK"
-			(at 107.95 184.785 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
-			(at 107.95 184.785 0)
+			(at 107.95 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16891,7 +15920,7 @@
 			)
 		)
 		(property "manf#" "C1005X7R1H104K"
-			(at 107.95 184.785 0)
+			(at 107.95 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16900,7 +15929,7 @@
 			)
 		)
 		(property "mouser#" "810-C1005X7R1H104K"
-			(at 107.95 184.785 0)
+			(at 107.95 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16967,7 +15996,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V_LV\""
 			(at 104.14 177.8 0)
 			(effects
 				(font
@@ -17032,7 +16061,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND_LV\" , ground"
 			(at 231.14 157.48 0)
 			(effects
 				(font
@@ -17098,16 +16127,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 85.09 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
+		(property "Description" "Capacitor 0402"
 			(at 85.09 184.15 0)
 			(effects
 				(font
@@ -17117,15 +16137,6 @@
 			)
 		)
 		(property "Manufacturer" "TDK"
-			(at 85.09 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
 			(at 85.09 184.15 0)
 			(effects
 				(font
@@ -17212,7 +16223,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Special symbol for telling ERC where power comes from"
 			(at 69.85 30.48 0)
 			(effects
 				(font
@@ -17278,16 +16289,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 231.14 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
+		(property "Description" "Capacitor 0402"
 			(at 231.14 149.86 0)
 			(effects
 				(font
@@ -17297,15 +16299,6 @@
 			)
 		)
 		(property "Manufacturer" "TDK"
-			(at 231.14 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
 			(at 231.14 149.86 0)
 			(effects
 				(font
@@ -17349,7 +16342,7 @@
 	)
 	(symbol
 		(lib_id "LEA_SymbolLibrary:C_0402_100n_X7R_10P__50V")
-		(at 154.94 184.785 0)
+		(at 154.94 184.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17357,7 +16350,7 @@
 		(dnp no)
 		(uuid "f89c5a71-6222-4d77-b5c6-df599e6553c7")
 		(property "Reference" "C219"
-			(at 158.115 186.69 90)
+			(at 158.115 186.055 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17366,7 +16359,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 152.4 189.865 90)
+			(at 152.4 189.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17375,7 +16368,7 @@
 			)
 		)
 		(property "Footprint" "LEA_FootprintLibrary:C_0402"
-			(at 154.94 174.625 0)
+			(at 154.94 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17384,7 +16377,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 184.785 0)
+			(at 154.94 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17392,17 +16385,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 154.94 184.785 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
-			(at 154.94 184.785 0)
+		(property "Description" "Capacitor 0402"
+			(at 154.94 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17411,16 +16395,7 @@
 			)
 		)
 		(property "Manufacturer" "TDK"
-			(at 154.94 184.785 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
-			(at 154.94 184.785 0)
+			(at 154.94 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17429,7 +16404,7 @@
 			)
 		)
 		(property "manf#" "C1005X7R1H104K"
-			(at 154.94 184.785 0)
+			(at 154.94 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17438,7 +16413,7 @@
 			)
 		)
 		(property "mouser#" "810-C1005X7R1H104K"
-			(at 154.94 184.785 0)
+			(at 154.94 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)

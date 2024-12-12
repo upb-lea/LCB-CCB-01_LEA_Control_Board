@@ -17,7 +17,7 @@
 			(pin_names
 				(offset 0)
 			)
-			(exclude_from_sim no)
+			(exclude_from_sim yes)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "#PWR"
@@ -127,7 +127,7 @@
 			(pin_names
 				(offset 0)
 			)
-			(exclude_from_sim no)
+			(exclude_from_sim yes)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "#PWR"
@@ -211,26 +211,27 @@
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016) hide)
-			(exclude_from_sim no)
+			(exclude_from_sim yes)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "D"
-				(at 0 5.08 0)
+				(at 0 2.794 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Green_1mA"
-				(at 0 2.54 0)
+			(property "Value" "1mA"
+				(at 0.127 -6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
-			(property "Footprint" "LEA_FootprintLibrary:LED_0402"
+			(property "Footprint" "LEA_FootprintLibrary:LED_0402_G"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -239,8 +240,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-p11-e.pdf"
-				(at 0 10.2108 0)
+			(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-p11mtt86(r)-e.pdf"
+				(at 0 11.9888 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -248,7 +249,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "LED 0402. Green, IF 1mA, 1,9V"
+			(property "Description" "LED 0402,Green, If 1mA, Vf 1.9V"
 				(at 0 0 0)
 				(effects
 					(font
@@ -258,7 +259,7 @@
 				)
 			)
 			(property "Manufacturer" "ROHM Semiconductor"
-				(at 0 7.62 0)
+				(at 0 -4.318 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -267,7 +268,7 @@
 				)
 			)
 			(property "mouser#" "755-SML-P11MTT86R"
-				(at -1.27 -8.255 0)
+				(at 0 6.858 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -276,7 +277,7 @@
 				)
 			)
 			(property "manf#" "SML-P11MTT86R"
-				(at 0 5.08 0)
+				(at 0 14.6812 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -284,9 +285,17 @@
 					(hide yes)
 				)
 			)
-			(symbol "LED_0402_G_1mA_SML-P11MTT86R_0_0"
+			(symbol "LED_0402_G_1mA_SML-P11MTT86R_1_0"
 				(text "0402"
 					(at -1.905 0.635 0)
+					(effects
+						(font
+							(size 0.5 0.5)
+						)
+					)
+				)
+				(text "G"
+					(at 1.524 0.635 0)
 					(effects
 						(font
 							(size 0.5 0.5)
@@ -385,26 +394,27 @@
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016) hide)
-			(exclude_from_sim no)
+			(exclude_from_sim yes)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "D"
-				(at 0 5.08 0)
+				(at 0 2.794 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Red_1mA"
-				(at 0 2.54 0)
+			(property "Value" "1mA"
+				(at 0.127 -6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
-			(property "Footprint" "LEA_FootprintLibrary:LED_0402"
+			(property "Footprint" "LEA_FootprintLibrary:LED_0402_R"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -413,8 +423,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-p11-e.pdf"
-				(at 0 10.2108 0)
+			(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-p11utt86(r)-e.pdf"
+				(at 0 11.9888 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -422,7 +432,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "LED 0402. Red, IF 1mA, 1,8V"
+			(property "Description" "LED 0402, Red, If 1mA, Vf 1.8V"
 				(at 0 0 0)
 				(effects
 					(font
@@ -432,7 +442,7 @@
 				)
 			)
 			(property "Manufacturer" "ROHM Semiconductor"
-				(at 0 0 0)
+				(at 0 -4.318 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -441,7 +451,7 @@
 				)
 			)
 			(property "mouser#" "755-SML-P11UTT86R"
-				(at 0 0 0)
+				(at 0 6.858 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -450,7 +460,7 @@
 				)
 			)
 			(property "manf#" "SML-P11UTT86R"
-				(at 0 0 0)
+				(at 0 14.6812 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -458,9 +468,17 @@
 					(hide yes)
 				)
 			)
-			(symbol "LED_0402_R_1mA_SML-P11UTT86R_0_0"
+			(symbol "LED_0402_R_1mA_SML-P11UTT86R_1_0"
 				(text "0402"
 					(at -1.905 0.635 0)
+					(effects
+						(font
+							(size 0.5 0.5)
+						)
+					)
+				)
+				(text "R"
+					(at 1.524 0.635 0)
 					(effects
 						(font
 							(size 0.5 0.5)
@@ -559,26 +577,27 @@
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016) hide)
-			(exclude_from_sim no)
+			(exclude_from_sim yes)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "D"
-				(at 0 5.08 0)
+				(at 0 2.794 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Yellow_1mA"
-				(at 0 2.54 0)
+			(property "Value" "1mA"
+				(at 0.127 -6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
-			(property "Footprint" "LEA_FootprintLibrary:LED_0402"
+			(property "Footprint" "LEA_FootprintLibrary:LED_0402_Y"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -587,8 +606,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-p11-e.pdf"
-				(at 0 10.2108 0)
+			(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-p11ytt86(r)-e.pdf"
+				(at 0 11.9888 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -596,7 +615,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "LED 0402. Yellow, IF 1mA, 1,9V"
+			(property "Description" "LED 0402, Yellow, If 1mA, Vf 1.9V"
 				(at 0 0 0)
 				(effects
 					(font
@@ -606,7 +625,7 @@
 				)
 			)
 			(property "Manufacturer" "ROHM Semiconductor"
-				(at 0 0 0)
+				(at 0 -4.318 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -615,7 +634,7 @@
 				)
 			)
 			(property "mouser#" "755-SML-P11YTT86R"
-				(at 0 0 0)
+				(at 0 6.858 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -624,7 +643,7 @@
 				)
 			)
 			(property "manf#" "SML-P11YTT86R"
-				(at 0 0 0)
+				(at 0 14.6812 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -632,9 +651,17 @@
 					(hide yes)
 				)
 			)
-			(symbol "LED_0402_Y_1mA_SML-P11YTT86R_0_0"
+			(symbol "LED_0402_Y_1mA_SML-P11YTT86R_1_0"
 				(text "0402"
 					(at -1.905 0.635 0)
+					(effects
+						(font
+							(size 0.5 0.5)
+						)
+					)
+				)
+				(text "Y"
+					(at 1.524 0.635 0)
 					(effects
 						(font
 							(size 0.5 0.5)
@@ -733,7 +760,7 @@
 			(pin_numbers hide)
 			(pin_names
 				(offset 0.254) hide)
-			(exclude_from_sim no)
+			(exclude_from_sim yes)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
@@ -781,25 +808,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mfr. No" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
 			(property "manf#" "CRCW0402680RFKEDC"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Mouser No" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1309,7 +1318,7 @@
 				)
 			)
 		)
-		(property "Value" "Green_1mA"
+		(property "Value" "1mA"
 			(at 80.01 96.52 0)
 			(effects
 				(font
@@ -1317,7 +1326,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LEA_FootprintLibrary:LED_0402"
+		(property "Footprint" "LEA_FootprintLibrary:LED_0402_G"
 			(at 74.93 96.52 0)
 			(effects
 				(font
@@ -1326,7 +1335,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-p11-e.pdf"
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-p11mtt86(r)-e.pdf"
 			(at 62.1792 96.52 0)
 			(effects
 				(font
@@ -1335,7 +1344,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LED 0402,Green, If 1mA, Vf 1.9V"
 			(at 72.39 96.52 0)
 			(effects
 				(font
@@ -1346,24 +1355,6 @@
 		)
 		(property "Manufacturer" "ROHM Semiconductor"
 			(at 64.77 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" "755-SML-P11MTT86R"
-			(at 65.532 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" "SML-P11MTT86R"
-			(at 58.9788 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1448,25 +1439,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 72.39 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
-			(at 72.39 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
+		(property "Description" "Resistor 0402"
 			(at 72.39 102.87 0)
 			(effects
 				(font
@@ -1561,7 +1534,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V_HV\""
 			(at 72.39 92.71 0)
 			(effects
 				(font
@@ -1626,7 +1599,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND_HV\" , ground"
 			(at 72.39 106.68 0)
 			(effects
 				(font
@@ -1664,7 +1637,7 @@
 				)
 			)
 		)
-		(property "Value" "Green_1mA"
+		(property "Value" "1mA"
 			(at 166.37 102.87 0)
 			(effects
 				(font
@@ -1672,7 +1645,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LEA_FootprintLibrary:LED_0402"
+		(property "Footprint" "LEA_FootprintLibrary:LED_0402_G"
 			(at 166.37 106.68 0)
 			(effects
 				(font
@@ -1681,7 +1654,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-p11-e.pdf"
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-p11mtt86(r)-e.pdf"
 			(at 153.6192 106.68 0)
 			(effects
 				(font
@@ -1690,7 +1663,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LED 0402,Green, If 1mA, Vf 1.9V"
 			(at 163.83 106.68 0)
 			(effects
 				(font
@@ -1701,24 +1674,6 @@
 		)
 		(property "Manufacturer" "ROHM Semiconductor"
 			(at 156.21 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" "755-SML-P11MTT86R"
-			(at 156.972 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" "SML-P11MTT86R"
-			(at 150.4188 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1803,25 +1758,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 163.83 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
-			(at 163.83 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
+		(property "Description" "Resistor 0402"
 			(at 163.83 113.03 0)
 			(effects
 				(font
@@ -1916,7 +1853,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND_HV\" , ground"
 			(at 163.83 116.84 0)
 			(effects
 				(font
@@ -1981,25 +1918,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 191.77 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
-			(at 191.77 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
+		(property "Description" "Resistor 0402"
 			(at 191.77 113.03 0)
 			(effects
 				(font
@@ -2094,7 +2013,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND_HV\" , ground"
 			(at 191.77 116.84 0)
 			(effects
 				(font
@@ -2159,25 +2078,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 217.17 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
-			(at 217.17 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
+		(property "Description" "Resistor 0402"
 			(at 217.17 113.03 0)
 			(effects
 				(font
@@ -2272,7 +2173,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND_HV\" , ground"
 			(at 217.17 116.84 0)
 			(effects
 				(font
@@ -2311,7 +2212,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Red_1mA"
+		(property "Value" "1mA"
 			(at 219.71 100.33 0)
 			(effects
 				(font
@@ -2320,7 +2221,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LEA_FootprintLibrary:LED_0402"
+		(property "Footprint" "LEA_FootprintLibrary:LED_0402_R"
 			(at 219.71 106.68 0)
 			(effects
 				(font
@@ -2329,7 +2230,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-p11-e.pdf"
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-p11utt86(r)-e.pdf"
 			(at 206.9592 106.68 0)
 			(effects
 				(font
@@ -2338,7 +2239,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LED 0402, Red, If 1mA, Vf 1.8V"
 			(at 217.17 106.68 0)
 			(effects
 				(font
@@ -2349,24 +2250,6 @@
 		)
 		(property "Manufacturer" "ROHM Semiconductor"
 			(at 217.17 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" "755-SML-P11UTT86R"
-			(at 210.312 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" "SML-P11UTT86R"
-			(at 207.8736 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2425,7 +2308,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Yellow_1mA"
+		(property "Value" "1mA"
 			(at 194.31 99.06 0)
 			(effects
 				(font
@@ -2434,7 +2317,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LEA_FootprintLibrary:LED_0402"
+		(property "Footprint" "LEA_FootprintLibrary:LED_0402_Y"
 			(at 194.31 106.68 0)
 			(effects
 				(font
@@ -2443,7 +2326,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-p11-e.pdf"
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-p11ytt86(r)-e.pdf"
 			(at 181.5592 106.68 0)
 			(effects
 				(font
@@ -2452,7 +2335,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LED 0402, Yellow, If 1mA, Vf 1.9V"
 			(at 191.77 106.68 0)
 			(effects
 				(font
@@ -2463,24 +2346,6 @@
 		)
 		(property "Manufacturer" "ROHM Semiconductor"
 			(at 191.77 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" "755-SML-P11YTT86R"
-			(at 184.912 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" "SML-P11YTT86R"
-			(at 176.8348 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2565,7 +2430,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND_HV\" , ground"
 			(at 231.14 116.84 0)
 			(effects
 				(font
@@ -2603,7 +2468,7 @@
 				)
 			)
 		)
-		(property "Value" "Green_1mA"
+		(property "Value" "1mA"
 			(at 152.4 102.87 0)
 			(effects
 				(font
@@ -2611,7 +2476,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LEA_FootprintLibrary:LED_0402"
+		(property "Footprint" "LEA_FootprintLibrary:LED_0402_G"
 			(at 152.4 106.68 0)
 			(effects
 				(font
@@ -2620,7 +2485,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-p11-e.pdf"
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-p11mtt86(r)-e.pdf"
 			(at 139.6492 106.68 0)
 			(effects
 				(font
@@ -2629,7 +2494,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LED 0402,Green, If 1mA, Vf 1.9V"
 			(at 149.86 106.68 0)
 			(effects
 				(font
@@ -2640,24 +2505,6 @@
 		)
 		(property "Manufacturer" "ROHM Semiconductor"
 			(at 142.24 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" "755-SML-P11MTT86R"
-			(at 143.002 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" "SML-P11MTT86R"
-			(at 136.4488 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2742,25 +2589,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 149.86 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
-			(at 149.86 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
+		(property "Description" "Resistor 0402"
 			(at 149.86 113.03 0)
 			(effects
 				(font
@@ -2855,7 +2684,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND_HV\" , ground"
 			(at 149.86 116.84 0)
 			(effects
 				(font
@@ -2920,25 +2749,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 231.14 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" ""
-			(at 231.14 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" ""
+		(property "Description" "Resistor 0402"
 			(at 231.14 113.03 0)
 			(effects
 				(font
@@ -3006,7 +2817,7 @@
 				)
 			)
 		)
-		(property "Value" "Red_1mA"
+		(property "Value" "1mA"
 			(at 233.68 105.41 0)
 			(effects
 				(font
@@ -3014,7 +2825,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LEA_FootprintLibrary:LED_0402"
+		(property "Footprint" "LEA_FootprintLibrary:LED_0402_R"
 			(at 233.68 106.68 0)
 			(effects
 				(font
@@ -3023,7 +2834,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-p11-e.pdf"
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-p11utt86(r)-e.pdf"
 			(at 220.9292 106.68 0)
 			(effects
 				(font
@@ -3032,7 +2843,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LED 0402, Red, If 1mA, Vf 1.8V"
 			(at 231.14 106.68 0)
 			(effects
 				(font
@@ -3043,24 +2854,6 @@
 		)
 		(property "Manufacturer" "ROHM Semiconductor"
 			(at 231.14 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser No" "755-SML-P11MTT86R"
-			(at 224.282 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No" "SML-P11MTT86R"
-			(at 217.7288 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
