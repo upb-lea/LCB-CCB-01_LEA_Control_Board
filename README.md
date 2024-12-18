@@ -72,6 +72,6 @@ Various software examples using the LEA Control Board is available and can be fo
  * It is recommended to use buffer-ICs for the LCB GPIOs to prevent damage on the LCB board.
 
 ## Design decisions 
- * To not confuse the user, there is only one supply voltage needed. All pins of the board are save for 3.3 V. 
+ * To not confuse the user, there is only one supply voltage needed. All pins of the board are save for 3.3 V. Some components can be used with higher voltage, but this would lead to confusion and may damage the board due to misunderstandings.
  * A stable external 3.3 V power supply must be provided, recommended by a linear regulator. We did not decide for an internal regulator, as this regulator does not know your external load, and might be overloaded.
  
