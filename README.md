@@ -66,4 +66,12 @@ Please refer to [this section](https://github.com/upb-lea/LEA_KiCad_Library#set-
 
 ## Software
 Various software examples using the LEA Control Board is available and can be found [in this repository](https://github.com/upb-lea/LCB-Software). There are examples for using the hardware monitor, SPI, UART and many others.
+
+## How to design the LCB into your cirucit?
+ * A stable external 3.3 V power supply must be provided, recommended by a linear regulator.
+ * It is recommended to use buffer-ICs for the LCB GPIOs to prevent damage on the LCB board.
+
+## Design decisions 
+ * To not confuse the user, there is only one supply voltage needed. All pins of the board are save for 3.3 V. 
+ * A stable external 3.3 V power supply must be provided, recommended by a linear regulator. We did not decide for an internal regulator, as this regulator does not know your external load, and might be overloaded.
  
