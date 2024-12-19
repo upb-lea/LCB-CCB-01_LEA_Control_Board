@@ -667,6 +667,178 @@
 				)
 			)
 		)
+		(symbol "LEA_SymbolLibrary:C_0402_100p_C0G_10P__50V"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim yes)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.762 0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "100p"
+				(at 0.762 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "LEA_FootprintLibrary:C_0402"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Capacitor 0402"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "manf#" "C0402C101K5GAL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Kemet"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "mouser#" "80-C0402C101K5GAL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "C capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0402_100p_C0G_10P__50V_0_0"
+				(text "0402"
+					(at -0.635 -1.905 900)
+					(effects
+						(font
+							(size 0.5 0.5)
+						)
+					)
+				)
+			)
+			(symbol "C_0402_100p_C0G_10P__50V_0_1"
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_0402_100p_C0G_10P__50V_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "LEA_SymbolLibrary:C_0402__10n_X7R_10P__50V"
 			(pin_numbers hide)
 			(pin_names
@@ -801,178 +973,6 @@
 				)
 			)
 			(symbol "C_0402__10n_X7R_10P__50V_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 2.032)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.032)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "LEA_SymbolLibrary:C_0402__1n0_X75_10P__50V"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.254) hide)
-			(exclude_from_sim yes)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.762 0.508 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "1n0"
-				(at 0.762 -1.016 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "LEA_FootprintLibrary:C_0402"
-				(at 0 10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Capacitor 0402"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "manf#" "C1005X7R1H102K"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "TDK"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "mouser#" "810-C1005X7R1H102K"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "C capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_0402__1n0_X75_10P__50V_0_0"
-				(text "0402"
-					(at -0.635 -1.905 900)
-					(effects
-						(font
-							(size 0.5 0.5)
-						)
-					)
-				)
-			)
-			(symbol "C_0402__1n0_X75_10P__50V_0_1"
-				(polyline
-					(pts
-						(xy -1.524 -0.508) (xy 1.524 -0.508)
-					)
-					(stroke
-						(width 0.3302)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 0.508) (xy 1.524 0.508)
-					)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_0402__1n0_X75_10P__50V_1_1"
 				(pin passive line
 					(at 0 2.54 270)
 					(length 2.032)
@@ -3674,6 +3674,29 @@
 		)
 		(uuid "fbd31412-a6f5-4b93-b0d1-7fe8fd719acc")
 	)
+	(text_box "do we need 10n in paralell to 100p in RC filter?"
+		(exclude_from_sim no)
+		(at 16.51 69.85 0)
+		(size 83.82 7.62)
+		(stroke
+			(width 0.4)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 0 0 0.06)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 2.54 2.54)
+				(color 255 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "f837a056-bb7c-461e-9617-50caabc771c4")
+	)
 	(text "Error1 - B2B3P"
 		(exclude_from_sim no)
 		(at 110.49 21.59 0)
@@ -3685,6 +3708,17 @@
 			(justify right bottom)
 		)
 		(uuid "0f8ab582-1768-45f8-b522-de4bbc3f7cd3")
+	)
+	(text "\n"
+		(exclude_from_sim no)
+		(at 175.26 215.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "321c34d5-5d62-411e-b680-ace57c9c0f0b")
 	)
 	(text "Error3 - A2A3"
 		(exclude_from_sim no)
@@ -3998,6 +4032,50 @@
 			)
 		)
 	)
+	(global_label "ADC_D0_P"
+		(shape input)
+		(at 44.45 116.84 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2f09bc7e-8107-48f4-b87a-1ec8f56c25fd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 30.3329 116.7606 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ADC_A2_P"
+		(shape input)
+		(at 186.69 38.1 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "33c751bc-53c3-4455-a114-79e9beea8783")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 172.9358 38.0206 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GPIO20_nErr1"
 		(shape passive)
 		(at 115.57 48.26 0)
@@ -4086,28 +4164,6 @@
 			)
 		)
 	)
-	(global_label "C4_P"
-		(shape input)
-		(at 189.23 119.38 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9928227c-53f0-4ad1-bc5a-82e72559b2c4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 179.7091 119.4594 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "GPIO21_nErr2"
 		(shape passive)
 		(at 119.38 127 0)
@@ -4126,28 +4182,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "D0_P"
-		(shape input)
-		(at 44.45 116.84 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "aa27a214-179c-4aa1-ad67-25b86e1c2f0d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 34.9291 116.9194 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -4174,28 +4208,6 @@
 			)
 		)
 	)
-	(global_label "B2_P"
-		(shape input)
-		(at 40.64 38.1 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c87fe4b9-2664-463b-a54d-b12756e8163e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 31.1191 38.1794 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "GPIO104_nErr3"
 		(shape passive)
 		(at 260.35 48.26 0)
@@ -4218,28 +4230,6 @@
 			)
 		)
 	)
-	(global_label "A2_P"
-		(shape input)
-		(at 186.69 38.1 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "dec07c16-ed9d-4e14-8252-8625d38498ea")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 177.532 38.1794 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "GPIO14_nErr4"
 		(shape passive)
 		(at 264.16 129.54 0)
@@ -4258,6 +4248,50 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ADC_B2_P"
+		(shape input)
+		(at 40.64 38.1 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fcfd8b64-d9f6-417b-9771-dbf8916f2afc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 26.5229 38.0206 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ADC_C4_P"
+		(shape input)
+		(at 189.23 119.38 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ff1c92dd-7724-4487-ae92-b82419594bb3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 175.1129 119.3006 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -5274,7 +5308,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "3f0e78ab-dc6c-42de-94d0-f04e0c0f05ea")
 		(property "Reference" "C802"
 			(at 58.42 48.26 90)
@@ -5286,7 +5320,7 @@
 			)
 		)
 		(property "Value" "10n"
-			(at 54.61 54.61 90)
+			(at 58.42 55.118 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7070,10 +7104,10 @@
 		)
 	)
 	(symbol
-		(lib_id "LEA_SymbolLibrary:C_0402__1n0_X75_10P__50V")
+		(lib_id "LEA_SymbolLibrary:C_0402_100p_C0G_10P__50V")
 		(at 50.8 49.53 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -7087,8 +7121,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1n0"
-			(at 48.26 53.34 90)
+		(property "Value" "100p"
+			(at 52.07 55.626 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7123,7 +7157,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "TDK"
+		(property "Manufacturer" "Kemet"
 			(at 50.8 49.53 0)
 			(effects
 				(font
@@ -7132,7 +7166,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "C1005X7R1H102K"
+		(property "manf#" "C0402C101K5GAL"
 			(at 50.8 49.53 0)
 			(effects
 				(font
@@ -7141,7 +7175,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "810-C1005X7R1H102K"
+		(property "mouser#" "80-C0402C101K5GAL"
 			(at 50.8 49.53 0)
 			(effects
 				(font
@@ -7562,7 +7596,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "a33ef8d3-3ac4-424d-b703-f51666595098")
 		(property "Reference" "C808"
 			(at 62.23 127 90)
@@ -7574,7 +7608,7 @@
 			)
 		)
 		(property "Value" "10n"
-			(at 58.42 133.35 90)
+			(at 62.23 133.858 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7754,7 +7788,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "aa1d5310-69b2-4547-829d-bc56ba47df27")
 		(property "Reference" "C811"
 			(at 207.01 129.54 90)
@@ -7766,7 +7800,7 @@
 			)
 		)
 		(property "Value" "10n"
-			(at 203.2 135.89 90)
+			(at 207.01 136.906 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8117,10 +8151,10 @@
 		)
 	)
 	(symbol
-		(lib_id "LEA_SymbolLibrary:C_0402__1n0_X75_10P__50V")
+		(lib_id "LEA_SymbolLibrary:C_0402_100p_C0G_10P__50V")
 		(at 196.85 49.53 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -8134,8 +8168,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1n0"
-			(at 194.31 53.34 90)
+		(property "Value" "100p"
+			(at 198.12 55.626 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8170,7 +8204,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "TDK"
+		(property "Manufacturer" "Kemet"
 			(at 196.85 49.53 0)
 			(effects
 				(font
@@ -8179,7 +8213,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "C1005X7R1H102K"
+		(property "manf#" "C0402C101K5GAL"
 			(at 196.85 49.53 0)
 			(effects
 				(font
@@ -8188,7 +8222,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "810-C1005X7R1H102K"
+		(property "mouser#" "80-C0402C101K5GAL"
 			(at 196.85 49.53 0)
 			(effects
 				(font
@@ -8219,7 +8253,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "af849c15-063f-4d15-b604-05b10f7e1396")
 		(property "Reference" "C805"
 			(at 205.74 48.26 90)
@@ -8231,7 +8265,7 @@
 			)
 		)
 		(property "Value" "10n"
-			(at 200.66 54.61 90)
+			(at 205.486 54.864 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9664,10 +9698,10 @@
 		)
 	)
 	(symbol
-		(lib_id "LEA_SymbolLibrary:C_0402__1n0_X75_10P__50V")
+		(lib_id "LEA_SymbolLibrary:C_0402_100p_C0G_10P__50V")
 		(at 54.61 128.27 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -9681,8 +9715,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1n0"
-			(at 52.07 132.08 90)
+		(property "Value" "100p"
+			(at 55.88 134.366 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9717,7 +9751,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "TDK"
+		(property "Manufacturer" "Kemet"
 			(at 54.61 128.27 0)
 			(effects
 				(font
@@ -9726,7 +9760,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "C1005X7R1H102K"
+		(property "manf#" "C0402C101K5GAL"
 			(at 54.61 128.27 0)
 			(effects
 				(font
@@ -9735,7 +9769,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "810-C1005X7R1H102K"
+		(property "mouser#" "80-C0402C101K5GAL"
 			(at 54.61 128.27 0)
 			(effects
 				(font
@@ -9856,10 +9890,10 @@
 		)
 	)
 	(symbol
-		(lib_id "LEA_SymbolLibrary:C_0402__1n0_X75_10P__50V")
+		(lib_id "LEA_SymbolLibrary:C_0402_100p_C0G_10P__50V")
 		(at 199.39 130.81 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -9873,8 +9907,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1n0"
-			(at 196.85 134.62 90)
+		(property "Value" "100p"
+			(at 200.66 137.414 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9909,7 +9943,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "TDK"
+		(property "Manufacturer" "Kemet"
 			(at 199.39 130.81 0)
 			(effects
 				(font
@@ -9918,7 +9952,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "C1005X7R1H102K"
+		(property "manf#" "C0402C101K5GAL"
 			(at 199.39 130.81 0)
 			(effects
 				(font
@@ -9927,7 +9961,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "810-C1005X7R1H102K"
+		(property "mouser#" "80-C0402C101K5GAL"
 			(at 199.39 130.81 0)
 			(effects
 				(font
