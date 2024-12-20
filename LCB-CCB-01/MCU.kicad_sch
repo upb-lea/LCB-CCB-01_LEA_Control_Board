@@ -14212,6 +14212,58 @@
 		)
 		(uuid "ff9cefc3-e681-4935-91b0-338ead82b5ba")
 	)
+	(rectangle
+		(start 15.24 20.32)
+		(end 26.67 76.2)
+		(stroke
+			(width 1)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 17754dd7-d8ab-4442-a647-6f1757b1425a)
+	)
+	(rectangle
+		(start 24.13 101.6)
+		(end 39.37 121.92)
+		(stroke
+			(width 1)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 3c302226-ce8e-4a79-bf82-1d076b9d5800)
+	)
+	(rectangle
+		(start 184.15 55.88)
+		(end 196.85 111.76)
+		(stroke
+			(width 1)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 5df2dbb0-6911-461d-86b5-149f1b2e1222)
+	)
+	(rectangle
+		(start 110.49 101.6)
+		(end 125.73 120.65)
+		(stroke
+			(width 1)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 9e1d47bf-37c1-4bfb-90fc-6bad03f1fe41)
+	)
 	(text "Parallel IO"
 		(exclude_from_sim no)
 		(at 178.435 40.005 0)

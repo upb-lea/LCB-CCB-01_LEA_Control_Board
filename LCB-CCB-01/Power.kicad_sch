@@ -2241,6 +2241,19 @@
 		)
 		(uuid "f4b94c24-3cba-40a3-b656-5a69ae755497")
 	)
+	(rectangle
+		(start 191.77 81.28)
+		(end 198.12 87.63)
+		(stroke
+			(width 1)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid de871ee4-60a1-4a34-a1f7-370aded6e63c)
+	)
 	(text "LDO 1.2V for MCU Core"
 		(exclude_from_sim no)
 		(at 181.61 71.12 0)

@@ -3674,6 +3674,32 @@
 		)
 		(uuid "fbd31412-a6f5-4b93-b0d1-7fe8fd719acc")
 	)
+	(rectangle
+		(start 29.21 162.56)
+		(end 107.95 182.88)
+		(stroke
+			(width 1)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 57130204-ca03-4314-91f9-f9dce3473a69)
+	)
+	(rectangle
+		(start 128.27 162.56)
+		(end 144.78 181.61)
+		(stroke
+			(width 1)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 6abdb693-3a3e-4902-90b8-c489db84c8c6)
+	)
 	(text_box "do we need 10n in paralell to 100p in RC filter?"
 		(exclude_from_sim no)
 		(at 16.51 69.85 0)

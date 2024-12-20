@@ -3747,6 +3747,19 @@
 		)
 		(uuid "ffb86135-b43f-4a42-9aa6-73aa7ba972a9")
 	)
+	(rectangle
+		(start 172.72 43.18)
+		(end 190.5 121.92)
+		(stroke
+			(width 1)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b955fff2-7c40-4228-a396-132dd748c787)
+	)
 	(text "JTAG and SCI ISOLATION"
 		(exclude_from_sim no)
 		(at 204.978 25.146 0)
