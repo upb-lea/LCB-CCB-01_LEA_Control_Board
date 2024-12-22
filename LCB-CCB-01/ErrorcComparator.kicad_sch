@@ -2017,6 +2017,261 @@
 				)
 			)
 		)
+		(symbol "LEA_SymbolLibrary:R_0603__0R0_THICK__1P__75V"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim yes)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0.762 0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "0R0"
+				(at 0.762 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "LEA_FootprintLibrary:R_0603"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor 0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "manf#" "CRCW06030000Z0EAC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Vishay"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "mouser#" "71-CRCW06030000Z0EAC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0603__0R0_THICK__1P__75V_0_0"
+				(text "0603"
+					(at 0 0 900)
+					(effects
+						(font
+							(size 0.8 0.8)
+						)
+					)
+				)
+			)
+			(symbol "R_0603__0R0_THICK__1P__75V_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_0603__0R0_THICK__1P__75V_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 	)
 	(junction
 		(at 36.83 176.53)
@@ -2061,7 +2316,7 @@
 		(uuid "244c138d-9497-4b7d-9f5d-85646f0085ea")
 	)
 	(junction
-		(at 85.09 179.07)
+		(at 85.09 176.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "25ed80d2-7767-4c96-813a-8348b7838d82")
@@ -2169,6 +2424,12 @@
 		(uuid "96f7ced7-e997-4624-abcb-1f2d65475080")
 	)
 	(junction
+		(at 85.09 171.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a5496cb0-73b5-49eb-be43-e144e7e17022")
+	)
+	(junction
 		(at 92.71 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2205,10 +2466,16 @@
 		(uuid "d6552eed-9063-4335-92e2-8de740da50f2")
 	)
 	(junction
-		(at 85.09 184.15)
+		(at 85.09 181.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dda475df-b77b-4ae6-8054-258bc2fcbf89")
+	)
+	(junction
+		(at 36.83 171.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "deeed08a-a2a2-412f-944f-2b33356fe4d9")
 	)
 	(junction
 		(at 234.95 40.64)
@@ -2246,7 +2513,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 184.15) (xy 91.44 184.15)
+			(xy 85.09 181.61) (xy 91.44 181.61)
 		)
 		(stroke
 			(width 0)
@@ -2526,7 +2793,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 184.15) (xy 85.09 186.69)
+			(xy 85.09 181.61) (xy 85.09 184.15)
 		)
 		(stroke
 			(width 0)
@@ -2596,7 +2863,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 179.07) (xy 91.44 179.07)
+			(xy 85.09 176.53) (xy 91.44 176.53)
 		)
 		(stroke
 			(width 0)
@@ -2846,6 +3113,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 165.1) (xy 36.83 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a8125c4-2fa1-4214-bd0d-c2e6d0ed1675")
+	)
+	(wire
+		(pts
 			(xy 205.74 133.35) (xy 205.74 142.24)
 		)
 		(stroke
@@ -2873,16 +3150,6 @@
 			(type default)
 		)
 		(uuid "6c69e0ef-6e14-418a-b4ba-32c517a51ffb")
-	)
-	(wire
-		(pts
-			(xy 85.09 173.99) (xy 85.09 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d0fc5b1-9c2a-4a32-828c-96b4f7e43a4d")
 	)
 	(wire
 		(pts
@@ -2916,16 +3183,6 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 171.45) (xy 36.83 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7019ec1b-a607-464c-95d5-f0f37759dc69")
-	)
-	(wire
-		(pts
 			(xy 92.71 119.38) (xy 92.71 128.27)
 		)
 		(stroke
@@ -2953,6 +3210,16 @@
 			(type default)
 		)
 		(uuid "7ea7de27-e874-4fe8-bdc5-f93cae0e9bed")
+	)
+	(wire
+		(pts
+			(xy 134.62 168.91) (xy 134.62 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81cf9668-9e3d-4bc4-a572-7efd608551c6")
 	)
 	(wire
 		(pts
@@ -3003,6 +3270,16 @@
 			(type default)
 		)
 		(uuid "88937992-d205-4539-9489-bef31189e546")
+	)
+	(wire
+		(pts
+			(xy 85.09 171.45) (xy 36.83 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b5ca88f-04f2-4d48-8ad6-bb02c772744f")
 	)
 	(wire
 		(pts
@@ -3263,6 +3540,16 @@
 			(type default)
 		)
 		(uuid "b6a23bc2-6ee2-4056-958e-0c90f1e3f33c")
+	)
+	(wire
+		(pts
+			(xy 36.83 171.45) (xy 36.83 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b70f33e3-64e5-4413-921f-4857f1cd86be")
 	)
 	(wire
 		(pts
@@ -3596,7 +3883,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 175.26) (xy 134.62 172.72)
+			(xy 134.62 175.26) (xy 134.62 173.99)
 		)
 		(stroke
 			(width 0)
@@ -3666,6 +3953,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 171.45) (xy 85.09 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f84e5bd0-d689-4e66-9e39-1906dc4ad380")
+	)
+	(wire
+		(pts
 			(xy 237.49 130.81) (xy 234.95 130.81)
 		)
 		(stroke
@@ -3673,32 +3970,6 @@
 			(type default)
 		)
 		(uuid "fbd31412-a6f5-4b93-b0d1-7fe8fd719acc")
-	)
-	(rectangle
-		(start 29.21 162.56)
-		(end 107.95 182.88)
-		(stroke
-			(width 1)
-			(type default)
-			(color 255 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 57130204-ca03-4314-91f9-f9dce3473a69)
-	)
-	(rectangle
-		(start 128.27 162.56)
-		(end 144.78 181.61)
-		(stroke
-			(width 1)
-			(type default)
-			(color 255 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 6abdb693-3a3e-4902-90b8-c489db84c8c6)
 	)
 	(text_box "do we need 10n in paralell to 100p in RC filter?"
 		(exclude_from_sim no)
@@ -4323,16 +4594,17 @@
 		)
 	)
 	(symbol
-		(lib_id "LEA_SymbolLibrary:+3.3V_HV")
-		(at 85.09 173.99 0)
+		(lib_id "power:PWR_FLAG")
+		(at 85.09 171.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "0963bed6-5ab6-42c6-a523-56e4ccf0d265")
-		(property "Reference" "#PWR0819"
-			(at 86.36 173.99 90)
+		(fields_autoplaced yes)
+		(uuid "05371a57-8132-4c1d-ad1b-4b3735c69fb0")
+		(property "Reference" "#FLG0907"
+			(at 85.09 169.545 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4340,8 +4612,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V_HV"
-			(at 85.09 169.5958 0)
+		(property "Value" "PWR_FLAG"
+			(at 85.09 167.8455 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4349,7 +4621,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 85.09 173.99 0)
+			(at 85.09 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4357,8 +4629,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 85.09 173.99 0)
+		(property "Datasheet" "~"
+			(at 85.09 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4366,8 +4638,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V_HV\""
-			(at 85.09 173.99 0)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 85.09 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4376,12 +4648,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "63c2fb09-f5f5-45c3-80ff-83496af40d50")
+			(uuid "ffbe7699-f2f2-40a9-8f4c-467211142466")
 		)
 		(instances
 			(project "LCB-CCB-01"
 				(path "/968a6172-7a4e-40ab-a78a-e4d03671e136/95bbcc65-aaf6-4934-b29a-07e56c337823"
-					(reference "#PWR0819")
+					(reference "#FLG0907")
 					(unit 1)
 				)
 			)
@@ -5096,6 +5368,103 @@
 			(project "LCB-CCB-01"
 				(path "/968a6172-7a4e-40ab-a78a-e4d03671e136/95bbcc65-aaf6-4934-b29a-07e56c337823"
 					(reference "C814")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LEA_SymbolLibrary:R_0603__0R0_THICK__1P__75V")
+		(at 134.62 171.45 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2a3db18a-6431-498b-9755-3dbb388e7d93")
+		(property "Reference" "R821"
+			(at 132.08 170.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0R0"
+			(at 132.08 172.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LEA_FootprintLibrary:R_0603"
+			(at 134.62 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor 0603"
+			(at 134.62 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "CRCW06030000Z0EAC"
+			(at 134.62 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay"
+			(at 134.62 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "71-CRCW06030000Z0EAC"
+			(at 134.62 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "613ab51e-bd68-46fc-b2e5-dd110b43ca22")
+		)
+		(pin "1"
+			(uuid "f7f5ac5c-18b6-4336-be50-93699a148385")
+		)
+		(instances
+			(project "LCB-CCB-01"
+				(path "/968a6172-7a4e-40ab-a78a-e4d03671e136/95bbcc65-aaf6-4934-b29a-07e56c337823"
+					(reference "R821")
 					(unit 1)
 				)
 			)
@@ -5964,7 +6333,7 @@
 	)
 	(symbol
 		(lib_id "LEA_SymbolLibrary:+3.3V_HV")
-		(at 36.83 171.45 0)
+		(at 36.83 165.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5972,7 +6341,7 @@
 		(dnp no)
 		(uuid "68700578-d88d-4621-9e38-1b4c33ac6155")
 		(property "Reference" "#PWR0817"
-			(at 38.1 171.45 90)
+			(at 38.1 165.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5981,7 +6350,7 @@
 			)
 		)
 		(property "Value" "+3.3V_HV"
-			(at 36.83 167.0558 0)
+			(at 36.83 160.7058 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5989,7 +6358,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 36.83 171.45 0)
+			(at 36.83 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5998,7 +6367,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 36.83 171.45 0)
+			(at 36.83 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6007,7 +6376,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V_HV\""
-			(at 36.83 171.45 0)
+			(at 36.83 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6029,7 +6398,7 @@
 	)
 	(symbol
 		(lib_id "LEA_SymbolLibrary:74HC74BQ,115")
-		(at 104.14 184.15 0)
+		(at 104.14 181.61 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6037,7 +6406,7 @@
 		(dnp no)
 		(uuid "6d2e1868-0bd7-48f5-9aec-f30f20124528")
 		(property "Reference" "U802"
-			(at 95.25 175.26 0)
+			(at 95.25 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6046,7 +6415,7 @@
 			)
 		)
 		(property "Value" "74HC74BQ,115"
-			(at 91.44 186.69 0)
+			(at 91.44 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6055,7 +6424,7 @@
 			)
 		)
 		(property "Footprint" "LEA_FootprintLibrary:DHVQFN14_SOT762-1_Nexpria"
-			(at 100.33 166.37 0)
+			(at 100.33 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6064,33 +6433,6 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.de/datasheet/2/916/74HC_HCT74-1319854.pdf"
-			(at 104.14 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Flip-Flops DUAL D F/F POS-EDGE"
-			(at 104.14 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Nexperia"
-			(at 104.14 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser#" "771-74HC74BQ-G"
 			(at 104.14 200.66 0)
 			(effects
 				(font
@@ -6099,8 +6441,35 @@
 				(hide yes)
 			)
 		)
+		(property "Description" "Flip-Flops DUAL D F/F POS-EDGE"
+			(at 104.14 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Nexperia"
+			(at 104.14 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "771-74HC74BQ-G"
+			(at 104.14 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "manf#" "74HC74BQ,115"
-			(at 104.14 196.85 0)
+			(at 104.14 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6356,7 +6725,7 @@
 	)
 	(symbol
 		(lib_id "LEA_SymbolLibrary:GND_HV")
-		(at 85.09 186.69 0)
+		(at 85.09 184.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6364,7 +6733,7 @@
 		(dnp no)
 		(uuid "753f8c9a-0199-4f39-887a-cfcf5344bcd6")
 		(property "Reference" "#PWR0821"
-			(at 87.63 189.23 90)
+			(at 87.63 186.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6373,7 +6742,7 @@
 			)
 		)
 		(property "Value" "GND_HV"
-			(at 85.09 190.5 0)
+			(at 85.09 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6381,7 +6750,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 85.09 186.69 0)
+			(at 85.09 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6390,7 +6759,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 85.09 186.69 0)
+			(at 85.09 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6399,7 +6768,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND_HV\" , ground"
-			(at 85.09 186.69 0)
+			(at 85.09 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6421,7 +6790,7 @@
 	)
 	(symbol
 		(lib_id "LEA_SymbolLibrary:+3.3V_HV")
-		(at 134.62 172.72 0)
+		(at 134.62 167.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6429,7 +6798,7 @@
 		(dnp no)
 		(uuid "7a0187cf-970d-4c8e-93f3-27672baf133b")
 		(property "Reference" "#PWR0818"
-			(at 135.89 172.72 90)
+			(at 135.89 167.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6438,7 +6807,7 @@
 			)
 		)
 		(property "Value" "+3.3V_HV"
-			(at 134.62 168.3258 0)
+			(at 134.62 163.2458 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6446,7 +6815,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 134.62 172.72 0)
+			(at 134.62 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6455,7 +6824,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 172.72 0)
+			(at 134.62 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6464,7 +6833,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V_HV\""
-			(at 134.62 172.72 0)
+			(at 134.62 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8369,6 +8738,103 @@
 		)
 	)
 	(symbol
+		(lib_id "LEA_SymbolLibrary:R_0603__0R0_THICK__1P__75V")
+		(at 36.83 168.91 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b1d7e754-74a1-4d5b-b4cb-2d385dfe3eae")
+		(property "Reference" "R820"
+			(at 34.29 167.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0R0"
+			(at 34.29 170.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LEA_FootprintLibrary:R_0603"
+			(at 36.83 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor 0603"
+			(at 36.83 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "CRCW06030000Z0EAC"
+			(at 36.83 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay"
+			(at 36.83 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "71-CRCW06030000Z0EAC"
+			(at 36.83 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1a0d4478-bb81-454d-a486-990483ac2cde")
+		)
+		(pin "1"
+			(uuid "ff2992e5-9932-4b52-a1a6-bb06fef1fb94")
+		)
+		(instances
+			(project "LCB-CCB-01"
+				(path "/968a6172-7a4e-40ab-a78a-e4d03671e136/95bbcc65-aaf6-4934-b29a-07e56c337823"
+					(reference "R820")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LEA_SymbolLibrary:+3.3V_HV")
 		(at 210.82 29.21 0)
 		(unit 1)
@@ -9181,7 +9647,7 @@
 	)
 	(symbol
 		(lib_id "LEA_SymbolLibrary:C_0402_100n_X7R_10P__50V")
-		(at 85.09 181.61 0)
+		(at 85.09 179.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9189,7 +9655,7 @@
 		(dnp no)
 		(uuid "d1ae219e-cac7-4ebb-a23e-24da5f27740c")
 		(property "Reference" "C815"
-			(at 76.2 180.34 0)
+			(at 76.2 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9198,7 +9664,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 73.66 184.15 0)
+			(at 73.66 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9207,7 +9673,7 @@
 			)
 		)
 		(property "Footprint" "LEA_FootprintLibrary:C_0402"
-			(at 85.09 171.45 0)
+			(at 85.09 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9216,7 +9682,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 85.09 181.61 0)
+			(at 85.09 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9225,7 +9691,7 @@
 			)
 		)
 		(property "Description" "Capacitor 0402"
-			(at 85.09 181.61 0)
+			(at 85.09 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9234,7 +9700,7 @@
 			)
 		)
 		(property "Manufacturer" "TDK"
-			(at 85.09 181.61 0)
+			(at 85.09 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9243,7 +9709,7 @@
 			)
 		)
 		(property "manf#" "C1005X7R1H104K"
-			(at 85.09 181.61 0)
+			(at 85.09 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9252,7 +9718,7 @@
 			)
 		)
 		(property "mouser#" "810-C1005X7R1H104K"
-			(at 85.09 181.61 0)
+			(at 85.09 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)

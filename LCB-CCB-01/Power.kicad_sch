@@ -1580,6 +1580,281 @@
 				)
 			)
 		)
+		(symbol "LEA_SymbolLibrary:R_0603__0R0_THICK__1P__75V"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim yes)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0.762 0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "0R0"
+				(at 0.762 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "LEA_FootprintLibrary:R_0603"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor 0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "manf#" "CRCW06030000Z0EAC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Vishay"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "mouser#" "71-CRCW06030000Z0EAC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0603__0R0_THICK__1P__75V_0_0"
+				(text "0603"
+					(at 0 0 900)
+					(effects
+						(font
+							(size 0.8 0.8)
+						)
+					)
+				)
+			)
+			(symbol "R_0603__0R0_THICK__1P__75V_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_0603__0R0_THICK__1P__75V_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "LEA_SymbolLibrary:TestPoint_Probe"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 1.651 5.842 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint_Probe"
+				(at 1.651 4.064 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "LEA_FootprintLibrary:TestPoint_Pad_D1.0mm"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point (alternative probe-style design)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_Probe_0_1"
+				(polyline
+					(pts
+						(xy 1.27 0.762) (xy 0 0) (xy 0.762 1.27) (xy 1.27 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.397 0.635) (xy 0.635 1.397) (xy 2.413 3.175) (xy 3.175 2.413) (xy 1.397 0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "TestPoint_Probe_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:PWR_FLAG"
 			(power)
 			(pin_numbers hide)
@@ -1678,10 +1953,22 @@
 		)
 	)
 	(junction
+		(at 194.31 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "37ad6b0d-afd0-44ec-a5d4-ca35283ba146")
+	)
+	(junction
 		(at 86.36 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6a7b2059-d977-4612-95c2-3fe01e6e1434")
+	)
+	(junction
+		(at 194.31 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7108ec4b-a911-49f2-ba13-0c613313e1ab")
 	)
 	(junction
 		(at 194.31 85.09)
@@ -1843,6 +2130,16 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 85.09) (xy 234.95 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20eebc4b-6e3b-400c-836b-7045e4f385a6")
+	)
+	(wire
+		(pts
 			(xy 86.36 93.98) (xy 86.36 90.17)
 		)
 		(stroke
@@ -1880,6 +2177,16 @@
 			(type default)
 		)
 		(uuid "22ebd635-5838-472e-8b50-03affaba3376")
+	)
+	(wire
+		(pts
+			(xy 194.31 83.82) (xy 194.31 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "230fb09b-699b-4172-bd90-f61ee053d1f4")
 	)
 	(wire
 		(pts
@@ -2013,6 +2320,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 99.06) (xy 194.31 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61ded8a3-dd8b-4110-907f-56e7ecbfd614")
+	)
+	(wire
+		(pts
 			(xy 33.02 100.33) (xy 33.02 101.6)
 		)
 		(stroke
@@ -2023,7 +2340,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 81.28) (xy 194.31 85.09)
+			(xy 194.31 77.47) (xy 194.31 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2070,6 +2387,16 @@
 			(type default)
 		)
 		(uuid "8b64729b-0793-4b75-90fd-6a59598d76c3")
+	)
+	(wire
+		(pts
+			(xy 184.15 77.47) (xy 194.31 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fa7a482-0a00-4c27-b354-cfc03207aa10")
 	)
 	(wire
 		(pts
@@ -2241,22 +2568,9 @@
 		)
 		(uuid "f4b94c24-3cba-40a3-b656-5a69ae755497")
 	)
-	(rectangle
-		(start 191.77 81.28)
-		(end 198.12 87.63)
-		(stroke
-			(width 1)
-			(type default)
-			(color 255 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid de871ee4-60a1-4a34-a1f7-370aded6e63c)
-	)
 	(text "LDO 1.2V for MCU Core"
 		(exclude_from_sim no)
-		(at 181.61 71.12 0)
+		(at 181.356 62.484 0)
 		(effects
 			(font
 				(size 4 4)
@@ -4347,6 +4661,136 @@
 		)
 	)
 	(symbol
+		(lib_id "LEA_SymbolLibrary:TestPoint_Probe")
+		(at 240.03 85.09 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "152178f2-d465-44be-9032-a65cede6e48a")
+		(property "Reference" "TP603"
+			(at 245.618 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint_Probe"
+			(at 241.681 81.026 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LEA_FootprintLibrary:TestPoint_Pad_D1.0mm"
+			(at 245.11 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 245.11 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point (alternative probe-style design)"
+			(at 240.03 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1e96a16a-5b78-4f3f-8f14-edf2d77dd90e")
+		)
+		(instances
+			(project "LCB-CCB-01"
+				(path "/968a6172-7a4e-40ab-a78a-e4d03671e136/00000000-0000-0000-0000-000061e84f12"
+					(reference "TP603")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LEA_SymbolLibrary:TestPoint_Probe")
+		(at 184.15 77.47 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "1d5c28ea-daa4-4695-b71b-679cf3abef2b")
+		(property "Reference" "TP601"
+			(at 178.308 77.216 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint_Probe"
+			(at 180.086 75.819 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LEA_FootprintLibrary:TestPoint_Pad_D1.0mm"
+			(at 184.15 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 184.15 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point (alternative probe-style design)"
+			(at 184.15 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "72995f59-a60d-49c8-81a0-8dcb28bd02be")
+		)
+		(instances
+			(project "LCB-CCB-01"
+				(path "/968a6172-7a4e-40ab-a78a-e4d03671e136/00000000-0000-0000-0000-000061e84f12"
+					(reference "TP601")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 97.79 90.17 0)
 		(unit 1)
@@ -4478,16 +4922,17 @@
 		)
 	)
 	(symbol
-		(lib_id "LEA_SymbolLibrary:+3.3V_HV")
-		(at 194.31 81.28 0)
+		(lib_id "power:PWR_FLAG")
+		(at 201.93 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "95eeb9ff-5cae-4c15-b2b1-ed1a8084c8dd")
-		(property "Reference" "#PWR0102"
-			(at 195.58 81.28 90)
+		(fields_autoplaced yes)
+		(uuid "5dbe9b4d-1bca-4895-8cba-ea678742a5f1")
+		(property "Reference" "#FLG0903"
+			(at 201.93 83.185 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4495,8 +4940,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V_HV"
-			(at 194.31 76.8858 0)
+		(property "Value" "PWR_FLAG"
+			(at 201.93 81.4855 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4504,7 +4949,74 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 194.31 81.28 0)
+			(at 201.93 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 201.93 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 201.93 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "20959b6f-f5c7-4770-9b97-4cc136db30f5")
+		)
+		(instances
+			(project "LCB-CCB-01"
+				(path "/968a6172-7a4e-40ab-a78a-e4d03671e136/00000000-0000-0000-0000-000061e84f12"
+					(reference "#FLG0903")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LEA_SymbolLibrary:R_0603__0R0_THICK__1P__75V")
+		(at 194.31 81.28 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8ef531f2-5e7c-4962-8c77-2440e19097d6")
+		(property "Reference" "R601"
+			(at 191.77 80.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0R0"
+			(at 191.77 82.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LEA_FootprintLibrary:R_0603"
+			(at 194.31 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4521,8 +5033,168 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V_HV\""
+		(property "Description" "Resistor 0603"
 			(at 194.31 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "CRCW06030000Z0EAC"
+			(at 194.31 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay"
+			(at 194.31 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "71-CRCW06030000Z0EAC"
+			(at 194.31 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e71c039d-7a14-4b7e-b016-4546f1b14abf")
+		)
+		(pin "1"
+			(uuid "02be8473-fa21-41e6-a96f-a5bd704bbf55")
+		)
+		(instances
+			(project "LCB-CCB-01"
+				(path "/968a6172-7a4e-40ab-a78a-e4d03671e136/00000000-0000-0000-0000-000061e84f12"
+					(reference "R601")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LEA_SymbolLibrary:TestPoint_Probe")
+		(at 185.42 99.06 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "92d76e70-7ee6-4297-979c-6ff219aa166b")
+		(property "Reference" "TP602"
+			(at 179.578 98.806 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint_Probe"
+			(at 181.356 97.409 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LEA_FootprintLibrary:TestPoint_Pad_D1.0mm"
+			(at 185.42 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 185.42 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point (alternative probe-style design)"
+			(at 185.42 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2952fb15-80c4-4bff-a6be-fa6db624d3a5")
+		)
+		(instances
+			(project "LCB-CCB-01"
+				(path "/968a6172-7a4e-40ab-a78a-e4d03671e136/00000000-0000-0000-0000-000061e84f12"
+					(reference "TP602")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LEA_SymbolLibrary:+3.3V_HV")
+		(at 194.31 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "95eeb9ff-5cae-4c15-b2b1-ed1a8084c8dd")
+		(property "Reference" "#PWR0102"
+			(at 195.58 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V_HV"
+			(at 194.31 73.0758 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 194.31 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V_HV\""
+			(at 194.31 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
