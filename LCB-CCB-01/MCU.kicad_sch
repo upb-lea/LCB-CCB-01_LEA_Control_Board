@@ -2140,6 +2140,178 @@
 				)
 			)
 		)
+		(symbol "LEA_SymbolLibrary:SW_Push_RightAngle"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim yes)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push_RightAngle"
+				(at 0 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "LEA_FootprintLibrary:Sw_Push_RightAngle"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.mouser.de/datasheet/2/307/en_b3u-3476507.pdf"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, right angle, generic, two pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Omron Electronics"
+				(at -1.27 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "mouser#" "653-B3U-3000PM"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "manf#" "B3U-3000PM"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button right angle"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Push_RightAngle_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "LEA_SymbolLibrary:TMS320F2838xDZWT"
 			(pin_names
 				(offset 1.016)
@@ -9236,7 +9408,7 @@
 		(uuid "4d7ffc75-3dd8-46f7-86f3-405d41c4571a")
 	)
 	(junction
-		(at 163.83 53.34)
+		(at 163.83 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "50776b40-0a60-4c32-bbb1-6cbaf7d14b43")
@@ -9842,7 +10014,7 @@
 		(uuid "e20929e2-2c15-4a75-b1ed-9caa9bd27df7")
 	)
 	(junction
-		(at 163.83 50.8)
+		(at 163.83 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e64e10db-a070-47de-97a5-d3f3fdc69be8")
@@ -9954,7 +10126,7 @@
 		(uuid "0e1c6bbc-4cc4-4ce9-b48a-8292bb286da8")
 	)
 	(no_connect
-		(at 109.22 43.18)
+		(at 109.22 33.02)
 		(uuid "15ff1730-2085-4009-841f-7dc76588626f")
 	)
 	(no_connect
@@ -9962,7 +10134,7 @@
 		(uuid "47a2dd37-ad02-4281-9a66-8ff7ab400570")
 	)
 	(no_connect
-		(at 139.7 63.5)
+		(at 139.7 53.34)
 		(uuid "4ef066ce-9e0c-4008-b5b4-182651246535")
 	)
 	(wire
@@ -10087,7 +10259,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 53.34) (xy 163.83 53.34)
+			(xy 139.7 43.18) (xy 163.83 43.18)
 		)
 		(stroke
 			(width 0)
@@ -10257,7 +10429,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 50.8) (xy 163.83 50.8)
+			(xy 139.7 40.64) (xy 163.83 40.64)
 		)
 		(stroke
 			(width 0)
@@ -10327,13 +10499,23 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 62.23) (xy 163.83 69.85)
+			(xy 163.83 52.07) (xy 163.83 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1325c274-f506-446c-82f4-73ddfbf7cbd6")
+	)
+	(polyline
+		(pts
+			(xy 95.25 66.04) (xy 177.8 66.04)
+		)
+		(stroke
+			(width 0.3)
+			(type default)
+		)
+		(uuid "14f44da0-a732-41f7-a805-078be148d29d")
 	)
 	(wire
 		(pts
@@ -10397,7 +10579,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 45.72) (xy 142.24 45.72)
+			(xy 139.7 35.56) (xy 142.24 35.56)
 		)
 		(stroke
 			(width 0)
@@ -10587,7 +10769,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 50.8) (xy 165.1 50.8)
+			(xy 163.83 40.64) (xy 165.1 40.64)
 		)
 		(stroke
 			(width 0)
@@ -11307,6 +11489,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 83.82) (xy 116.84 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ff2d285-9cf5-418d-bb51-53e81e8a8f9b")
+	)
+	(wire
+		(pts
 			(xy 46.99 182.88) (xy 46.99 177.8)
 		)
 		(stroke
@@ -12007,7 +12199,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 48.26) (xy 142.24 48.26)
+			(xy 139.7 38.1) (xy 142.24 38.1)
 		)
 		(stroke
 			(width 0)
@@ -12197,7 +12389,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 38.1) (xy 163.83 41.91)
+			(xy 163.83 30.48) (xy 163.83 31.75)
 		)
 		(stroke
 			(width 0)
@@ -12767,7 +12959,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 43.18) (xy 142.24 43.18)
+			(xy 139.7 33.02) (xy 142.24 33.02)
 		)
 		(stroke
 			(width 0)
@@ -13017,7 +13209,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 53.34) (xy 165.1 53.34)
+			(xy 163.83 43.18) (xy 165.1 43.18)
 		)
 		(stroke
 			(width 0)
@@ -13087,7 +13279,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 53.34) (xy 163.83 57.15)
+			(xy 163.83 43.18) (xy 163.83 46.99)
 		)
 		(stroke
 			(width 0)
@@ -13107,7 +13299,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 60.96) (xy 106.68 60.96)
+			(xy 109.22 50.8) (xy 106.68 50.8)
 		)
 		(stroke
 			(width 0)
@@ -13344,6 +13536,16 @@
 			(type default)
 		)
 		(uuid "c60045a9-c6dd-4a1d-b776-92c82360c330")
+	)
+	(wire
+		(pts
+			(xy 138.43 83.82) (xy 142.24 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c79a381c-678b-4cbf-8121-776e68f5eae2")
 	)
 	(wire
 		(pts
@@ -13957,6 +14159,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 83.82) (xy 133.35 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eaf09550-34c8-48e5-81bf-da26495555c2")
+	)
+	(wire
+		(pts
 			(xy 143.51 161.29) (xy 143.51 156.21)
 		)
 		(stroke
@@ -14047,7 +14259,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 60.96) (xy 142.24 60.96)
+			(xy 139.7 50.8) (xy 142.24 50.8)
 		)
 		(stroke
 			(width 0)
@@ -14107,6 +14319,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 83.82) (xy 116.84 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f46caf95-946a-4849-83f4-ad9e82ce8591")
+	)
+	(wire
+		(pts
 			(xy 74.93 35.56) (xy 74.93 40.64)
 		)
 		(stroke
@@ -14147,7 +14369,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 46.99) (xy 163.83 50.8)
+			(xy 163.83 36.83) (xy 163.83 40.64)
 		)
 		(stroke
 			(width 0)
@@ -14329,6 +14551,18 @@
 		)
 		(uuid "0e472af7-4d15-4d55-8ef1-df4b9d17ab63")
 	)
+	(text "Reset switch"
+		(exclude_from_sim no)
+		(at 155.448 75.438 0)
+		(effects
+			(font
+				(size 4 4)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+		(uuid "4c2e7875-fd82-45bc-bf90-27c52cb65e41")
+	)
 	(text "JTAG, CLK, Reset"
 		(exclude_from_sim no)
 		(at 160.655 19.05 0)
@@ -14434,7 +14668,18 @@
 		(uuid "802bd717-75a4-4efc-bdc3-ab512c6bce65")
 	)
 	(label "MCU_XRSn"
-		(at 106.68 60.96 180)
+		(at 142.24 83.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8359a4fd-7e79-4e0d-b69c-597f49087497")
+	)
+	(label "MCU_XRSn"
+		(at 106.68 50.8 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14456,7 +14701,7 @@
 		(uuid "c9863f4f-bdf5-49f4-b18e-dce622ff9931")
 	)
 	(label "CLK_F283XX_25MHz"
-		(at 142.24 60.96 0)
+		(at 142.24 50.8 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14468,7 +14713,7 @@
 	)
 	(global_label "TMS_HV"
 		(shape input)
-		(at 165.1 50.8 0)
+		(at 165.1 40.64 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14478,7 +14723,7 @@
 		)
 		(uuid "39e209f4-dfe5-44f9-9409-595571e962b2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 174.4394 50.7206 0)
+			(at 174.4394 40.5606 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14511,7 +14756,7 @@
 	)
 	(global_label "TRST_HV"
 		(shape input)
-		(at 165.1 53.34 0)
+		(at 165.1 43.18 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14521,7 +14766,7 @@
 		)
 		(uuid "4bb4268d-695f-47ba-9d72-5ba92cf42879")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 175.2256 53.2606 0)
+			(at 175.2256 43.1006 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14576,7 +14821,7 @@
 	)
 	(global_label "TDI_HV"
 		(shape input)
-		(at 142.24 45.72 0)
+		(at 142.24 35.56 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14586,7 +14831,7 @@
 		)
 		(uuid "8a0ff74a-b984-461b-9c0d-0a757f93a28f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 150.7932 45.6406 0)
+			(at 150.7932 35.4806 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14598,7 +14843,7 @@
 	)
 	(global_label "TCK_HV"
 		(shape input)
-		(at 142.24 43.18 0)
+		(at 142.24 33.02 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14608,7 +14853,7 @@
 		)
 		(uuid "9037fa9d-aec3-449a-992b-3b1a36b8d872")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 151.4585 43.1006 0)
+			(at 151.4585 32.9406 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14620,7 +14865,7 @@
 	)
 	(global_label "TDO_HV"
 		(shape output)
-		(at 142.24 48.26 0)
+		(at 142.24 38.1 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14630,7 +14875,7 @@
 		)
 		(uuid "9dfe39e0-e4aa-466d-8eea-035d9bdb7b87")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 151.519 48.1806 0)
+			(at 151.519 38.0206 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15914,7 +16159,7 @@
 	)
 	(symbol
 		(lib_id "LEA_SymbolLibrary:TMS320F2838xDZWT")
-		(at 124.46 76.2 0)
+		(at 124.46 66.04 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15922,7 +16167,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061ea0b13")
 		(property "Reference" "U703"
-			(at 114.3 39.37 0)
+			(at 114.3 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15930,7 +16175,7 @@
 			)
 		)
 		(property "Value" "TMS320F2838xDZWT"
-			(at 124.46 67.31 0)
+			(at 124.46 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15938,7 +16183,7 @@
 			)
 		)
 		(property "Footprint" "LEA_FootprintLibrary:BGA-361_19x19_16.0x16.0mm"
-			(at 113.03 34.29 0)
+			(at 113.03 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15947,7 +16192,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tms320f28386d.pdf?ts=1639959530674&ref_url=https%253A%252F%252Fwww.ti.com%252Fsitesearch%252Fdocs%252Funiversalsearch.tsp%253FlangPref%253Den-US%2526searchTerm%253DF28386DZWTS%2526nr%253D13"
-			(at 107.95 62.23 0)
+			(at 107.95 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15956,7 +16201,7 @@
 			)
 		)
 		(property "Description" "TMS320F2838x Real-Time Microcontrollers With Connectivity Manager"
-			(at 124.46 76.2 0)
+			(at 124.46 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15965,7 +16210,7 @@
 			)
 		)
 		(property "Manufacturer" "Texas Instruments"
-			(at 83.82 113.03 0)
+			(at 83.82 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15974,7 +16219,7 @@
 			)
 		)
 		(property "manf#" "F28386DZWTS"
-			(at 124.46 76.2 0)
+			(at 124.46 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15983,7 +16228,7 @@
 			)
 		)
 		(property "mouser#" "595-F28386DZWTS"
-			(at 124.46 76.2 0)
+			(at 124.46 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17013,7 +17258,7 @@
 	)
 	(symbol
 		(lib_id "LEA_SymbolLibrary:+3.3V_HV")
-		(at 163.83 38.1 0)
+		(at 163.83 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17021,7 +17266,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061ea8653")
 		(property "Reference" "#PWR0707"
-			(at 165.1 38.1 90)
+			(at 165.1 30.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17030,7 +17275,7 @@
 			)
 		)
 		(property "Value" "+3.3V_HV"
-			(at 163.83 33.7058 0)
+			(at 163.83 26.0858 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17038,7 +17283,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 163.83 38.1 0)
+			(at 163.83 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17047,7 +17292,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 163.83 38.1 0)
+			(at 163.83 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17056,7 +17301,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V_HV\""
-			(at 163.83 38.1 0)
+			(at 163.83 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23220,7 +23465,7 @@
 	)
 	(symbol
 		(lib_id "LEA_SymbolLibrary:GND_HV")
-		(at 163.83 69.85 0)
+		(at 163.83 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23228,7 +23473,7 @@
 		(dnp no)
 		(uuid "12f9b544-df79-4073-9ba3-44f62b953252")
 		(property "Reference" "#PWR0714"
-			(at 166.37 72.39 90)
+			(at 166.37 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23237,7 +23482,7 @@
 			)
 		)
 		(property "Value" "GND_HV"
-			(at 163.83 73.66 0)
+			(at 163.83 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23245,7 +23490,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 163.83 69.85 0)
+			(at 163.83 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23254,7 +23499,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 163.83 69.85 0)
+			(at 163.83 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23263,7 +23508,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND_HV\" , ground"
-			(at 163.83 69.85 0)
+			(at 163.83 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23381,7 +23626,7 @@
 	)
 	(symbol
 		(lib_id "LEA_SymbolLibrary:R_0402__2k2_THICK__1P__50V")
-		(at 163.83 44.45 0)
+		(at 163.83 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23390,7 +23635,7 @@
 		(fields_autoplaced yes)
 		(uuid "27ab1a53-2ec9-47e0-ad08-ba033a687c9b")
 		(property "Reference" "R705"
-			(at 165.3286 43.5415 0)
+			(at 165.3286 33.3815 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23399,7 +23644,7 @@
 			)
 		)
 		(property "Value" "2k2"
-			(at 165.3286 46.3166 0)
+			(at 165.3286 36.1566 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23408,7 +23653,7 @@
 			)
 		)
 		(property "Footprint" "LEA_FootprintLibrary:R_0402"
-			(at 163.83 34.29 0)
+			(at 163.83 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23417,7 +23662,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 163.83 44.45 0)
+			(at 163.83 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23426,7 +23671,7 @@
 			)
 		)
 		(property "Description" "Resistor 0402"
-			(at 163.83 44.45 0)
+			(at 163.83 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23435,7 +23680,7 @@
 			)
 		)
 		(property "Manufacturer" "Vishay"
-			(at 163.83 44.45 0)
+			(at 163.83 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23444,7 +23689,7 @@
 			)
 		)
 		(property "manf#" "CRCW04022K20FKEDC"
-			(at 163.83 44.45 0)
+			(at 163.83 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23453,7 +23698,7 @@
 			)
 		)
 		(property "mouser#" "71-CRCW04022K20FKEDC"
-			(at 163.83 44.45 0)
+			(at 163.83 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23668,6 +23913,102 @@
 			(project "LCB-CCB-01"
 				(path "/968a6172-7a4e-40ab-a78a-e4d03671e136/00000000-0000-0000-0000-000061d28cbe"
 					(reference "#PWR0712")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LEA_SymbolLibrary:SW_Push_RightAngle")
+		(at 124.46 83.82 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4ea3d708-a630-466a-bcb3-7e89b73b5a47")
+		(property "Reference" "SW701"
+			(at 124.46 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push_RightAngle"
+			(at 124.46 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LEA_FootprintLibrary:Sw_Push_RightAngle"
+			(at 124.46 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/307/en_b3u-3476507.pdf"
+			(at 124.46 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, right angle, generic, two pins"
+			(at 124.46 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Omron Electronics"
+			(at 123.19 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "653-B3U-3000PM"
+			(at 124.46 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "B3U-3000PM"
+			(at 124.46 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "21b7bfe4-cc71-4434-9296-b6b62b6d65a5")
+		)
+		(pin "2"
+			(uuid "46953ea5-072d-432b-8bfe-6daf3b63f5d3")
+		)
+		(instances
+			(project ""
+				(path "/968a6172-7a4e-40ab-a78a-e4d03671e136/00000000-0000-0000-0000-000061d28cbe"
+					(reference "SW701")
 					(unit 1)
 				)
 			)
@@ -23991,6 +24332,102 @@
 			(project "LCB-CCB-01"
 				(path "/968a6172-7a4e-40ab-a78a-e4d03671e136/00000000-0000-0000-0000-000061d28cbe"
 					(reference "#PWR0705")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LEA_SymbolLibrary:R_0402__0R0_THICK__1P__50V")
+		(at 135.89 83.82 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7cc73e8c-8270-4611-b1ae-de72db99ad05")
+		(property "Reference" "R715"
+			(at 138.43 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0R0"
+			(at 137.922 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LEA_FootprintLibrary:R_0402"
+			(at 125.73 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor 0402"
+			(at 135.89 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay"
+			(at 135.89 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "CRCW04020000Z0EDC"
+			(at 135.89 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "71-CRCW04020000Z0EDC"
+			(at 135.89 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cb21cd6f-6da5-4fcb-add1-c200b6b9a559")
+		)
+		(pin "2"
+			(uuid "1481d008-9ff7-431e-9b20-f1fc530baddf")
+		)
+		(instances
+			(project "LCB-CCB-01"
+				(path "/968a6172-7a4e-40ab-a78a-e4d03671e136/00000000-0000-0000-0000-000061d28cbe"
+					(reference "R715")
 					(unit 1)
 				)
 			)
@@ -24444,7 +24881,7 @@
 	)
 	(symbol
 		(lib_id "LEA_SymbolLibrary:R_0402__2k2_THICK__1P__50V")
-		(at 163.83 59.69 0)
+		(at 163.83 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24453,7 +24890,7 @@
 		(fields_autoplaced yes)
 		(uuid "cca06f96-3346-408f-a425-b2a3a19df607")
 		(property "Reference" "R706"
-			(at 165.3286 58.7815 0)
+			(at 165.3286 48.6215 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24462,7 +24899,7 @@
 			)
 		)
 		(property "Value" "2k2"
-			(at 165.3286 61.5566 0)
+			(at 165.3286 51.3966 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24471,7 +24908,7 @@
 			)
 		)
 		(property "Footprint" "LEA_FootprintLibrary:R_0402"
-			(at 163.83 49.53 0)
+			(at 163.83 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24480,7 +24917,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 163.83 59.69 0)
+			(at 163.83 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24489,7 +24926,7 @@
 			)
 		)
 		(property "Description" "Resistor 0402"
-			(at 163.83 59.69 0)
+			(at 163.83 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24498,7 +24935,7 @@
 			)
 		)
 		(property "Manufacturer" "Vishay"
-			(at 163.83 59.69 0)
+			(at 163.83 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24507,7 +24944,7 @@
 			)
 		)
 		(property "manf#" "CRCW04022K20FKEDC"
-			(at 163.83 59.69 0)
+			(at 163.83 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24516,7 +24953,7 @@
 			)
 		)
 		(property "mouser#" "71-CRCW04022K20FKEDC"
-			(at 163.83 59.69 0)
+			(at 163.83 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24828,6 +25265,71 @@
 			(project "LCB-CCB-01"
 				(path "/968a6172-7a4e-40ab-a78a-e4d03671e136/00000000-0000-0000-0000-000061d28cbe"
 					(reference "#FLG0906")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LEA_SymbolLibrary:GND_HV")
+		(at 116.84 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ffb1fa62-f140-4e40-b132-9705bee4a86d")
+		(property "Reference" "#PWR0902"
+			(at 119.38 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_HV"
+			(at 116.84 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND_HV\" , ground"
+			(at 116.84 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "386126ff-4320-4cb2-8391-3cb9014c8952")
+		)
+		(instances
+			(project "LCB-CCB-01"
+				(path "/968a6172-7a4e-40ab-a78a-e4d03671e136/00000000-0000-0000-0000-000061d28cbe"
+					(reference "#PWR0902")
 					(unit 1)
 				)
 			)
