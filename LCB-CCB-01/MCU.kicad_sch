@@ -513,7 +513,7 @@
 				)
 			)
 		)
-		(symbol "LEA_SymbolLibrary:C_0402__10n_X7R_10P__50V"
+		(symbol "LEA_SymbolLibrary:C_0603_100n_X5R_10P__50V"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0.254) hide)
@@ -529,7 +529,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "10n"
+			(property "Value" "100n"
 				(at 0.762 -1.016 0)
 				(effects
 					(font
@@ -538,7 +538,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "LEA_FootprintLibrary:C_0402"
+			(property "Footprint" "LEA_FootprintLibrary:C_0603"
 				(at 0 10.16 0)
 				(effects
 					(font
@@ -556,7 +556,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Capacitor 0402"
+			(property "Description" "Capacitor 0603"
 				(at 0 0 0)
 				(effects
 					(font
@@ -565,7 +565,7 @@
 					(hide yes)
 				)
 			)
-			(property "manf#" "C1005X7R1H103KBE"
+			(property "manf#" "C1608X5R1H104K"
 				(at 0 0 0)
 				(effects
 					(font
@@ -583,7 +583,7 @@
 					(hide yes)
 				)
 			)
-			(property "mouser#" "810-C1005X7R1H103KBE"
+			(property "mouser#" "810-C1608X5R1H104K"
 				(at 0 0 0)
 				(effects
 					(font
@@ -610,8 +610,8 @@
 					(hide yes)
 				)
 			)
-			(symbol "C_0402__10n_X7R_10P__50V_0_0"
-				(text "0402"
+			(symbol "C_0603_100n_X5R_10P__50V_0_0"
+				(text "0603"
 					(at -0.635 -1.905 900)
 					(effects
 						(font
@@ -620,7 +620,7 @@
 					)
 				)
 			)
-			(symbol "C_0402__10n_X7R_10P__50V_0_1"
+			(symbol "C_0603_100n_X5R_10P__50V_0_1"
 				(polyline
 					(pts
 						(xy -1.524 -0.508) (xy 1.524 -0.508)
@@ -646,7 +646,7 @@
 					)
 				)
 			)
-			(symbol "C_0402__10n_X7R_10P__50V_1_1"
+			(symbol "C_0603_100n_X5R_10P__50V_1_1"
 				(pin passive line
 					(at 0 2.54 270)
 					(length 2.032)
@@ -685,7 +685,7 @@
 				)
 			)
 		)
-		(symbol "LEA_SymbolLibrary:C_0402__1u0_X5R_10P__35V"
+		(symbol "LEA_SymbolLibrary:C_0603__10n_X7R_10P__50V"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0.254) hide)
@@ -701,7 +701,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "1u0"
+			(property "Value" "10n"
 				(at 0.762 -1.016 0)
 				(effects
 					(font
@@ -710,7 +710,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "LEA_FootprintLibrary:C_0402"
+			(property "Footprint" "LEA_FootprintLibrary:C_0603"
 				(at 0 10.16 0)
 				(effects
 					(font
@@ -728,7 +728,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Capacitor 0402"
+			(property "Description" "Capacitor 0603"
 				(at 0 0 0)
 				(effects
 					(font
@@ -737,7 +737,7 @@
 					(hide yes)
 				)
 			)
-			(property "manf#" "C1005X5R1V105K"
+			(property "manf#" "CGA3E2X7R1H103K"
 				(at 0 0 0)
 				(effects
 					(font
@@ -755,7 +755,7 @@
 					(hide yes)
 				)
 			)
-			(property "mouser#" "810-C1005X5R1V105K"
+			(property "mouser#" "810-CGA3E2X7R1H103K"
 				(at 0 0 0)
 				(effects
 					(font
@@ -782,8 +782,8 @@
 					(hide yes)
 				)
 			)
-			(symbol "C_0402__1u0_X5R_10P__35V_0_0"
-				(text "0402"
+			(symbol "C_0603__10n_X7R_10P__50V_0_0"
+				(text "0603"
 					(at -0.635 -1.905 900)
 					(effects
 						(font
@@ -792,7 +792,7 @@
 					)
 				)
 			)
-			(symbol "C_0402__1u0_X5R_10P__35V_0_1"
+			(symbol "C_0603__10n_X7R_10P__50V_0_1"
 				(polyline
 					(pts
 						(xy -1.524 -0.508) (xy 1.524 -0.508)
@@ -818,7 +818,179 @@
 					)
 				)
 			)
-			(symbol "C_0402__1u0_X5R_10P__35V_1_1"
+			(symbol "C_0603__10n_X7R_10P__50V_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "LEA_SymbolLibrary:C_0603__1u0_X5R_10P__50V"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim yes)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.762 0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "1u0"
+				(at 0.762 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "LEA_FootprintLibrary:C_0603"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Capacitor 0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "manf#" "C1608X5R1H105K"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "TDK"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "mouser#" "810-C1608X5R1H105K"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "C capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0603__1u0_X5R_10P__50V_0_0"
+				(text "0603"
+					(at -0.635 -1.905 900)
+					(effects
+						(font
+							(size 0.5 0.5)
+						)
+					)
+				)
+			)
+			(symbol "C_0603__1u0_X5R_10P__50V_0_1"
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_0603__1u0_X5R_10P__50V_1_1"
 				(pin passive line
 					(at 0 2.54 270)
 					(length 2.032)
@@ -1345,642 +1517,6 @@
 				)
 			)
 		)
-		(symbol "LEA_SymbolLibrary:R_0402__0R0_THICK__1P__50V"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.254) hide)
-			(exclude_from_sim yes)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 0.762 0.508 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "0R0"
-				(at 0.762 -1.016 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "LEA_FootprintLibrary:R_0402"
-				(at 0 10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor 0402"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "manf#" "CRCW04020000Z0EDC"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Vishay"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "mouser#" "71-CRCW04020000Z0EDC"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_0402__0R0_THICK__1P__50V_0_0"
-				(text "0402"
-					(at 0 0 900)
-					(effects
-						(font
-							(size 0.8 0.8)
-						)
-					)
-				)
-			)
-			(symbol "R_0402__0R0_THICK__1P__50V_0_1"
-				(rectangle
-					(start -0.762 1.778)
-					(end 0.762 -1.778)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_0402__0R0_THICK__1P__50V_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 0.762)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 0.762)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "LEA_SymbolLibrary:R_0402__2k2_THICK__1P__50V"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.254) hide)
-			(exclude_from_sim yes)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 0.762 0.508 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "2k2"
-				(at 0.762 -1.016 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "LEA_FootprintLibrary:R_0402"
-				(at 0 10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor 0402"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "manf#" "CRCW04022K20FKEDC"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Vishay"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "mouser#" "71-CRCW04022K20FKEDC"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_0402__2k2_THICK__1P__50V_0_0"
-				(text "0402"
-					(at 0 0 900)
-					(effects
-						(font
-							(size 0.8 0.8)
-						)
-					)
-				)
-			)
-			(symbol "R_0402__2k2_THICK__1P__50V_0_1"
-				(rectangle
-					(start -0.762 1.778)
-					(end 0.762 -1.778)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_0402__2k2_THICK__1P__50V_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 0.762)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 0.762)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "LEA_SymbolLibrary:R_0402__33R_THICK__1P__50V"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.254) hide)
-			(exclude_from_sim yes)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 0.762 0.508 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "33R"
-				(at 0.762 -1.016 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "LEA_FootprintLibrary:R_0402"
-				(at 0 10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor 0402"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "manf#" "CRCW040233R0FKEDC"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Vishay"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "mouser#" "71-CRCW040233R0FKEDC"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_0402__33R_THICK__1P__50V_0_0"
-				(text "0402"
-					(at 0 0 900)
-					(effects
-						(font
-							(size 0.8 0.8)
-						)
-					)
-				)
-			)
-			(symbol "R_0402__33R_THICK__1P__50V_0_1"
-				(rectangle
-					(start -0.762 1.778)
-					(end 0.762 -1.778)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_0402__33R_THICK__1P__50V_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 0.762)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 0.762)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "LEA_SymbolLibrary:R_0402__56R_THICK__1P__50V"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.254) hide)
-			(exclude_from_sim yes)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 0.762 0.508 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "56R"
-				(at 0.762 -1.016 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "LEA_FootprintLibrary:R_0402"
-				(at 0 10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor 0402"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "manf#" "CRCW040256R0FKEDC"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Vishay"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "mouser#" "71-CRCW040256R0FKEDC"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_0402__56R_THICK__1P__50V_0_0"
-				(text "0402"
-					(at 0 0 900)
-					(effects
-						(font
-							(size 0.8 0.8)
-						)
-					)
-				)
-			)
-			(symbol "R_0402__56R_THICK__1P__50V_0_1"
-				(rectangle
-					(start -0.762 1.778)
-					(end 0.762 -1.778)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_0402__56R_THICK__1P__50V_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 0.762)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 0.762)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "LEA_SymbolLibrary:R_0603__0R0_THICK__1P__75V"
 			(pin_numbers hide)
 			(pin_names
@@ -2102,6 +1638,483 @@
 				)
 			)
 			(symbol "R_0603__0R0_THICK__1P__75V_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "LEA_SymbolLibrary:R_0603__2k2_THICK__1P__75V"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim yes)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0.762 0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "2k2"
+				(at 0.762 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "LEA_FootprintLibrary:R_0603"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor 0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "manf#" "CRCW06032K20FKEAC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Vishay"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "mouser#" "71-CRCW06032K20FKEAC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0603__2k2_THICK__1P__75V_0_0"
+				(text "0603"
+					(at 0 0 900)
+					(effects
+						(font
+							(size 0.8 0.8)
+						)
+					)
+				)
+			)
+			(symbol "R_0603__2k2_THICK__1P__75V_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_0603__2k2_THICK__1P__75V_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "LEA_SymbolLibrary:R_0603__33R_THICK__1P__75V"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim yes)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0.762 0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "33R"
+				(at 0.762 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "LEA_FootprintLibrary:R_0603"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor 0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "manf#" "CRCW060333R0FKEAC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Vishay"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "mouser#" "71-CRCW060333R0FKEAC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0603__33R_THICK__1P__75V_0_0"
+				(text "0603"
+					(at 0 0 900)
+					(effects
+						(font
+							(size 0.8 0.8)
+						)
+					)
+				)
+			)
+			(symbol "R_0603__33R_THICK__1P__75V_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_0603__33R_THICK__1P__75V_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "LEA_SymbolLibrary:R_0603__56R_THICK__1P__75V"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim yes)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0.762 0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "56R"
+				(at 0.762 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "LEA_FootprintLibrary:R_0603"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor 0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "manf#" "CRCW060356R0FKEAC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Vishay"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "mouser#" "71-CRCW060356R0FKEAC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0603__56R_THICK__1P__75V_0_0"
+				(text "0603"
+					(at 0 0 900)
+					(effects
+						(font
+							(size 0.8 0.8)
+						)
+					)
+				)
+			)
+			(symbol "R_0603__56R_THICK__1P__75V_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_0603__56R_THICK__1P__75V_1_1"
 				(pin passive line
 					(at 0 2.54 270)
 					(length 0.762)
@@ -10829,7 +10842,7 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 45.72) (xy 20.32 49.53)
+			(xy 20.32 45.72) (xy 20.32 48.26)
 		)
 		(stroke
 			(width 0)
@@ -11049,7 +11062,7 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 78.74) (xy 20.32 86.36)
+			(xy 20.32 78.74) (xy 20.32 81.28)
 		)
 		(stroke
 			(width 0)
@@ -17552,10 +17565,10 @@
 		)
 	)
 	(symbol
-		(lib_id "LEA_SymbolLibrary:C_0402_100n_X7R_10P__50V")
+		(lib_id "LEA_SymbolLibrary:C_0603_100n_X5R_10P__50V")
 		(at 31.75 120.65 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -17578,7 +17591,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LEA_FootprintLibrary:C_0402"
+		(property "Footprint" "LEA_FootprintLibrary:C_0603"
 			(at 31.75 110.49 0)
 			(effects
 				(font
@@ -17596,7 +17609,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Capacitor 0402"
+		(property "Description" "Capacitor 0603"
 			(at 31.75 120.65 0)
 			(effects
 				(font
@@ -17614,7 +17627,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "C1005X7R1H104K"
+		(property "manf#" "C1608X5R1H104K"
 			(at 31.75 120.65 0)
 			(effects
 				(font
@@ -17623,7 +17636,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "810-C1005X7R1H104K"
+		(property "mouser#" "810-C1608X5R1H104K"
 			(at 31.75 120.65 0)
 			(effects
 				(font
@@ -18989,10 +19002,10 @@
 		)
 	)
 	(symbol
-		(lib_id "LEA_SymbolLibrary:C_0402_100n_X7R_10P__50V")
+		(lib_id "LEA_SymbolLibrary:C_0603_100n_X5R_10P__50V")
 		(at 115.57 120.65 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -19015,7 +19028,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LEA_FootprintLibrary:C_0402"
+		(property "Footprint" "LEA_FootprintLibrary:C_0603"
 			(at 115.57 110.49 0)
 			(effects
 				(font
@@ -19033,7 +19046,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Capacitor 0402"
+		(property "Description" "Capacitor 0603"
 			(at 115.57 120.65 0)
 			(effects
 				(font
@@ -19051,7 +19064,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "C1005X7R1H104K"
+		(property "manf#" "C1608X5R1H104K"
 			(at 115.57 120.65 0)
 			(effects
 				(font
@@ -19060,7 +19073,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "810-C1005X7R1H104K"
+		(property "mouser#" "810-C1608X5R1H104K"
 			(at 115.57 120.65 0)
 			(effects
 				(font
@@ -19085,10 +19098,10 @@
 		)
 	)
 	(symbol
-		(lib_id "LEA_SymbolLibrary:R_0402__33R_THICK__1P__50V")
+		(lib_id "LEA_SymbolLibrary:R_0603__33R_THICK__1P__75V")
 		(at 147.32 115.57 270)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -19109,7 +19122,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LEA_FootprintLibrary:R_0402"
+		(property "Footprint" "LEA_FootprintLibrary:R_0603"
 			(at 157.48 115.57 0)
 			(effects
 				(font
@@ -19127,7 +19140,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor 0402"
+		(property "Description" "Resistor 0603"
 			(at 147.32 115.57 0)
 			(effects
 				(font
@@ -19145,7 +19158,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "CRCW040233R0FKEDC"
+		(property "manf#" "CRCW060333R0FKEAC"
 			(at 147.32 115.57 0)
 			(effects
 				(font
@@ -19154,7 +19167,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "71-CRCW040233R0FKEDC"
+		(property "mouser#" "71-CRCW060333R0FKEAC"
 			(at 147.32 115.57 0)
 			(effects
 				(font
@@ -19179,10 +19192,10 @@
 		)
 	)
 	(symbol
-		(lib_id "LEA_SymbolLibrary:R_0402__33R_THICK__1P__50V")
+		(lib_id "LEA_SymbolLibrary:R_0603__33R_THICK__1P__75V")
 		(at 147.32 118.11 270)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -19203,7 +19216,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LEA_FootprintLibrary:R_0402"
+		(property "Footprint" "LEA_FootprintLibrary:R_0603"
 			(at 157.48 118.11 0)
 			(effects
 				(font
@@ -19221,7 +19234,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor 0402"
+		(property "Description" "Resistor 0603"
 			(at 147.32 118.11 0)
 			(effects
 				(font
@@ -19239,7 +19252,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "CRCW040233R0FKEDC"
+		(property "manf#" "CRCW060333R0FKEAC"
 			(at 147.32 118.11 0)
 			(effects
 				(font
@@ -19248,7 +19261,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "71-CRCW040233R0FKEDC"
+		(property "mouser#" "71-CRCW060333R0FKEAC"
 			(at 147.32 118.11 0)
 			(effects
 				(font
@@ -19273,10 +19286,10 @@
 		)
 	)
 	(symbol
-		(lib_id "LEA_SymbolLibrary:R_0402__33R_THICK__1P__50V")
+		(lib_id "LEA_SymbolLibrary:R_0603__33R_THICK__1P__75V")
 		(at 147.32 120.65 270)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -19297,7 +19310,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LEA_FootprintLibrary:R_0402"
+		(property "Footprint" "LEA_FootprintLibrary:R_0603"
 			(at 157.48 120.65 0)
 			(effects
 				(font
@@ -19315,7 +19328,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor 0402"
+		(property "Description" "Resistor 0603"
 			(at 147.32 120.65 0)
 			(effects
 				(font
@@ -19333,7 +19346,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "CRCW040233R0FKEDC"
+		(property "manf#" "CRCW060333R0FKEAC"
 			(at 147.32 120.65 0)
 			(effects
 				(font
@@ -19342,7 +19355,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "71-CRCW040233R0FKEDC"
+		(property "mouser#" "71-CRCW060333R0FKEAC"
 			(at 147.32 120.65 0)
 			(effects
 				(font
@@ -19367,10 +19380,10 @@
 		)
 	)
 	(symbol
-		(lib_id "LEA_SymbolLibrary:R_0402__33R_THICK__1P__50V")
+		(lib_id "LEA_SymbolLibrary:R_0603__33R_THICK__1P__75V")
 		(at 147.32 123.19 270)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -19391,7 +19404,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LEA_FootprintLibrary:R_0402"
+		(property "Footprint" "LEA_FootprintLibrary:R_0603"
 			(at 157.48 123.19 0)
 			(effects
 				(font
@@ -19409,7 +19422,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor 0402"
+		(property "Description" "Resistor 0603"
 			(at 147.32 123.19 0)
 			(effects
 				(font
@@ -19427,7 +19440,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "CRCW040233R0FKEDC"
+		(property "manf#" "CRCW060333R0FKEAC"
 			(at 147.32 123.19 0)
 			(effects
 				(font
@@ -19436,7 +19449,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "71-CRCW040233R0FKEDC"
+		(property "mouser#" "71-CRCW060333R0FKEAC"
 			(at 147.32 123.19 0)
 			(effects
 				(font
@@ -21469,10 +21482,10 @@
 		)
 	)
 	(symbol
-		(lib_id "LEA_SymbolLibrary:C_0402_100n_X7R_10P__50V")
+		(lib_id "LEA_SymbolLibrary:C_0603_100n_X5R_10P__50V")
 		(at 20.32 41.91 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -21495,7 +21508,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LEA_FootprintLibrary:C_0402"
+		(property "Footprint" "LEA_FootprintLibrary:C_0603"
 			(at 20.32 31.75 0)
 			(effects
 				(font
@@ -21513,7 +21526,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Capacitor 0402"
+		(property "Description" "Capacitor 0603"
 			(at 20.32 41.91 0)
 			(effects
 				(font
@@ -21531,7 +21544,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "C1005X7R1H104K"
+		(property "manf#" "C1608X5R1H104K"
 			(at 20.32 41.91 0)
 			(effects
 				(font
@@ -21540,7 +21553,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "810-C1005X7R1H104K"
+		(property "mouser#" "810-C1608X5R1H104K"
 			(at 20.32 41.91 0)
 			(effects
 				(font
@@ -22367,10 +22380,10 @@
 		)
 	)
 	(symbol
-		(lib_id "LEA_SymbolLibrary:C_0402_100n_X7R_10P__50V")
+		(lib_id "LEA_SymbolLibrary:C_0603_100n_X5R_10P__50V")
 		(at 20.32 74.93 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -22393,7 +22406,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LEA_FootprintLibrary:C_0402"
+		(property "Footprint" "LEA_FootprintLibrary:C_0603"
 			(at 20.32 64.77 0)
 			(effects
 				(font
@@ -22411,7 +22424,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Capacitor 0402"
+		(property "Description" "Capacitor 0603"
 			(at 20.32 74.93 0)
 			(effects
 				(font
@@ -22429,7 +22442,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "C1005X7R1H104K"
+		(property "manf#" "C1608X5R1H104K"
 			(at 20.32 74.93 0)
 			(effects
 				(font
@@ -22438,7 +22451,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "810-C1005X7R1H104K"
+		(property "mouser#" "810-C1608X5R1H104K"
 			(at 20.32 74.93 0)
 			(effects
 				(font
@@ -22916,7 +22929,7 @@
 	)
 	(symbol
 		(lib_id "LEA_SymbolLibrary:GND_HV")
-		(at 20.32 86.36 0)
+		(at 20.32 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22924,7 +22937,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000062914520")
 		(property "Reference" "#PWR0715"
-			(at 22.86 88.9 90)
+			(at 22.86 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22933,7 +22946,7 @@
 			)
 		)
 		(property "Value" "GND_HV"
-			(at 20.32 90.17 0)
+			(at 20.32 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22941,7 +22954,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 20.32 86.36 0)
+			(at 20.32 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22950,7 +22963,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 20.32 86.36 0)
+			(at 20.32 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22959,7 +22972,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND_HV\" , ground"
-			(at 20.32 86.36 0)
+			(at 20.32 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22980,10 +22993,10 @@
 		)
 	)
 	(symbol
-		(lib_id "LEA_SymbolLibrary:C_0402__10n_X7R_10P__50V")
+		(lib_id "LEA_SymbolLibrary:C_0603__10n_X7R_10P__50V")
 		(at 74.93 43.18 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -23006,7 +23019,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LEA_FootprintLibrary:C_0402"
+		(property "Footprint" "LEA_FootprintLibrary:C_0603"
 			(at 74.93 33.02 0)
 			(effects
 				(font
@@ -23024,7 +23037,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Capacitor 0402"
+		(property "Description" "Capacitor 0603"
 			(at 74.93 43.18 0)
 			(effects
 				(font
@@ -23042,7 +23055,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "C1005X7R1H103KBE"
+		(property "manf#" "CGA3E2X7R1H103K"
 			(at 74.93 43.18 0)
 			(effects
 				(font
@@ -23051,7 +23064,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "810-C1005X7R1H103KBE"
+		(property "mouser#" "810-CGA3E2X7R1H103K"
 			(at 74.93 43.18 0)
 			(effects
 				(font
@@ -23142,7 +23155,7 @@
 	)
 	(symbol
 		(lib_id "LEA_SymbolLibrary:GND_HV")
-		(at 20.32 49.53 0)
+		(at 20.32 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23150,7 +23163,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000062aa932f")
 		(property "Reference" "#PWR0708"
-			(at 22.86 52.07 90)
+			(at 22.86 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23159,7 +23172,7 @@
 			)
 		)
 		(property "Value" "GND_HV"
-			(at 20.32 53.34 0)
+			(at 20.32 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23167,7 +23180,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 20.32 49.53 0)
+			(at 20.32 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23176,7 +23189,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 20.32 49.53 0)
+			(at 20.32 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23185,7 +23198,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND_HV\" , ground"
-			(at 20.32 49.53 0)
+			(at 20.32 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23206,10 +23219,10 @@
 		)
 	)
 	(symbol
-		(lib_id "LEA_SymbolLibrary:R_0402__2k2_THICK__1P__50V")
+		(lib_id "LEA_SymbolLibrary:R_0603__2k2_THICK__1P__75V")
 		(at 74.93 31.75 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -23232,7 +23245,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LEA_FootprintLibrary:R_0402"
+		(property "Footprint" "LEA_FootprintLibrary:R_0603"
 			(at 74.93 21.59 0)
 			(effects
 				(font
@@ -23250,7 +23263,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor 0402"
+		(property "Description" "Resistor 0603"
 			(at 74.93 31.75 0)
 			(effects
 				(font
@@ -23268,7 +23281,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "CRCW04022K20FKEDC"
+		(property "manf#" "CRCW06032K20FKEAC"
 			(at 74.93 31.75 0)
 			(effects
 				(font
@@ -23277,7 +23290,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "71-CRCW04022K20FKEDC"
+		(property "mouser#" "71-CRCW06032K20FKEAC"
 			(at 74.93 31.75 0)
 			(effects
 				(font
@@ -23529,10 +23542,10 @@
 		)
 	)
 	(symbol
-		(lib_id "LEA_SymbolLibrary:R_0402__56R_THICK__1P__50V")
+		(lib_id "LEA_SymbolLibrary:R_0603__56R_THICK__1P__75V")
 		(at 168.91 163.83 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -23555,7 +23568,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LEA_FootprintLibrary:R_0402"
+		(property "Footprint" "LEA_FootprintLibrary:R_0603"
 			(at 168.91 153.67 0)
 			(effects
 				(font
@@ -23573,7 +23586,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor 0402"
+		(property "Description" "Resistor 0603"
 			(at 168.91 163.83 0)
 			(effects
 				(font
@@ -23591,7 +23604,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "CRCW040256R0FKEDC"
+		(property "manf#" "CRCW060356R0FKEAC"
 			(at 168.91 163.83 0)
 			(effects
 				(font
@@ -23600,7 +23613,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "71-CRCW040256R0FKEDC"
+		(property "mouser#" "71-CRCW060356R0FKEAC"
 			(at 168.91 163.83 0)
 			(effects
 				(font
@@ -23625,17 +23638,17 @@
 		)
 	)
 	(symbol
-		(lib_id "LEA_SymbolLibrary:R_0402__2k2_THICK__1P__50V")
+		(lib_id "LEA_SymbolLibrary:R_0603__2k2_THICK__1P__75V")
 		(at 163.83 34.29 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "27ab1a53-2ec9-47e0-ad08-ba033a687c9b")
 		(property "Reference" "R705"
-			(at 165.3286 33.3815 0)
+			(at 166.37 33.0199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23644,7 +23657,7 @@
 			)
 		)
 		(property "Value" "2k2"
-			(at 165.3286 36.1566 0)
+			(at 166.37 35.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23652,7 +23665,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LEA_FootprintLibrary:R_0402"
+		(property "Footprint" "LEA_FootprintLibrary:R_0603"
 			(at 163.83 24.13 0)
 			(effects
 				(font
@@ -23670,7 +23683,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor 0402"
+		(property "Description" "Resistor 0603"
 			(at 163.83 34.29 0)
 			(effects
 				(font
@@ -23688,7 +23701,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "CRCW04022K20FKEDC"
+		(property "manf#" "CRCW06032K20FKEAC"
 			(at 163.83 34.29 0)
 			(effects
 				(font
@@ -23697,7 +23710,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "71-CRCW04022K20FKEDC"
+		(property "mouser#" "71-CRCW06032K20FKEAC"
 			(at 163.83 34.29 0)
 			(effects
 				(font
@@ -24015,10 +24028,10 @@
 		)
 	)
 	(symbol
-		(lib_id "LEA_SymbolLibrary:C_0402__1u0_X5R_10P__35V")
+		(lib_id "LEA_SymbolLibrary:C_0603__1u0_X5R_10P__50V")
 		(at 212.09 38.1 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -24041,7 +24054,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LEA_FootprintLibrary:C_0402"
+		(property "Footprint" "LEA_FootprintLibrary:C_0603"
 			(at 212.09 27.94 0)
 			(effects
 				(font
@@ -24059,7 +24072,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Capacitor 0402"
+		(property "Description" "Capacitor 0603"
 			(at 212.09 38.1 0)
 			(effects
 				(font
@@ -24077,7 +24090,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "C1005X5R1V105K"
+		(property "manf#" "C1608X5R1H105K"
 			(at 212.09 38.1 0)
 			(effects
 				(font
@@ -24086,7 +24099,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "810-C1005X5R1V105K"
+		(property "mouser#" "810-C1608X5R1H105K"
 			(at 212.09 38.1 0)
 			(effects
 				(font
@@ -24338,10 +24351,10 @@
 		)
 	)
 	(symbol
-		(lib_id "LEA_SymbolLibrary:R_0402__0R0_THICK__1P__50V")
+		(lib_id "LEA_SymbolLibrary:R_0603__0R0_THICK__1P__75V")
 		(at 135.89 83.82 90)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -24364,7 +24377,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LEA_FootprintLibrary:R_0402"
+		(property "Footprint" "LEA_FootprintLibrary:R_0603"
 			(at 125.73 83.82 0)
 			(effects
 				(font
@@ -24382,7 +24395,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor 0402"
+		(property "Description" "Resistor 0603"
 			(at 135.89 83.82 0)
 			(effects
 				(font
@@ -24400,7 +24413,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "CRCW04020000Z0EDC"
+		(property "manf#" "CRCW06030000Z0EAC"
 			(at 135.89 83.82 0)
 			(effects
 				(font
@@ -24409,7 +24422,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "71-CRCW04020000Z0EDC"
+		(property "mouser#" "71-CRCW06030000Z0EAC"
 			(at 135.89 83.82 0)
 			(effects
 				(font
@@ -24434,10 +24447,10 @@
 		)
 	)
 	(symbol
-		(lib_id "LEA_SymbolLibrary:R_0402__2k2_THICK__1P__50V")
+		(lib_id "LEA_SymbolLibrary:R_0603__2k2_THICK__1P__75V")
 		(at 212.09 29.21 180)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -24458,7 +24471,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LEA_FootprintLibrary:R_0402"
+		(property "Footprint" "LEA_FootprintLibrary:R_0603"
 			(at 212.09 39.37 0)
 			(effects
 				(font
@@ -24476,7 +24489,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor 0402"
+		(property "Description" "Resistor 0603"
 			(at 212.09 29.21 0)
 			(effects
 				(font
@@ -24494,7 +24507,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "CRCW04022K20FKEDC"
+		(property "manf#" "CRCW06032K20FKEAC"
 			(at 212.09 29.21 0)
 			(effects
 				(font
@@ -24503,7 +24516,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "71-CRCW04022K20FKEDC"
+		(property "mouser#" "71-CRCW06032K20FKEAC"
 			(at 212.09 29.21 0)
 			(effects
 				(font
@@ -24528,10 +24541,10 @@
 		)
 	)
 	(symbol
-		(lib_id "LEA_SymbolLibrary:C_0402__1u0_X5R_10P__35V")
+		(lib_id "LEA_SymbolLibrary:C_0603__1u0_X5R_10P__50V")
 		(at 256.54 38.1 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -24554,7 +24567,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LEA_FootprintLibrary:C_0402"
+		(property "Footprint" "LEA_FootprintLibrary:C_0603"
 			(at 256.54 27.94 0)
 			(effects
 				(font
@@ -24572,7 +24585,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Capacitor 0402"
+		(property "Description" "Capacitor 0603"
 			(at 256.54 38.1 0)
 			(effects
 				(font
@@ -24590,7 +24603,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "C1005X5R1V105K"
+		(property "manf#" "C1608X5R1H105K"
 			(at 256.54 38.1 0)
 			(effects
 				(font
@@ -24599,7 +24612,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "810-C1005X5R1V105K"
+		(property "mouser#" "810-C1608X5R1H105K"
 			(at 256.54 38.1 0)
 			(effects
 				(font
@@ -24721,10 +24734,10 @@
 		)
 	)
 	(symbol
-		(lib_id "LEA_SymbolLibrary:R_0402__2k2_THICK__1P__50V")
+		(lib_id "LEA_SymbolLibrary:R_0603__2k2_THICK__1P__75V")
 		(at 256.54 29.21 180)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -24745,7 +24758,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LEA_FootprintLibrary:R_0402"
+		(property "Footprint" "LEA_FootprintLibrary:R_0603"
 			(at 256.54 39.37 0)
 			(effects
 				(font
@@ -24763,7 +24776,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor 0402"
+		(property "Description" "Resistor 0603"
 			(at 256.54 29.21 0)
 			(effects
 				(font
@@ -24781,7 +24794,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "CRCW04022K20FKEDC"
+		(property "manf#" "CRCW06032K20FKEAC"
 			(at 256.54 29.21 0)
 			(effects
 				(font
@@ -24790,7 +24803,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "71-CRCW04022K20FKEDC"
+		(property "mouser#" "71-CRCW06032K20FKEAC"
 			(at 256.54 29.21 0)
 			(effects
 				(font
@@ -24880,17 +24893,17 @@
 		)
 	)
 	(symbol
-		(lib_id "LEA_SymbolLibrary:R_0402__2k2_THICK__1P__50V")
+		(lib_id "LEA_SymbolLibrary:R_0603__2k2_THICK__1P__75V")
 		(at 163.83 49.53 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cca06f96-3346-408f-a425-b2a3a19df607")
 		(property "Reference" "R706"
-			(at 165.3286 48.6215 0)
+			(at 166.37 48.2599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24899,7 +24912,7 @@
 			)
 		)
 		(property "Value" "2k2"
-			(at 165.3286 51.3966 0)
+			(at 166.37 50.7999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24907,7 +24920,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LEA_FootprintLibrary:R_0402"
+		(property "Footprint" "LEA_FootprintLibrary:R_0603"
 			(at 163.83 39.37 0)
 			(effects
 				(font
@@ -24925,7 +24938,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor 0402"
+		(property "Description" "Resistor 0603"
 			(at 163.83 49.53 0)
 			(effects
 				(font
@@ -24943,7 +24956,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "CRCW04022K20FKEDC"
+		(property "manf#" "CRCW06032K20FKEAC"
 			(at 163.83 49.53 0)
 			(effects
 				(font
@@ -24952,7 +24965,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "71-CRCW04022K20FKEDC"
+		(property "mouser#" "71-CRCW06032K20FKEAC"
 			(at 163.83 49.53 0)
 			(effects
 				(font
@@ -24977,10 +24990,10 @@
 		)
 	)
 	(symbol
-		(lib_id "LEA_SymbolLibrary:R_0402__0R0_THICK__1P__50V")
+		(lib_id "LEA_SymbolLibrary:R_0603__0R0_THICK__1P__75V")
 		(at 64.77 35.56 90)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -25003,7 +25016,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LEA_FootprintLibrary:R_0402"
+		(property "Footprint" "LEA_FootprintLibrary:R_0603"
 			(at 54.61 35.56 0)
 			(effects
 				(font
@@ -25021,7 +25034,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor 0402"
+		(property "Description" "Resistor 0603"
 			(at 64.77 35.56 0)
 			(effects
 				(font
@@ -25039,7 +25052,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "CRCW04020000Z0EDC"
+		(property "manf#" "CRCW06030000Z0EAC"
 			(at 64.77 35.56 0)
 			(effects
 				(font
@@ -25048,7 +25061,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "71-CRCW04020000Z0EDC"
+		(property "mouser#" "71-CRCW06030000Z0EAC"
 			(at 64.77 35.56 0)
 			(effects
 				(font
