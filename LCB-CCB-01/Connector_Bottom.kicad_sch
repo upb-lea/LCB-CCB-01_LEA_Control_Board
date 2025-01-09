@@ -12453,6 +12453,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" "0"
+			(at 109.22 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "21e5d397-3f8a-46d9-a069-8f2ca4e4b09b")
 		)
@@ -12984,6 +12993,15 @@
 		)
 		(property "manf#" "ERM5-075-05.0-L-DV-K-TR"
 			(at 288.29 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
+			(at 247.65 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13529,6 +13547,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" "0"
+			(at 180.34 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d82fbaa0-ce37-4864-ac39-f2ecd5691821")
 		)
@@ -14060,6 +14087,15 @@
 		)
 		(property "manf#" "ERM5-075-05.0-L-DV-K-TR"
 			(at 85.09 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
+			(at 44.45 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)

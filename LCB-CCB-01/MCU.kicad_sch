@@ -19539,10 +19539,10 @@
 		)
 	)
 	(symbol
-		(lib_id "LEA_SymbolLibrary:C_0402_100n_X7R_10P__50V")
+		(lib_id "LEA_SymbolLibrary:C_0603_100n_X5R_10P__50V")
 		(at 24.13 185.42 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -19565,7 +19565,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LEA_FootprintLibrary:C_0402"
+		(property "Footprint" "LEA_FootprintLibrary:C_0603"
 			(at 24.13 175.26 0)
 			(effects
 				(font
@@ -19583,7 +19583,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Capacitor 0402"
+		(property "Description" "Capacitor 0603"
 			(at 24.13 185.42 0)
 			(effects
 				(font
@@ -19601,7 +19601,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "C1005X7R1H104K"
+		(property "manf#" "C1608X5R1H104K"
 			(at 24.13 185.42 0)
 			(effects
 				(font
@@ -19610,7 +19610,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "810-C1005X7R1H104K"
+		(property "mouser#" "810-C1608X5R1H104K"
 			(at 24.13 185.42 0)
 			(effects
 				(font
@@ -19731,10 +19731,10 @@
 		)
 	)
 	(symbol
-		(lib_id "LEA_SymbolLibrary:C_0402_100n_X7R_10P__50V")
+		(lib_id "LEA_SymbolLibrary:C_0603_100n_X5R_10P__50V")
 		(at 39.37 185.42 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -19757,7 +19757,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LEA_FootprintLibrary:C_0402"
+		(property "Footprint" "LEA_FootprintLibrary:C_0603"
 			(at 39.37 175.26 0)
 			(effects
 				(font
@@ -19775,7 +19775,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Capacitor 0402"
+		(property "Description" "Capacitor 0603"
 			(at 39.37 185.42 0)
 			(effects
 				(font
@@ -19793,7 +19793,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "C1005X7R1H104K"
+		(property "manf#" "C1608X5R1H104K"
 			(at 39.37 185.42 0)
 			(effects
 				(font
@@ -19802,7 +19802,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "810-C1005X7R1H104K"
+		(property "mouser#" "810-C1608X5R1H104K"
 			(at 39.37 185.42 0)
 			(effects
 				(font
@@ -20115,10 +20115,10 @@
 		)
 	)
 	(symbol
-		(lib_id "LEA_SymbolLibrary:C_0402_100n_X7R_10P__50V")
+		(lib_id "LEA_SymbolLibrary:C_0603_100n_X5R_10P__50V")
 		(at 69.85 185.42 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -20141,7 +20141,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LEA_FootprintLibrary:C_0402"
+		(property "Footprint" "LEA_FootprintLibrary:C_0603"
 			(at 69.85 175.26 0)
 			(effects
 				(font
@@ -20159,7 +20159,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Capacitor 0402"
+		(property "Description" "Capacitor 0603"
 			(at 69.85 185.42 0)
 			(effects
 				(font
@@ -20177,7 +20177,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "C1005X7R1H104K"
+		(property "manf#" "C1608X5R1H104K"
 			(at 69.85 185.42 0)
 			(effects
 				(font
@@ -20186,7 +20186,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "810-C1005X7R1H104K"
+		(property "mouser#" "810-C1608X5R1H104K"
 			(at 69.85 185.42 0)
 			(effects
 				(font
@@ -20403,10 +20403,10 @@
 		)
 	)
 	(symbol
-		(lib_id "LEA_SymbolLibrary:C_0402_100n_X7R_10P__50V")
+		(lib_id "LEA_SymbolLibrary:C_0603_100n_X5R_10P__50V")
 		(at 92.71 185.42 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -20429,7 +20429,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LEA_FootprintLibrary:C_0402"
+		(property "Footprint" "LEA_FootprintLibrary:C_0603"
 			(at 92.71 175.26 0)
 			(effects
 				(font
@@ -20447,7 +20447,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Capacitor 0402"
+		(property "Description" "Capacitor 0603"
 			(at 92.71 185.42 0)
 			(effects
 				(font
@@ -20465,7 +20465,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "C1005X7R1H104K"
+		(property "manf#" "C1608X5R1H104K"
 			(at 92.71 185.42 0)
 			(effects
 				(font
@@ -20474,7 +20474,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "810-C1005X7R1H104K"
+		(property "mouser#" "810-C1608X5R1H104K"
 			(at 92.71 185.42 0)
 			(effects
 				(font
@@ -20499,10 +20499,10 @@
 		)
 	)
 	(symbol
-		(lib_id "LEA_SymbolLibrary:C_0402_100n_X7R_10P__50V")
+		(lib_id "LEA_SymbolLibrary:C_0603_100n_X5R_10P__50V")
 		(at 100.33 185.42 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -20525,7 +20525,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LEA_FootprintLibrary:C_0402"
+		(property "Footprint" "LEA_FootprintLibrary:C_0603"
 			(at 100.33 175.26 0)
 			(effects
 				(font
@@ -20543,7 +20543,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Capacitor 0402"
+		(property "Description" "Capacitor 0603"
 			(at 100.33 185.42 0)
 			(effects
 				(font
@@ -20561,7 +20561,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "C1005X7R1H104K"
+		(property "manf#" "C1608X5R1H104K"
 			(at 100.33 185.42 0)
 			(effects
 				(font
@@ -20570,7 +20570,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "810-C1005X7R1H104K"
+		(property "mouser#" "810-C1608X5R1H104K"
 			(at 100.33 185.42 0)
 			(effects
 				(font
@@ -20694,7 +20694,7 @@
 		(lib_id "LEA_SymbolLibrary:C_0402_100n_X7R_10P__50V")
 		(at 115.57 185.42 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -20787,10 +20787,10 @@
 		)
 	)
 	(symbol
-		(lib_id "LEA_SymbolLibrary:C_0402_100n_X7R_10P__50V")
+		(lib_id "LEA_SymbolLibrary:C_0603_100n_X5R_10P__50V")
 		(at 123.19 185.42 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -20813,7 +20813,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LEA_FootprintLibrary:C_0402"
+		(property "Footprint" "LEA_FootprintLibrary:C_0603"
 			(at 123.19 175.26 0)
 			(effects
 				(font
@@ -20831,7 +20831,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Capacitor 0402"
+		(property "Description" "Capacitor 0603"
 			(at 123.19 185.42 0)
 			(effects
 				(font
@@ -20849,7 +20849,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "C1005X7R1H104K"
+		(property "manf#" "C1608X5R1H104K"
 			(at 123.19 185.42 0)
 			(effects
 				(font
@@ -20858,7 +20858,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "810-C1005X7R1H104K"
+		(property "mouser#" "810-C1608X5R1H104K"
 			(at 123.19 185.42 0)
 			(effects
 				(font
@@ -20883,10 +20883,10 @@
 		)
 	)
 	(symbol
-		(lib_id "LEA_SymbolLibrary:C_0402_100n_X7R_10P__50V")
+		(lib_id "LEA_SymbolLibrary:C_0603_100n_X5R_10P__50V")
 		(at 130.81 185.42 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -20909,7 +20909,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LEA_FootprintLibrary:C_0402"
+		(property "Footprint" "LEA_FootprintLibrary:C_0603"
 			(at 130.81 175.26 0)
 			(effects
 				(font
@@ -20927,7 +20927,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Capacitor 0402"
+		(property "Description" "Capacitor 0603"
 			(at 130.81 185.42 0)
 			(effects
 				(font
@@ -20945,7 +20945,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "C1005X7R1H104K"
+		(property "manf#" "C1608X5R1H104K"
 			(at 130.81 185.42 0)
 			(effects
 				(font
@@ -20954,7 +20954,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "810-C1005X7R1H104K"
+		(property "mouser#" "810-C1608X5R1H104K"
 			(at 130.81 185.42 0)
 			(effects
 				(font
@@ -21643,10 +21643,10 @@
 		)
 	)
 	(symbol
-		(lib_id "LEA_SymbolLibrary:C_0402_100n_X7R_10P__50V")
+		(lib_id "LEA_SymbolLibrary:C_0603_100n_X5R_10P__50V")
 		(at 105.41 163.83 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -21669,7 +21669,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LEA_FootprintLibrary:C_0402"
+		(property "Footprint" "LEA_FootprintLibrary:C_0603"
 			(at 105.41 153.67 0)
 			(effects
 				(font
@@ -21687,7 +21687,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Capacitor 0402"
+		(property "Description" "Capacitor 0603"
 			(at 105.41 163.83 0)
 			(effects
 				(font
@@ -21705,7 +21705,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "C1005X7R1H104K"
+		(property "manf#" "C1608X5R1H104K"
 			(at 105.41 163.83 0)
 			(effects
 				(font
@@ -21714,7 +21714,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "810-C1005X7R1H104K"
+		(property "mouser#" "810-C1608X5R1H104K"
 			(at 105.41 163.83 0)
 			(effects
 				(font
@@ -21739,10 +21739,10 @@
 		)
 	)
 	(symbol
-		(lib_id "LEA_SymbolLibrary:C_0402_100n_X7R_10P__50V")
+		(lib_id "LEA_SymbolLibrary:C_0603_100n_X5R_10P__50V")
 		(at 113.03 163.83 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -21765,7 +21765,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LEA_FootprintLibrary:C_0402"
+		(property "Footprint" "LEA_FootprintLibrary:C_0603"
 			(at 113.03 153.67 0)
 			(effects
 				(font
@@ -21783,7 +21783,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Capacitor 0402"
+		(property "Description" "Capacitor 0603"
 			(at 113.03 163.83 0)
 			(effects
 				(font
@@ -21801,7 +21801,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "C1005X7R1H104K"
+		(property "manf#" "C1608X5R1H104K"
 			(at 113.03 163.83 0)
 			(effects
 				(font
@@ -21810,7 +21810,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "810-C1005X7R1H104K"
+		(property "mouser#" "810-C1608X5R1H104K"
 			(at 113.03 163.83 0)
 			(effects
 				(font
@@ -22027,10 +22027,10 @@
 		)
 	)
 	(symbol
-		(lib_id "LEA_SymbolLibrary:C_0402_100n_X7R_10P__50V")
+		(lib_id "LEA_SymbolLibrary:C_0603_100n_X5R_10P__50V")
 		(at 135.89 163.83 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -22053,7 +22053,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LEA_FootprintLibrary:C_0402"
+		(property "Footprint" "LEA_FootprintLibrary:C_0603"
 			(at 135.89 153.67 0)
 			(effects
 				(font
@@ -22071,7 +22071,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Capacitor 0402"
+		(property "Description" "Capacitor 0603"
 			(at 135.89 163.83 0)
 			(effects
 				(font
@@ -22089,7 +22089,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "C1005X7R1H104K"
+		(property "manf#" "C1608X5R1H104K"
 			(at 135.89 163.83 0)
 			(effects
 				(font
@@ -22098,7 +22098,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "810-C1005X7R1H104K"
+		(property "mouser#" "810-C1608X5R1H104K"
 			(at 135.89 163.83 0)
 			(effects
 				(font

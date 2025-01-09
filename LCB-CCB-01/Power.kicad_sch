@@ -991,7 +991,7 @@
 				)
 			)
 		)
-		(symbol "LEA_SymbolLibrary:Ferrite_0805_60R_3A5_BLM21PG600SN1D"
+		(symbol "LEA_SymbolLibrary:Ferrite_0603_60R_3A5"
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016) hide)
@@ -1014,7 +1014,7 @@
 					)
 				)
 			)
-			(property "Footprint" "LEA_FootprintLibrary:L_0805"
+			(property "Footprint" "LEA_FootprintLibrary:L_0603"
 				(at 0 16.51 0)
 				(effects
 					(font
@@ -1023,7 +1023,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.mouser.de/datasheet/2/281/ENFA0005-1915781.pdf"
+			(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/emc/emc/beads/catalog/beads_commercial_power_mpz1608_en.pdf"
 				(at 0 23.0124 0)
 				(effects
 					(font
@@ -1032,7 +1032,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Ferrite Bead, 0805"
+			(property "Description" "Ferrite Bead, 0603"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1041,8 +1041,8 @@
 					(hide yes)
 				)
 			)
-			(property "manf#" "BLM21PG600SN1D"
-				(at 8.89 5.08 0)
+			(property "mouser#" "810-MPZ1608S600ATAH0"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1050,8 +1050,8 @@
 					(hide yes)
 				)
 			)
-			(property "mouser#" "81-BLM21P600S"
-				(at 13.97 0 0)
+			(property "manf#" "MPZ1608S600ATAH0"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1059,8 +1059,8 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "Murata"
-				(at 10.16 -2.54 0)
+			(property "Manufacturer" "TDK"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1068,7 +1068,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Ferrite_0805_60R_3A5_BLM21PG600SN1D_1_1"
+			(symbol "Ferrite_0603_60R_3A5_1_1"
 				(polyline
 					(pts
 						(xy 0 -1.27) (xy 0 -0.7874)
@@ -1105,7 +1105,7 @@
 						(type none)
 					)
 				)
-				(text "0805"
+				(text "0603"
 					(at 1.27 1.905 900)
 					(effects
 						(font
@@ -2857,10 +2857,10 @@
 		)
 	)
 	(symbol
-		(lib_id "LEA_SymbolLibrary:Ferrite_0805_60R_3A5_BLM21PG600SN1D")
+		(lib_id "LEA_SymbolLibrary:Ferrite_0603_60R_3A5")
 		(at 40.64 93.98 270)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -2881,7 +2881,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LEA_FootprintLibrary:L_0805"
+		(property "Footprint" "LEA_FootprintLibrary:L_0603"
 			(at 57.15 93.98 0)
 			(effects
 				(font
@@ -2890,7 +2890,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/281/ENFA0005-1915781.pdf"
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/emc/emc/beads/catalog/beads_commercial_power_mpz1608_en.pdf"
 			(at 63.6524 93.98 0)
 			(effects
 				(font
@@ -2899,7 +2899,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Ferrite Bead, 0805"
+		(property "Description" "Ferrite Bead, 0603"
 			(at 40.64 93.98 0)
 			(effects
 				(font
@@ -2908,8 +2908,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Murata"
-			(at 38.1 104.14 0)
+		(property "Manufacturer" "TDK"
+			(at 40.64 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2917,8 +2917,8 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "81-BLM21P600S"
-			(at 40.64 107.95 0)
+		(property "mouser#" "810-MPZ1608S600ATAH0"
+			(at 40.64 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2926,8 +2926,8 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "BLM21PG600SN1D"
-			(at 45.72 102.87 0)
+		(property "manf#" "MPZ1608S600ATAH0"
+			(at 40.64 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3339,10 +3339,10 @@
 		)
 	)
 	(symbol
-		(lib_id "LEA_SymbolLibrary:Ferrite_0805_60R_3A5_BLM21PG600SN1D")
+		(lib_id "LEA_SymbolLibrary:Ferrite_0603_60R_3A5")
 		(at 80.01 93.98 270)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -3363,7 +3363,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LEA_FootprintLibrary:L_0805"
+		(property "Footprint" "LEA_FootprintLibrary:L_0603"
 			(at 96.52 93.98 0)
 			(effects
 				(font
@@ -3372,7 +3372,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/281/ENFA0005-1915781.pdf"
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/emc/emc/beads/catalog/beads_commercial_power_mpz1608_en.pdf"
 			(at 103.0224 93.98 0)
 			(effects
 				(font
@@ -3381,7 +3381,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Ferrite Bead, 0805"
+		(property "Description" "Ferrite Bead, 0603"
 			(at 80.01 93.98 0)
 			(effects
 				(font
@@ -3390,8 +3390,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Murata"
-			(at 77.47 104.14 0)
+		(property "Manufacturer" "TDK"
+			(at 80.01 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3399,8 +3399,8 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "81-BLM21P600S"
-			(at 80.01 107.95 0)
+		(property "mouser#" "810-MPZ1608S600ATAH0"
+			(at 80.01 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3408,8 +3408,8 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "BLM21PG600SN1D"
-			(at 85.09 102.87 0)
+		(property "manf#" "MPZ1608S600ATAH0"
+			(at 80.01 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4274,10 +4274,10 @@
 		)
 	)
 	(symbol
-		(lib_id "LEA_SymbolLibrary:Ferrite_0805_60R_3A5_BLM21PG600SN1D")
+		(lib_id "LEA_SymbolLibrary:Ferrite_0603_60R_3A5")
 		(at 120.65 93.98 270)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -4298,7 +4298,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LEA_FootprintLibrary:L_0805"
+		(property "Footprint" "LEA_FootprintLibrary:L_0603"
 			(at 137.16 93.98 0)
 			(effects
 				(font
@@ -4307,7 +4307,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/281/ENFA0005-1915781.pdf"
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/emc/emc/beads/catalog/beads_commercial_power_mpz1608_en.pdf"
 			(at 143.6624 93.98 0)
 			(effects
 				(font
@@ -4316,7 +4316,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Ferrite Bead, 0805"
+		(property "Description" "Ferrite Bead, 0603"
 			(at 120.65 93.98 0)
 			(effects
 				(font
@@ -4325,8 +4325,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Murata"
-			(at 118.11 104.14 0)
+		(property "Manufacturer" "TDK"
+			(at 120.65 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4334,8 +4334,8 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "81-BLM21P600S"
-			(at 120.65 107.95 0)
+		(property "mouser#" "810-MPZ1608S600ATAH0"
+			(at 120.65 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4343,8 +4343,8 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "BLM21PG600SN1D"
-			(at 125.73 102.87 0)
+		(property "manf#" "MPZ1608S600ATAH0"
+			(at 120.65 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5249,10 +5249,10 @@
 		)
 	)
 	(symbol
-		(lib_id "LEA_SymbolLibrary:Ferrite_0805_60R_3A5_BLM21PG600SN1D")
+		(lib_id "LEA_SymbolLibrary:Ferrite_0603_60R_3A5")
 		(at 43.18 119.38 270)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -5273,7 +5273,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LEA_FootprintLibrary:L_0805"
+		(property "Footprint" "LEA_FootprintLibrary:L_0603"
 			(at 59.69 119.38 0)
 			(effects
 				(font
@@ -5282,7 +5282,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/281/ENFA0005-1915781.pdf"
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/emc/emc/beads/catalog/beads_commercial_power_mpz1608_en.pdf"
 			(at 66.1924 119.38 0)
 			(effects
 				(font
@@ -5291,7 +5291,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Ferrite Bead, 0805"
+		(property "Description" "Ferrite Bead, 0603"
 			(at 43.18 119.38 0)
 			(effects
 				(font
@@ -5300,8 +5300,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Murata"
-			(at 40.64 129.54 0)
+		(property "Manufacturer" "TDK"
+			(at 43.18 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5309,8 +5309,8 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "81-BLM21P600S"
-			(at 43.18 133.35 0)
+		(property "mouser#" "810-MPZ1608S600ATAH0"
+			(at 43.18 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5318,8 +5318,8 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "BLM21PG600SN1D"
-			(at 48.26 128.27 0)
+		(property "manf#" "MPZ1608S600ATAH0"
+			(at 43.18 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)

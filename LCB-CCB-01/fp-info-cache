@@ -1,4 +1,4 @@
-24626326553442760
+24629799394698184
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -64925,6 +64925,13 @@ Molex 731000207
 5
 2
 LEA_FootprintLibrary
+SO-14
+SOT108-1
+Integrated Circuit
+0
+14
+14
+LEA_FootprintLibrary
 SOD-323_Infineon
 
 
@@ -65085,6 +65092,13 @@ SOT-23-6_Microchip
 0
 6
 6
+LEA_FootprintLibrary
+SOT-23-8
+DDF0008A
+Integrated Circuit
+0
+8
+8
 LEA_FootprintLibrary
 SOT-89-3
 SOT-89-3, http://ww1.microchip.com/downloads/en/DeviceDoc/3L_SOT-89_MB_C04-029C.pdf
