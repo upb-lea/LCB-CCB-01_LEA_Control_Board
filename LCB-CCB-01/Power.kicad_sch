@@ -1237,7 +1237,7 @@
 				)
 			)
 		)
-		(symbol "LEA_SymbolLibrary:MIC5504-1.2YM5-T5"
+		(symbol "LEA_SymbolLibrary:MIC5504-1.2YM5-TR"
 			(pin_names
 				(offset 1.016)
 			)
@@ -1252,7 +1252,7 @@
 					)
 				)
 			)
-			(property "Value" "MIC5504-1.2YM5-T5"
+			(property "Value" "MIC5504-1.2YM5-TR"
 				(at 1.27 5.08 0)
 				(effects
 					(font
@@ -1269,7 +1269,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/MIC5501-02-03-04-300mA-Single-Output-LDO-in-Small-Packages-DS20006006B.pdf"
+			(property "Datasheet" "https://www.mouser.de/datasheet/2/268/MIC5501_02_03_04_300mA_Single_Output_LDO_in_Small_-3442643.pdf"
 				(at 0.0508 18.8468 0)
 				(effects
 					(font
@@ -1296,7 +1296,7 @@
 					(hide yes)
 				)
 			)
-			(property "mouser#" "998-MIC5504-1.2YM5T5"
+			(property "mouser#" "998-MIC5504-1.2YM5TR"
 				(at -1.778 -22.86 0)
 				(effects
 					(font
@@ -1305,7 +1305,7 @@
 					(hide yes)
 				)
 			)
-			(property "manf#" "MIC5504-1.2YM5-T5"
+			(property "manf#" " MIC5504-1.2YM5-TR"
 				(at 0 -24.9936 0)
 				(effects
 					(font
@@ -1314,7 +1314,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "MIC5504-1.2YM5-T5_1_1"
+			(symbol "MIC5504-1.2YM5-TR_1_1"
 				(rectangle
 					(start -7.62 3.81)
 					(end 7.62 -8.89)
@@ -2431,24 +2431,24 @@
 		(uuid "b97e02fb-fd46-443f-aad3-6400b553b19d")
 	)
 	(symbol
-		(lib_id "LEA_SymbolLibrary:MIC5504-1.2YM5-T5")
+		(lib_id "LEA_SymbolLibrary:MIC5504-1.2YM5-TR")
 		(at 214.63 86.36 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061e89350")
 		(property "Reference" "U601"
-			(at 209.55 81.28 0)
+			(at 214.884 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "MIC5504-1.2YM5-T5"
-			(at 224.79 96.52 0)
+		(property "Value" "MIC5504-1.2YM5-TR"
+			(at 214.63 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2464,8 +2464,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/MIC5501-02-03-04-300mA-Single-Output-LDO-in-Small-Packages-DS20006006B.pdf"
-			(at 214.63 92.71 0)
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/268/MIC5501_02_03_04_300mA_Single_Output_LDO_in_Small_-3442643.pdf"
+			(at 214.6808 67.5132 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2491,7 +2491,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "998-MIC5504-1.2YM5T5"
+		(property "mouser#" "998-MIC5504-1.2YM5TR"
 			(at 212.852 109.22 0)
 			(effects
 				(font
@@ -2500,7 +2500,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "MIC5504-1.2YM5-T5"
+		(property "manf#" " MIC5504-1.2YM5-TR"
 			(at 214.63 111.3536 0)
 			(effects
 				(font
@@ -2969,7 +2969,7 @@
 			)
 		)
 		(property "Value" "2u2"
-			(at 21.59 100.33 0)
+			(at 25.4 99.568 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3261,7 +3261,7 @@
 			)
 		)
 		(property "Value" "2u2"
-			(at 58.42 100.33 0)
+			(at 53.594 99.314 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3451,7 +3451,7 @@
 			)
 		)
 		(property "Value" "2u2"
-			(at 60.96 100.33 0)
+			(at 65.532 99.568 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3613,7 +3613,7 @@
 			)
 		)
 		(property "Value" "2u2"
-			(at 97.79 100.33 0)
+			(at 93.472 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -3798,7 +3798,7 @@
 				)
 			)
 		)
-		(symbol "LEA_SymbolLibrary:Ferrite_0402_600R_300mA_BLM15AG601SN1D"
+		(symbol "LEA_SymbolLibrary:Ferrite_0603_600R_300mA"
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016) hide)
@@ -3813,7 +3813,7 @@
 					)
 				)
 			)
-			(property "Value" "600R/300mA"
+			(property "Value" "Ferrite_0603"
 				(at 0 11.43 0)
 				(effects
 					(font
@@ -3821,7 +3821,7 @@
 					)
 				)
 			)
-			(property "Footprint" "LEA_FootprintLibrary:L_0402"
+			(property "Footprint" "LEA_FootprintLibrary:L_0603"
 				(at 0 16.51 0)
 				(effects
 					(font
@@ -3830,7 +3830,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.murata.com/en-eu/api/pdfdownloadapi?cate=cgsubChipFerriBead&partno=BLM15AG601SN1%23"
+			(property "Datasheet" "https://www.mouser.de/datasheet/2/643/ds_ST_FCB_0603_series-3420259.pdf"
 				(at 0 23.0124 0)
 				(effects
 					(font
@@ -3839,8 +3839,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Ferrite Bead, 0402, 600Ohm, 300mA"
-				(at 0 0 0)
+			(property "Description" "Ferrite Bead, 0603, 600Ohm, 300mA"
+				(at 0.254 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3848,8 +3848,8 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "Murata"
-				(at 0 0 0)
+			(property "Manufacturer" ""
+				(at 8.89 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3857,8 +3857,8 @@
 					(hide yes)
 				)
 			)
-			(property "mouser#" "81-BLM15AG601SN1D"
-				(at 0 0 0)
+			(property "mouser#" "530-FCB-0603-601A "
+				(at 1.27 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3866,8 +3866,8 @@
 					(hide yes)
 				)
 			)
-			(property "manf#" "BLM15AG601SN1D"
-				(at 0 0 0)
+			(property "manf#" "FCB-0603-601A "
+				(at 0.762 -10.668 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3875,7 +3875,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Ferrite_0402_600R_300mA_BLM15AG601SN1D_1_1"
+			(symbol "Ferrite_0603_600R_300mA_1_1"
 				(polyline
 					(pts
 						(xy 0 -1.27) (xy 0 -0.7874)
@@ -3912,7 +3912,7 @@
 						(type none)
 					)
 				)
-				(text "0402"
+				(text "0603"
 					(at 1.27 1.905 900)
 					(effects
 						(font
@@ -10273,15 +10273,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" "0"
-			(at 248.92 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "21c25529-23d9-48dd-b470-801777c483af")
 		)
@@ -12443,10 +12434,10 @@
 		)
 	)
 	(symbol
-		(lib_id "LEA_SymbolLibrary:Ferrite_0402_600R_300mA_BLM15AG601SN1D")
+		(lib_id "LEA_SymbolLibrary:Ferrite_0603_600R_300mA")
 		(at 85.09 73.66 270)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -12469,7 +12460,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LEA_FootprintLibrary:L_0402"
+		(property "Footprint" "LEA_FootprintLibrary:L_0603"
 			(at 101.6 73.66 0)
 			(effects
 				(font
@@ -12478,8 +12469,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.murata.com/en-eu/api/pdfdownloadapi?cate=cgsubChipFerriBead&partno=BLM15AG601SN1%23"
-			(at 105.41 73.66 0)
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/643/ds_ST_FCB_0603_series-3420259.pdf"
+			(at 108.1024 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12487,8 +12478,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Ferrite Bead, 0402, 600Ohm, 300mA"
-			(at 85.09 73.66 0)
+		(property "Description" "Ferrite Bead, 0603, 600Ohm, 300mA"
+			(at 72.39 73.914 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12505,8 +12496,8 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "81-BLM15AG601SN1D"
-			(at 93.98 74.93 0)
+		(property "mouser#" "530-FCB-0603-601A "
+			(at 69.85 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12514,8 +12505,8 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "BLM15AG601SN1D"
-			(at 107.95 73.66 0)
+		(property "manf#" "FCB-0603-601A "
+			(at 74.422 74.422 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12539,10 +12530,10 @@
 		)
 	)
 	(symbol
-		(lib_id "LEA_SymbolLibrary:Ferrite_0402_600R_300mA_BLM15AG601SN1D")
+		(lib_id "LEA_SymbolLibrary:Ferrite_0603_600R_300mA")
 		(at 85.09 68.58 270)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -12565,7 +12556,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LEA_FootprintLibrary:L_0402"
+		(property "Footprint" "LEA_FootprintLibrary:L_0603"
 			(at 101.6 68.58 0)
 			(effects
 				(font
@@ -12574,8 +12565,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.murata.com/en-eu/api/pdfdownloadapi?cate=cgsubChipFerriBead&partno=BLM15AG601SN1%23"
-			(at 105.41 68.58 0)
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/643/ds_ST_FCB_0603_series-3420259.pdf"
+			(at 108.1024 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12583,8 +12574,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Ferrite Bead, 0402, 600Ohm, 300mA"
-			(at 85.09 68.58 0)
+		(property "Description" "Ferrite Bead, 0603, 600Ohm, 300mA"
+			(at 72.39 68.834 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12601,8 +12592,8 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "81-BLM15AG601SN1D"
-			(at 93.98 69.85 0)
+		(property "mouser#" "530-FCB-0603-601A "
+			(at 69.85 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12610,8 +12601,8 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "BLM15AG601SN1D"
-			(at 107.95 68.58 0)
+		(property "manf#" "FCB-0603-601A "
+			(at 74.422 69.342 0)
 			(effects
 				(font
 					(size 1.27 1.27)
