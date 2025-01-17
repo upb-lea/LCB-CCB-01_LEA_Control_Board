@@ -1676,6 +1676,165 @@
 				)
 			)
 		)
+		(symbol "LEA_SymbolLibrary:R_0603__10R_THICK__1P__75V"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim yes)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0.762 0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "10R"
+				(at 0.762 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "LEA_FootprintLibrary:R_0603"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor 0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "manf#" "CRCW060310R0FKEAC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Vishay"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "mouser#" "71-CRCW060310R0FKEAC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0603__10R_THICK__1P__75V_0_0"
+				(text "0603"
+					(at 0 0 900)
+					(effects
+						(font
+							(size 0.8 0.8)
+						)
+					)
+				)
+			)
+			(symbol "R_0603__10R_THICK__1P__75V_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_0603__10R_THICK__1P__75V_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "LEA_SymbolLibrary:R_0603__2k2_THICK__1P__75V"
 			(pin_numbers hide)
 			(pin_names
@@ -24351,7 +24510,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LEA_SymbolLibrary:R_0603__0R0_THICK__1P__75V")
+		(lib_id "LEA_SymbolLibrary:R_0603__10R_THICK__1P__75V")
 		(at 135.89 83.82 90)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -24368,8 +24527,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0R0"
-			(at 137.922 86.36 90)
+		(property "Value" "10R"
+			(at 137.922 86.106 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24413,7 +24572,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "CRCW06030000Z0EAC"
+		(property "manf#" "CRCW060310R0FKEAC"
 			(at 135.89 83.82 0)
 			(effects
 				(font
@@ -24422,7 +24581,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "71-CRCW06030000Z0EAC"
+		(property "mouser#" "71-CRCW060310R0FKEAC"
 			(at 135.89 83.82 0)
 			(effects
 				(font

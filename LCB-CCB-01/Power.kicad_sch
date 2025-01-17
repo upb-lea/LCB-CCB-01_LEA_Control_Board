@@ -1797,6 +1797,12 @@
 		(uuid "37ad6b0d-afd0-44ec-a5d4-ca35283ba146")
 	)
 	(junction
+		(at 234.95 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "66da941a-1c23-42a9-b016-054825927424")
+	)
+	(junction
 		(at 86.36 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4754,6 +4760,71 @@
 			(project "LCB-CCB-01"
 				(path "/968a6172-7a4e-40ab-a78a-e4d03671e136/00000000-0000-0000-0000-000061e84f12"
 					(reference "#PWR0616")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LEA_SymbolLibrary:TestPoint_Probe")
+		(at 234.95 99.06 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "5d84fb04-e6d0-47da-bda2-75b6ab3f8305")
+		(property "Reference" "TP604"
+			(at 241.3 97.028 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint_Probe"
+			(at 236.601 94.996 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LEA_FootprintLibrary:TestPoint_Pad_D1.0mm"
+			(at 240.03 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 240.03 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point (alternative probe-style design)"
+			(at 234.95 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1a4b3482-7e8a-4fc3-b611-9c64eb957aeb")
+		)
+		(instances
+			(project "LCB-CCB-01"
+				(path "/968a6172-7a4e-40ab-a78a-e4d03671e136/00000000-0000-0000-0000-000061e84f12"
+					(reference "TP604")
 					(unit 1)
 				)
 			)
