@@ -3601,10 +3601,6 @@
 		(uuid "66a02fa8-50ac-42af-b7ba-cf6a2d3fc6ef")
 	)
 	(no_connect
-		(at 123.19 105.41)
-		(uuid "830f49d5-94ad-4554-b958-01faad5f194a")
-	)
-	(no_connect
 		(at 123.19 107.95)
 		(uuid "830f49d5-94ad-4554-b958-01faad5f194b")
 	)
@@ -3615,6 +3611,10 @@
 	(no_connect
 		(at 110.49 107.95)
 		(uuid "830f49d5-94ad-4554-b958-01faad5f194d")
+	)
+	(no_connect
+		(at 123.19 105.41)
+		(uuid "9fa28424-966d-436f-ae6f-3d0e8555f5e2")
 	)
 	(wire
 		(pts
@@ -3915,16 +3915,6 @@
 			(type default)
 		)
 		(uuid "1556fd88-63da-4138-8ec7-cc9a62356315")
-	)
-	(wire
-		(pts
-			(xy 121.92 105.41) (xy 123.19 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1648d7bf-0d0a-4a41-b9d5-87e93884ac92")
 	)
 	(wire
 		(pts
@@ -4755,6 +4745,16 @@
 			(type default)
 		)
 		(uuid "5ab97e01-def8-4ef8-aad0-ca3774c3d3a3")
+	)
+	(wire
+		(pts
+			(xy 121.92 105.41) (xy 123.19 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ad5bfc2-caba-4aea-8a68-7c2a027434b1")
 	)
 	(wire
 		(pts
@@ -7304,28 +7304,6 @@
 			)
 		)
 	)
-	(global_label "FreePin2"
-		(shape passive)
-		(at 58.42 85.09 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0d9212c3-3e21-49ad-8bb7-72b5da23c2a2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 69.0294 85.1694 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "ENET_MII_INTR|GPIO108"
 		(shape passive)
 		(at 45.72 146.05 180)
@@ -7969,6 +7947,28 @@
 		(uuid "25dcf1b7-43fe-4f66-9cb1-3580284f763b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 346.71 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Err_OR_output"
+		(shape output)
+		(at 58.42 85.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "27c819b2-c49a-463f-8134-e1c4406d3f94")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 74.0555 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)

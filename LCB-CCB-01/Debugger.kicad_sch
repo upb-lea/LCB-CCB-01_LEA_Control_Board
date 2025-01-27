@@ -5596,6 +5596,12 @@
 		(uuid "1b5a32e4-0b8e-4f38-b679-71dc277c2087")
 	)
 	(junction
+		(at 31.75 187.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1e24edaf-69df-4405-a022-65ceae51f984")
+	)
+	(junction
 		(at 107.95 177.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5696,6 +5702,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5eaf2edc-38cd-447c-a055-1a8069c97330")
+	)
+	(junction
+		(at 17.78 190.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6497a6a3-d8ef-40de-a761-2bf317fe2a7f")
 	)
 	(junction
 		(at 107.95 142.24)
@@ -5902,6 +5914,12 @@
 		(uuid "eb1b2aa2-a3cc-4a96-87ec-70fcae365f0f")
 	)
 	(junction
+		(at 17.78 180.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eecaa0cd-28bb-4905-b6e8-f132ba8b8e3d")
+	)
+	(junction
 		(at 100.33 177.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5948,20 +5966,8 @@
 		(uuid "2ba25c40-ea42-478e-9150-1d94fa1c8ae9")
 	)
 	(no_connect
-		(at 54.61 190.5)
-		(uuid "2d21431b-909c-4f4b-99e6-51973c7a477b")
-	)
-	(no_connect
-		(at 36.83 190.5)
-		(uuid "2d21431b-909c-4f4b-99e6-51973c7a477c")
-	)
-	(no_connect
 		(at 43.18 66.04)
 		(uuid "2f3fba7a-cf45-4bd8-9035-07e6fa0b4732")
-	)
-	(no_connect
-		(at 36.83 185.42)
-		(uuid "35835ffb-1ca7-4c88-b87a-de224f53dde2")
 	)
 	(no_connect
 		(at 170.18 81.28)
@@ -6188,6 +6194,16 @@
 			(type default)
 		)
 		(uuid "0e166909-afb5-4d70-a00b-dd78cd09b084")
+	)
+	(wire
+		(pts
+			(xy 17.78 190.5) (xy 17.78 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e5a0ee5-a313-48c5-8800-a22050283d9d")
 	)
 	(wire
 		(pts
@@ -6581,16 +6597,6 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 190.5) (xy 39.37 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32f317ae-866c-4dc3-bc2b-913cf9177316")
-	)
-	(wire
-		(pts
 			(xy 105.41 132.08) (xy 105.41 135.89)
 		)
 		(stroke
@@ -6698,16 +6704,6 @@
 			(type default)
 		)
 		(uuid "3c646c61-400f-4f60-98b8-05ed5e632a3f")
-	)
-	(wire
-		(pts
-			(xy 36.83 185.42) (xy 39.37 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d8befda-6281-4281-90ce-7c36f1735869")
 	)
 	(wire
 		(pts
@@ -6891,7 +6887,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 190.5) (xy 54.61 190.5)
+			(xy 52.07 194.31) (xy 33.02 194.31)
 		)
 		(stroke
 			(width 0)
@@ -6908,6 +6904,16 @@
 			(type default)
 		)
 		(uuid "538660c2-8d7c-41ef-a016-0d6d4151f2c3")
+	)
+	(wire
+		(pts
+			(xy 33.02 190.5) (xy 39.37 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53e7929e-bf98-4a4f-8fbc-ccb6ba1621ca")
 	)
 	(wire
 		(pts
@@ -6948,6 +6954,16 @@
 			(type default)
 		)
 		(uuid "566653c3-8e65-4de9-8964-65d41f87dbb4")
+	)
+	(wire
+		(pts
+			(xy 38.1 185.42) (xy 39.37 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "567ba6cf-fc81-4476-9b75-656ea497f5d3")
 	)
 	(wire
 		(pts
@@ -7011,6 +7027,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 185.42) (xy 31.75 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a766cec-a84e-4305-8382-8a1b7415048a")
+	)
+	(wire
+		(pts
 			(xy 248.92 77.47) (xy 262.89 77.47)
 		)
 		(stroke
@@ -7048,6 +7074,16 @@
 			(type default)
 		)
 		(uuid "5e6153e6-2c19-46de-9a8e-b310a2a07861")
+	)
+	(wire
+		(pts
+			(xy 31.75 185.42) (xy 33.02 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fa271d7-aee9-4f26-8954-950e9c49aadf")
 	)
 	(wire
 		(pts
@@ -7128,6 +7164,16 @@
 			(type default)
 		)
 		(uuid "692d87e9-6b70-46cc-9c78-b75193a484cc")
+	)
+	(wire
+		(pts
+			(xy 29.21 187.96) (xy 31.75 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a646a9a-cf80-4e8c-926a-3d2a04281787")
 	)
 	(wire
 		(pts
@@ -7501,6 +7547,16 @@
 	)
 	(wire
 		(pts
+			(xy 17.78 190.5) (xy 27.94 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b30fcef-d903-411e-85b9-48fd06986a00")
+	)
+	(wire
+		(pts
 			(xy 96.52 82.55) (xy 96.52 86.36)
 		)
 		(stroke
@@ -7658,6 +7714,16 @@
 			(type default)
 		)
 		(uuid "9de304ba-fba7-4896-b969-9d87a3522d74")
+	)
+	(wire
+		(pts
+			(xy 31.75 187.96) (xy 39.37 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f3a7a3b-4663-47be-a46b-4c6bca998606")
 	)
 	(wire
 		(pts
@@ -7868,6 +7934,16 @@
 			(type default)
 		)
 		(uuid "abcb11f4-6b3c-4510-b4a8-cf3635bc2412")
+	)
+	(wire
+		(pts
+			(xy 27.94 194.31) (xy 17.78 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac767a76-acda-48b3-848d-73a7a0b8b9e9")
 	)
 	(wire
 		(pts
@@ -8371,6 +8447,16 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 194.31) (xy 52.07 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3a07396-4985-4c30-bb6b-046e3234350f")
+	)
+	(wire
+		(pts
 			(xy 87.63 68.58) (xy 104.14 68.58)
 		)
 		(stroke
@@ -8418,6 +8504,16 @@
 			(type default)
 		)
 		(uuid "e7e895e8-ded5-40bc-92a0-cd1456a55b26")
+	)
+	(wire
+		(pts
+			(xy 17.78 194.31) (xy 17.78 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e87c0a73-3b43-421f-bfa3-1cfd2750dcaa")
 	)
 	(wire
 		(pts
@@ -8548,16 +8644,6 @@
 			(type default)
 		)
 		(uuid "f41a256f-006f-4815-a4b6-4de99aacb384")
-	)
-	(wire
-		(pts
-			(xy 36.83 187.96) (xy 39.37 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4307f20-5c50-4ef2-b321-8769cc7ca122")
 	)
 	(wire
 		(pts
@@ -8698,6 +8784,26 @@
 			(type default)
 		)
 		(uuid "ffd45231-4cbe-4266-adfa-637d2a27465d")
+	)
+	(text_box "KEY"
+		(exclude_from_sim no)
+		(at 55.88 179.07 0)
+		(size 5.08 2.54)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 0 0 0.1)
+		)
+		(effects
+			(font
+				(size 1.5 1.5)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "8d91ee09-700b-4dd1-af6e-a5da14436a03")
 	)
 	(text "Power Status LED"
 		(exclude_from_sim no)
@@ -8841,7 +8947,7 @@
 		(uuid "0959e492-72e4-47b0-b76f-965a3f2a72f8")
 	)
 	(label "TCK_LV"
-		(at 36.83 187.96 180)
+		(at 29.21 187.96 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13523,100 +13629,6 @@
 		)
 	)
 	(symbol
-		(lib_id "LEA_SymbolLibrary:R_0603__0R0_THICK__1P__75V")
-		(at 45.72 143.51 90)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "377c16df-37a7-4265-a7d8-a576fc73aa73")
-		(property "Reference" "R218"
-			(at 45.72 140.97 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0R0"
-			(at 45.72 146.05 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LEA_FootprintLibrary:R_0603"
-			(at 35.56 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 45.72 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor 0603"
-			(at 45.72 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Vishay"
-			(at 45.72 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manf#" "CRCW06030000Z0EAC"
-			(at 45.72 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser#" "71-CRCW06030000Z0EAC"
-			(at 45.72 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e4229c8f-a1f0-4aea-aff3-88c682b8008a")
-		)
-		(pin "2"
-			(uuid "4e698c98-4951-4735-94e2-e2122b2f5728")
-		)
-		(instances
-			(project "LCB-CCB-01"
-				(path "/968a6172-7a4e-40ab-a78a-e4d03671e136/00000000-0000-0000-0000-000061af4b2b"
-					(reference "R218")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "LEA_SymbolLibrary:C_0603_100n_X5R_10P__50V")
 		(at 147.32 184.15 0)
 		(unit 1)
@@ -13891,7 +13903,7 @@
 			)
 		)
 		(property "Value" "CLM-107-02-L-D-K-TR"
-			(at 45.72 193.04 0)
+			(at 45.72 169.672 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14005,15 +14017,15 @@
 	)
 	(symbol
 		(lib_id "LEA_SymbolLibrary:R_0603__0R0_THICK__1P__75V")
-		(at 45.72 125.73 90)
+		(at 35.56 185.42 90)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "4af14907-dbca-44c1-8c7e-ab5b79a893cd")
-		(property "Reference" "R215"
-			(at 45.72 123.19 90)
+		(uuid "4ad66098-1473-4103-a166-70690bf4a083")
+		(property "Reference" "R222"
+			(at 26.416 184.404 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14021,7 +14033,7 @@
 			)
 		)
 		(property "Value" "0R0"
-			(at 45.72 128.27 90)
+			(at 31.242 184.404 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14029,7 +14041,7 @@
 			)
 		)
 		(property "Footprint" "LEA_FootprintLibrary:R_0603"
-			(at 35.56 125.73 0)
+			(at 25.4 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14038,7 +14050,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 125.73 0)
+			(at 35.56 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14047,7 +14059,7 @@
 			)
 		)
 		(property "Description" "Resistor 0603"
-			(at 45.72 125.73 0)
+			(at 35.56 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14056,7 +14068,7 @@
 			)
 		)
 		(property "Manufacturer" "Vishay"
-			(at 45.72 125.73 0)
+			(at 35.56 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14065,7 +14077,7 @@
 			)
 		)
 		(property "manf#" "CRCW06030000Z0EAC"
-			(at 45.72 125.73 0)
+			(at 35.56 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14074,7 +14086,7 @@
 			)
 		)
 		(property "mouser#" "71-CRCW06030000Z0EAC"
-			(at 45.72 125.73 0)
+			(at 35.56 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14083,15 +14095,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "6f4b8cc8-d074-419d-84da-024a34781ce5")
+			(uuid "66a3bdb7-4ded-450e-8ebd-3bedd4792ecb")
 		)
 		(pin "2"
-			(uuid "92ff6b85-79a9-46bd-8205-7e48f15b764f")
+			(uuid "8b38b4ef-2c1f-4e48-b28f-fb65ec0a2cac")
 		)
 		(instances
 			(project "LCB-CCB-01"
 				(path "/968a6172-7a4e-40ab-a78a-e4d03671e136/00000000-0000-0000-0000-000061af4b2b"
-					(reference "R215")
+					(reference "R222")
 					(unit 1)
 				)
 			)
@@ -14186,100 +14198,6 @@
 			(project "LCB-CCB-01"
 				(path "/968a6172-7a4e-40ab-a78a-e4d03671e136/00000000-0000-0000-0000-000061af4b2b"
 					(reference "R206")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LEA_SymbolLibrary:R_0603__0R0_THICK__1P__75V")
-		(at 45.72 134.62 90)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "55f481a6-dfb3-411c-9e23-c82760267bdc")
-		(property "Reference" "R216"
-			(at 45.72 132.08 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0R0"
-			(at 45.72 137.16 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LEA_FootprintLibrary:R_0603"
-			(at 35.56 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 45.72 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor 0603"
-			(at 45.72 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Vishay"
-			(at 45.72 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manf#" "CRCW06030000Z0EAC"
-			(at 45.72 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser#" "71-CRCW06030000Z0EAC"
-			(at 45.72 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "14303dd8-706c-4d19-8320-8c0f51f93e45")
-		)
-		(pin "2"
-			(uuid "4f3c5a31-6551-4bbc-82d0-434a619b8b04")
-		)
-		(instances
-			(project "LCB-CCB-01"
-				(path "/968a6172-7a4e-40ab-a78a-e4d03671e136/00000000-0000-0000-0000-000061af4b2b"
-					(reference "R216")
 					(unit 1)
 				)
 			)
@@ -15150,100 +15068,6 @@
 		)
 	)
 	(symbol
-		(lib_id "LEA_SymbolLibrary:R_0603__0R0_THICK__1P__75V")
-		(at 45.72 116.84 90)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "87e7cbb9-a681-4fdf-b865-dc9bcd0f7456")
-		(property "Reference" "R212"
-			(at 45.72 114.3 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0R0"
-			(at 45.72 119.38 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LEA_FootprintLibrary:R_0603"
-			(at 35.56 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 45.72 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor 0603"
-			(at 45.72 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Vishay"
-			(at 45.72 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manf#" "CRCW06030000Z0EAC"
-			(at 45.72 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser#" "71-CRCW06030000Z0EAC"
-			(at 45.72 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d78ef561-a016-4fd1-a511-cf91298ae413")
-		)
-		(pin "2"
-			(uuid "8c2813cb-0eca-4f06-9383-e705372b9b58")
-		)
-		(instances
-			(project "LCB-CCB-01"
-				(path "/968a6172-7a4e-40ab-a78a-e4d03671e136/00000000-0000-0000-0000-000061af4b2b"
-					(reference "R212")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "LEA_SymbolLibrary:C_0603__4u7_X5R_10P__35V")
 		(at 132.08 184.15 0)
 		(unit 1)
@@ -15467,6 +15291,101 @@
 		)
 	)
 	(symbol
+		(lib_id "LEA_SymbolLibrary:R_0603__4k7_THICK__1P__75V")
+		(at 30.48 190.5 270)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9b028495-ba6e-4703-95b7-3e3d26b7cfe2")
+		(property "Reference" "R220"
+			(at 25.908 191.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4k7"
+			(at 32.766 191.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LEA_FootprintLibrary:R_0603"
+			(at 40.64 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor 0603"
+			(at 30.48 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay"
+			(at 30.48 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "CRCW06034K70FKEBC"
+			(at 30.48 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "71-CRCW06034K70FKEBC"
+			(at 30.48 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6b0f3eec-7188-48f6-81e6-a722fa6b6c74")
+		)
+		(pin "2"
+			(uuid "2af8fe06-53e5-4ce4-9dac-5989ba9d0d3d")
+		)
+		(instances
+			(project "LCB-CCB-01"
+				(path "/968a6172-7a4e-40ab-a78a-e4d03671e136/00000000-0000-0000-0000-000061af4b2b"
+					(reference "R220")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LEA_SymbolLibrary:C_0603_100n_X5R_10P__50V")
 		(at 92.71 184.15 0)
 		(unit 1)
@@ -15557,100 +15476,6 @@
 			(project "LCB-CCB-01"
 				(path "/968a6172-7a4e-40ab-a78a-e4d03671e136/00000000-0000-0000-0000-000061af4b2b"
 					(reference "C212")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LEA_SymbolLibrary:R_0603__0R0_THICK__1P__75V")
-		(at 45.72 152.4 90)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c5906f06-3983-426c-b768-fe0b53ef2069")
-		(property "Reference" "R219"
-			(at 45.72 149.86 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0R0"
-			(at 45.72 154.94 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LEA_FootprintLibrary:R_0603"
-			(at 35.56 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 45.72 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor 0603"
-			(at 45.72 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Vishay"
-			(at 45.72 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manf#" "CRCW06030000Z0EAC"
-			(at 45.72 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser#" "71-CRCW06030000Z0EAC"
-			(at 45.72 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0543e9fb-fd9f-4663-9562-9589c98aa1a4")
-		)
-		(pin "2"
-			(uuid "6fe5f251-d125-403e-ab6b-dbe26cac51a9")
-		)
-		(instances
-			(project "LCB-CCB-01"
-				(path "/968a6172-7a4e-40ab-a78a-e4d03671e136/00000000-0000-0000-0000-000061af4b2b"
-					(reference "R219")
 					(unit 1)
 				)
 			)
@@ -16295,6 +16120,102 @@
 			(project "LCB-CCB-01"
 				(path "/968a6172-7a4e-40ab-a78a-e4d03671e136/00000000-0000-0000-0000-000061af4b2b"
 					(reference "C211")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LEA_SymbolLibrary:R_0603__4k7_THICK__1P__75V")
+		(at 30.48 194.31 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e7c891de-0d11-4085-9eb2-f478d57cfc1c")
+		(property "Reference" "R221"
+			(at 25.908 195.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4k7"
+			(at 36.322 195.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LEA_FootprintLibrary:R_0603"
+			(at 20.32 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor 0603"
+			(at 30.48 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay"
+			(at 30.48 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "CRCW06034K70FKEBC"
+			(at 30.48 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "71-CRCW06034K70FKEBC"
+			(at 30.48 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "263ffeb9-cc9f-4524-b102-faf37ad01272")
+		)
+		(pin "2"
+			(uuid "8ef8c1c7-38e6-447f-a4a6-f4c8a49066fe")
+		)
+		(instances
+			(project "LCB-CCB-01"
+				(path "/968a6172-7a4e-40ab-a78a-e4d03671e136/00000000-0000-0000-0000-000061af4b2b"
+					(reference "R221")
 					(unit 1)
 				)
 			)

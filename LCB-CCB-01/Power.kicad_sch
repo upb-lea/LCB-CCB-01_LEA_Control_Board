@@ -1305,7 +1305,7 @@
 					(hide yes)
 				)
 			)
-			(property "manf#" " MIC5504-1.2YM5-TR"
+			(property "manf#" "MIC5504-1.2YM5-TR"
 				(at 0 -24.9936 0)
 				(effects
 					(font
@@ -2506,7 +2506,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" " MIC5504-1.2YM5-TR"
+		(property "manf#" "MIC5504-1.2YM5-TR"
 			(at 214.63 111.3536 0)
 			(effects
 				(font

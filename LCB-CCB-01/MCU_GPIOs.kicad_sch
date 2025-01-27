@@ -26,7 +26,7 @@
 					)
 				)
 			)
-			(property "Value" "TMS320F2838xDZWT"
+			(property "Value" "TMS320F28388D"
 				(at -38.1 -39.37 0)
 				(effects
 					(font
@@ -43,7 +43,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tms320f28386d.pdf?ts=1639959530674&ref_url=https%253A%252F%252Fwww.ti.com%252Fsitesearch%252Fdocs%252Funiversalsearch.tsp%253FlangPref%253Den-US%2526searchTerm%253DF28386DZWTS%2526nr%253D13"
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tms320f28388d.pdf?ts=1737445638002&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTMS320F28388D%253Futm_source%253Dgoogle%2526utm_medium%253Dcpc%2526utm_campaign%253Depd-c2x-null-44700045336317470_prodfolderdynamic-cpc-pf-google-eu_en_int%2526utm_content%253Dprodfolddynamic%2526ds_k%253DDYNAMIC+SEARCH+ADS%2526DCM%253Dyes%2526gad_source%253D1%2526gclid%253DCj0KCQiAhbi8BhDIARIsAJLOluf-BRnn9_BCuTOW0jeRTzfLLcogZmJHk1Dk0SmSWdGUQogYczd8M8MaAoO-EALw_wcB%2526gclsrc%253Daw.ds"
 				(at 0.0508 46.99 0)
 				(effects
 					(font
@@ -52,7 +52,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "TMS320F2838x Real-Time Microcontrollers With Connectivity Manager"
+			(property "Description" "MCU C2000 32-bit, Dual-core C28x architecture"
 				(at 0 0 0)
 				(effects
 					(font
@@ -70,7 +70,7 @@
 					(hide yes)
 				)
 			)
-			(property "manf#" "F28386DZWTS"
+			(property "manf#" "F28388DZWTSR"
 				(at 0 0 0)
 				(effects
 					(font
@@ -79,7 +79,7 @@
 					(hide yes)
 				)
 			)
-			(property "mouser#" "595-F28386DZWTS"
+			(property "mouser#" "595-F28388DZWTSR"
 				(at 0 0 0)
 				(effects
 					(font
@@ -11544,7 +11544,7 @@
 				)
 			)
 		)
-		(property "Value" "TMS320F2838xDZWT"
+		(property "Value" "TMS320F28388D"
 			(at 68.58 191.77 0)
 			(effects
 				(font
@@ -11561,7 +11561,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tms320f28386d.pdf?ts=1639959530674&ref_url=https%253A%252F%252Fwww.ti.com%252Fsitesearch%252Fdocs%252Funiversalsearch.tsp%253FlangPref%253Den-US%2526searchTerm%253DF28386DZWTS%2526nr%253D13"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tms320f28388d.pdf?ts=1737445638002&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTMS320F28388D%253Futm_source%253Dgoogle%2526utm_medium%253Dcpc%2526utm_campaign%253Depd-c2x-null-44700045336317470_prodfolderdynamic-cpc-pf-google-eu_en_int%2526utm_content%253Dprodfolddynamic%2526ds_k%253DDYNAMIC+SEARCH+ADS%2526DCM%253Dyes%2526gad_source%253D1%2526gclid%253DCj0KCQiAhbi8BhDIARIsAJLOluf-BRnn9_BCuTOW0jeRTzfLLcogZmJHk1Dk0SmSWdGUQogYczd8M8MaAoO-EALw_wcB%2526gclsrc%253Daw.ds"
 			(at 52.07 41.91 0)
 			(effects
 				(font
@@ -11570,7 +11570,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "TMS320F2838x Real-Time Microcontrollers With Connectivity Manager"
+		(property "Description" "MCU C2000 32-bit, Dual-core C28x architecture"
 			(at 68.58 55.88 0)
 			(effects
 				(font
@@ -11588,7 +11588,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "F28386DZWTS"
+		(property "manf#" "F28388DZWTSR"
 			(at 68.58 55.88 0)
 			(effects
 				(font
@@ -11597,7 +11597,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "595-F28386DZWTS"
+		(property "mouser#" "595-F28388DZWTSR"
 			(at 68.58 55.88 0)
 			(effects
 				(font
@@ -12643,7 +12643,7 @@
 				)
 			)
 		)
-		(property "Value" "TMS320F2838xDZWT"
+		(property "Value" "TMS320F28388D"
 			(at 223.52 130.81 0)
 			(effects
 				(font
@@ -12660,7 +12660,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tms320f28386d.pdf?ts=1639959530674&ref_url=https%253A%252F%252Fwww.ti.com%252Fsitesearch%252Fdocs%252Funiversalsearch.tsp%253FlangPref%253Den-US%2526searchTerm%253DF28386DZWTS%2526nr%253D13"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tms320f28388d.pdf?ts=1737445638002&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTMS320F28388D%253Futm_source%253Dgoogle%2526utm_medium%253Dcpc%2526utm_campaign%253Depd-c2x-null-44700045336317470_prodfolderdynamic-cpc-pf-google-eu_en_int%2526utm_content%253Dprodfolddynamic%2526ds_k%253DDYNAMIC+SEARCH+ADS%2526DCM%253Dyes%2526gad_source%253D1%2526gclid%253DCj0KCQiAhbi8BhDIARIsAJLOluf-BRnn9_BCuTOW0jeRTzfLLcogZmJHk1Dk0SmSWdGUQogYczd8M8MaAoO-EALw_wcB%2526gclsrc%253Daw.ds"
 			(at 207.01 77.47 0)
 			(effects
 				(font
@@ -12669,7 +12669,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "TMS320F2838x Real-Time Microcontrollers With Connectivity Manager"
+		(property "Description" "MCU C2000 32-bit, Dual-core C28x architecture"
 			(at 223.52 91.44 0)
 			(effects
 				(font
@@ -12687,7 +12687,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "F28386DZWTS"
+		(property "manf#" "F28388DZWTSR"
 			(at 223.52 91.44 0)
 			(effects
 				(font
@@ -12696,7 +12696,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "595-F28386DZWTS"
+		(property "mouser#" "595-F28388DZWTSR"
 			(at 223.52 91.44 0)
 			(effects
 				(font
