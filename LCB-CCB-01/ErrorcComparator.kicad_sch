@@ -4348,7 +4348,7 @@
 		)
 		(uuid "fbd31412-a6f5-4b93-b0d1-7fe8fd719acc")
 	)
-	(text "Error1 - B2B3P"
+	(text "Error1 - A2"
 		(exclude_from_sim no)
 		(at 96.52 21.59 0)
 		(effects
@@ -4371,7 +4371,7 @@
 		)
 		(uuid "321c34d5-5d62-411e-b680-ace57c9c0f0b")
 	)
-	(text "Error3 - A2A3"
+	(text "Error3 - B2"
 		(exclude_from_sim no)
 		(at 196.85 21.59 0)
 		(effects
@@ -4407,7 +4407,7 @@
 		)
 		(uuid "6ad3533b-dd58-41f4-96b4-c0ad80244980")
 	)
-	(text "Error2 - D0D1"
+	(text "Error2 - C4"
 		(exclude_from_sim no)
 		(at 87.884 85.598 0)
 		(effects
@@ -4419,7 +4419,7 @@
 		)
 		(uuid "9a1f241a-3cb9-4268-9577-4e53b0816f12")
 	)
-	(text "Error4 - C4C5"
+	(text "Error4 - D0"
 		(exclude_from_sim no)
 		(at 194.31 85.598 0)
 		(effects
@@ -4463,6 +4463,17 @@
 			(justify left bottom)
 		)
 		(uuid "118273d9-8386-4602-9745-b25eca2700ca")
+	)
+	(label "GPIO99_Err3"
+		(at 76.2 173.99 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1214d21c-13fc-4b72-bdd4-fba57d9d4e97")
 	)
 	(label "OPA2IN+"
 		(at 49.53 113.03 0)
@@ -4509,6 +4520,17 @@
 		(uuid "411cc690-740c-4498-bd11-e8b0972261ba")
 	)
 	(label "2Y"
+		(at 76.2 176.53 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "54d408c8-8193-4acb-b8d1-a85784ef099f")
+	)
+	(label "2Y"
 		(at 107.95 172.72 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4541,17 +4563,6 @@
 		)
 		(uuid "7d409e3d-8cea-457d-9fe5-8a882032fb61")
 	)
-	(label "GPIO96_Err4"
-		(at 76.2 173.99 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "81c00fbc-5152-4370-bdfd-f464668eaab3")
-	)
 	(label "OPA4IN+"
 		(at 156.21 113.03 0)
 		(fields_autoplaced yes)
@@ -4573,6 +4584,17 @@
 			(justify left bottom)
 		)
 		(uuid "9ff28bd5-e548-405b-beae-c9256491c550")
+	)
+	(label "GPIO96_Err4"
+		(at 76.2 171.45 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a70da2f2-e0b0-48f1-9224-3ff712c2f184")
 	)
 	(label "OPA1IN+"
 		(at 50.8 49.53 0)
@@ -4640,17 +4662,6 @@
 		)
 		(uuid "b943e748-9d26-4979-932d-9ff0a39eb4c2")
 	)
-	(label "GPIO99_Err3"
-		(at 76.2 171.45 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ba8fd277-1c01-47d0-9966-debf9c7c718c")
-	)
 	(label "GPIO95_Err2"
 		(at 100.33 109.22 90)
 		(fields_autoplaced yes)
@@ -4663,17 +4674,6 @@
 		(uuid "bf9bbbb2-a1db-4d53-a2a8-6e4804bc7ca1")
 	)
 	(label "1Y"
-		(at 76.2 176.53 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ccb35a97-145e-4a95-bc1b-74a1789f9da7")
-	)
-	(label "2Y"
 		(at 76.2 179.07 180)
 		(fields_autoplaced yes)
 		(effects
@@ -4682,7 +4682,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "e3e4ca5b-e130-4ed0-9b93-4809b6ad67a8")
+		(uuid "d43c014a-6944-43f5-a65c-688e34ead434")
 	)
 	(label "GPIO95_Err2"
 		(at 76.2 168.91 180)
@@ -4783,7 +4783,7 @@
 			)
 		)
 	)
-	(global_label "ADC_D0_P"
+	(global_label "ADC_C4_P"
 		(shape input)
 		(at 26.67 101.6 180)
 		(fields_autoplaced yes)
@@ -4793,31 +4793,9 @@
 			)
 			(justify right)
 		)
-		(uuid "2f09bc7e-8107-48f4-b87a-1ec8f56c25fd")
+		(uuid "27ce0c65-a49d-428e-9a28-2c9d6ba88bc5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 12.5529 101.5206 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "ADC_A2_P"
-		(shape input)
-		(at 133.35 38.1 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "33c751bc-53c3-4455-a114-79e9beea8783")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 119.5958 38.0206 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4867,6 +4845,50 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ADC_D0_P"
+		(shape input)
+		(at 133.35 101.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "693e3076-3c16-4b23-98c3-63fe3fe866c8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 119.2329 101.5206 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ADC_A2_P"
+		(shape input)
+		(at 27.94 38.1 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "75a05cee-bfe6-432d-b83f-10764a4ab522")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 14.1858 38.0206 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -4933,6 +4955,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ADC_B2_P"
+		(shape input)
+		(at 133.35 38.1 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ab6c47e2-85bc-462b-96ac-b3ab454f01ce")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 119.2329 38.0206 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -5021,50 +5065,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "ADC_B2_P"
-		(shape input)
-		(at 27.94 38.1 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "fcfd8b64-d9f6-417b-9771-dbf8916f2afc")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 13.8229 38.0206 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "ADC_C4_P"
-		(shape input)
-		(at 133.35 101.6 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ff1c92dd-7724-4487-ae92-b82419594bb3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 119.2329 101.5206 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
