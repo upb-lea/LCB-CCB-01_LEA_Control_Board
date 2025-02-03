@@ -1,4 +1,4 @@
-24629799394698184
+24636750809231918
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -64561,6 +64561,13 @@ ERM5-075-05.0-L-DV
 150
 150
 LEA_FootprintLibrary
+FTR-110-03-G-D-06
+
+
+0
+19
+19
+LEA_FootprintLibrary
 Fiducials_large
 
 
@@ -64756,6 +64763,13 @@ MSOP8_ROHM
 0
 8
 8
+LEA_FootprintLibrary
+MSOP10_AnalogDevices
+RM-10(MSOP)
+Integrated Circuit
+0
+10
+10
 LEA_FootprintLibrary
 MountingHole_M3
 
@@ -65247,6 +65261,13 @@ TSOT-23-6_TI
 6
 6
 LEA_FootprintLibrary
+TSSOP-14-Nexperia
+TSSOP-14-Nexperia
+Integrated Circuit
+0
+14
+14
+LEA_FootprintLibrary
 TSSOP-14_TI
 TSSOP-14 from Texas Instruments
 
@@ -65309,6 +65330,13 @@ USB_C_Molex_217179-0001
 0
 16
 13
+LEA_FootprintLibrary
+VSSOP-8-TI
+VSSOP-8
+Integrated Circuit
+0
+8
+8
 LEA_FootprintLibrary
 VXO780121000
 VXO78012-1000
