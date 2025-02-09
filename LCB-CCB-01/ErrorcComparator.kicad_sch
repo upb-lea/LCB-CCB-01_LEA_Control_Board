@@ -1011,6 +1011,170 @@
 				)
 			)
 		)
+		(symbol "LEA_SymbolLibrary:D_SOD_150mA_BAS316_R1_00001"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim yes)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "150mA"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "LEA_FootprintLibrary:SOD-323_Panjit"
+				(at 2.54 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.mouser.de/datasheet/2/1057/BAS316-1876387.pdf"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Diodes - General Purpose, Power, Switching SURFACE MOUNT SWITCHING DIODE"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Panjit"
+				(at 25.4 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "mouser#" "241-BAS316_R1_00001"
+				(at 0 -7.112 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "manf#" "BAS316_R1_00001"
+				(at 25.4 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_SOD_150mA_BAS316_R1_00001_1_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.1684) (xy -1.27 -1.3716) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "LEA_SymbolLibrary:GND_HV"
 			(power)
 			(pin_numbers hide)
@@ -2475,6 +2639,12 @@
 		(uuid "08aec9d7-c393-4311-b0ee-490135d777b6")
 	)
 	(junction
+		(at 115.57 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0fa943b7-a122-4377-840a-cf40479b7eb2")
+	)
+	(junction
 		(at 180.34 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2740,6 +2910,16 @@
 	)
 	(wire
 		(pts
+			(xy 242.57 118.11) (xy 251.46 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08feb396-c9d8-4583-93f8-c6d00506d604")
+	)
+	(wire
+		(pts
 			(xy 74.93 40.64) (xy 74.93 49.53)
 		)
 		(stroke
@@ -2790,7 +2970,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 113.03) (xy 57.15 113.03)
+			(xy 49.53 113.03) (xy 58.42 113.03)
 		)
 		(stroke
 			(width 0)
@@ -2827,16 +3007,6 @@
 			(type default)
 		)
 		(uuid "16beac91-e784-4a13-85af-8bde8104ab43")
-	)
-	(wire
-		(pts
-			(xy 125.73 157.48) (xy 92.71 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "199a7191-2304-4750-83cd-7f8b91e5c52a")
 	)
 	(wire
 		(pts
@@ -3290,6 +3460,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 157.48) (xy 92.71 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5321425f-4b76-49cb-9871-c02d725aa656")
+	)
+	(wire
+		(pts
 			(xy 36.83 38.1) (xy 55.88 38.1)
 		)
 		(stroke
@@ -3327,16 +3507,6 @@
 			(type default)
 		)
 		(uuid "59a989f4-f9a1-41d6-868a-c7e91ffdfb04")
-	)
-	(wire
-		(pts
-			(xy 49.53 106.68) (xy 49.53 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a806d8b-fc74-4322-9f76-0c28d6091077")
 	)
 	(wire
 		(pts
@@ -3447,16 +3617,6 @@
 			(type default)
 		)
 		(uuid "6d0747a0-5931-47a9-be16-f110764121ed")
-	)
-	(wire
-		(pts
-			(xy 168.91 113.03) (xy 172.72 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e771095-a5eb-4e6e-bf78-d4297b937e29")
 	)
 	(wire
 		(pts
@@ -3640,23 +3800,13 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 49.53) (xy 172.72 49.53)
+			(xy 242.57 148.59) (xy 251.46 148.59)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "92a4394f-d3eb-403e-8e59-85d0e48c2fb1")
-	)
-	(wire
-		(pts
-			(xy 63.5 49.53) (xy 67.31 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "939f2742-1237-4c7a-b0ae-19d9f9265cd7")
+		(uuid "919e9401-08fa-48f4-9cf3-bda9fe98aa65")
 	)
 	(wire
 		(pts
@@ -3717,6 +3867,16 @@
 			(type default)
 		)
 		(uuid "980f47e6-efdd-4ed8-ba4b-fb0de210040a")
+	)
+	(wire
+		(pts
+			(xy 49.53 106.68) (xy 49.53 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98d5bc9c-1a3f-4c2e-9175-fbdae3aad7de")
 	)
 	(wire
 		(pts
@@ -3830,16 +3990,6 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 113.03) (xy 66.04 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad1685fb-bfbb-4b99-b6b9-4856f9c465dc")
-	)
-	(wire
-		(pts
 			(xy 204.47 45.72) (xy 208.28 45.72)
 		)
 		(stroke
@@ -3880,7 +4030,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 113.03) (xy 163.83 113.03)
+			(xy 156.21 113.03) (xy 165.1 113.03)
 		)
 		(stroke
 			(width 0)
@@ -3980,7 +4130,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 49.53) (xy 163.83 49.53)
+			(xy 156.21 49.53) (xy 165.1 49.53)
 		)
 		(stroke
 			(width 0)
@@ -4280,7 +4430,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 49.53) (xy 58.42 49.53)
+			(xy 50.8 49.53) (xy 59.69 49.53)
 		)
 		(stroke
 			(width 0)
@@ -4347,6 +4497,16 @@
 			(type default)
 		)
 		(uuid "fbd31412-a6f5-4b93-b0d1-7fe8fd719acc")
+	)
+	(wire
+		(pts
+			(xy 115.57 157.48) (xy 125.73 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff4ff8f0-0f4a-40ca-99a6-a11a692d0589")
 	)
 	(text "Error1 - A2"
 		(exclude_from_sim no)
@@ -5460,100 +5620,6 @@
 		)
 	)
 	(symbol
-		(lib_id "LEA_SymbolLibrary:C_0603_100n_X5R_10P__50V")
-		(at 59.69 113.03 270)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "12cf61a1-27f0-47cd-873e-ac5dc2c6f63c")
-		(property "Reference" "C809"
-			(at 59.69 110.49 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100n"
-			(at 59.69 115.57 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LEA_FootprintLibrary:C_0603"
-			(at 69.85 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 59.69 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Capacitor 0603"
-			(at 59.69 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "TDK"
-			(at 59.69 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manf#" "C1608X5R1H104K"
-			(at 59.69 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser#" "810-C1608X5R1H104K"
-			(at 59.69 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "22a292cd-5e14-4ca8-9374-f0179ac8f0d5")
-		)
-		(pin "2"
-			(uuid "2781c2e5-a8db-4480-a7cd-e9e434bda751")
-		)
-		(instances
-			(project "LCB-CCB-01"
-				(path "/968a6172-7a4e-40ab-a78a-e4d03671e136/95bbcc65-aaf6-4934-b29a-07e56c337823"
-					(reference "C809")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "LEA_SymbolLibrary:R_0603__10k_THICK__1P__75V")
 		(at 156.21 118.11 180)
 		(unit 1)
@@ -5936,6 +6002,72 @@
 			(project "LCB-CCB-01"
 				(path "/968a6172-7a4e-40ab-a78a-e4d03671e136/95bbcc65-aaf6-4934-b29a-07e56c337823"
 					(reference "C816")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 242.57 148.59 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1f7b0844-83eb-4a4d-8180-43580db62d0a")
+		(property "Reference" "#FLG0909"
+			(at 240.665 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 239.268 148.336 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 242.57 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 242.57 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 242.57 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0ea4c320-90fe-4c0d-95fd-b05115400c52")
+		)
+		(instances
+			(project "LCB-CCB-01"
+				(path "/968a6172-7a4e-40ab-a78a-e4d03671e136/95bbcc65-aaf6-4934-b29a-07e56c337823"
+					(reference "#FLG0909")
 					(unit 1)
 				)
 			)
@@ -6620,13 +6752,108 @@
 		)
 	)
 	(symbol
+		(lib_id "LEA_SymbolLibrary:D_SOD_150mA_BAS316_R1_00001")
+		(at 168.91 113.03 180)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3d55f17c-0873-4516-9a8a-7a8a1fd281a3")
+		(property "Reference" "D804"
+			(at 168.91 115.824 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "150mA"
+			(at 168.91 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LEA_FootprintLibrary:SOD-323_Panjit"
+			(at 166.37 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/1057/BAS316-1876387.pdf"
+			(at 168.91 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diodes - General Purpose, Power, Switching SURFACE MOUNT SWITCHING DIODE"
+			(at 168.91 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panjit"
+			(at 143.51 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "241-BAS316_R1_00001"
+			(at 168.91 105.918 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "BAS316_R1_00001"
+			(at 143.51 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "A"
+			(uuid "1e56f6f5-cf4e-4172-ab8f-e96a4956e20e")
+		)
+		(pin "C"
+			(uuid "3786ae3a-bc91-4eee-a839-4c07f97fb5fa")
+		)
+		(instances
+			(project "LCB-CCB-01"
+				(path "/968a6172-7a4e-40ab-a78a-e4d03671e136/95bbcc65-aaf6-4934-b29a-07e56c337823"
+					(reference "D804")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LEA_SymbolLibrary:C_0603__10n_X7R_10P__50V")
 		(at 45.72 54.61 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "3f0e78ab-dc6c-42de-94d0-f04e0c0f05ea")
 		(property "Reference" "C802"
 			(at 46.99 53.34 90)
@@ -6869,100 +7096,6 @@
 			(project "LCB-CCB-01"
 				(path "/968a6172-7a4e-40ab-a78a-e4d03671e136/95bbcc65-aaf6-4934-b29a-07e56c337823"
 					(reference "#PWR0808")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LEA_SymbolLibrary:C_0603_100n_X5R_10P__50V")
-		(at 60.96 49.53 270)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "465dc69d-010e-453d-b84c-b13423d03048")
-		(property "Reference" "C803"
-			(at 60.96 46.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100n"
-			(at 60.96 52.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LEA_FootprintLibrary:C_0603"
-			(at 71.12 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 60.96 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Capacitor 0603"
-			(at 60.96 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "TDK"
-			(at 60.96 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manf#" "C1608X5R1H104K"
-			(at 60.96 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser#" "810-C1608X5R1H104K"
-			(at 60.96 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f1f1811d-ad54-4836-b391-0b5a4f58bc67")
-		)
-		(pin "2"
-			(uuid "8607db4d-bb7e-442d-b72b-11915f5dc44b")
-		)
-		(instances
-			(project "LCB-CCB-01"
-				(path "/968a6172-7a4e-40ab-a78a-e4d03671e136/95bbcc65-aaf6-4934-b29a-07e56c337823"
-					(reference "C803")
 					(unit 1)
 				)
 			)
@@ -8074,6 +8207,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 242.57 118.11 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "802de6e3-ab73-4bdb-9208-f4fc476ef2da")
+		(property "Reference" "#FLG0908"
+			(at 240.665 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 239.268 117.856 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 242.57 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 242.57 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 242.57 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2ee47cef-5d89-47ca-86c0-7dfcc63a09c1")
+		)
+		(instances
+			(project "LCB-CCB-01"
+				(path "/968a6172-7a4e-40ab-a78a-e4d03671e136/95bbcc65-aaf6-4934-b29a-07e56c337823"
+					(reference "#FLG0908")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LEA_SymbolLibrary:GND_HV")
 		(at 78.74 60.96 0)
 		(unit 1)
@@ -9134,100 +9333,6 @@
 		)
 	)
 	(symbol
-		(lib_id "LEA_SymbolLibrary:C_0603_100n_X5R_10P__50V")
-		(at 166.37 49.53 270)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a13937ef-7d13-4eeb-a75b-eae151862d63")
-		(property "Reference" "C806"
-			(at 166.37 46.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100n"
-			(at 166.37 52.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LEA_FootprintLibrary:C_0603"
-			(at 176.53 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 166.37 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Capacitor 0603"
-			(at 166.37 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "TDK"
-			(at 166.37 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manf#" "C1608X5R1H104K"
-			(at 166.37 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser#" "810-C1608X5R1H104K"
-			(at 166.37 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a9cb2606-2d6c-4744-935a-25bc2c819bf5")
-		)
-		(pin "2"
-			(uuid "f4afba0f-0717-4e00-93e0-66e31b88cba9")
-		)
-		(instances
-			(project "LCB-CCB-01"
-				(path "/968a6172-7a4e-40ab-a78a-e4d03671e136/95bbcc65-aaf6-4934-b29a-07e56c337823"
-					(reference "C806")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "LEA_SymbolLibrary:GND_HV")
 		(at 142.24 124.46 0)
 		(unit 1)
@@ -9299,7 +9404,7 @@
 		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "a33ef8d3-3ac4-424d-b703-f51666595098")
 		(property "Reference" "C808"
 			(at 45.72 116.84 90)
@@ -9556,7 +9661,7 @@
 		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "aa1d5310-69b2-4547-829d-bc56ba47df27")
 		(property "Reference" "C811"
 			(at 152.4 116.84 90)
@@ -9748,7 +9853,7 @@
 		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "af849c15-063f-4d15-b604-05b10f7e1396")
 		(property "Reference" "C805"
 			(at 152.654 53.34 90)
@@ -9994,6 +10099,101 @@
 			(project "LCB-CCB-01"
 				(path "/968a6172-7a4e-40ab-a78a-e4d03671e136/95bbcc65-aaf6-4934-b29a-07e56c337823"
 					(reference "#PWR0802")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LEA_SymbolLibrary:D_SOD_150mA_BAS316_R1_00001")
+		(at 63.5 49.53 180)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b67cafb7-d98b-4b4b-9ccd-5a4980392b9e")
+		(property "Reference" "D801"
+			(at 63.5 52.324 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "150mA"
+			(at 63.5 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LEA_FootprintLibrary:SOD-323_Panjit"
+			(at 60.96 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/1057/BAS316-1876387.pdf"
+			(at 63.5 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diodes - General Purpose, Power, Switching SURFACE MOUNT SWITCHING DIODE"
+			(at 63.5 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panjit"
+			(at 38.1 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "241-BAS316_R1_00001"
+			(at 63.5 42.418 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "BAS316_R1_00001"
+			(at 38.1 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "A"
+			(uuid "9c0ccb34-7d29-41a9-9a13-384142efb374")
+		)
+		(pin "C"
+			(uuid "966976b9-da92-4dc5-9e0e-9360ab1c9b09")
+		)
+		(instances
+			(project "LCB-CCB-01"
+				(path "/968a6172-7a4e-40ab-a78a-e4d03671e136/95bbcc65-aaf6-4934-b29a-07e56c337823"
+					(reference "D801")
 					(unit 1)
 				)
 			)
@@ -10675,6 +10875,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 115.57 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c9ded959-32b9-4b88-8f90-d3002a2d2fa0")
+		(property "Reference" "#FLG0910"
+			(at 115.57 155.575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 110.744 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 115.57 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c0a05975-7391-4755-9cdd-77858ab02874")
+		)
+		(instances
+			(project "LCB-CCB-01"
+				(path "/968a6172-7a4e-40ab-a78a-e4d03671e136/95bbcc65-aaf6-4934-b29a-07e56c337823"
+					(reference "#FLG0910")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LEA_SymbolLibrary:R_0603__10k_THICK__1P__75V")
 		(at 156.21 54.61 180)
 		(unit 1)
@@ -11222,100 +11488,6 @@
 		)
 	)
 	(symbol
-		(lib_id "LEA_SymbolLibrary:C_0603_100n_X5R_10P__50V")
-		(at 166.37 113.03 270)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "df844d55-964c-4e3c-87c3-6c05d6ecafb7")
-		(property "Reference" "C812"
-			(at 166.37 110.49 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100n"
-			(at 166.37 115.57 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LEA_FootprintLibrary:C_0603"
-			(at 176.53 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 166.37 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Capacitor 0603"
-			(at 166.37 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "TDK"
-			(at 166.37 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manf#" "C1608X5R1H104K"
-			(at 166.37 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser#" "810-C1608X5R1H104K"
-			(at 166.37 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8c5a84b9-8d7d-4ea7-bafe-7a3c77aee3f4")
-		)
-		(pin "2"
-			(uuid "ceb475dd-9d27-46e5-8366-8d9f08518d7c")
-		)
-		(instances
-			(project "LCB-CCB-01"
-				(path "/968a6172-7a4e-40ab-a78a-e4d03671e136/95bbcc65-aaf6-4934-b29a-07e56c337823"
-					(reference "C812")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "LEA_SymbolLibrary:GND_HV")
 		(at 35.56 124.46 0)
 		(unit 1)
@@ -11632,6 +11804,196 @@
 			(project "LCB-CCB-01"
 				(path "/968a6172-7a4e-40ab-a78a-e4d03671e136/95bbcc65-aaf6-4934-b29a-07e56c337823"
 					(reference "R810")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LEA_SymbolLibrary:D_SOD_150mA_BAS316_R1_00001")
+		(at 62.23 113.03 180)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ecc1cf0b-9223-47f7-bc74-208c4b6c2b96")
+		(property "Reference" "D803"
+			(at 62.23 115.824 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "150mA"
+			(at 62.23 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LEA_FootprintLibrary:SOD-323_Panjit"
+			(at 59.69 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/1057/BAS316-1876387.pdf"
+			(at 62.23 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diodes - General Purpose, Power, Switching SURFACE MOUNT SWITCHING DIODE"
+			(at 62.23 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panjit"
+			(at 36.83 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "241-BAS316_R1_00001"
+			(at 62.23 105.918 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "BAS316_R1_00001"
+			(at 36.83 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "A"
+			(uuid "dad45b73-a556-47b9-a7e3-44c5d25e1afd")
+		)
+		(pin "C"
+			(uuid "14a4746e-b533-4c51-be6c-47090cbcab4d")
+		)
+		(instances
+			(project ""
+				(path "/968a6172-7a4e-40ab-a78a-e4d03671e136/95bbcc65-aaf6-4934-b29a-07e56c337823"
+					(reference "D803")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LEA_SymbolLibrary:D_SOD_150mA_BAS316_R1_00001")
+		(at 168.91 49.53 180)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ede87817-0f1f-4079-91a1-e7686fbbbd63")
+		(property "Reference" "D802"
+			(at 168.91 52.324 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "150mA"
+			(at 168.91 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LEA_FootprintLibrary:SOD-323_Panjit"
+			(at 166.37 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/1057/BAS316-1876387.pdf"
+			(at 168.91 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diodes - General Purpose, Power, Switching SURFACE MOUNT SWITCHING DIODE"
+			(at 168.91 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panjit"
+			(at 143.51 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "241-BAS316_R1_00001"
+			(at 168.91 42.418 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "BAS316_R1_00001"
+			(at 143.51 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "A"
+			(uuid "9243473f-6fca-442d-8ed5-90270f23ee97")
+		)
+		(pin "C"
+			(uuid "fa6d114f-973c-42cd-8b38-5794e0f55500")
+		)
+		(instances
+			(project "LCB-CCB-01"
+				(path "/968a6172-7a4e-40ab-a78a-e4d03671e136/95bbcc65-aaf6-4934-b29a-07e56c337823"
+					(reference "D802")
 					(unit 1)
 				)
 			)

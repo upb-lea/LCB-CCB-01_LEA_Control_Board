@@ -231,116 +231,6 @@
 				)
 			)
 		)
-		(symbol "LEA_SymbolLibrary:+3.3V_HV_A"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim yes)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 1.27 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+3.3V_HV_A"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+3.3V_H_A\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+3.3V_HV_A_1_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 0 0 90)
-					(length 0) hide
-					(name "+3.3V_HV_A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "LEA_SymbolLibrary:C_0402_100n_X7R_10P__50V"
 			(pin_numbers hide)
 			(pin_names
@@ -9826,6 +9716,12 @@
 		(uuid "844f01a0-ac23-4a99-910e-4e91c579bb2b")
 	)
 	(junction
+		(at 38.1 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "87a28cb6-afe4-4fdd-8b35-a8e2b0e040e2")
+	)
+	(junction
 		(at 242.57 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10052,12 +9948,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bf26cee8-9c9f-4547-9a40-e7028b986d1e")
-	)
-	(junction
-		(at 38.1 154.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bfcdffb4-9a75-4453-a5cf-48d0c88fa2a7")
 	)
 	(junction
 		(at 69.85 193.04)
@@ -12011,6 +11901,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 154.94) (xy 41.91 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6334bddb-304c-4d3b-ac67-420250498e05")
+	)
+	(wire
+		(pts
 			(xy 223.52 104.14) (xy 223.52 106.68)
 		)
 		(stroke
@@ -13548,16 +13448,6 @@
 			(type default)
 		)
 		(uuid "bc05cdd5-f72f-4c21-b397-0fa889871114")
-	)
-	(wire
-		(pts
-			(xy 38.1 154.94) (xy 41.91 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bcd0d850-a20d-42e1-b97f-b14f9222717c")
 	)
 	(wire
 		(pts
@@ -19633,71 +19523,6 @@
 		)
 	)
 	(symbol
-		(lib_id "LEA_SymbolLibrary:+3.3V_HV_A")
-		(at 223.52 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-0000623ab609")
-		(property "Reference" "#PWR0713"
-			(at 224.79 63.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V_HV_A"
-			(at 223.52 59.1058 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 223.52 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 223.52 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V_H_A\""
-			(at 223.52 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7d7dfbee-e276-47ab-a29b-12b4be9b22c4")
-		)
-		(instances
-			(project "LCB-CCB-01"
-				(path "/968a6172-7a4e-40ab-a78a-e4d03671e136/00000000-0000-0000-0000-000061d28cbe"
-					(reference "#PWR0713")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "LEA_SymbolLibrary:C_0603_100n_X5R_10P__50V")
 		(at 24.13 185.42 0)
 		(unit 1)
@@ -23022,71 +22847,6 @@
 		)
 	)
 	(symbol
-		(lib_id "LEA_SymbolLibrary:+3.3V_HV_A")
-		(at 38.1 154.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000062813639")
-		(property "Reference" "#PWR0721"
-			(at 39.37 154.94 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V_HV_A"
-			(at 38.1 150.5458 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 38.1 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 38.1 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V_H_A\""
-			(at 38.1 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5914939e-95f1-4848-b987-27742538e48f")
-		)
-		(instances
-			(project "LCB-CCB-01"
-				(path "/968a6172-7a4e-40ab-a78a-e4d03671e136/00000000-0000-0000-0000-000061d28cbe"
-					(reference "#PWR0721")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "LEA_SymbolLibrary:GND_HV")
 		(at 20.32 81.28 0)
 		(unit 1)
@@ -24445,6 +24205,71 @@
 		)
 	)
 	(symbol
+		(lib_id "LEA_SymbolLibrary:+3.3V_HV")
+		(at 38.1 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "61db6e4e-3f76-4dcf-8c4d-da2c9a57063c")
+		(property "Reference" "#PWR0924"
+			(at 39.37 154.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V_HV"
+			(at 38.1 150.5458 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V_HV\""
+			(at 38.1 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c9a09ed6-7018-4e73-b50e-54a1c42259db")
+		)
+		(instances
+			(project "LCB-CCB-01"
+				(path "/968a6172-7a4e-40ab-a78a-e4d03671e136/00000000-0000-0000-0000-000061d28cbe"
+					(reference "#PWR0924")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LEA_SymbolLibrary:GND_HV")
 		(at 212.09 40.64 0)
 		(unit 1)
@@ -24694,6 +24519,71 @@
 			(project "LCB-CCB-01"
 				(path "/968a6172-7a4e-40ab-a78a-e4d03671e136/00000000-0000-0000-0000-000061d28cbe"
 					(reference "R701")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LEA_SymbolLibrary:+3.3V_HV")
+		(at 223.52 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8b1aa5e8-440c-46f1-8387-1af9aadb7d99")
+		(property "Reference" "#PWR0908"
+			(at 224.79 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V_HV"
+			(at 223.52 59.1058 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 223.52 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V_HV\""
+			(at 223.52 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "156dfa54-6202-456c-a817-4dcc6c8ca799")
+		)
+		(instances
+			(project "LCB-CCB-01"
+				(path "/968a6172-7a4e-40ab-a78a-e4d03671e136/00000000-0000-0000-0000-000061d28cbe"
+					(reference "#PWR0908")
 					(unit 1)
 				)
 			)

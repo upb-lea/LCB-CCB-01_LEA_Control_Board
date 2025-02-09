@@ -345,7 +345,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "IC"
+			(property "Reference" "U"
 				(at -6.096 13.716 0)
 				(effects
 					(font
@@ -580,7 +580,7 @@
 						(type outline)
 					)
 				)
-				(pin passive line
+				(pin input line
 					(at -12.7 1.27 0)
 					(length 5.08)
 					(name "IN1"
@@ -634,7 +634,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin power_in line
 					(at 1.27 -12.7 90)
 					(length 2.54)
 					(name "GND"
@@ -670,7 +670,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin input line
 					(at -12.7 -7.62 0)
 					(length 5.08)
 					(name "IN2"
@@ -724,7 +724,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin power_in line
 					(at 1.27 11.43 270)
 					(length 2.54)
 					(name "VDD"
@@ -1630,6 +1630,647 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "LEA_SymbolLibrary:Conn_02x10_Male_JTAG"
+			(pin_names hide)
+			(exclude_from_sim yes)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -1.27 13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "FTR-110-03-G-D-06-TR"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "LEA_FootprintLibrary:FTR-110-03-G-D-06"
+				(at 0 16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://kinetictest.samtec.com/partnumber/ftr-110-03-g-d-06-tr"
+				(at 0 19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "20 pin SMD Micro Header, 1.27 mm pitch"
+				(at 0.508 -26.416 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Samtec"
+				(at 0 -24.13 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "mouser#" "200-FTR11003GD06TR"
+				(at 0 -19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "manf#" "FTR-110-03-G-D-06-TR"
+				(at 0 -21.59 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_02x10_Male_JTAG_1_1"
+				(rectangle
+					(start -2.54 -11.303)
+					(end -1.27 -11.557)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -2.54 -8.763)
+					(end -1.27 -9.017)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -2.54 -6.223)
+					(end -1.27 -6.477)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -2.54 -3.683)
+					(end -1.27 -3.937)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -2.54 -1.143)
+					(end -1.27 -1.397)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -2.54 1.397)
+					(end -1.27 1.143)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -2.54 3.937)
+					(end -1.27 3.683)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -2.54 6.477)
+					(end -1.27 6.223)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -2.54 9.017)
+					(end -1.27 8.763)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -2.54 11.557)
+					(end -1.27 11.303)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -2.54 12.7)
+					(end 2.54 -12.7)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 2.54 -11.557)
+					(end 1.27 -11.303)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.54 -9.017)
+					(end 1.27 -8.763)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.54 -6.477)
+					(end 1.27 -6.223)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.54 -3.683)
+					(end 1.27 -3.937)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.54 -1.143)
+					(end 1.27 -1.397)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.54 1.397)
+					(end 1.27 1.143)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.54 3.937)
+					(end 1.27 3.683)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.54 9.017)
+					(end 1.27 8.763)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.54 11.557)
+					(end 1.27 11.303)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -6.35 11.43 0)
+					(length 3.81)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 1.27 180)
+					(length 3.81)
+					(name "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -6.35 -1.27 0)
+					(length 3.81)
+					(name "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 -1.27 180)
+					(length 3.81)
+					(name "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -6.35 -3.81 0)
+					(length 3.81)
+					(name "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 -3.81 180)
+					(length 3.81)
+					(name "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -6.35 -6.35 0)
+					(length 3.81)
+					(name "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 -6.35 180)
+					(length 3.81)
+					(name "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -6.35 -8.89 0)
+					(length 3.81)
+					(name "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 -8.89 180)
+					(length 3.81)
+					(name "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -6.35 -11.43 0)
+					(length 3.81)
+					(name "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 11.43 180)
+					(length 3.81)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 -11.43 180)
+					(length 3.81)
+					(name "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -6.35 8.89 0)
+					(length 3.81)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 8.89 180)
+					(length 3.81)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -6.35 6.35 0)
+					(length 3.81)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -6.35 3.81 0)
+					(length 3.81)
+					(name "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 3.81 180)
+					(length 3.81)
+					(name "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -6.35 1.27 0)
+					(length 3.81)
+					(name "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3912,647 +4553,6 @@
 				)
 			)
 		)
-		(symbol "LEA_SymbolLibrary:FTR-110-03-G-D-06-TR"
-			(pin_names hide)
-			(exclude_from_sim yes)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at -1.27 13.97 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "FTR-110-03-G-D-06-TR"
-				(at 0 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "LEA_FootprintLibrary:FTR-110-03-G-D-06"
-				(at 0 16.51 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://kinetictest.samtec.com/partnumber/ftr-110-03-g-d-06-tr"
-				(at 0 19.05 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "20 pin SMD Micro Header, 1.27 mm pitch"
-				(at 0.508 -26.416 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Samtec"
-				(at 0 -24.13 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "mouser#" "200-FTR11003GD06TR"
-				(at 0 -19.05 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "manf#" "FTR-110-03-G-D-06-TR"
-				(at 0 -21.59 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "FTR-110-03-G-D-06-TR_1_1"
-				(rectangle
-					(start -2.54 -11.303)
-					(end -1.27 -11.557)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -2.54 -8.763)
-					(end -1.27 -9.017)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -2.54 -6.223)
-					(end -1.27 -6.477)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -2.54 -3.683)
-					(end -1.27 -3.937)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -2.54 -1.143)
-					(end -1.27 -1.397)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -2.54 1.397)
-					(end -1.27 1.143)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -2.54 3.937)
-					(end -1.27 3.683)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -2.54 6.477)
-					(end -1.27 6.223)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -2.54 9.017)
-					(end -1.27 8.763)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -2.54 11.557)
-					(end -1.27 11.303)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -2.54 12.7)
-					(end 2.54 -12.7)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start 2.54 -11.557)
-					(end 1.27 -11.303)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.54 -9.017)
-					(end 1.27 -8.763)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.54 -6.477)
-					(end 1.27 -6.223)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.54 -3.683)
-					(end 1.27 -3.937)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.54 -1.143)
-					(end 1.27 -1.397)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.54 1.397)
-					(end 1.27 1.143)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.54 3.937)
-					(end 1.27 3.683)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.54 9.017)
-					(end 1.27 8.763)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.54 11.557)
-					(end 1.27 11.303)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -6.35 11.43 0)
-					(length 3.81)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 6.35 1.27 180)
-					(length 3.81)
-					(name "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -6.35 -1.27 0)
-					(length 3.81)
-					(name "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 6.35 -1.27 180)
-					(length 3.81)
-					(name "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -6.35 -3.81 0)
-					(length 3.81)
-					(name "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 6.35 -3.81 180)
-					(length 3.81)
-					(name "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -6.35 -6.35 0)
-					(length 3.81)
-					(name "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 6.35 -6.35 180)
-					(length 3.81)
-					(name "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -6.35 -8.89 0)
-					(length 3.81)
-					(name "17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 6.35 -8.89 180)
-					(length 3.81)
-					(name "18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -6.35 -11.43 0)
-					(length 3.81)
-					(name "19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 6.35 11.43 180)
-					(length 3.81)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 6.35 -11.43 180)
-					(length 3.81)
-					(name "20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -6.35 8.89 0)
-					(length 3.81)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 6.35 8.89 180)
-					(length 3.81)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -6.35 6.35 0)
-					(length 3.81)
-					(name "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -6.35 3.81 0)
-					(length 3.81)
-					(name "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 6.35 3.81 180)
-					(length 3.81)
-					(name "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -6.35 1.27 0)
-					(length 3.81)
-					(name "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "LEA_SymbolLibrary:Ferrite_0603_600R_300mA"
 			(pin_numbers hide)
 			(pin_names
@@ -6345,7 +6345,7 @@
 		(uuid "1917ca0e-139d-46b8-8a01-1882c9848d6b")
 	)
 	(junction
-		(at 35.56 119.38)
+		(at 38.1 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1e24edaf-69df-4405-a022-65ceae51f984")
@@ -6405,7 +6405,7 @@
 		(uuid "3c66e6e2-f12d-4b23-910e-e478d272dfd5")
 	)
 	(junction
-		(at 67.31 114.3)
+		(at 69.85 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "40a369f6-38c9-4568-84d7-d119eded7812")
@@ -6513,7 +6513,7 @@
 		(uuid "73f495c1-6e52-46d2-8b8f-705f13baee39")
 	)
 	(junction
-		(at 67.31 119.38)
+		(at 69.85 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "76a5fc83-3bb2-4fc5-a13b-a8164dcf620a")
@@ -6529,12 +6529,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "81b95d0d-8967-4ed1-8d40-39925d015ae8")
-	)
-	(junction
-		(at 208.28 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9055fd12-d232-4dd6-bb88-e60524751440")
 	)
 	(junction
 		(at 149.86 25.4)
@@ -6627,7 +6621,7 @@
 		(uuid "dc51e152-f1c6-4dbf-8ebc-f7230f62f317")
 	)
 	(junction
-		(at 67.31 116.84)
+		(at 69.85 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dcb14d8f-a1fb-478f-b403-660a9485493f")
@@ -6651,7 +6645,7 @@
 		(uuid "e0b0947e-ec91-4d8a-8663-5a112b0a8541")
 	)
 	(junction
-		(at 22.86 121.92)
+		(at 25.4 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e21fe28a-91f4-48c9-9dc9-2bd240b9ba29")
@@ -6663,7 +6657,7 @@
 		(uuid "e379247a-7c51-4094-9a8c-3b8a6d5322fb")
 	)
 	(junction
-		(at 22.86 111.76)
+		(at 25.4 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ea34fe03-5090-4b15-844c-c9eb20e39e29")
@@ -6685,6 +6679,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f8b7704e-977a-4ef9-82dd-918cb2f360e4")
+	)
+	(junction
+		(at 205.74 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fa371d1f-eed0-4bf2-97e4-cff08e9691a8")
 	)
 	(junction
 		(at 189.23 31.75)
@@ -6727,11 +6727,7 @@
 		(uuid "42b61d5b-39d6-462b-b2cc-57656078085f")
 	)
 	(no_connect
-		(at 137.16 172.72)
-		(uuid "44a36752-7baf-4988-8745-a72fc357658a")
-	)
-	(no_connect
-		(at 43.18 129.54)
+		(at 45.72 129.54)
 		(uuid "57a553b5-7d62-46c6-b0ec-bb52d89de878")
 	)
 	(no_connect
@@ -6751,7 +6747,7 @@
 		(uuid "6133fb54-5524-482e-9ae2-adbf29aced9e")
 	)
 	(no_connect
-		(at 43.18 127)
+		(at 45.72 127)
 		(uuid "68c18d86-7d23-475d-b7be-00f0c928153f")
 	)
 	(no_connect
@@ -6767,7 +6763,7 @@
 		(uuid "7582a530-a952-46c1-b7eb-75006524ba29")
 	)
 	(no_connect
-		(at 43.18 124.46)
+		(at 45.72 124.46)
 		(uuid "84d00d59-2af7-4c54-bc71-a8b06c9cb01c")
 	)
 	(no_connect
@@ -6783,7 +6779,7 @@
 		(uuid "96781640-c07e-4eea-a372-067ded96b703")
 	)
 	(no_connect
-		(at 55.88 124.46)
+		(at 58.42 124.46)
 		(uuid "a7a272ae-2432-42c1-95fa-2e628683b647")
 	)
 	(no_connect
@@ -6791,7 +6787,7 @@
 		(uuid "acb6c3f3-e677-4f35-9fc2-138ba10f33af")
 	)
 	(no_connect
-		(at 55.88 127)
+		(at 58.42 127)
 		(uuid "b611897a-e217-4406-b91e-c725aee2f59d")
 	)
 	(no_connect
@@ -6819,7 +6815,7 @@
 		(uuid "f08895dc-4dcb-4aef-a39b-5a08864cdaaf")
 	)
 	(no_connect
-		(at 55.88 129.54)
+		(at 58.42 129.54)
 		(uuid "f188f4af-c31a-450b-81fc-3f798869d525")
 	)
 	(no_connect
@@ -6972,7 +6968,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 121.92) (xy 22.86 111.76)
+			(xy 25.4 121.92) (xy 25.4 111.76)
 		)
 		(stroke
 			(width 0)
@@ -7072,7 +7068,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 106.68) (xy 58.42 106.68)
+			(xy 58.42 106.68) (xy 60.96 106.68)
 		)
 		(stroke
 			(width 0)
@@ -7122,7 +7118,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 132.08) (xy 60.96 121.92)
+			(xy 63.5 132.08) (xy 63.5 121.92)
 		)
 		(stroke
 			(width 0)
@@ -7152,7 +7148,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 129.54) (xy 22.86 132.08)
+			(xy 25.4 129.54) (xy 25.4 132.08)
 		)
 		(stroke
 			(width 0)
@@ -7312,7 +7308,7 @@
 	)
 	(polyline
 		(pts
-			(xy 82.55 82.55) (xy 82.55 139.7)
+			(xy 82.55 85.09) (xy 82.55 139.7)
 		)
 		(stroke
 			(width 0)
@@ -7322,7 +7318,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 111.76) (xy 43.18 111.76)
+			(xy 25.4 111.76) (xy 45.72 111.76)
 		)
 		(stroke
 			(width 0)
@@ -7402,7 +7398,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 110.49) (xy 208.28 107.95)
+			(xy 205.74 110.49) (xy 205.74 107.95)
 		)
 		(stroke
 			(width 0)
@@ -7452,7 +7448,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 119.38) (xy 67.31 119.38)
+			(xy 58.42 119.38) (xy 69.85 119.38)
 		)
 		(stroke
 			(width 0)
@@ -7462,7 +7458,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 110.49) (xy 190.5 110.49)
+			(xy 180.34 110.49) (xy 187.96 110.49)
 		)
 		(stroke
 			(width 0)
@@ -7562,7 +7558,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 114.3) (xy 67.31 116.84)
+			(xy 69.85 114.3) (xy 69.85 116.84)
 		)
 		(stroke
 			(width 0)
@@ -7602,7 +7598,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 121.92) (xy 43.18 121.92)
+			(xy 40.64 121.92) (xy 45.72 121.92)
 		)
 		(stroke
 			(width 0)
@@ -7642,7 +7638,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 116.84) (xy 43.18 116.84)
+			(xy 44.45 116.84) (xy 45.72 116.84)
 		)
 		(stroke
 			(width 0)
@@ -7712,7 +7708,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 116.84) (xy 35.56 119.38)
+			(xy 38.1 116.84) (xy 38.1 119.38)
 		)
 		(stroke
 			(width 0)
@@ -7762,7 +7758,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 116.84) (xy 36.83 116.84)
+			(xy 38.1 116.84) (xy 39.37 116.84)
 		)
 		(stroke
 			(width 0)
@@ -7852,7 +7848,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 107.95) (xy 200.66 107.95)
+			(xy 193.04 107.95) (xy 196.85 107.95)
 		)
 		(stroke
 			(width 0)
@@ -7862,7 +7858,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 119.38) (xy 35.56 119.38)
+			(xy 35.56 119.38) (xy 38.1 119.38)
 		)
 		(stroke
 			(width 0)
@@ -8042,7 +8038,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 132.08) (xy 60.96 132.08)
+			(xy 25.4 132.08) (xy 63.5 132.08)
 		)
 		(stroke
 			(width 0)
@@ -8182,7 +8178,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 109.22) (xy 43.18 109.22)
+			(xy 43.18 109.22) (xy 45.72 109.22)
 		)
 		(stroke
 			(width 0)
@@ -8242,7 +8238,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 116.84) (xy 67.31 119.38)
+			(xy 69.85 116.84) (xy 69.85 119.38)
 		)
 		(stroke
 			(width 0)
@@ -8312,7 +8308,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 59.69) (xy 205.74 55.88)
+			(xy 203.2 59.69) (xy 203.2 58.42)
 		)
 		(stroke
 			(width 0)
@@ -8382,7 +8378,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 114.3) (xy 43.18 114.3)
+			(xy 43.18 114.3) (xy 45.72 114.3)
 		)
 		(stroke
 			(width 0)
@@ -8402,7 +8398,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 119.38) (xy 43.18 119.38)
+			(xy 38.1 119.38) (xy 45.72 119.38)
 		)
 		(stroke
 			(width 0)
@@ -8532,7 +8528,7 @@
 	)
 	(polyline
 		(pts
-			(xy 82.55 12.7) (xy 82.55 82.55)
+			(xy 82.55 12.7) (xy 82.55 85.09)
 		)
 		(stroke
 			(width 0)
@@ -8552,7 +8548,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 107.95) (xy 208.28 107.95)
+			(xy 201.93 107.95) (xy 205.74 107.95)
 		)
 		(stroke
 			(width 0)
@@ -8592,7 +8588,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 110.49) (xy 200.66 110.49)
+			(xy 193.04 110.49) (xy 196.85 110.49)
 		)
 		(stroke
 			(width 0)
@@ -8622,7 +8618,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 67.31) (xy 205.74 67.31)
+			(xy 189.23 67.31) (xy 203.2 67.31)
 		)
 		(stroke
 			(width 0)
@@ -8722,7 +8718,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 59.69) (xy 205.74 59.69)
+			(xy 189.23 59.69) (xy 203.2 59.69)
 		)
 		(stroke
 			(width 0)
@@ -8732,7 +8728,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 106.68) (xy 43.18 106.68)
+			(xy 43.18 106.68) (xy 45.72 106.68)
 		)
 		(stroke
 			(width 0)
@@ -8742,7 +8738,7 @@
 	)
 	(polyline
 		(pts
-			(xy 13.97 82.55) (xy 82.55 82.55)
+			(xy 13.97 85.09) (xy 82.55 85.09)
 		)
 		(stroke
 			(width 0)
@@ -8802,7 +8798,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 99.06) (xy 208.28 107.95)
+			(xy 205.74 102.87) (xy 205.74 107.95)
 		)
 		(stroke
 			(width 0)
@@ -8872,7 +8868,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 121.92) (xy 33.02 121.92)
+			(xy 25.4 121.92) (xy 35.56 121.92)
 		)
 		(stroke
 			(width 0)
@@ -8882,7 +8878,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 109.22) (xy 67.31 114.3)
+			(xy 69.85 109.22) (xy 69.85 114.3)
 		)
 		(stroke
 			(width 0)
@@ -8922,7 +8918,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 107.95) (xy 180.34 107.95)
+			(xy 187.96 107.95) (xy 180.34 107.95)
 		)
 		(stroke
 			(width 0)
@@ -8942,7 +8938,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 116.84) (xy 67.31 116.84)
+			(xy 58.42 116.84) (xy 69.85 116.84)
 		)
 		(stroke
 			(width 0)
@@ -9042,7 +9038,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 110.49) (xy 208.28 110.49)
+			(xy 201.93 110.49) (xy 205.74 110.49)
 		)
 		(stroke
 			(width 0)
@@ -9152,7 +9148,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 124.46) (xy 22.86 121.92)
+			(xy 25.4 124.46) (xy 25.4 121.92)
 		)
 		(stroke
 			(width 0)
@@ -9172,7 +9168,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 114.3) (xy 67.31 114.3)
+			(xy 58.42 114.3) (xy 69.85 114.3)
 		)
 		(stroke
 			(width 0)
@@ -9202,7 +9198,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 121.92) (xy 55.88 121.92)
+			(xy 63.5 121.92) (xy 58.42 121.92)
 		)
 		(stroke
 			(width 0)
@@ -9272,7 +9268,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 119.38) (xy 67.31 123.19)
+			(xy 69.85 119.38) (xy 69.85 123.19)
 		)
 		(stroke
 			(width 0)
@@ -9282,7 +9278,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 111.76) (xy 22.86 110.49)
+			(xy 25.4 111.76) (xy 25.4 110.49)
 		)
 		(stroke
 			(width 0)
@@ -9332,7 +9328,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 68.58) (xy 205.74 67.31)
+			(xy 203.2 68.58) (xy 203.2 67.31)
 		)
 		(stroke
 			(width 0)
@@ -9342,7 +9338,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 109.22) (xy 67.31 109.22)
+			(xy 58.42 109.22) (xy 69.85 109.22)
 		)
 		(stroke
 			(width 0)
@@ -9483,7 +9479,7 @@
 	)
 	(text "FTDI2232HL XDS100 MCU"
 		(exclude_from_sim no)
-		(at 121.412 18.034 0)
+		(at 126.238 18.034 0)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -9540,7 +9536,7 @@
 		(uuid "08ec951f-e7eb-41cf-9589-697107a98e88")
 	)
 	(label "EXT_TCK"
-		(at 33.02 119.38 180)
+		(at 35.56 119.38 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9586,7 +9582,7 @@
 		(uuid "1b37cb4c-74b8-490f-b534-b0de1ab96cf4")
 	)
 	(label "EXT_TDI"
-		(at 40.64 109.22 180)
+		(at 43.18 109.22 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9641,7 +9637,7 @@
 		(uuid "2eea20e6-112c-411a-b615-885ae773135a")
 	)
 	(label "EXT_TDO"
-		(at 40.64 114.3 180)
+		(at 43.18 114.3 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9707,7 +9703,7 @@
 		(uuid "504d65fa-e1a5-4fe5-bcec-b77c92e8d176")
 	)
 	(label "EXT_TMS"
-		(at 40.64 106.68 180)
+		(at 43.18 106.68 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9867,7 +9863,7 @@
 		(uuid "a1b01877-f8f9-41dd-8c6d-39b332f3f3d3")
 	)
 	(label "EXT_TRST"
-		(at 58.42 106.68 0)
+		(at 60.96 106.68 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9876,6 +9872,19 @@
 			(justify left bottom)
 		)
 		(uuid "a4be4306-c71b-4b25-bc74-8226e29c14a0")
+	)
+	(label "Debug_Select"
+		(at 137.16 172.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+		(uuid "a62e6423-498d-4195-b4a1-e1cd8b66089f")
 	)
 	(label "VPHY"
 		(at 115.57 64.77 0)
@@ -12715,7 +12724,7 @@
 	)
 	(symbol
 		(lib_id "LEA_SymbolLibrary:GND_LV")
-		(at 205.74 68.58 0)
+		(at 203.2 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12723,7 +12732,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061c89815")
 		(property "Reference" "#PWR0212"
-			(at 208.28 71.12 90)
+			(at 205.74 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12732,7 +12741,7 @@
 			)
 		)
 		(property "Value" "GND_LV"
-			(at 205.74 72.39 0)
+			(at 203.2 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12740,7 +12749,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 205.74 68.58 0)
+			(at 203.2 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12749,7 +12758,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 205.74 68.58 0)
+			(at 203.2 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12758,7 +12767,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND_LV\" , ground"
-			(at 205.74 68.58 0)
+			(at 203.2 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12780,7 +12789,7 @@
 	)
 	(symbol
 		(lib_id "LEA_SymbolLibrary:LED_0603_G_2mA_APTD1608LCGCK ")
-		(at 203.2 107.95 0)
+		(at 199.39 107.95 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -12788,7 +12797,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061c9a4e6")
 		(property "Reference" "D203"
-			(at 201.93 105.41 0)
+			(at 199.39 104.902 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12796,7 +12805,7 @@
 			)
 		)
 		(property "Value" "1mA"
-			(at 202.184 102.616 0)
+			(at 199.39 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12804,7 +12813,7 @@
 			)
 		)
 		(property "Footprint" "LEA_FootprintLibrary:LED_0603_G"
-			(at 203.2 110.49 0)
+			(at 199.39 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12813,7 +12822,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.de/datasheet/2/216/APTD1608LCGCK-1102124.pdf"
-			(at 203.2 95.9612 0)
+			(at 199.39 95.9612 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12822,7 +12831,7 @@
 			)
 		)
 		(property "Description" "LED 0603, Green, If 2mA, Vf 1.9V"
-			(at 203.2 107.95 0)
+			(at 199.39 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12831,7 +12840,7 @@
 			)
 		)
 		(property "Manufacturer" "Kingbright"
-			(at 203.2 112.268 0)
+			(at 199.39 112.268 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12840,7 +12849,7 @@
 			)
 		)
 		(property "mouser#" "604-APTD1608LCGCK"
-			(at 203.2 101.092 0)
+			(at 199.39 101.092 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12849,7 +12858,7 @@
 			)
 		)
 		(property "manf#" "APTD1608LCGCK"
-			(at 203.2 93.2688 0)
+			(at 199.39 93.2688 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12874,7 +12883,7 @@
 	)
 	(symbol
 		(lib_id "LEA_SymbolLibrary:R_0603_680R_THICK__1P__75V")
-		(at 193.04 107.95 270)
+		(at 190.5 107.95 270)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -12882,7 +12891,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061c9bb53")
 		(property "Reference" "R213"
-			(at 189.23 105.41 90)
+			(at 190.5 105.664 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12890,7 +12899,7 @@
 			)
 		)
 		(property "Value" "680R"
-			(at 193.802 105.664 90)
+			(at 187.96 103.632 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12899,7 +12908,7 @@
 			)
 		)
 		(property "Footprint" "LEA_FootprintLibrary:R_0603"
-			(at 203.2 107.95 0)
+			(at 200.66 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12908,7 +12917,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 193.04 107.95 0)
+			(at 190.5 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12917,7 +12926,7 @@
 			)
 		)
 		(property "Description" "Resistor 0603"
-			(at 193.04 107.95 0)
+			(at 190.5 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12926,7 +12935,7 @@
 			)
 		)
 		(property "Manufacturer" "Vishay"
-			(at 193.04 107.95 0)
+			(at 190.5 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12935,7 +12944,7 @@
 			)
 		)
 		(property "manf#" "CRCW0603680RFKEAC"
-			(at 193.04 107.95 0)
+			(at 190.5 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12944,7 +12953,7 @@
 			)
 		)
 		(property "mouser#" "71-CRCW0603680RFKEAC"
-			(at 193.04 107.95 0)
+			(at 190.5 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12969,7 +12978,7 @@
 	)
 	(symbol
 		(lib_id "LEA_SymbolLibrary:R_0603_680R_THICK__1P__75V")
-		(at 193.04 110.49 270)
+		(at 190.5 110.49 270)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -12977,7 +12986,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061c9c48e")
 		(property "Reference" "R214"
-			(at 189.23 113.03 90)
+			(at 190.5 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12985,7 +12994,7 @@
 			)
 		)
 		(property "Value" "680R"
-			(at 193.04 113.03 90)
+			(at 187.96 115.316 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12994,7 +13003,7 @@
 			)
 		)
 		(property "Footprint" "LEA_FootprintLibrary:R_0603"
-			(at 203.2 110.49 0)
+			(at 200.66 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13003,7 +13012,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 193.04 110.49 0)
+			(at 190.5 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13012,7 +13021,7 @@
 			)
 		)
 		(property "Description" "Resistor 0603"
-			(at 193.04 110.49 0)
+			(at 190.5 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13021,7 +13030,7 @@
 			)
 		)
 		(property "Manufacturer" "Vishay"
-			(at 193.04 110.49 0)
+			(at 190.5 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13030,7 +13039,7 @@
 			)
 		)
 		(property "manf#" "CRCW0603680RFKEAC"
-			(at 193.04 110.49 0)
+			(at 190.5 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13039,7 +13048,7 @@
 			)
 		)
 		(property "mouser#" "71-CRCW0603680RFKEAC"
-			(at 193.04 110.49 0)
+			(at 190.5 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13064,7 +13073,7 @@
 	)
 	(symbol
 		(lib_id "LEA_SymbolLibrary:LED_0603_G_2mA_APTD1608LCGCK ")
-		(at 203.2 110.49 0)
+		(at 199.39 110.49 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -13072,7 +13081,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061c9c817")
 		(property "Reference" "D204"
-			(at 201.93 113.03 0)
+			(at 199.39 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13080,7 +13089,7 @@
 			)
 		)
 		(property "Value" "1mA"
-			(at 202.438 115.316 0)
+			(at 199.39 115.062 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13088,7 +13097,7 @@
 			)
 		)
 		(property "Footprint" "LEA_FootprintLibrary:LED_0603_G"
-			(at 203.2 113.03 0)
+			(at 199.39 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13097,7 +13106,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.de/datasheet/2/216/APTD1608LCGCK-1102124.pdf"
-			(at 203.2 98.5012 0)
+			(at 199.39 98.5012 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13106,7 +13115,7 @@
 			)
 		)
 		(property "Description" "LED 0603, Green, If 2mA, Vf 1.9V"
-			(at 203.2 110.49 0)
+			(at 199.39 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13115,7 +13124,7 @@
 			)
 		)
 		(property "Manufacturer" "Kingbright"
-			(at 203.2 114.808 0)
+			(at 199.39 114.808 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13124,7 +13133,7 @@
 			)
 		)
 		(property "mouser#" "604-APTD1608LCGCK"
-			(at 203.2 103.632 0)
+			(at 199.39 103.632 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13133,7 +13142,7 @@
 			)
 		)
 		(property "manf#" "APTD1608LCGCK"
-			(at 203.2 95.8088 0)
+			(at 199.39 95.8088 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13158,7 +13167,7 @@
 	)
 	(symbol
 		(lib_id "LEA_SymbolLibrary:+3.3V_LV")
-		(at 208.28 99.06 0)
+		(at 205.74 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13166,7 +13175,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061cae6ae")
 		(property "Reference" "#PWR0218"
-			(at 209.55 99.06 90)
+			(at 207.01 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13175,7 +13184,7 @@
 			)
 		)
 		(property "Value" "+3.3V_LV"
-			(at 206.756 94.234 0)
+			(at 204.216 98.044 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13183,7 +13192,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 208.28 99.06 0)
+			(at 205.74 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13192,7 +13201,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 208.28 99.06 0)
+			(at 205.74 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13201,7 +13210,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V_LV\""
-			(at 208.28 99.06 0)
+			(at 205.74 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14152,7 +14161,7 @@
 	)
 	(symbol
 		(lib_id "LEA_SymbolLibrary:GND_LV")
-		(at 67.31 123.19 0)
+		(at 69.85 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14160,7 +14169,7 @@
 		(dnp no)
 		(uuid "2427ced1-8be4-4552-97f6-500d5260324a")
 		(property "Reference" "#PWR0227"
-			(at 69.85 125.73 90)
+			(at 72.39 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14169,7 +14178,7 @@
 			)
 		)
 		(property "Value" "GND_LV"
-			(at 67.31 127 0)
+			(at 69.85 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14177,7 +14186,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 67.31 123.19 0)
+			(at 69.85 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14186,7 +14195,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 123.19 0)
+			(at 69.85 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14195,7 +14204,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND_LV\" , ground"
-			(at 67.31 123.19 0)
+			(at 69.85 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14217,7 +14226,7 @@
 	)
 	(symbol
 		(lib_id "LEA_SymbolLibrary:+3.3V_LV")
-		(at 22.86 110.49 0)
+		(at 25.4 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14225,7 +14234,7 @@
 		(dnp no)
 		(uuid "26426f3e-2e6c-4377-936c-889666c3f618")
 		(property "Reference" "#PWR0224"
-			(at 24.13 110.49 90)
+			(at 26.67 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14234,7 +14243,7 @@
 			)
 		)
 		(property "Value" "+3.3V_LV"
-			(at 22.86 106.0958 0)
+			(at 25.4 106.0958 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14242,7 +14251,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 22.86 110.49 0)
+			(at 25.4 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14251,7 +14260,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 22.86 110.49 0)
+			(at 25.4 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14260,7 +14269,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V_LV\""
-			(at 22.86 110.49 0)
+			(at 25.4 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15023,7 +15032,7 @@
 	)
 	(symbol
 		(lib_id "LEA_SymbolLibrary:R_0603__0R0_THICK__1P__75V")
-		(at 39.37 116.84 90)
+		(at 41.91 116.84 90)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -15031,7 +15040,7 @@
 		(dnp no)
 		(uuid "4ad66098-1473-4103-a166-70690bf4a083")
 		(property "Reference" "R222"
-			(at 30.226 115.824 90)
+			(at 32.766 115.824 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15039,7 +15048,7 @@
 			)
 		)
 		(property "Value" "0R0"
-			(at 35.052 115.824 90)
+			(at 37.592 115.824 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15047,7 +15056,7 @@
 			)
 		)
 		(property "Footprint" "LEA_FootprintLibrary:R_0603"
-			(at 29.21 116.84 0)
+			(at 31.75 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15056,7 +15065,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 39.37 116.84 0)
+			(at 41.91 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15065,7 +15074,7 @@
 			)
 		)
 		(property "Description" "Resistor 0603"
-			(at 39.37 116.84 0)
+			(at 41.91 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15074,7 +15083,7 @@
 			)
 		)
 		(property "Manufacturer" "Vishay"
-			(at 39.37 116.84 0)
+			(at 41.91 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15083,7 +15092,7 @@
 			)
 		)
 		(property "manf#" "CRCW06030000Z0EAC"
-			(at 39.37 116.84 0)
+			(at 41.91 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15092,7 +15101,7 @@
 			)
 		)
 		(property "mouser#" "71-CRCW06030000Z0EAC"
-			(at 39.37 116.84 0)
+			(at 41.91 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15919,7 +15928,7 @@
 	)
 	(symbol
 		(lib_id "LEA_SymbolLibrary:+3.3V_LV")
-		(at 205.74 55.88 0)
+		(at 203.2 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15927,7 +15936,7 @@
 		(dnp no)
 		(uuid "75feadef-e37d-4521-8b15-1ef8ad04de97")
 		(property "Reference" "#PWR0211"
-			(at 207.01 55.88 90)
+			(at 204.47 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15936,7 +15945,7 @@
 			)
 		)
 		(property "Value" "+3.3V_LV"
-			(at 205.74 51.4858 0)
+			(at 203.2 54.0258 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15944,7 +15953,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 205.74 55.88 0)
+			(at 203.2 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15953,7 +15962,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 205.74 55.88 0)
+			(at 203.2 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15962,7 +15971,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V_LV\""
-			(at 205.74 55.88 0)
+			(at 203.2 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16622,7 +16631,7 @@
 	)
 	(symbol
 		(lib_id "LEA_SymbolLibrary:R_0603__4k7_THICK__1P__75V")
-		(at 35.56 121.92 270)
+		(at 38.1 121.92 270)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -16630,7 +16639,7 @@
 		(dnp no)
 		(uuid "9b028495-ba6e-4703-95b7-3e3d26b7cfe2")
 		(property "Reference" "R220"
-			(at 35.814 124.206 90)
+			(at 38.354 124.206 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16638,7 +16647,7 @@
 			)
 		)
 		(property "Value" "4k7"
-			(at 34.036 125.984 90)
+			(at 36.576 125.984 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16647,7 +16656,7 @@
 			)
 		)
 		(property "Footprint" "LEA_FootprintLibrary:R_0603"
-			(at 45.72 121.92 0)
+			(at 48.26 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16656,7 +16665,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 121.92 0)
+			(at 38.1 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16665,7 +16674,7 @@
 			)
 		)
 		(property "Description" "Resistor 0603"
-			(at 35.56 121.92 0)
+			(at 38.1 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16674,7 +16683,7 @@
 			)
 		)
 		(property "Manufacturer" "Vishay"
-			(at 35.56 121.92 0)
+			(at 38.1 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16683,7 +16692,7 @@
 			)
 		)
 		(property "manf#" "CRCW06034K70FKEBC"
-			(at 35.56 121.92 0)
+			(at 38.1 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16692,7 +16701,7 @@
 			)
 		)
 		(property "mouser#" "71-CRCW06034K70FKEBC"
-			(at 35.56 121.92 0)
+			(at 38.1 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18092,7 +18101,7 @@
 	)
 	(symbol
 		(lib_id "LEA_SymbolLibrary:R_0603__4k7_THICK__1P__75V")
-		(at 22.86 127 0)
+		(at 25.4 127 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -18101,7 +18110,7 @@
 		(dnp no)
 		(uuid "e7c891de-0d11-4085-9eb2-f478d57cfc1c")
 		(property "Reference" "R221"
-			(at 27.432 127 90)
+			(at 29.972 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18109,7 +18118,7 @@
 			)
 		)
 		(property "Value" "4k7"
-			(at 25.146 129.032 90)
+			(at 27.686 129.032 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18118,7 +18127,7 @@
 			)
 		)
 		(property "Footprint" "LEA_FootprintLibrary:R_0603"
-			(at 22.86 116.84 0)
+			(at 25.4 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18127,7 +18136,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 22.86 127 0)
+			(at 25.4 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18136,7 +18145,7 @@
 			)
 		)
 		(property "Description" "Resistor 0603"
-			(at 22.86 127 0)
+			(at 25.4 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18145,7 +18154,7 @@
 			)
 		)
 		(property "Manufacturer" "Vishay"
-			(at 22.86 127 0)
+			(at 25.4 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18154,7 +18163,7 @@
 			)
 		)
 		(property "manf#" "CRCW06034K70FKEBC"
-			(at 22.86 127 0)
+			(at 25.4 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18163,7 +18172,7 @@
 			)
 		)
 		(property "mouser#" "71-CRCW06034K70FKEBC"
-			(at 22.86 127 0)
+			(at 25.4 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18510,8 +18519,8 @@
 		)
 	)
 	(symbol
-		(lib_id "LEA_SymbolLibrary:FTR-110-03-G-D-06-TR")
-		(at 49.53 118.11 0)
+		(lib_id "LEA_SymbolLibrary:Conn_02x10_Male_JTAG")
+		(at 52.07 118.11 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -18519,7 +18528,7 @@
 		(dnp no)
 		(uuid "ffaee81e-59f4-4aeb-bf51-568463fc8c7e")
 		(property "Reference" "J202"
-			(at 49.53 98.552 0)
+			(at 52.07 98.552 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18527,7 +18536,7 @@
 			)
 		)
 		(property "Value" "FTR-110-03-G-D-06-TR"
-			(at 49.53 101.6 0)
+			(at 52.07 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18535,7 +18544,7 @@
 			)
 		)
 		(property "Footprint" "LEA_FootprintLibrary:FTR-110-03-G-D-06"
-			(at 49.53 101.6 0)
+			(at 52.07 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18544,7 +18553,7 @@
 			)
 		)
 		(property "Datasheet" "https://kinetictest.samtec.com/partnumber/ftr-110-03-g-d-06-tr"
-			(at 49.53 99.06 0)
+			(at 52.07 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18553,7 +18562,7 @@
 			)
 		)
 		(property "Description" "20 pin SMD Micro Header, 1.27 mm pitch"
-			(at 50.038 144.526 0)
+			(at 52.578 144.526 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18562,7 +18571,7 @@
 			)
 		)
 		(property "Manufacturer" "Samtec"
-			(at 49.53 142.24 0)
+			(at 52.07 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18571,7 +18580,7 @@
 			)
 		)
 		(property "mouser#" "200-FTR11003GD06TR"
-			(at 49.53 137.16 0)
+			(at 52.07 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18580,7 +18589,7 @@
 			)
 		)
 		(property "manf#" "FTR-110-03-G-D-06-TR"
-			(at 49.53 139.7 0)
+			(at 52.07 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
