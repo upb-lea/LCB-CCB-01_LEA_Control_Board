@@ -2370,7 +2370,7 @@
 				)
 			)
 		)
-		(symbol "LEA_SymbolLibrary:R_0603__33k_THICK__1P__75V"
+		(symbol "LEA_SymbolLibrary:R_0603__4k7_THICK__1P__75V"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0.254) hide)
@@ -2386,7 +2386,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "33k"
+			(property "Value" "4k7"
 				(at 0.762 -1.016 0)
 				(effects
 					(font
@@ -2422,7 +2422,7 @@
 					(hide yes)
 				)
 			)
-			(property "manf#" "CRCW060333K0FKEAC"
+			(property "manf#" "CRCW06034K70FKEBC"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2440,7 +2440,7 @@
 					(hide yes)
 				)
 			)
-			(property "mouser#" "71-CRCW060333K0FKEAC"
+			(property "mouser#" "71-CRCW06034K70FKEBC"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2467,7 +2467,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "R_0603__33k_THICK__1P__75V_0_0"
+			(symbol "R_0603__4k7_THICK__1P__75V_0_0"
 				(text "0603"
 					(at 0 0 900)
 					(effects
@@ -2477,7 +2477,7 @@
 					)
 				)
 			)
-			(symbol "R_0603__33k_THICK__1P__75V_0_1"
+			(symbol "R_0603__4k7_THICK__1P__75V_0_1"
 				(rectangle
 					(start -0.762 1.778)
 					(end 0.762 -1.778)
@@ -2490,7 +2490,7 @@
 					)
 				)
 			)
-			(symbol "R_0603__33k_THICK__1P__75V_1_1"
+			(symbol "R_0603__4k7_THICK__1P__75V_1_1"
 				(pin passive line
 					(at 0 2.54 270)
 					(length 0.762)
@@ -7407,7 +7407,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LEA_SymbolLibrary:R_0603__33k_THICK__1P__75V")
+		(lib_id "LEA_SymbolLibrary:R_0603__4k7_THICK__1P__75V")
 		(at 175.26 49.53 90)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -7423,12 +7423,13 @@
 				)
 			)
 		)
-		(property "Value" "33k"
-			(at 175.26 52.07 90)
+		(property "Value" "4k7"
+			(at 177.038 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "LEA_FootprintLibrary:R_0603"
@@ -7467,7 +7468,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "CRCW060333K0FKEAC"
+		(property "manf#" "CRCW06034K70FKEBC"
 			(at 175.26 49.53 0)
 			(effects
 				(font
@@ -7476,7 +7477,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "71-CRCW060333K0FKEAC"
+		(property "mouser#" "71-CRCW06034K70FKEBC"
 			(at 175.26 49.53 0)
 			(effects
 				(font
@@ -8563,7 +8564,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LEA_SymbolLibrary:R_0603__33k_THICK__1P__75V")
+		(lib_id "LEA_SymbolLibrary:R_0603__4k7_THICK__1P__75V")
 		(at 69.85 49.53 90)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -8579,12 +8580,13 @@
 				)
 			)
 		)
-		(property "Value" "33k"
-			(at 69.85 52.07 90)
+		(property "Value" "4k7"
+			(at 71.628 51.816 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "LEA_FootprintLibrary:R_0603"
@@ -8623,7 +8625,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "CRCW060333K0FKEAC"
+		(property "manf#" "CRCW06034K70FKEBC"
 			(at 69.85 49.53 0)
 			(effects
 				(font
@@ -8632,7 +8634,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "71-CRCW060333K0FKEAC"
+		(property "mouser#" "71-CRCW06034K70FKEBC"
 			(at 69.85 49.53 0)
 			(effects
 				(font
@@ -9239,7 +9241,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LEA_SymbolLibrary:R_0603__33k_THICK__1P__75V")
+		(lib_id "LEA_SymbolLibrary:R_0603__4k7_THICK__1P__75V")
 		(at 175.26 113.03 90)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -9255,12 +9257,13 @@
 				)
 			)
 		)
-		(property "Value" "33k"
-			(at 175.26 115.57 90)
+		(property "Value" "4k7"
+			(at 177.292 115.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "LEA_FootprintLibrary:R_0603"
@@ -9299,7 +9302,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "CRCW060333K0FKEAC"
+		(property "manf#" "CRCW06034K70FKEBC"
 			(at 175.26 113.03 0)
 			(effects
 				(font
@@ -9308,7 +9311,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "71-CRCW060333K0FKEAC"
+		(property "mouser#" "71-CRCW06034K70FKEBC"
 			(at 175.26 113.03 0)
 			(effects
 				(font
@@ -10716,7 +10719,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LEA_SymbolLibrary:R_0603__33k_THICK__1P__75V")
+		(lib_id "LEA_SymbolLibrary:R_0603__4k7_THICK__1P__75V")
 		(at 68.58 113.03 90)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -10732,12 +10735,13 @@
 				)
 			)
 		)
-		(property "Value" "33k"
-			(at 68.58 115.57 90)
+		(property "Value" "4k7"
+			(at 70.358 115.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "LEA_FootprintLibrary:R_0603"
@@ -10776,7 +10780,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "CRCW060333K0FKEAC"
+		(property "manf#" "CRCW06034K70FKEBC"
 			(at 68.58 113.03 0)
 			(effects
 				(font
@@ -10785,7 +10789,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "71-CRCW060333K0FKEAC"
+		(property "mouser#" "71-CRCW06034K70FKEBC"
 			(at 68.58 113.03 0)
 			(effects
 				(font

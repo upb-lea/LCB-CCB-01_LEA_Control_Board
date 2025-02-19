@@ -577,6 +577,191 @@
 				)
 			)
 		)
+		(symbol "LEA_SymbolLibrary:LED_0603_Y_2mA_APTD1608LSYCK"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim yes)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.667 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "2mA"
+				(at 0 -6.604 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "LEA_FootprintLibrary:LED_0603_Y"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://eu.mouser.com/datasheet/2/216/APHD1608LSURCK-1100899.pdf"
+				(at 0 11.9888 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "LED 0603, Yellow, If 2mA, Vf 1.85V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Kingbright"
+				(at 0 -4.318 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "mouser#" "604-APTD1608LSYCK"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "manf#" "APTD1608LSYCK"
+				(at 0 14.6812 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_0603_Y_2mA_APTD1608LSYCK_0_0"
+				(text "0603"
+					(at -1.905 0.635 0)
+					(effects
+						(font
+							(size 0.5 0.5)
+						)
+					)
+				)
+			)
+			(symbol "LED_0603_Y_2mA_APTD1608LSYCK_1_0"
+				(text "Y"
+					(at 1.524 0.635 0)
+					(effects
+						(font
+							(size 0.5 0.5)
+						)
+					)
+				)
+			)
+			(symbol "LED_0603_Y_2mA_APTD1608LSYCK_1_1"
+				(polyline
+					(pts
+						(xy -0.6604 -1.0414) (xy -0.6604 0.9906)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.8636 -1.0414) (xy -0.6604 -0.0254) (xy 0.8636 0.9906) (xy 0.8636 -1.0414)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.1016 0.7366) (xy -0.4064 1.2446) (xy -0.1524 1.2446) (xy -0.4064 1.2446) (xy -0.4064 0.9906)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.6096 1.2446) (xy 0.1016 1.7526) (xy 0.3556 1.7526) (xy 0.1016 1.7526) (xy 0.1016 1.4986)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.6002)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.778)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "LEA_SymbolLibrary:R_0603_680R_THICK__1P__75V"
 			(pin_numbers hide)
 			(pin_names
@@ -849,6 +1034,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 102.87) (xy 149.86 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "856ba2e4-443b-47f3-b1b7-96debb71426f")
+	)
+	(wire
+		(pts
 			(xy 72.39 92.71) (xy 72.39 93.98)
 		)
 		(stroke
@@ -1014,7 +1209,7 @@
 	)
 	(global_label "LED_Green|GPIO5"
 		(shape input)
-		(at 149.86 104.14 90)
+		(at 149.86 102.87 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1024,7 +1219,7 @@
 		)
 		(uuid "1838018b-76e2-46c4-810f-488a77452c50")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 149.7806 85.1244 90)
+			(at 149.7806 83.8544 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1139,7 +1334,7 @@
 				)
 			)
 		)
-		(property "Value" "1mA"
+		(property "Value" "2mA"
 			(at 80.01 96.52 0)
 			(effects
 				(font
@@ -1458,12 +1653,13 @@
 				)
 			)
 		)
-		(property "Value" "1mA"
+		(property "Value" "2mA"
 			(at 166.37 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "LEA_FootprintLibrary:LED_0603_G"
@@ -2016,7 +2212,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LEA_SymbolLibrary:LED_0603_G_2mA_APTD1608LCGCK ")
+		(lib_id "LEA_SymbolLibrary:LED_0603_R_2mA_APHD1608LSURCK")
 		(at 217.17 106.68 90)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -2033,16 +2229,16 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1mA"
-			(at 219.71 100.33 0)
+		(property "Value" "2mA"
+			(at 223.774 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "LEA_FootprintLibrary:LED_0603_G"
+		(property "Footprint" "LEA_FootprintLibrary:LED_0603_R"
 			(at 219.71 106.68 0)
 			(effects
 				(font
@@ -2051,7 +2247,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/216/APTD1608LCGCK-1102124.pdf"
+		(property "Datasheet" "https://eu.mouser.com/datasheet/2/216/APHD1608LSURCK-1100899.pdf"
 			(at 205.1812 106.68 0)
 			(effects
 				(font
@@ -2060,7 +2256,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "LED 0603, Green, If 2mA, Vf 1.9V"
+		(property "Description" "LED 0603, Red, If 2mA, Vf 1.75V"
 			(at 217.17 106.68 0)
 			(effects
 				(font
@@ -2078,7 +2274,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "604-APTD1608LCGCK"
+		(property "mouser#" "604-APHD1608LSURCK"
 			(at 210.312 106.68 0)
 			(effects
 				(font
@@ -2087,7 +2283,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "APTD1608LCGCK"
+		(property "manf#" "APHD1608LSURCK"
 			(at 202.4888 106.68 0)
 			(effects
 				(font
@@ -2112,7 +2308,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LEA_SymbolLibrary:LED_0603_R_2mA_APHD1608LSURCK")
+		(lib_id "LEA_SymbolLibrary:LED_0603_Y_2mA_APTD1608LSYCK")
 		(at 191.77 106.68 90)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -2129,16 +2325,16 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1mA"
-			(at 194.31 99.06 0)
+		(property "Value" "2mA"
+			(at 198.374 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "LEA_FootprintLibrary:LED_0603_R"
+		(property "Footprint" "LEA_FootprintLibrary:LED_0603_Y"
 			(at 194.31 106.68 0)
 			(effects
 				(font
@@ -2156,7 +2352,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "LED 0603, Red, If 2mA, Vf 1.75V"
+		(property "Description" "LED 0603, Yellow, If 2mA, Vf 1.85V"
 			(at 191.77 106.68 0)
 			(effects
 				(font
@@ -2174,7 +2370,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "604-APHD1608LSURCK"
+		(property "mouser#" "604-APTD1608LSYCK"
 			(at 184.912 106.68 0)
 			(effects
 				(font
@@ -2183,7 +2379,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "APHD1608LSURCK"
+		(property "manf#" "APTD1608LSYCK"
 			(at 177.0888 106.68 0)
 			(effects
 				(font
@@ -2273,7 +2469,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LEA_SymbolLibrary:LED_0603_R_2mA_APHD1608LSURCK")
+		(lib_id "LEA_SymbolLibrary:LED_0603_G_2mA_APTD1608LCGCK ")
 		(at 149.86 106.68 90)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -2289,15 +2485,16 @@
 				)
 			)
 		)
-		(property "Value" "1mA"
-			(at 152.4 102.87 0)
+		(property "Value" "2mA"
+			(at 156.337 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "LEA_FootprintLibrary:LED_0603_R"
+		(property "Footprint" "LEA_FootprintLibrary:LED_0603_G"
 			(at 152.4 106.68 0)
 			(effects
 				(font
@@ -2306,7 +2503,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/datasheet/2/216/APHD1608LSURCK-1100899.pdf"
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/216/APTD1608LCGCK-1102124.pdf"
 			(at 137.8712 106.68 0)
 			(effects
 				(font
@@ -2315,7 +2512,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "LED 0603, Red, If 2mA, Vf 1.75V"
+		(property "Description" "LED 0603, Green, If 2mA, Vf 1.9V"
 			(at 149.86 106.68 0)
 			(effects
 				(font
@@ -2333,7 +2530,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "604-APHD1608LSURCK"
+		(property "mouser#" "604-APTD1608LCGCK"
 			(at 143.002 106.68 0)
 			(effects
 				(font
@@ -2342,7 +2539,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "APHD1608LSURCK"
+		(property "manf#" "APTD1608LCGCK"
 			(at 135.1788 106.68 0)
 			(effects
 				(font
@@ -2638,12 +2835,13 @@
 				)
 			)
 		)
-		(property "Value" "1mA"
+		(property "Value" "2mA"
 			(at 233.68 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "LEA_FootprintLibrary:LED_0603_R"

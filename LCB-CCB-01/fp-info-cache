@@ -1,4 +1,4 @@
-24636782572528518
+24638522529281968
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -64710,6 +64710,13 @@ LED 0603
 LEA_FootprintLibrary
 LED_0603_R
 LED 0603
+
+0
+2
+2
+LEA_FootprintLibrary
+LED_0603_Y
+LED 0603 yellow
 
 0
 2

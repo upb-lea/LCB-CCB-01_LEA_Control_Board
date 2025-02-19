@@ -3268,7 +3268,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10u/10V"
+		(property "Value" "2u2"
 			(at 87.63 100.33 0)
 			(effects
 				(font
@@ -3495,7 +3495,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10u/10V"
+		(property "Value" "2u2"
 			(at 123.19 100.33 0)
 			(effects
 				(font
