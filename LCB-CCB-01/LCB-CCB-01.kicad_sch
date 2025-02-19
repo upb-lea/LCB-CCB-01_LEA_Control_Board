@@ -12795,15 +12795,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" "0"
-			(at 167.64 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(instances
 			(project "LCB-CCB-01"
 				(path "/968a6172-7a4e-40ab-a78a-e4d03671e136"
@@ -12815,7 +12806,7 @@
 	)
 	(symbol
 		(lib_id "LEA_SymbolLibrary:ACCESSORY_USB_C_cable")
-		(at 167.64 187.96 0)
+		(at 167.64 189.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12823,7 +12814,7 @@
 		(dnp no)
 		(uuid "43d1a074-85e6-4cd5-9abe-ca968b2fb699")
 		(property "Reference" "ACCESSORY901"
-			(at 162.56 184.15 0)
+			(at 162.56 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12833,7 +12824,7 @@
 			)
 		)
 		(property "Value" "ACCESSORY_USB_C_cable"
-			(at 168.275 181.61 0)
+			(at 168.275 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12842,7 +12833,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 167.64 187.96 0)
+			(at 167.64 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12851,7 +12842,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.de/datasheet/2/813/ACCA-2532_Model__1_-1621233.pdf"
-			(at 170.815 174.625 0)
+			(at 170.815 175.895 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12860,7 +12851,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 167.64 187.96 0)
+			(at 167.64 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12869,7 +12860,7 @@
 			)
 		)
 		(property "mouser#" "474-CAB-15424"
-			(at 173.99 179.705 0)
+			(at 173.99 180.975 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12878,7 +12869,7 @@
 			)
 		)
 		(property "manf#" "CAB-15424"
-			(at 167.005 178.435 0)
+			(at 167.005 179.705 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12887,7 +12878,7 @@
 			)
 		)
 		(property "Manufacturer" "SparkFun"
-			(at 175.26 184.15 0)
+			(at 175.26 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12951,15 +12942,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 167.64 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
 			(at 167.64 157.48 0)
 			(effects
 				(font
@@ -13032,15 +13014,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" "0"
-			(at 167.64 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(instances
 			(project "LCB-CCB-01"
 				(path "/968a6172-7a4e-40ab-a78a-e4d03671e136"
@@ -13097,15 +13070,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 167.64 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
 			(at 167.64 100.33 0)
 			(effects
 				(font
@@ -13178,15 +13142,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" "0"
-			(at 167.64 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(instances
 			(project "LCB-CCB-01"
 				(path "/968a6172-7a4e-40ab-a78a-e4d03671e136"
@@ -13251,8 +13206,63 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" "0"
-			(at 167.64 151.13 0)
+		(instances
+			(project "LCB-CCB-01"
+				(path "/968a6172-7a4e-40ab-a78a-e4d03671e136"
+					(reference "O905")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LEA_SymbolLibrary:Fiducial_medium")
+		(at 167.64 182.88 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "97a37d9e-c960-4ecf-bfa6-ba5226ef108a")
+		(property "Reference" "O912"
+			(at 163.83 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Fiducial_medium"
+			(at 171.45 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LEA_FootprintLibrary:Fiducials_medium"
+			(at 168.91 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 167.64 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13263,7 +13273,7 @@
 		(instances
 			(project "LCB-CCB-01"
 				(path "/968a6172-7a4e-40ab-a78a-e4d03671e136"
-					(reference "O905")
+					(reference "O912")
 					(unit 1)
 				)
 			)
@@ -13316,15 +13326,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 167.64 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
 			(at 167.64 132.08 0)
 			(effects
 				(font
@@ -13397,15 +13398,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" "0"
-			(at 167.64 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(instances
 			(project "LCB-CCB-01"
 				(path "/968a6172-7a4e-40ab-a78a-e4d03671e136"
@@ -13462,15 +13454,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 167.64 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
 			(at 167.64 119.38 0)
 			(effects
 				(font
@@ -13543,15 +13526,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" "0"
-			(at 167.64 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(instances
 			(project "LCB-CCB-01"
 				(path "/968a6172-7a4e-40ab-a78a-e4d03671e136"
@@ -13616,15 +13590,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" "0"
-			(at 167.64 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(instances
 			(project "LCB-CCB-01"
 				(path "/968a6172-7a4e-40ab-a78a-e4d03671e136"
@@ -13681,15 +13646,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 167.64 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
 			(at 167.64 138.43 0)
 			(effects
 				(font

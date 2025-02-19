@@ -10935,7 +10935,6 @@
 	)
 	(label "A5_N"
 		(at 173.99 105.41 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10946,7 +10945,6 @@
 	)
 	(label "B5_N"
 		(at 173.99 123.19 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10957,7 +10955,6 @@
 	)
 	(label "IN14_P"
 		(at 172.72 82.55 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10968,7 +10965,6 @@
 	)
 	(label "C2_P"
 		(at 173.99 128.27 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10979,7 +10975,6 @@
 	)
 	(label "C4_P"
 		(at 173.99 133.35 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10990,7 +10985,6 @@
 	)
 	(label "A1_N"
 		(at 173.99 95.25 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11001,7 +10995,6 @@
 	)
 	(label "B4_P"
 		(at 173.99 120.65 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11012,7 +11005,6 @@
 	)
 	(label "A0_P"
 		(at 173.99 92.71 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11023,7 +11015,6 @@
 	)
 	(label "A2_P"
 		(at 173.99 97.79 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11034,7 +11025,6 @@
 	)
 	(label "VREFH"
 		(at 229.87 92.71 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11045,7 +11035,6 @@
 	)
 	(label "D1_N"
 		(at 173.99 143.51 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11056,7 +11045,6 @@
 	)
 	(label "D2_P"
 		(at 173.99 146.05 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11067,7 +11055,6 @@
 	)
 	(label "B2_P"
 		(at 173.99 115.57 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11078,7 +11065,6 @@
 	)
 	(label "B3_N"
 		(at 173.99 118.11 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11089,7 +11075,6 @@
 	)
 	(label "A3_N"
 		(at 173.99 100.33 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11100,7 +11085,6 @@
 	)
 	(label "C5_N"
 		(at 173.99 135.89 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11111,7 +11095,6 @@
 	)
 	(label "D3_N"
 		(at 173.99 148.59 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11122,7 +11105,6 @@
 	)
 	(label "ADC_Ref3.0V"
 		(at 229.87 72.39 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11133,7 +11115,6 @@
 	)
 	(label "D0_P"
 		(at 173.99 140.97 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11144,7 +11125,6 @@
 	)
 	(label "ADC_Ref3.0V"
 		(at 163.83 36.83 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11155,7 +11135,6 @@
 	)
 	(label "A4_P"
 		(at 173.99 102.87 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11166,7 +11145,6 @@
 	)
 	(label "D4_P"
 		(at 173.99 151.13 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11177,7 +11155,6 @@
 	)
 	(label "B1_N"
 		(at 173.99 113.03 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11188,7 +11165,6 @@
 	)
 	(label "B0_P"
 		(at 173.99 110.49 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11199,7 +11175,6 @@
 	)
 	(label "C3_N"
 		(at 173.99 130.81 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11210,7 +11185,6 @@
 	)
 	(label "IN15_N"
 		(at 172.72 85.09 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11221,7 +11195,6 @@
 	)
 	(label "D5_N"
 		(at 173.99 153.67 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

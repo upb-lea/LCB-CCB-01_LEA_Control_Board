@@ -4593,7 +4593,6 @@
 	)
 	(label "OPA4IN-"
 		(at 147.32 101.6 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4604,7 +4603,6 @@
 	)
 	(label "FF1_Data"
 		(at 74.93 40.64 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4615,7 +4613,6 @@
 	)
 	(label "1Y"
 		(at 107.95 167.64 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4626,7 +4623,6 @@
 	)
 	(label "GPIO99_Err3"
 		(at 76.2 173.99 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4637,7 +4633,6 @@
 	)
 	(label "OPA2IN+"
 		(at 49.53 113.03 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4648,7 +4643,6 @@
 	)
 	(label "OPA1IN-"
 		(at 40.64 38.1 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4659,7 +4653,6 @@
 	)
 	(label "GPIO96_Err4"
 		(at 207.01 109.22 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4670,7 +4663,6 @@
 	)
 	(label "FF4_Data"
 		(at 180.34 104.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4681,7 +4673,6 @@
 	)
 	(label "2Y"
 		(at 76.2 176.53 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4692,7 +4683,6 @@
 	)
 	(label "2Y"
 		(at 107.95 172.72 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4703,7 +4693,6 @@
 	)
 	(label "OPA3IN-"
 		(at 147.32 38.1 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4714,7 +4703,6 @@
 	)
 	(label "FF2_Data"
 		(at 73.66 104.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4725,7 +4713,6 @@
 	)
 	(label "OPA4IN+"
 		(at 156.21 113.03 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4736,7 +4723,6 @@
 	)
 	(label "FF3_Data"
 		(at 180.34 40.64 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4747,7 +4733,6 @@
 	)
 	(label "GPIO96_Err4"
 		(at 76.2 171.45 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4758,7 +4743,6 @@
 	)
 	(label "OPA1IN+"
 		(at 50.8 49.53 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4769,7 +4753,6 @@
 	)
 	(label "GPIO15_Err1"
 		(at 76.2 166.37 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4780,7 +4763,6 @@
 	)
 	(label "GPIO99_Err3"
 		(at 207.01 45.72 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4791,7 +4773,6 @@
 	)
 	(label "OPA2_IN-"
 		(at 40.64 101.6 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4802,7 +4783,6 @@
 	)
 	(label "GPIO15_Err1"
 		(at 101.6 45.72 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4813,7 +4793,6 @@
 	)
 	(label "OPA3IN+"
 		(at 156.21 49.53 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4824,7 +4803,6 @@
 	)
 	(label "GPIO95_Err2"
 		(at 100.33 109.22 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4835,7 +4813,6 @@
 	)
 	(label "1Y"
 		(at 76.2 179.07 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4846,7 +4823,6 @@
 	)
 	(label "GPIO95_Err2"
 		(at 76.2 168.91 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
