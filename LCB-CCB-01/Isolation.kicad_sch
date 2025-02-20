@@ -4049,7 +4049,6 @@
 	)
 	(label "Enable_Output"
 		(at 157.48 66.04 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4060,7 +4059,6 @@
 	)
 	(label "Enable_Output"
 		(at 157.48 137.16 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4071,7 +4069,6 @@
 	)
 	(label "Enable_Output"
 		(at 220.98 87.63 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

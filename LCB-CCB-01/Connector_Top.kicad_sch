@@ -6824,7 +6824,7 @@
 		)
 		(uuid "fe5426ed-1c70-444b-bc8f-14b923b435ab")
 	)
-	(text "TOP LEFT CONNECTOR"
+	(text "TOP J402 CONNECTOR"
 		(exclude_from_sim no)
 		(at 118.11 60.96 0)
 		(effects
@@ -6850,7 +6850,7 @@
 		)
 		(uuid "75c2d64c-fcbd-479d-aee8-544af90a6e91")
 	)
-	(text "TOP RIGHT CONNECTOR"
+	(text "TOP J403 CONNECTOR"
 		(exclude_from_sim no)
 		(at 260.35 60.96 0)
 		(effects

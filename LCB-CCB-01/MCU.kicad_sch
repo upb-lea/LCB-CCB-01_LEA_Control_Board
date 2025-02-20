@@ -14698,7 +14698,6 @@
 	)
 	(label "CLK_F283XX_25MHz"
 		(at 153.67 115.57 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14709,7 +14708,6 @@
 	)
 	(label "MCU_XRSn"
 		(at 82.55 35.56 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14720,7 +14718,6 @@
 	)
 	(label "25MHz_CLK"
 		(at 153.67 113.03 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14731,7 +14728,6 @@
 	)
 	(label "MCU_XRSn"
 		(at 142.24 83.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14742,7 +14738,6 @@
 	)
 	(label "MCU_XRSn"
 		(at 106.68 50.8 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14753,7 +14748,6 @@
 	)
 	(label "25MHz_CLK"
 		(at 63.5 115.57 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14764,7 +14758,6 @@
 	)
 	(label "CLK_F283XX_25MHz"
 		(at 142.24 50.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

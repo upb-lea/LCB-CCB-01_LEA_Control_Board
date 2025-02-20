@@ -5935,7 +5935,7 @@
 		)
 		(uuid "ff78c707-2b46-4dd5-a703-ad6fa1c96776")
 	)
-	(text "BOTTOM RIGHT CONNECTOR"
+	(text "BOTTOM J502 CONNECTOR"
 		(exclude_from_sim no)
 		(at 265.43 48.26 0)
 		(effects
@@ -5948,7 +5948,7 @@
 		)
 		(uuid "216a59fe-1875-40b9-9f48-a788c6a957f7")
 	)
-	(text "BOTTOM LEFT CONNECTOR"
+	(text "BOTTOM J501 CONNECTOR"
 		(exclude_from_sim no)
 		(at 128.27 48.26 0)
 		(effects
