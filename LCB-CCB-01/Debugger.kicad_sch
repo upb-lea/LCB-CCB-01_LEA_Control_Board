@@ -9926,6 +9926,7 @@
 	)
 	(label "D+"
 		(at 119.38 82.55 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9936,6 +9937,7 @@
 	)
 	(label "D+"
 		(at 54.61 46.99 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9946,6 +9948,7 @@
 	)
 	(label "EXT_TCK"
 		(at 31.75 116.84 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9956,6 +9959,7 @@
 	)
 	(label "XDS100_TDI"
 		(at 85.09 167.64 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9966,6 +9970,7 @@
 	)
 	(label "Debug_Select"
 		(at 85.09 181.61 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9978,6 +9983,7 @@
 	)
 	(label "EXT_TMS"
 		(at 29.21 170.18 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9988,6 +9994,7 @@
 	)
 	(label "EXT_TDI"
 		(at 39.37 106.68 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9998,6 +10005,7 @@
 	)
 	(label "CC1"
 		(at 54.61 38.1 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10008,6 +10016,7 @@
 	)
 	(label "XDS100_TRST"
 		(at 190.5 41.91 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10018,6 +10027,7 @@
 	)
 	(label "XDS100_TDO"
 		(at 190.5 36.83 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10028,6 +10038,7 @@
 	)
 	(label "D-"
 		(at 54.61 54.61 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10038,6 +10049,7 @@
 	)
 	(label "EXT_TDO"
 		(at 39.37 111.76 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10048,6 +10060,7 @@
 	)
 	(label "EE_CS"
 		(at 119.38 95.25 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10058,6 +10071,7 @@
 	)
 	(label "EE_CS"
 		(at 264.16 92.71 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10068,6 +10082,7 @@
 	)
 	(label "EXT_TDI"
 		(at 85.09 170.18 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10078,6 +10093,7 @@
 	)
 	(label "CLK_12MHz"
 		(at 271.78 116.84 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10088,6 +10104,7 @@
 	)
 	(label "EXT_TRST"
 		(at 29.21 179.07 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10098,6 +10115,7 @@
 	)
 	(label "EXT_TMS"
 		(at 39.37 104.14 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10108,6 +10126,7 @@
 	)
 	(label "Shield"
 		(at 33.02 76.2 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10118,6 +10137,7 @@
 	)
 	(label "XDS100_TRST"
 		(at 29.21 176.53 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10128,6 +10148,7 @@
 	)
 	(label "Debug_Select"
 		(at 29.21 181.61 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10140,6 +10161,7 @@
 	)
 	(label "RESET"
 		(at 115.57 49.53 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10150,6 +10172,7 @@
 	)
 	(label "Debug_Select"
 		(at 137.16 181.61 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10162,6 +10185,7 @@
 	)
 	(label "LED54"
 		(at 180.34 107.95 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10172,6 +10196,7 @@
 	)
 	(label "Debug_Select"
 		(at 191.77 156.21 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10184,6 +10209,7 @@
 	)
 	(label "CC2"
 		(at 54.61 40.64 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10194,6 +10220,7 @@
 	)
 	(label "XDS100_TCK"
 		(at 190.5 31.75 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10204,6 +10231,7 @@
 	)
 	(label "VPLL"
 		(at 115.57 59.69 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10214,6 +10242,7 @@
 	)
 	(label "XDS100_TMS"
 		(at 29.21 167.64 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10224,6 +10253,7 @@
 	)
 	(label "XDS100_TMS"
 		(at 190.5 39.37 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10234,6 +10264,7 @@
 	)
 	(label "XDS100_TDO"
 		(at 137.16 176.53 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10244,6 +10275,7 @@
 	)
 	(label "EXT_TRST"
 		(at 57.15 104.14 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10254,6 +10286,7 @@
 	)
 	(label "Debug_Select"
 		(at 137.16 172.72 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10266,6 +10299,7 @@
 	)
 	(label "VPHY"
 		(at 115.57 64.77 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10276,6 +10310,7 @@
 	)
 	(label "REF"
 		(at 115.57 123.19 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10286,6 +10321,7 @@
 	)
 	(label "EE_CLK"
 		(at 119.38 97.79 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10296,6 +10332,7 @@
 	)
 	(label "EXT_TDO"
 		(at 137.16 179.07 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10306,6 +10343,7 @@
 	)
 	(label "LED55"
 		(at 180.34 110.49 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10316,6 +10354,7 @@
 	)
 	(label "EE_Data"
 		(at 119.38 100.33 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10326,6 +10365,7 @@
 	)
 	(label "D-"
 		(at 119.38 85.09 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10336,6 +10376,7 @@
 	)
 	(label "EXT_TCK"
 		(at 85.09 179.07 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10346,6 +10387,7 @@
 	)
 	(label "CLK_12MHz"
 		(at 119.38 107.95 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10356,6 +10398,7 @@
 	)
 	(label "XDS100_TCK"
 		(at 85.09 176.53 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10366,6 +10409,7 @@
 	)
 	(label "XDS100_TDI"
 		(at 190.5 34.29 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10376,6 +10420,7 @@
 	)
 	(label "Debug_Select"
 		(at 29.21 172.72 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10388,6 +10433,7 @@
 	)
 	(label "EE_CLK"
 		(at 264.16 95.25 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10398,6 +10444,7 @@
 	)
 	(label "EE_Data"
 		(at 275.59 88.9 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10408,6 +10455,7 @@
 	)
 	(label "Debug_Select"
 		(at 85.09 172.72 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10420,6 +10468,7 @@
 	)
 	(label "VBUS"
 		(at 52.07 30.48 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

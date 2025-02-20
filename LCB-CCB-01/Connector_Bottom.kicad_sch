@@ -12330,7 +12330,7 @@
 			)
 		)
 	)
-	(global_label "Err_OR_output"
+	(global_label "nErr_AND_output"
 		(shape output)
 		(at 53.34 72.39 0)
 		(fields_autoplaced yes)
@@ -12342,7 +12342,7 @@
 		)
 		(uuid "feb859ad-32b1-4659-8568-6fda7df2f38a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 68.9755 72.39 0)
+			(at 71.2131 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
