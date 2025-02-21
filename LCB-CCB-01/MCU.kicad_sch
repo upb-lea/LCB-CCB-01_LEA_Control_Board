@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "LCB-CCB-01: Control Board - Debugger XDS100  / JTAG")
-		(date "2024-12-12")
+		(date "2025-02-21")
 		(rev "1.1.0")
 		(company "PADERBORN UNIVERSITY DEPARTMENT OF POWER ELECTRONICS AND ELECTRICAL DRIVES")
 	)
@@ -14613,7 +14613,7 @@
 		)
 		(uuid "0e472af7-4d15-4d55-8ef1-df4b9d17ab63")
 	)
-	(text "Reset switch"
+	(text "Reset Switch"
 		(exclude_from_sim no)
 		(at 155.448 75.438 0)
 		(effects
@@ -14637,7 +14637,7 @@
 		)
 		(uuid "51e1d608-1b9f-4936-a4b0-da293f3324c0")
 	)
-	(text "F2838x MCU Decoupling Capacitors"
+	(text "F28388D MCU Decoupling Capacitors"
 		(exclude_from_sim no)
 		(at 143.51 148.59 0)
 		(effects

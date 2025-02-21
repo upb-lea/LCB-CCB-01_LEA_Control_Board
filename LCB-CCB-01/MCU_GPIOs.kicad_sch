@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "LCB-CCB-01: Control Board - Debugger XDS100  / JTAG")
-		(date "2024-12-12")
+		(date "2025-02-21")
 		(rev "1.1.0")
 		(company "PADERBORN UNIVERSITY DEPARTMENT OF POWER ELECTRONICS AND ELECTRICAL DRIVES")
 	)
@@ -7952,7 +7952,7 @@
 		)
 		(uuid "fe2b05f5-675b-44d0-956c-c5829b7c692a")
 	)
-	(text "F2838x MCU GPIO configuration"
+	(text "F28388D MCU GPIO Configuration"
 		(exclude_from_sim no)
 		(at 213.36 26.67 0)
 		(effects

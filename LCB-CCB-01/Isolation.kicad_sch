@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "LCB-CCB-01: Control Board - Debugger XDS100  / JTAG")
-		(date "2024-12-12")
+		(date "2025-02-21")
 		(rev "1.1.0")
 		(company "PADERBORN UNIVERSITY DEPARTMENT OF POWER ELECTRONICS AND ELECTRICAL DRIVES")
 	)
@@ -4022,7 +4022,7 @@
 		)
 		(uuid "ffb86135-b43f-4a42-9aa6-73aa7ba972a9")
 	)
-	(text "JTAG and SCI ISOLATION"
+	(text "JTAG and SCI Isolation"
 		(exclude_from_sim no)
 		(at 204.978 25.146 0)
 		(effects

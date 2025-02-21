@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "LCB-CCB-01: Control Board - Debugger XDS100  / JTAG")
-		(date "2024-12-12")
+		(date "2025-02-21")
 		(rev "1.1.0")
 		(company "PADERBORN UNIVERSITY DEPARTMENT OF POWER ELECTRONICS AND ELECTRICAL DRIVES")
 	)
@@ -6824,7 +6824,7 @@
 		)
 		(uuid "fe5426ed-1c70-444b-bc8f-14b923b435ab")
 	)
-	(text "TOP J402 CONNECTOR"
+	(text "Top J402 Connector"
 		(exclude_from_sim no)
 		(at 118.11 60.96 0)
 		(effects
@@ -6850,7 +6850,7 @@
 		)
 		(uuid "75c2d64c-fcbd-479d-aee8-544af90a6e91")
 	)
-	(text "TOP J403 CONNECTOR"
+	(text "Top J403 Connector"
 		(exclude_from_sim no)
 		(at 260.35 60.96 0)
 		(effects

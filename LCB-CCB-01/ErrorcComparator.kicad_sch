@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "LCB-CCB-01: Control Board - Debugger XDS100  / JTAG")
-		(date "2024-12-12")
+		(date "2025-02-21")
 		(rev "1.1.0")
 		(company "PADERBORN UNIVERSITY DEPARTMENT OF POWER ELECTRONICS AND ELECTRICAL DRIVES")
 	)
@@ -4555,9 +4555,9 @@
 		)
 		(uuid "4bcdac75-dc76-4de4-8fa1-52bc3f7eeed5")
 	)
-	(text "OR Gate"
+	(text "Error AND Gate"
 		(exclude_from_sim no)
-		(at 50.8 152.4 0)
+		(at 73.914 149.352 0)
 		(effects
 			(font
 				(size 5 5)
@@ -4569,7 +4569,7 @@
 	)
 	(text "Error2 - C4"
 		(exclude_from_sim no)
-		(at 87.884 85.598 0)
+		(at 95.25 85.598 0)
 		(effects
 			(font
 				(size 5 5)

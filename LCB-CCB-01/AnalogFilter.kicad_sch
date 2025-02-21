@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "LCB-CCB-01: Control Board - Debugger XDS100  / JTAG")
-		(date "2024-12-12")
+		(date "2025-02-21")
 		(rev "1.1.0")
 		(company "PADERBORN UNIVERSITY DEPARTMENT OF POWER ELECTRONICS AND ELECTRICAL DRIVES")
 	)
@@ -10908,7 +10908,7 @@
 		)
 		(uuid "fe111ec3-6176-4b38-9440-905d0ff7bc26")
 	)
-	(text "Analog Input Filter MCU F2838X"
+	(text "Analog Input Filter MCU F28388D"
 		(exclude_from_sim no)
 		(at 88.646 72.136 0)
 		(effects
@@ -10920,7 +10920,7 @@
 		)
 		(uuid "84f6d518-f72f-4cc4-a85b-4c36df9bbb3b")
 	)
-	(text "3V Referenz Voltage"
+	(text "3V Reference Voltage"
 		(exclude_from_sim no)
 		(at 115.57 24.13 0)
 		(effects
