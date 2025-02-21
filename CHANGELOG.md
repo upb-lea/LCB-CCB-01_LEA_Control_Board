@@ -4,11 +4,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [1.1.0] - 2025-xx-xx
+## [1.1.0] - 2025-02-21
 ### Changed
  * Update component names to more readable format
  * Update many 0402 components to 0603 components
- * Same filter time constants for all analog filters 
+ * Updated, more stable external debugger connector
+ * Updated housings for error latch, easier to solder
+
  
 ### Added
  * Markings for the holders in the rework-station
@@ -16,10 +18,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
  * Test points for 3.3 V, 1.2 V and GND
  * Reset button
  * 0 Ohm resistors for some electronics groups
+ * Low active AND gate output to summarize the error latch signals
 
 ### Fixed
  * Fixed ADA01 workaround due to wrong comparator
  * ADC filters fixed from series connection to parallel connection
+ * BOM for microcontroller
  
 ### Removed
  * Boot switch
