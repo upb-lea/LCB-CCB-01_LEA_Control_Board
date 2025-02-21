@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "LCB-CCB-01: Control Board - Debugger XDS100  / JTAG")
-		(date "2024-12-12")
+		(date "2025-02-21")
 		(rev "1.1.0")
 		(company "PADERBORN UNIVERSITY DEPARTMENT OF POWER ELECTRONICS AND ELECTRICAL DRIVES")
 	)
@@ -207,7 +207,7 @@
 				)
 			)
 		)
-		(symbol "LEA_SymbolLibrary:LED_0402_G_1mA_SML-P11MTT86R"
+		(symbol "LEA_SymbolLibrary:LED_0603_G_2mA_APTD1608LCGCK "
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016) hide)
@@ -215,15 +215,15 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "D"
-				(at 0 2.794 0)
+				(at 0 2.921 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "1mA"
-				(at 0.127 -6.35 0)
+			(property "Value" "2mA"
+				(at 0 -6.477 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -231,7 +231,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "LEA_FootprintLibrary:LED_0402_G"
+			(property "Footprint" "LEA_FootprintLibrary:LED_0603_G"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -240,7 +240,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-p11mtt86(r)-e.pdf"
+			(property "Datasheet" "https://www.mouser.de/datasheet/2/216/APTD1608LCGCK-1102124.pdf"
 				(at 0 11.9888 0)
 				(effects
 					(font
@@ -249,7 +249,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "LED 0402,Green, If 1mA, Vf 1.9V"
+			(property "Description" "LED 0603, Green, If 2mA, Vf 1.9V"
 				(at 0 0 0)
 				(effects
 					(font
@@ -258,7 +258,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "ROHM Semiconductor"
+			(property "Manufacturer" "Kingbright"
 				(at 0 -4.318 0)
 				(effects
 					(font
@@ -267,7 +267,7 @@
 					(hide yes)
 				)
 			)
-			(property "mouser#" "755-SML-P11MTT86R"
+			(property "mouser#" "604-APTD1608LCGCK"
 				(at 0 6.858 0)
 				(effects
 					(font
@@ -276,7 +276,7 @@
 					(hide yes)
 				)
 			)
-			(property "manf#" "SML-P11MTT86R"
+			(property "manf#" "APTD1608LCGCK"
 				(at 0 14.6812 0)
 				(effects
 					(font
@@ -285,8 +285,8 @@
 					(hide yes)
 				)
 			)
-			(symbol "LED_0402_G_1mA_SML-P11MTT86R_1_0"
-				(text "0402"
+			(symbol "LED_0603_G_2mA_APTD1608LCGCK _0_0"
+				(text "0603"
 					(at -1.905 0.635 0)
 					(effects
 						(font
@@ -294,6 +294,8 @@
 						)
 					)
 				)
+			)
+			(symbol "LED_0603_G_2mA_APTD1608LCGCK _1_0"
 				(text "G"
 					(at 1.524 0.635 0)
 					(effects
@@ -303,7 +305,7 @@
 					)
 				)
 			)
-			(symbol "LED_0402_G_1mA_SML-P11MTT86R_1_1"
+			(symbol "LED_0603_G_2mA_APTD1608LCGCK _1_1"
 				(polyline
 					(pts
 						(xy -0.6604 -1.0414) (xy -0.6604 0.9906)
@@ -390,7 +392,7 @@
 				)
 			)
 		)
-		(symbol "LEA_SymbolLibrary:LED_0402_R_1mA_SML-P11UTT86R"
+		(symbol "LEA_SymbolLibrary:LED_0603_R_2mA_APHD1608LSURCK"
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016) hide)
@@ -398,15 +400,15 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "D"
-				(at 0 2.794 0)
+				(at 0 2.667 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "1mA"
-				(at 0.127 -6.35 0)
+			(property "Value" "2mA"
+				(at 0 -6.604 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -414,7 +416,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "LEA_FootprintLibrary:LED_0402_R"
+			(property "Footprint" "LEA_FootprintLibrary:LED_0603_R"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -423,7 +425,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-p11utt86(r)-e.pdf"
+			(property "Datasheet" "https://eu.mouser.com/datasheet/2/216/APHD1608LSURCK-1100899.pdf"
 				(at 0 11.9888 0)
 				(effects
 					(font
@@ -432,7 +434,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "LED 0402, Red, If 1mA, Vf 1.8V"
+			(property "Description" "LED 0603, Red, If 2mA, Vf 1.75V"
 				(at 0 0 0)
 				(effects
 					(font
@@ -441,7 +443,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "ROHM Semiconductor"
+			(property "Manufacturer" "Kingbright"
 				(at 0 -4.318 0)
 				(effects
 					(font
@@ -450,7 +452,7 @@
 					(hide yes)
 				)
 			)
-			(property "mouser#" "755-SML-P11UTT86R"
+			(property "mouser#" "604-APHD1608LSURCK"
 				(at 0 6.858 0)
 				(effects
 					(font
@@ -459,7 +461,7 @@
 					(hide yes)
 				)
 			)
-			(property "manf#" "SML-P11UTT86R"
+			(property "manf#" "APHD1608LSURCK"
 				(at 0 14.6812 0)
 				(effects
 					(font
@@ -468,8 +470,8 @@
 					(hide yes)
 				)
 			)
-			(symbol "LED_0402_R_1mA_SML-P11UTT86R_1_0"
-				(text "0402"
+			(symbol "LED_0603_R_2mA_APHD1608LSURCK_0_0"
+				(text "0603"
 					(at -1.905 0.635 0)
 					(effects
 						(font
@@ -477,6 +479,8 @@
 						)
 					)
 				)
+			)
+			(symbol "LED_0603_R_2mA_APHD1608LSURCK_1_0"
 				(text "R"
 					(at 1.524 0.635 0)
 					(effects
@@ -486,7 +490,7 @@
 					)
 				)
 			)
-			(symbol "LED_0402_R_1mA_SML-P11UTT86R_1_1"
+			(symbol "LED_0603_R_2mA_APHD1608LSURCK_1_1"
 				(polyline
 					(pts
 						(xy -0.6604 -1.0414) (xy -0.6604 0.9906)
@@ -573,7 +577,7 @@
 				)
 			)
 		)
-		(symbol "LEA_SymbolLibrary:LED_0402_Y_1mA_SML-P11YTT86R"
+		(symbol "LEA_SymbolLibrary:LED_0603_Y_2mA_APTD1608LSYCK"
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016) hide)
@@ -581,15 +585,15 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "D"
-				(at 0 2.794 0)
+				(at 0 2.667 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "1mA"
-				(at 0.127 -6.35 0)
+			(property "Value" "2mA"
+				(at 0 -6.604 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -597,7 +601,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "LEA_FootprintLibrary:LED_0402_Y"
+			(property "Footprint" "LEA_FootprintLibrary:LED_0603_Y"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -606,7 +610,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-p11ytt86(r)-e.pdf"
+			(property "Datasheet" "https://eu.mouser.com/datasheet/2/216/APHD1608LSURCK-1100899.pdf"
 				(at 0 11.9888 0)
 				(effects
 					(font
@@ -615,7 +619,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "LED 0402, Yellow, If 1mA, Vf 1.9V"
+			(property "Description" "LED 0603, Yellow, If 2mA, Vf 1.85V"
 				(at 0 0 0)
 				(effects
 					(font
@@ -624,7 +628,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "ROHM Semiconductor"
+			(property "Manufacturer" "Kingbright"
 				(at 0 -4.318 0)
 				(effects
 					(font
@@ -633,7 +637,7 @@
 					(hide yes)
 				)
 			)
-			(property "mouser#" "755-SML-P11YTT86R"
+			(property "mouser#" "604-APTD1608LSYCK"
 				(at 0 6.858 0)
 				(effects
 					(font
@@ -642,7 +646,7 @@
 					(hide yes)
 				)
 			)
-			(property "manf#" "SML-P11YTT86R"
+			(property "manf#" "APTD1608LSYCK"
 				(at 0 14.6812 0)
 				(effects
 					(font
@@ -651,8 +655,8 @@
 					(hide yes)
 				)
 			)
-			(symbol "LED_0402_Y_1mA_SML-P11YTT86R_1_0"
-				(text "0402"
+			(symbol "LED_0603_Y_2mA_APTD1608LSYCK_0_0"
+				(text "0603"
 					(at -1.905 0.635 0)
 					(effects
 						(font
@@ -660,6 +664,8 @@
 						)
 					)
 				)
+			)
+			(symbol "LED_0603_Y_2mA_APTD1608LSYCK_1_0"
 				(text "Y"
 					(at 1.524 0.635 0)
 					(effects
@@ -669,7 +675,7 @@
 					)
 				)
 			)
-			(symbol "LED_0402_Y_1mA_SML-P11YTT86R_1_1"
+			(symbol "LED_0603_Y_2mA_APTD1608LSYCK_1_1"
 				(polyline
 					(pts
 						(xy -0.6604 -1.0414) (xy -0.6604 0.9906)
@@ -756,7 +762,7 @@
 				)
 			)
 		)
-		(symbol "LEA_SymbolLibrary:R_0402_680R_THICK__1P__50V"
+		(symbol "LEA_SymbolLibrary:R_0603_680R_THICK__1P__75V"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0.254) hide)
@@ -781,7 +787,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "LEA_FootprintLibrary:R_0402"
+			(property "Footprint" "LEA_FootprintLibrary:R_0603"
 				(at 0 10.16 0)
 				(effects
 					(font
@@ -799,7 +805,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Resistor 0402"
+			(property "Description" "Resistor 0603"
 				(at 0 0 0)
 				(effects
 					(font
@@ -808,7 +814,7 @@
 					(hide yes)
 				)
 			)
-			(property "manf#" "CRCW0402680RFKEDC"
+			(property "manf#" "CRCW0603680RFKEAC"
 				(at 0 0 0)
 				(effects
 					(font
@@ -826,7 +832,7 @@
 					(hide yes)
 				)
 			)
-			(property "mouser#" "71-CRCW0402680RFKEDC"
+			(property "mouser#" "71-CRCW0603680RFKEAC"
 				(at 0 0 0)
 				(effects
 					(font
@@ -853,8 +859,8 @@
 					(hide yes)
 				)
 			)
-			(symbol "R_0402_680R_THICK__1P__50V_0_0"
-				(text "0402"
+			(symbol "R_0603_680R_THICK__1P__75V_0_0"
+				(text "0603"
 					(at 0 0 900)
 					(effects
 						(font
@@ -863,7 +869,7 @@
 					)
 				)
 			)
-			(symbol "R_0402_680R_THICK__1P__50V_0_1"
+			(symbol "R_0603_680R_THICK__1P__75V_0_1"
 				(rectangle
 					(start -0.762 1.778)
 					(end 0.762 -1.778)
@@ -876,7 +882,7 @@
 					)
 				)
 			)
-			(symbol "R_0402_680R_THICK__1P__50V_1_1"
+			(symbol "R_0603_680R_THICK__1P__75V_1_1"
 				(pin passive line
 					(at 0 2.54 270)
 					(length 0.762)
@@ -1025,6 +1031,16 @@
 			(type dash)
 		)
 		(uuid "8199a6d9-4354-4fcc-b708-9cdf92299d11")
+	)
+	(wire
+		(pts
+			(xy 149.86 102.87) (xy 149.86 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "856ba2e4-443b-47f3-b1b7-96debb71426f")
 	)
 	(wire
 		(pts
@@ -1193,7 +1209,7 @@
 	)
 	(global_label "LED_Green|GPIO5"
 		(shape input)
-		(at 149.86 104.14 90)
+		(at 149.86 102.87 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1203,7 +1219,7 @@
 		)
 		(uuid "1838018b-76e2-46c4-810f-488a77452c50")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 149.7806 85.1244 90)
+			(at 149.7806 83.8544 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1302,10 +1318,10 @@
 		)
 	)
 	(symbol
-		(lib_id "LEA_SymbolLibrary:LED_0402_G_1mA_SML-P11MTT86R")
+		(lib_id "LEA_SymbolLibrary:LED_0603_G_2mA_APTD1608LCGCK ")
 		(at 72.39 96.52 90)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -1318,7 +1334,7 @@
 				)
 			)
 		)
-		(property "Value" "1mA"
+		(property "Value" "2mA"
 			(at 80.01 96.52 0)
 			(effects
 				(font
@@ -1326,7 +1342,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LEA_FootprintLibrary:LED_0402_G"
+		(property "Footprint" "LEA_FootprintLibrary:LED_0603_G"
 			(at 74.93 96.52 0)
 			(effects
 				(font
@@ -1335,8 +1351,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-p11mtt86(r)-e.pdf"
-			(at 62.1792 96.52 0)
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/216/APTD1608LCGCK-1102124.pdf"
+			(at 60.4012 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1344,7 +1360,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "LED 0402,Green, If 1mA, Vf 1.9V"
+		(property "Description" "LED 0603, Green, If 2mA, Vf 1.9V"
 			(at 72.39 96.52 0)
 			(effects
 				(font
@@ -1353,8 +1369,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "ROHM Semiconductor"
-			(at 64.77 96.52 0)
+		(property "Manufacturer" "Kingbright"
+			(at 76.708 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1362,8 +1378,8 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "755-SML-P11MTT86R"
-			(at 80.645 97.79 0)
+		(property "mouser#" "604-APTD1608LCGCK"
+			(at 65.532 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1371,8 +1387,8 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "SML-P11MTT86R"
-			(at 67.31 96.52 0)
+		(property "manf#" "APTD1608LCGCK"
+			(at 57.7088 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1396,10 +1412,10 @@
 		)
 	)
 	(symbol
-		(lib_id "LEA_SymbolLibrary:R_0402_680R_THICK__1P__50V")
+		(lib_id "LEA_SymbolLibrary:R_0603_680R_THICK__1P__75V")
 		(at 72.39 102.87 180)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -1421,7 +1437,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LEA_FootprintLibrary:R_0402"
+		(property "Footprint" "LEA_FootprintLibrary:R_0603"
 			(at 72.39 113.03 0)
 			(effects
 				(font
@@ -1439,7 +1455,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor 0402"
+		(property "Description" "Resistor 0603"
 			(at 72.39 102.87 0)
 			(effects
 				(font
@@ -1457,7 +1473,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "CRCW0402680RFKEDC"
+		(property "manf#" "CRCW0603680RFKEAC"
 			(at 72.39 102.87 0)
 			(effects
 				(font
@@ -1466,7 +1482,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "71-CRCW0402680RFKEDC"
+		(property "mouser#" "71-CRCW0603680RFKEAC"
 			(at 72.39 102.87 0)
 			(effects
 				(font
@@ -1621,10 +1637,10 @@
 		)
 	)
 	(symbol
-		(lib_id "LEA_SymbolLibrary:LED_0402_G_1mA_SML-P11MTT86R")
+		(lib_id "LEA_SymbolLibrary:LED_0603_G_2mA_APTD1608LCGCK ")
 		(at 163.83 106.68 90)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -1637,15 +1653,16 @@
 				)
 			)
 		)
-		(property "Value" "1mA"
+		(property "Value" "2mA"
 			(at 166.37 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "LEA_FootprintLibrary:LED_0402_G"
+		(property "Footprint" "LEA_FootprintLibrary:LED_0603_G"
 			(at 166.37 106.68 0)
 			(effects
 				(font
@@ -1654,8 +1671,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-p11mtt86(r)-e.pdf"
-			(at 153.6192 106.68 0)
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/216/APTD1608LCGCK-1102124.pdf"
+			(at 151.8412 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1663,7 +1680,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "LED 0402,Green, If 1mA, Vf 1.9V"
+		(property "Description" "LED 0603, Green, If 2mA, Vf 1.9V"
 			(at 163.83 106.68 0)
 			(effects
 				(font
@@ -1672,8 +1689,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "ROHM Semiconductor"
-			(at 156.21 106.68 0)
+		(property "Manufacturer" "Kingbright"
+			(at 168.148 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1681,8 +1698,8 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "755-SML-P11MTT86R"
-			(at 172.085 107.95 0)
+		(property "mouser#" "604-APTD1608LCGCK"
+			(at 156.972 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1690,8 +1707,8 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "SML-P11MTT86R"
-			(at 158.75 106.68 0)
+		(property "manf#" "APTD1608LCGCK"
+			(at 149.1488 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1715,10 +1732,10 @@
 		)
 	)
 	(symbol
-		(lib_id "LEA_SymbolLibrary:R_0402_680R_THICK__1P__50V")
+		(lib_id "LEA_SymbolLibrary:R_0603_680R_THICK__1P__75V")
 		(at 163.83 113.03 180)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -1740,7 +1757,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LEA_FootprintLibrary:R_0402"
+		(property "Footprint" "LEA_FootprintLibrary:R_0603"
 			(at 163.83 123.19 0)
 			(effects
 				(font
@@ -1758,7 +1775,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor 0402"
+		(property "Description" "Resistor 0603"
 			(at 163.83 113.03 0)
 			(effects
 				(font
@@ -1776,7 +1793,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "CRCW0402680RFKEDC"
+		(property "manf#" "CRCW0603680RFKEAC"
 			(at 163.83 113.03 0)
 			(effects
 				(font
@@ -1785,7 +1802,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "71-CRCW0402680RFKEDC"
+		(property "mouser#" "71-CRCW0603680RFKEAC"
 			(at 163.83 113.03 0)
 			(effects
 				(font
@@ -1875,10 +1892,10 @@
 		)
 	)
 	(symbol
-		(lib_id "LEA_SymbolLibrary:R_0402_680R_THICK__1P__50V")
+		(lib_id "LEA_SymbolLibrary:R_0603_680R_THICK__1P__75V")
 		(at 191.77 113.03 180)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -1900,7 +1917,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LEA_FootprintLibrary:R_0402"
+		(property "Footprint" "LEA_FootprintLibrary:R_0603"
 			(at 191.77 123.19 0)
 			(effects
 				(font
@@ -1918,7 +1935,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor 0402"
+		(property "Description" "Resistor 0603"
 			(at 191.77 113.03 0)
 			(effects
 				(font
@@ -1936,7 +1953,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "CRCW0402680RFKEDC"
+		(property "manf#" "CRCW0603680RFKEAC"
 			(at 191.77 113.03 0)
 			(effects
 				(font
@@ -1945,7 +1962,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "71-CRCW0402680RFKEDC"
+		(property "mouser#" "71-CRCW0603680RFKEAC"
 			(at 191.77 113.03 0)
 			(effects
 				(font
@@ -2035,10 +2052,10 @@
 		)
 	)
 	(symbol
-		(lib_id "LEA_SymbolLibrary:R_0402_680R_THICK__1P__50V")
+		(lib_id "LEA_SymbolLibrary:R_0603_680R_THICK__1P__75V")
 		(at 217.17 113.03 180)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -2060,7 +2077,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LEA_FootprintLibrary:R_0402"
+		(property "Footprint" "LEA_FootprintLibrary:R_0603"
 			(at 217.17 123.19 0)
 			(effects
 				(font
@@ -2078,7 +2095,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor 0402"
+		(property "Description" "Resistor 0603"
 			(at 217.17 113.03 0)
 			(effects
 				(font
@@ -2096,7 +2113,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "CRCW0402680RFKEDC"
+		(property "manf#" "CRCW0603680RFKEAC"
 			(at 217.17 113.03 0)
 			(effects
 				(font
@@ -2105,7 +2122,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "71-CRCW0402680RFKEDC"
+		(property "mouser#" "71-CRCW0603680RFKEAC"
 			(at 217.17 113.03 0)
 			(effects
 				(font
@@ -2195,10 +2212,10 @@
 		)
 	)
 	(symbol
-		(lib_id "LEA_SymbolLibrary:LED_0402_R_1mA_SML-P11UTT86R")
+		(lib_id "LEA_SymbolLibrary:LED_0603_R_2mA_APHD1608LSURCK")
 		(at 217.17 106.68 90)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -2212,16 +2229,16 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1mA"
-			(at 219.71 100.33 0)
+		(property "Value" "2mA"
+			(at 223.774 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "LEA_FootprintLibrary:LED_0402_R"
+		(property "Footprint" "LEA_FootprintLibrary:LED_0603_R"
 			(at 219.71 106.68 0)
 			(effects
 				(font
@@ -2230,8 +2247,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-p11utt86(r)-e.pdf"
-			(at 206.9592 106.68 0)
+		(property "Datasheet" "https://eu.mouser.com/datasheet/2/216/APHD1608LSURCK-1100899.pdf"
+			(at 205.1812 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2239,7 +2256,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "LED 0402, Red, If 1mA, Vf 1.8V"
+		(property "Description" "LED 0603, Red, If 2mA, Vf 1.75V"
 			(at 217.17 106.68 0)
 			(effects
 				(font
@@ -2248,8 +2265,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "ROHM Semiconductor"
-			(at 217.17 106.68 0)
+		(property "Manufacturer" "Kingbright"
+			(at 221.488 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2257,8 +2274,8 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "755-SML-P11UTT86R"
-			(at 217.17 106.68 0)
+		(property "mouser#" "604-APHD1608LSURCK"
+			(at 210.312 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2266,8 +2283,8 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "SML-P11UTT86R"
-			(at 217.17 106.68 0)
+		(property "manf#" "APHD1608LSURCK"
+			(at 202.4888 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2291,10 +2308,10 @@
 		)
 	)
 	(symbol
-		(lib_id "LEA_SymbolLibrary:LED_0402_Y_1mA_SML-P11YTT86R")
+		(lib_id "LEA_SymbolLibrary:LED_0603_Y_2mA_APTD1608LSYCK")
 		(at 191.77 106.68 90)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -2308,16 +2325,16 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1mA"
-			(at 194.31 99.06 0)
+		(property "Value" "2mA"
+			(at 198.374 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "LEA_FootprintLibrary:LED_0402_Y"
+		(property "Footprint" "LEA_FootprintLibrary:LED_0603_Y"
 			(at 194.31 106.68 0)
 			(effects
 				(font
@@ -2326,8 +2343,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-p11ytt86(r)-e.pdf"
-			(at 181.5592 106.68 0)
+		(property "Datasheet" "https://eu.mouser.com/datasheet/2/216/APHD1608LSURCK-1100899.pdf"
+			(at 179.7812 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2335,7 +2352,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "LED 0402, Yellow, If 1mA, Vf 1.9V"
+		(property "Description" "LED 0603, Yellow, If 2mA, Vf 1.85V"
 			(at 191.77 106.68 0)
 			(effects
 				(font
@@ -2344,8 +2361,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "ROHM Semiconductor"
-			(at 191.77 106.68 0)
+		(property "Manufacturer" "Kingbright"
+			(at 196.088 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2353,8 +2370,8 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "755-SML-P11YTT86R"
-			(at 191.77 106.68 0)
+		(property "mouser#" "604-APTD1608LSYCK"
+			(at 184.912 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2362,8 +2379,8 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "SML-P11YTT86R"
-			(at 191.77 106.68 0)
+		(property "manf#" "APTD1608LSYCK"
+			(at 177.0888 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2452,10 +2469,10 @@
 		)
 	)
 	(symbol
-		(lib_id "LEA_SymbolLibrary:LED_0402_G_1mA_SML-P11MTT86R")
+		(lib_id "LEA_SymbolLibrary:LED_0603_G_2mA_APTD1608LCGCK ")
 		(at 149.86 106.68 90)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -2468,15 +2485,16 @@
 				)
 			)
 		)
-		(property "Value" "1mA"
-			(at 152.4 102.87 0)
+		(property "Value" "2mA"
+			(at 156.337 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "LEA_FootprintLibrary:LED_0402_G"
+		(property "Footprint" "LEA_FootprintLibrary:LED_0603_G"
 			(at 152.4 106.68 0)
 			(effects
 				(font
@@ -2485,8 +2503,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-p11mtt86(r)-e.pdf"
-			(at 139.6492 106.68 0)
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/216/APTD1608LCGCK-1102124.pdf"
+			(at 137.8712 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2494,7 +2512,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "LED 0402,Green, If 1mA, Vf 1.9V"
+		(property "Description" "LED 0603, Green, If 2mA, Vf 1.9V"
 			(at 149.86 106.68 0)
 			(effects
 				(font
@@ -2503,8 +2521,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "ROHM Semiconductor"
-			(at 142.24 106.68 0)
+		(property "Manufacturer" "Kingbright"
+			(at 154.178 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2512,8 +2530,8 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "755-SML-P11MTT86R"
-			(at 158.115 107.95 0)
+		(property "mouser#" "604-APTD1608LCGCK"
+			(at 143.002 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2521,8 +2539,8 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "SML-P11MTT86R"
-			(at 144.78 106.68 0)
+		(property "manf#" "APTD1608LCGCK"
+			(at 135.1788 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2546,10 +2564,10 @@
 		)
 	)
 	(symbol
-		(lib_id "LEA_SymbolLibrary:R_0402_680R_THICK__1P__50V")
+		(lib_id "LEA_SymbolLibrary:R_0603_680R_THICK__1P__75V")
 		(at 149.86 113.03 180)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -2571,7 +2589,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LEA_FootprintLibrary:R_0402"
+		(property "Footprint" "LEA_FootprintLibrary:R_0603"
 			(at 149.86 123.19 0)
 			(effects
 				(font
@@ -2589,7 +2607,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor 0402"
+		(property "Description" "Resistor 0603"
 			(at 149.86 113.03 0)
 			(effects
 				(font
@@ -2607,7 +2625,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "CRCW0402680RFKEDC"
+		(property "manf#" "CRCW0603680RFKEAC"
 			(at 149.86 113.03 0)
 			(effects
 				(font
@@ -2616,7 +2634,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "71-CRCW0402680RFKEDC"
+		(property "mouser#" "71-CRCW0603680RFKEAC"
 			(at 149.86 113.03 0)
 			(effects
 				(font
@@ -2706,10 +2724,10 @@
 		)
 	)
 	(symbol
-		(lib_id "LEA_SymbolLibrary:R_0402_680R_THICK__1P__50V")
+		(lib_id "LEA_SymbolLibrary:R_0603_680R_THICK__1P__75V")
 		(at 231.14 113.03 180)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -2731,7 +2749,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LEA_FootprintLibrary:R_0402"
+		(property "Footprint" "LEA_FootprintLibrary:R_0603"
 			(at 231.14 123.19 0)
 			(effects
 				(font
@@ -2749,7 +2767,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor 0402"
+		(property "Description" "Resistor 0603"
 			(at 231.14 113.03 0)
 			(effects
 				(font
@@ -2767,7 +2785,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "CRCW0402680RFKEDC"
+		(property "manf#" "CRCW0603680RFKEAC"
 			(at 231.14 113.03 0)
 			(effects
 				(font
@@ -2776,7 +2794,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "71-CRCW0402680RFKEDC"
+		(property "mouser#" "71-CRCW0603680RFKEAC"
 			(at 231.14 113.03 0)
 			(effects
 				(font
@@ -2801,10 +2819,10 @@
 		)
 	)
 	(symbol
-		(lib_id "LEA_SymbolLibrary:LED_0402_R_1mA_SML-P11UTT86R")
+		(lib_id "LEA_SymbolLibrary:LED_0603_R_2mA_APHD1608LSURCK")
 		(at 231.14 106.68 90)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -2817,15 +2835,16 @@
 				)
 			)
 		)
-		(property "Value" "1mA"
+		(property "Value" "2mA"
 			(at 233.68 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "LEA_FootprintLibrary:LED_0402_R"
+		(property "Footprint" "LEA_FootprintLibrary:LED_0603_R"
 			(at 233.68 106.68 0)
 			(effects
 				(font
@@ -2834,8 +2853,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_mono/sml-p11utt86(r)-e.pdf"
-			(at 220.9292 106.68 0)
+		(property "Datasheet" "https://eu.mouser.com/datasheet/2/216/APHD1608LSURCK-1100899.pdf"
+			(at 219.1512 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2843,7 +2862,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "LED 0402, Red, If 1mA, Vf 1.8V"
+		(property "Description" "LED 0603, Red, If 2mA, Vf 1.75V"
 			(at 231.14 106.68 0)
 			(effects
 				(font
@@ -2852,8 +2871,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "ROHM Semiconductor"
-			(at 231.14 106.68 0)
+		(property "Manufacturer" "Kingbright"
+			(at 235.458 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2861,8 +2880,8 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "755-SML-P11UTT86R"
-			(at 231.14 106.68 0)
+		(property "mouser#" "604-APHD1608LSURCK"
+			(at 224.282 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2870,8 +2889,8 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "SML-P11UTT86R"
-			(at 231.14 106.68 0)
+		(property "manf#" "APHD1608LSURCK"
+			(at 216.4588 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
