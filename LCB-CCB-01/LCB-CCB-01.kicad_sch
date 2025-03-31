@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "968a6172-7a4e-40ab-a78a-e4d03671e136")
 	(paper "A4")
 	(title_block
@@ -87,8 +87,8 @@
 				)
 			)
 			(symbol "ACCESSORY_USB_C_cable_0_0"
-				(text "Cable"
-					(at -3.175 -1.27 0)
+				(text "USB-C"
+					(at -3.175 1.27 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -96,8 +96,8 @@
 						(justify left)
 					)
 				)
-				(text "USB-C"
-					(at -3.175 1.27 0)
+				(text "Cable"
+					(at -3.175 -1.27 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -119,10 +119,15 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "LEA_SymbolLibrary:Fiducial_medium"
-			(pin_numbers hide)
-			(pin_names hide)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim yes)
 			(in_bom no)
 			(on_board yes)
@@ -211,6 +216,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "LEA_SymbolLibrary:SYM_LEA_Logo"
 			(exclude_from_sim yes)
@@ -293,7 +299,34 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "Components reference:\n2XX  -> Page 2 \n3XX  -> Page 3 \n4XX  -> Page 4\n5XX  -> Page 5\n6XX  -> Page 6\n7XX  -> Page 7\n8XX  -> Page 8\n9XX  -> Page 9\n1XXX -> Page 10\n\n                "
+		(exclude_from_sim no)
+		(at 232.41 165.1 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "1cf8b23e-32f4-49ce-8251-432ec61bff83")
+	)
+	(text "https://github.com/upb-lea/LEA_control_board"
+		(exclude_from_sim no)
+		(at 181.61 165.1 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+				(thickness 0.5)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "2fa00179-40b7-4a5f-abe8-7fbd4f6fb89e")
 	)
 	(image
 		(at 85.09 60.96)
@@ -6870,7 +6903,25 @@
 			"DJMqQE/AM0q8vMFVMo3fuIFKQBxRw4Ekg0QL0yyEMwzDMAzDMAzDMAzDMAzDWAOtGJoxtONE6cZx"
 			"F8MlcHFHvJdki+IMwzAMwzAMwzAMwzAMwzBMcpAiOMJaxzssipmEieEAFWVRnGEYhmEYhmEYhmEY"
 			"hmEYpm2RTBFcklAxXKKK4ogHg7gwDMMwDMMwDMMwDMMwDMMwTOsiFURwSVLEcAkaAp03IS4MGgON"
-			"wsI4wzAMwzAMwzAMwzAMwzBM+qIK4KkggusQ/T9ktB/RolvPjwAAAABJRU5ErkJggg=="
+			"wsI4wzAMwzAMwzAMwzAMwzBM+qIK4KkggusQ/T9ktB/RolvPjwAAAABJRU5ErkJgggAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
 		)
 	)
 	(image
@@ -13026,7 +13077,25 @@
 			"EEIIIYQQQuYeWghvVq9wk6YK4gDBUhgnhBBCCCGEEEIIIYSQuUUrhXBN0wVxjSmM37LxRo4xTggh"
 			"hBBCCCGEEEIIIbOQKgjhmo4ZD3+65ew98LK4/+EHxRPP7BaPP73bX0oIIYQQQgghjYFxKdEJB/cZ"
 			"6zZ93F9KCKkyu+97VH6uvGKV/CSEENJeQAS/7MJLxOUXvbtCo4QI8f8BAOgtEIbtUaMAAAAASUVO"
-			"RK5CYII="
+			"RK5CYIIAAFkAAABXAAAAaAAAAHcAAABVAAAAeQAAAFgAAABxAAAAaQAAAEMAAAB1AAAAaAAAADAA"
+			"AAB6AAAAUgAAAGEAAABBAAAAbwAAAFkAAABNAAAAMgAAAG0AAABPAAAAUAAAAG0AAABwAAAAawAA"
+			"AFMAAABoAAAAQQAAAGYAAABOAAAAMgAAAFUAAABpAAAATAAAAFYAAAAvAAAAcAAAAC8AAABZAAAA"
+			"TAAAAFgAAABRAAAAdQAAAGEAAAB0AAAANgAAAFcAAABTAAAAWAAAAGoAAAAyAAAAUwAAAEgAAABQ"
+			"AAAAVwAAADkAAABMAAAATwAAAGkAAAAvAAAATgAAAEIAAAByAAAAdgAAAGYAAABoAAAAYgAAADEA"
+			"AABYAAAAdQAAADcAAAA5AAAANwAAAEEAAABiAAAAZgAAAHgAAAArAAAANAAAAFAAAABRAAAAVwAA"
+			"AEkAAAB4AAAALwAAAHUAAABaAAAANQAAAFUAAABNAAAAMAAAAG0AAAA0AAAAMwAAAHMAAABJAAAA"
+			"OQAAAHQAAABlAAAATQAAAFMAAAB5AAAAOQAAAFcAAAAyAAAATAAAAEMAAAAvAAAAagAAAFYAAAAx"
+			"AAAAMwAAAEcAAABSAAAASgAAAHYAAABBAAAAcQAAAHgAAAAyAAAAdgAAAGkAAABRAAAAWgAAAEUA"
+			"AABjAAAAYwAAAFIAAABSAAAAVgAAAFMAAABPAAAATQAAAGwAAAA2AAAAaAAAAHAAAABMAAAASAAA"
+			"AGkAAABxAAAAYwAAAGQAAABLAAAAcgAAAGcAAABpAAAASwAAAGYAAAAyAAAAMQAAAHoAAAB4AAAA"
+			"SgAAAGIAAAA0AAAAOAAAAFgAAABOAAAAVAAAAFYAAAAzAAAAUQAAAFIAAAB4AAAAQgAAAGcAAABr"
+			"AAAATAAAAEQAAABoAAAASAAAAHgAAABnAAAANAAAAHIAAABXAAAAMgAAAFEAAAAyAAAASgAAAGsA"
+			"AABuAAAANQAAADkAAABPAAAANwAAADEAAAA3AAAAOQAAAEQAAABUAAAAYwAAAGoAAAB4AAAAUQAA"
+			"AEMAAABJAAAAaAAAAHAAAAA0AAAAcQAAADkAAABlAAAAdgAAAE0AAAAvAAAAZAAAAEkAAABjAAAA"
+			"RAAAADYAAAAxAAAAaAAAADMAAABqAAAASAAAAFAAAABhAAAAcgAAAG8AAAByAAAAcQAAAHMAAABt"
+			"AAAAMAAAAEkAAABEAAAAOQAAAE0AAABHAAAANwAAADAAAABMAAAAbgAAAHIAAABvAAAAbQAAAGQA"
+			"AABuAAAAMAAAADgAAABJAAAASwAAAEYAAAB0AAAARwAAADMAAAB6AAAATAAAAG4AAABtAAAAQQAA"
+			"AEMAAA=="
 		)
 	)
 	(image
@@ -13136,34 +13205,26 @@
 			"28/v/9D+l4cXvHboMn+2Uhl3Xdt1Jv7wKHPn+MHTLaeM3k0pplEHDeiVVUYBxvEnJoASZRSgRBkF"
 			"KFFGAUqUUYASZRSgRBkFKFFGAUqUUYASZRSgRBkFKFFGAUqUUYASZRSgRBkFKFFGAUqUUYASZRSg"
 			"RBkFKFFGAUqUUYASZRSgRBkFKFFGAUqUUYASZRSgRBkFKFFGAUqUUYASZRSgRBkFKFFGAUqUUYAS"
-			"ZRSgRBkFKFFGAUqUUYASZRSgRBkFKPkP8B6q7WmIhYUAAAAASUVORK5CYII="
+			"ZRSgRBkFKFFGAUqUUYASZRSgRBkFKPkP8B6q7WmIhYUAAAAASUVORK5CYIJBV6zgsaAA/XgIAADi"
+			"t5RB0qAAABx1AwEAAAAADMWw6Emxjit3AgAAgac7vE8KAACwfQMBAAAAAJEoUoEO9++xXAUAAKu+"
+			"NLxPCgAAQ4ADAQAAAABEgvjLP4aQXDMCAAAWlIWfLAMAALuFAwEAAAAAsFOE3Pkc39I5BQAAWweU"
+			"8NCgAAAKiAMBAAAAAPTRdToj8SLthwMAABA4KA1wlwAAX40DAQAAAACf94C2qPEz12gHAADC1B8N"
+			"cJcAAAKRAwEAAAAAYoc90/UuK2nVAwAA1aoKL3ICAACGmAMBAAAAAMO1fT7kIxJmswYAANMwyEDN"
+			"lwAAd5wDAQAAAACJVBgMnpUdRNEDAAChgxgvcgIAAEajAwEAAAAAw4Kq0TMf+Gm4BgAAd/fyQM2X"
+			"AAAzpwMBAAAAAMmnWgqSikUvKwQAABwuTS9yAgAAB64DAQAAAACeXi9sHKFcZxsIAABZ6UpBzZcA"
+			"AE6yAwEAAAAAmybZYKIDD7l/AQAAXgamNI9hAACFugMBAAAAAP9FxKyXnm7IFAUAAKkqijSPYQAA"
+			"ILwDAQAAAAADSX0fR0hVGtcCAADU4xEqz5cAAFDBAwEAAAAA/6CEhX1Ukv+wBgAAlt4KKs+XAABD"
+			"xAMBAAAAAFBNxkDfn6tjogUAAC+tjlpyAgAAD8sDAQAAAAD5kIw06h8dT2EGAAAnPZS2b5cAAM3Q"
+			"AwEAAAAARZhU6HusqjejDAAAPisFo3E0AABK1wMBAAAAAMgc2zQNq6h9uwgAAHTbCqNxNAAACeQD"
+			"AQAAAACLRN4NHnOca0EUAABlo9KicTQAAODsAwEAAAAA7MkG6LXj7QCtAQAAMK0iKuITAAA9AQQB"
+			"AAAAAJ6zV6n/TVsmgQcAAOVXJCriEwAABgMEAQAAAAD4z9cBFedTYzMHAABhXR4q4hMAAKMKBAEA"
+			"AAAAGOBkK/sfnSATAgAAtp9WKuITAADyEQQBAAAAABWqTMA7p7Z2riAAAFZyWyriEwAAIRQEAQAA"
+			"AACyAxjrGnl5mRMQAADmnlEq4hMAAOs0BAEAAAAAkezfI9HuuAB5AQAAoa2MKuITAAAaRQQBAAAA"
+			"AE0XWVJGHdF68wUAADpTjiriEwAAr0YEAQAAAAARRhztlN/4+ucGAADB94gq4hMAAL5MBAEAAAAA"
+			"lQd1R0jT/pFgAQAACqsWpXE0AADBUwQBAAAAAMsm+M7NCAj6ZAEAAEimTaVxNAAAPVUEAQAAAACJ"
+			"ttBU9jeGjYsBAABUPySlcTQAAL1WBAEAAAAAX580LEGgN/eHAQAAloospXE0AABkWAQBAAAAAJQ4"
+			"nSX91NbPEQEAABCJMaVxNAAAB1oEAQAAAACgUJ/tbKzG0gUJAAAxVP7J4Q=="
 		)
-	)
-	(text "Components reference:\n2XX  -> Page 2 \n3XX  -> Page 3 \n4XX  -> Page 4\n5XX  -> Page 5\n6XX  -> Page 6\n7XX  -> Page 7\n8XX  -> Page 8\n9XX  -> Page 9\n1XXX -> Page 10\n\n                "
-		(exclude_from_sim no)
-		(at 232.41 165.1 0)
-		(effects
-			(font
-				(size 2 2)
-				(thickness 0.4)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "1cf8b23e-32f4-49ce-8251-432ec61bff83")
-	)
-	(text "https://github.com/upb-lea/LEA_control_board"
-		(exclude_from_sim no)
-		(at 181.61 165.1 0)
-		(effects
-			(font
-				(size 2.5 2.5)
-				(thickness 0.5)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "2fa00179-40b7-4a5f-abe8-7fbd4f6fb89e")
 	)
 	(symbol
 		(lib_id "LEA_SymbolLibrary:Fiducial_medium")
@@ -14155,6 +14216,10 @@
 	(sheet
 		(at 181.61 19.05)
 		(size 39.37 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 1)
@@ -14196,6 +14261,10 @@
 	(sheet
 		(at 232.41 19.05)
 		(size 39.37 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 1)
@@ -14236,6 +14305,10 @@
 	(sheet
 		(at 232.41 63.5)
 		(size 39.37 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 1)
@@ -14277,6 +14350,10 @@
 	(sheet
 		(at 232.41 107.95)
 		(size 39.37 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 1)
@@ -14318,6 +14395,10 @@
 	(sheet
 		(at 232.41 85.09)
 		(size 39.37 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 1)
@@ -14359,6 +14440,10 @@
 	(sheet
 		(at 181.61 107.95)
 		(size 39.37 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 1)
@@ -14400,6 +14485,10 @@
 	(sheet
 		(at 181.61 63.5)
 		(size 39.37 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 1)
@@ -14441,6 +14530,10 @@
 	(sheet
 		(at 181.61 40.64)
 		(size 39.37 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 1)
@@ -14482,6 +14575,10 @@
 	(sheet
 		(at 181.61 85.09)
 		(size 39.37 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 1)
@@ -14522,6 +14619,10 @@
 	(sheet
 		(at 232.41 40.64)
 		(size 39.37 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 1)
@@ -14565,4 +14666,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )

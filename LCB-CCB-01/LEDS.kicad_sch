@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "d0583253-7f1c-498c-afba-93bf9b28c781")
 	(paper "A4")
 	(title_block
@@ -13,7 +13,9 @@
 	(lib_symbols
 		(symbol "LEA_SymbolLibrary:+3.3V_HV"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -79,7 +81,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -91,7 +93,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -103,7 +105,8 @@
 				)
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "+3.3V_HV"
 						(effects
 							(font
@@ -120,10 +123,13 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "LEA_SymbolLibrary:GND_HV"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -189,7 +195,8 @@
 				)
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "GND_HV"
 						(effects
 							(font
@@ -206,11 +213,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "LEA_SymbolLibrary:LED_0603_G_2mA_APTD1608LCGCK "
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim yes)
 			(in_bom yes)
 			(on_board yes)
@@ -320,18 +332,6 @@
 				)
 				(polyline
 					(pts
-						(xy 0.8636 -1.0414) (xy -0.6604 -0.0254) (xy 0.8636 0.9906) (xy 0.8636 -1.0414)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 0.1016 0.7366) (xy -0.4064 1.2446) (xy -0.1524 1.2446) (xy -0.4064 1.2446) (xy -0.4064 0.9906)
 					)
 					(stroke
@@ -354,22 +354,16 @@
 						(type none)
 					)
 				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 1.6002)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+				(polyline
+					(pts
+						(xy 0.8636 -1.0414) (xy -0.6604 -0.0254) (xy 0.8636 0.9906) (xy 0.8636 -1.0414)
 					)
-					(number "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(pin passive line
@@ -390,12 +384,35 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.6002)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "LEA_SymbolLibrary:LED_0603_R_2mA_APHD1608LSURCK"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim yes)
 			(in_bom yes)
 			(on_board yes)
@@ -505,18 +522,6 @@
 				)
 				(polyline
 					(pts
-						(xy 0.8636 -1.0414) (xy -0.6604 -0.0254) (xy 0.8636 0.9906) (xy 0.8636 -1.0414)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 0.1016 0.7366) (xy -0.4064 1.2446) (xy -0.1524 1.2446) (xy -0.4064 1.2446) (xy -0.4064 0.9906)
 					)
 					(stroke
@@ -539,22 +544,16 @@
 						(type none)
 					)
 				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 1.6002)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+				(polyline
+					(pts
+						(xy 0.8636 -1.0414) (xy -0.6604 -0.0254) (xy 0.8636 0.9906) (xy 0.8636 -1.0414)
 					)
-					(number "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(pin passive line
@@ -575,12 +574,35 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.6002)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "LEA_SymbolLibrary:LED_0603_Y_2mA_APTD1608LSYCK"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim yes)
 			(in_bom yes)
 			(on_board yes)
@@ -690,18 +712,6 @@
 				)
 				(polyline
 					(pts
-						(xy 0.8636 -1.0414) (xy -0.6604 -0.0254) (xy 0.8636 0.9906) (xy 0.8636 -1.0414)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 0.1016 0.7366) (xy -0.4064 1.2446) (xy -0.1524 1.2446) (xy -0.4064 1.2446) (xy -0.4064 0.9906)
 					)
 					(stroke
@@ -724,22 +734,16 @@
 						(type none)
 					)
 				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 1.6002)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+				(polyline
+					(pts
+						(xy 0.8636 -1.0414) (xy -0.6604 -0.0254) (xy 0.8636 0.9906) (xy 0.8636 -1.0414)
 					)
-					(number "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(pin passive line
@@ -760,12 +764,35 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.6002)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "LEA_SymbolLibrary:R_0603_680R_THICK__1P__75V"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim yes)
 			(in_bom yes)
 			(on_board yes)
@@ -920,7 +947,33 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "Status LEDs"
+		(exclude_from_sim no)
+		(at 213.36 76.2 0)
+		(effects
+			(font
+				(size 5 5)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+		(uuid "388c2314-3bbb-44d9-9a1b-6e615b8010bf")
+	)
+	(text "Power LED"
+		(exclude_from_sim no)
+		(at 93.98 74.93 0)
+		(effects
+			(font
+				(size 5 5)
+				(thickness 1)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+		(uuid "9d71d7cd-9ce2-47a8-b021-c0d7acb758ba")
 	)
 	(wire
 		(pts
@@ -1181,31 +1234,6 @@
 			(type default)
 		)
 		(uuid "f7a980e1-d757-405b-965e-cb3c9b1ceca1")
-	)
-	(text "Status LEDs"
-		(exclude_from_sim no)
-		(at 213.36 76.2 0)
-		(effects
-			(font
-				(size 5 5)
-				(bold yes)
-			)
-			(justify right bottom)
-		)
-		(uuid "388c2314-3bbb-44d9-9a1b-6e615b8010bf")
-	)
-	(text "Power LED"
-		(exclude_from_sim no)
-		(at 93.98 74.93 0)
-		(effects
-			(font
-				(size 5 5)
-				(thickness 1)
-				(bold yes)
-			)
-			(justify right bottom)
-		)
-		(uuid "9d71d7cd-9ce2-47a8-b021-c0d7acb758ba")
 	)
 	(global_label "LED_Green|GPIO5"
 		(shape input)

@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "43ca08d4-846a-41b1-a610-aa6c41c9f133")
 	(paper "A4")
 	(title_block
@@ -13,7 +13,9 @@
 	(lib_symbols
 		(symbol "LEA_SymbolLibrary:+1.2V_HV"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -79,7 +81,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -91,7 +93,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -103,7 +105,8 @@
 				)
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "+1.2V_HV"
 						(effects
 							(font
@@ -120,10 +123,13 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "LEA_SymbolLibrary:+1V2_HV"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -189,7 +195,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -201,7 +207,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -213,7 +219,8 @@
 				)
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "+1V2_HV"
 						(effects
 							(font
@@ -230,10 +237,13 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "LEA_SymbolLibrary:+3.3V_HV"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -299,7 +309,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -311,7 +321,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -323,7 +333,8 @@
 				)
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "+3.3V_HV"
 						(effects
 							(font
@@ -340,10 +351,13 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "LEA_SymbolLibrary:+3V3_HV"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -409,7 +423,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -421,7 +435,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -433,7 +447,8 @@
 				)
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "+3V3_HV"
 						(effects
 							(font
@@ -450,11 +465,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "LEA_SymbolLibrary:C_0603__1u0_X5R_10P__50V"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim yes)
 			(in_bom yes)
 			(on_board yes)
@@ -561,10 +581,10 @@
 			(symbol "C_0603__1u0_X5R_10P__50V_0_1"
 				(polyline
 					(pts
-						(xy -1.524 -0.508) (xy 1.524 -0.508)
+						(xy -1.524 0.508) (xy 1.524 0.508)
 					)
 					(stroke
-						(width 0.3302)
+						(width 0.3048)
 						(type default)
 					)
 					(fill
@@ -573,10 +593,10 @@
 				)
 				(polyline
 					(pts
-						(xy -1.524 0.508) (xy 1.524 0.508)
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
 					)
 					(stroke
-						(width 0.3048)
+						(width 0.3302)
 						(type default)
 					)
 					(fill
@@ -622,11 +642,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "LEA_SymbolLibrary:C_0603__2u2_X5R_10P__35V"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim yes)
 			(in_bom yes)
 			(on_board yes)
@@ -733,10 +758,10 @@
 			(symbol "C_0603__2u2_X5R_10P__35V_0_1"
 				(polyline
 					(pts
-						(xy -1.524 -0.508) (xy 1.524 -0.508)
+						(xy -1.524 0.508) (xy 1.524 0.508)
 					)
 					(stroke
-						(width 0.3302)
+						(width 0.3048)
 						(type default)
 					)
 					(fill
@@ -745,10 +770,10 @@
 				)
 				(polyline
 					(pts
-						(xy -1.524 0.508) (xy 1.524 0.508)
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
 					)
 					(stroke
-						(width 0.3048)
+						(width 0.3302)
 						(type default)
 					)
 					(fill
@@ -794,11 +819,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "LEA_SymbolLibrary:Ferrite_0603_60R_3A5"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim yes)
 			(in_bom yes)
 			(on_board yes)
@@ -875,7 +905,7 @@
 			(symbol "Ferrite_0603_60R_3A5_1_1"
 				(polyline
 					(pts
-						(xy 0 -1.27) (xy 0 -0.7874)
+						(xy -1.8288 0.2794) (xy -1.1176 1.4986) (xy 1.8288 -0.2032) (xy 1.1176 -1.4224) (xy -1.8288 0.2794)
 					)
 					(stroke
 						(width 0)
@@ -899,7 +929,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.8288 0.2794) (xy -1.1176 1.4986) (xy 1.8288 -0.2032) (xy 1.1176 -1.4224) (xy -1.8288 0.2794)
+						(xy 0 -1.27) (xy 0 -0.7874)
 					)
 					(stroke
 						(width 0)
@@ -954,10 +984,13 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "LEA_SymbolLibrary:GND_HV"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -1023,7 +1056,8 @@
 				)
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "GND_HV"
 						(effects
 							(font
@@ -1040,6 +1074,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "LEA_SymbolLibrary:MIC5504-1.2YM5-TR"
 			(pin_names
@@ -1148,24 +1183,6 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 0 -11.43 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at -10.16 -1.27 0)
 					(length 2.54)
@@ -1184,17 +1201,17 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 10.16 -1.27 180)
+				(pin power_in line
+					(at 0 -11.43 90)
 					(length 2.54)
-					(name "NC"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "4"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1220,12 +1237,35 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 10.16 -1.27 180)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "LEA_SymbolLibrary:R_0603__0R0_THICK__1P__75V"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim yes)
 			(in_bom yes)
 			(on_board yes)
@@ -1380,11 +1420,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "LEA_SymbolLibrary:TestPoint_Probe"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.762) hide)
+				(offset 0.762)
+				(hide yes)
+			)
 			(exclude_from_sim yes)
 			(in_bom no)
 			(on_board yes)
@@ -1496,12 +1541,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:PWR_FLAG"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1592,7 +1642,32 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "LDO 1.2V for MCU Core"
+		(exclude_from_sim no)
+		(at 181.356 62.484 0)
+		(effects
+			(font
+				(size 4 4)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "4f86c93c-f6ed-4425-a0e3-38a1144562c5")
+	)
+	(text "Ferrit Beads"
+		(exclude_from_sim no)
+		(at 58.42 72.39 0)
+		(effects
+			(font
+				(size 4 4)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "b97e02fb-fd46-443f-aad3-6400b553b19d")
 	)
 	(junction
 		(at 58.42 93.98)
@@ -2089,30 +2164,6 @@
 			(type default)
 		)
 		(uuid "f4b94c24-3cba-40a3-b656-5a69ae755497")
-	)
-	(text "LDO 1.2V for MCU Core"
-		(exclude_from_sim no)
-		(at 181.356 62.484 0)
-		(effects
-			(font
-				(size 4 4)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "4f86c93c-f6ed-4425-a0e3-38a1144562c5")
-	)
-	(text "Ferrit Beads"
-		(exclude_from_sim no)
-		(at 58.42 72.39 0)
-		(effects
-			(font
-				(size 4 4)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "b97e02fb-fd46-443f-aad3-6400b553b19d")
 	)
 	(symbol
 		(lib_id "LEA_SymbolLibrary:MIC5504-1.2YM5-TR")
