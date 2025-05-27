@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "LCB-CCB-01: Control Board - Debugger XDS100  / JTAG")
-		(date "2025-02-21")
-		(rev "1.1.0")
+		(date "2025-05-27")
+		(rev "1.2.0")
 		(company "PADERBORN UNIVERSITY DEPARTMENT OF POWER ELECTRONICS AND ELECTRICAL DRIVES")
 	)
 	(lib_symbols
@@ -3739,7 +3739,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 179.07) (xy 80.01 179.07)
+			(xy 78.74 179.07) (xy 80.01 179.07)
 		)
 		(stroke
 			(width 0)
@@ -3879,7 +3879,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 176.53) (xy 80.01 176.53)
+			(xy 78.74 176.53) (xy 80.01 176.53)
 		)
 		(stroke
 			(width 0)
@@ -4677,16 +4677,6 @@
 		)
 		(uuid "118273d9-8386-4602-9745-b25eca2700ca")
 	)
-	(label "GPIO104_nErr3"
-		(at 76.2 173.99 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1214d21c-13fc-4b72-bdd4-fba57d9d4e97")
-	)
 	(label "OPA2IN+"
 		(at 49.53 113.03 0)
 		(effects
@@ -4718,7 +4708,7 @@
 		(uuid "411cc690-740c-4498-bd11-e8b0972261ba")
 	)
 	(label "2Y"
-		(at 76.2 176.53 180)
+		(at 78.74 176.53 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4777,16 +4767,6 @@
 		)
 		(uuid "9ff28bd5-e548-405b-beae-c9256491c550")
 	)
-	(label "GPIO14_nErr4"
-		(at 76.2 171.45 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a70da2f2-e0b0-48f1-9224-3ff712c2f184")
-	)
 	(label "OPA1IN+"
 		(at 50.8 49.53 0)
 		(effects
@@ -4796,16 +4776,6 @@
 			(justify left bottom)
 		)
 		(uuid "a80344d5-418f-4e78-80fe-b20034c3e250")
-	)
-	(label "GPIO20_nErr1"
-		(at 76.2 166.37 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a955b4bb-bd78-4efd-af28-b717dc93e3d9")
 	)
 	(label "OPA2_IN-"
 		(at 40.64 101.6 0)
@@ -4828,7 +4798,7 @@
 		(uuid "b943e748-9d26-4979-932d-9ff0a39eb4c2")
 	)
 	(label "1Y"
-		(at 76.2 179.07 180)
+		(at 78.74 179.07 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4836,16 +4806,6 @@
 			(justify right bottom)
 		)
 		(uuid "d43c014a-6944-43f5-a65c-688e34ead434")
-	)
-	(label "GPIO21_nErr2"
-		(at 76.2 168.91 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f8bbffd3-0c56-42b2-8683-54b0813a7233")
 	)
 	(global_label "GPIO11_RstFF4"
 		(shape passive)
@@ -4887,6 +4847,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO104_nErr3"
+		(shape passive)
+		(at 76.2 173.99 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1c0a42ec-6954-417b-95d5-29850285fdec")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 60.6702 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -4959,6 +4941,50 @@
 	)
 	(global_label "GPIO20_nErr1"
 		(shape passive)
+		(at 76.2 166.37 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2b559ff5-c8ca-49e7-b760-17acbebac7a7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 61.8797 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO14_nErr4"
+		(shape passive)
+		(at 76.2 171.45 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3e6bf2c7-2c86-48da-a8eb-36ed91a31744")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 61.8797 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO20_nErr1"
+		(shape passive)
 		(at 104.14 48.26 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4975,6 +5001,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO21_nErr2"
+		(shape passive)
+		(at 76.2 168.91 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "49167ac7-4235-4068-9e04-747354b70fba")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 61.8797 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)

@@ -19,14 +19,11 @@ The test board (LCB-CTB) was developed to check all pins, PWM signals, ADCs and 
 This is the main repository of the LEA Control Board (LCB) project. Due to correct PCB versioning, every single PCB is in its own repository.
  * [LCB-CDB-01_Dock_Board](https://github.com/upb-lea/LCB-CDB-01_Dock_Board)
  * [LCB-CHW-01_Hardware_Monitor](https://github.com/upb-lea/LCB-CHW-01_Hardware_Monitor)
- * [LCB-ADA-01_Adapter_Board](https://github.com/upb-lea/LCB-ADA-01_Adapter_Board)
  * [LCB-CPB-01_Pin_Board](https://github.com/upb-lea/LCB-CPB-01_Pin_Board)
  * [LCB-CTB-01_Test_Board](https://github.com/upb-lea/LCB-CTB-01_Test_Board)
  * [LCB-CBB-01_Bus_Board](https://github.com/upb-lea/LCB-CBB-01_Bus_Board)
 
 Symbols, footprints and 3D-models can be found in the [LEA KiCad Library](https://github.com/upb-lea/LEA_KiCad_Library).
-
-Due initially wrong selected comparators (no rail-to-rail), the comparator adapter board [LCB-ADA-01](https://github.com/upb-lea/LCB-ADA-01_Adapter_Board) was introduced to replace the comparator.
 
 ## PCB versioning
 Example `LCB-CCB-01-1.0.5`:
@@ -39,7 +36,7 @@ Example `LCB-CCB-01-1.0.5`:
 
 
 ## Kicad Options
-To open the LEA Control Board files, [KiCad 8](https://www.kicad.org/) needs to be used. Make sure that you run the latest version of KiCad.
+To open the LEA Control Board files, [KiCad 9](https://www.kicad.org/) needs to be used. Make sure that you run the latest version of KiCad.
 
 ### Downloading this project and folder structure
 To use this project, LEA KiCad symbols, footprints and 3D-models need to be included. Note, that both folders need to be in the same direction.
